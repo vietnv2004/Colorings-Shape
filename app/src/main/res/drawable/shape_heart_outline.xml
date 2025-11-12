@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Heart outline for coloring -->
+    <path
+        android:pathData="M100,160 C100,160 40,110 40,70 C40,45 55,30 75,30 C85,30 95,35 100,45 C105,35 115,30 125,30 C145,30 160,45 160,70 C160,110 100,160 100,160 Z"
+        android:strokeColor="#000000"
+        android:strokeWidth="4"
+        android:fillColor="@android:color/transparent" />
+</vector>
+
+

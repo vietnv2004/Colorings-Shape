@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="400dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_shape"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary_on_light"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/shapeNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/shape_name_example"
+            android:inputType="text"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background"
+            android:textColor="@color/text_primary_on_light"
+            android:textColorHint="@color/text_hint"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vector_drawable_xml_code"
+            android:textSize="14sp"
+            android:textColor="@color/text_primary_on_light"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/svgCodeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="@string/enter_vector_drawable_xml_code_hint"
+            android:inputType="textMultiLine"
+            android:gravity="top|start"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background"
+            android:textColor="@color/text_primary_on_light"
+            android:textColorHint="@color/text_hint"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shape_id_auto_generated"
+            android:textSize="12sp"
+            android:textColor="@color/text_secondary_on_light"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/generatedIdTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="custom_1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_color"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background"
+            android:layout_marginBottom="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/cancelButton"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:textColor="@color/text_secondary_on_light"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/saveButton"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/primary_color" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

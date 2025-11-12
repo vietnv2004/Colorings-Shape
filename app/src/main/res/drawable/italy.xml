@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="900dp"
+    android:height="600dp"
+    android:viewportWidth="30"
+    android:viewportHeight="20">
+
+    <!-- Dải xanh lá bên trái -->
+    <path
+        android:fillColor="#009246"
+        android:pathData="M0,0h10v20h-10z" />
+
+    <!-- Dải trắng ở giữa -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,0h10v20h-10z" />
+
+    <!-- Dải đỏ bên phải -->
+    <path
+        android:fillColor="#CE2B37"
+        android:pathData="M20,0h10v20h-10z" />
+
+</vector>
+

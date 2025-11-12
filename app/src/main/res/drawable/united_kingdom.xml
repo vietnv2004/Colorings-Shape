@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1200dp"
+    android:height="600dp"
+    android:viewportWidth="60"
+    android:viewportHeight="30">
+
+    <!-- Nền xanh navy -->
+    <path
+        android:fillColor="#00247D"
+        android:pathData="M0,0h60v30h-60z" />
+
+    <!-- Chéo trắng (St. Andrew’s Cross) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,0 L60,30 M60,0 L0,30"
+        android:strokeWidth="6"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="square" />
+
+    <!-- Chéo đỏ (St. Patrick’s Cross) -->
+    <path
+        android:fillColor="#CF142B"
+        android:pathData="M0,0 L60,30 M60,0 L0,30"
+        android:strokeWidth="3"
+        android:strokeColor="#CF142B"
+        android:strokeLineCap="square" />
+
+    <!-- Dải trắng ngang và dọc -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,0h12v30h-12zM0,9h60v12h-60z" />
+
+    <!-- Dải đỏ ngang và dọc -->
+    <path
+        android:fillColor="#CF142B"
+        android:pathData="M26,0h8v30h-8zM0,11h60v8h-60z" />
+
+</vector>
+

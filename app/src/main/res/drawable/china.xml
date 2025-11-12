@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="900dp"
+    android:height="600dp"
+    android:viewportWidth="30"
+    android:viewportHeight="20">
+
+    <!-- Nền đỏ -->
+    <path
+        android:fillColor="#DE2910"
+        android:pathData="M0,0h30v20h-30z" />
+
+    <!-- Sao lớn -->
+    <path
+        android:fillColor="#FFDE00"
+        android:pathData="M5,2 L6,4.8 L9,4.8 L6.5,6.6 L7.5,9.4 L5,7.7 L2.5,9.4 L3.5,6.6 L1,4.8 L4,4.8 Z"/>
+
+    <!-- Sao nhỏ 1 -->
+    <group
+        android:rotation="23"
+        android:pivotX="10"
+        android:pivotY="2">
+        <path
+            android:fillColor="#FFDE00"
+            android:pathData="M10,2 L10.35,3 L11,3 L10.45,3.5 L10.65,4.3 L10,3.8 L9.35,4.3 L9.55,3.5 L9,3 L9.65,3 Z" />
+    </group>
+
+    <!-- Sao nhỏ 2 -->
+    <group
+        android:rotation="45"
+        android:pivotX="11"
+        android:pivotY="4">
+        <path
+            android:fillColor="#FFDE00"
+            android:pathData="M11,4 L11.35,5 L12,5 L11.45,5.5 L11.65,6.3 L11,5.8 L10.35,6.3 L10.55,5.5 L10,5 L10.65,5 Z" />
+    </group>
+
+    <!-- Sao nhỏ 3 -->
+    <group
+        android:rotation="70"
+        android:pivotX="11"
+        android:pivotY="7">
+        <path
+            android:fillColor="#FFDE00"
+            android:pathData="M11,7 L11.35,8 L12,8 L11.45,8.5 L11.65,9.3 L11,8.8 L10.35,9.3 L10.55,8.5 L10,8 L10.65,8 Z" />
+    </group>
+
+    <!-- Sao nhỏ 4 -->
+    <group
+        android:rotation="20"
+        android:pivotX="9"
+        android:pivotY="9">
+        <path
+            android:fillColor="#FFDE00"
+            android:pathData="M9,9 L9.35,10 L10,10 L9.45,10.5 L9.65,11.3 L9,10.8 L8.35,11.3 L8.55,10.5 L8,10 L8.65,10 Z" />
+    </group>
+
+</vector>
+

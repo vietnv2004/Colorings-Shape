@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Octagon outline for coloring -->
+    <path
+        android:pathData="M75,30 L125,30 L160,65 L160,115 L125,150 L75,150 L40,115 L40,65 Z"
+        android:strokeColor="#000000"
+        android:strokeWidth="4"
+        android:fillColor="@android:color/transparent" />
+</vector>
+
+

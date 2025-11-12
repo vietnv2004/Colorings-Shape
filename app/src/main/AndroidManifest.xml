@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+
+
+    <application
+        android:name=".ColoringApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ColoringShapes"
+        tools:targetApi="31">
+
+        <!-- Main Activity (Splash Screen) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ColoringShapes.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Simple Main Activity -->
+        <activity
+            android:name=".ui.simple.SimpleMainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Drawing Activity -->
+        <activity
+            android:name=".ui.drawing.DrawingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Result Activity -->
+        <activity
+            android:name=".ui.result.ResultActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Admin Dashboard Activity -->
+        <activity
+            android:name=".ui.admin.AdminDashboardActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Login Activity -->
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes.Login" />
+
+
+        <!-- Achievement Activity -->
+        <activity
+            android:name=".ui.achievements.AchievementActivity"
+            android:exported="false"
+            android:label="@string/achievements"
+            android:theme="@style/Theme.ColoringShapes" />
+            
+        <!-- Leaderboard Activity -->
+        <activity
+            android:name=".ui.leaderboard.LeaderboardActivity"
+            android:exported="false"
+            android:label="@string/leaderboard"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced Admin Activity -->
+        <activity
+            android:name=".ui.admin.AdvancedAdminActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+            
+        <!-- User Management Activity -->
+        <activity
+            android:name=".ui.admin.UserManagementActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Task Management Activity -->
+        <activity
+            android:name=".ui.admin.TaskManagementActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Achievement Management Activity -->
+        <activity
+            android:name=".ui.admin.AchievementManagementActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Leaderboard Management Activity -->
+        <activity
+            android:name=".ui.admin.LeaderboardManagementActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Social Activity -->
+        <activity
+            android:name=".ui.sounds.social.SocialActivity"
+            android:exported="false"
+            android:label="@string/social"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Analytics Activity -->
+        <activity
+            android:name=".ui.analytics.AnalyticsActivity"
+            android:exported="false"
+            android:label="@string/analytics"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced Drawing Activity -->
+        <activity
+            android:name=".ui.drawing.AdvancedDrawingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Voice Commands Activity -->
+        <activity
+            android:name=".ui.voice.VoiceCommandsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- AI Features Activity -->
+        <activity
+            android:name=".ui.ai.AIFeaturesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+
+        <!-- Gesture Controls Activity -->
+        <activity
+            android:name=".ui.gesture.GestureControlsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Accessibility Activity -->
+        <activity
+            android:name=".ui.accessibility.AccessibilityActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced Timer Activity -->
+        <activity
+            android:name=".ui.timer.AdvancedTimerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+
+        <!-- Advanced Security Activity -->
+        <activity
+            android:name=".ui.security.AdvancedSecurityActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced UI Activity -->
+        <activity
+            android:name=".ui.ui.AdvancedUIActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced Animations Activity -->
+        <activity
+            android:name=".ui.animations.AdvancedAnimationsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Color Picker Activity -->
+        <activity
+            android:name=".ui.themes.ColorPickerActivity"
+            android:exported="false"
+            android:label="Chọn Màu Sắc"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced Themes Activity -->
+        <activity
+            android:name=".ui.themes.AdvancedThemesActivity"
+            android:exported="false"
+            android:label="Advanced Themes"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced Widgets Activity -->
+        <activity
+            android:name=".ui.widgets.AdvancedWidgetsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced Notifications Activity -->
+        <activity
+            android:name=".ui.notifications.AdvancedNotificationsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced Gestures Activity -->
+        <activity
+            android:name=".ui.gestures.AdvancedGesturesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced Sounds Activity -->
+        <activity
+            android:name=".ui.sounds.AdvancedSoundsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced Haptics Activity -->
+        <activity
+            android:name=".ui.haptics.AdvancedHapticsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced Visual Effects Activity -->
+        <activity
+            android:name=".ui.visual.AdvancedVisualEffectsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced Networking Activity -->
+        <activity
+            android:name=".ui.network.AdvancedNetworkingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+
+        <!-- Advanced Sensors Activity -->
+        <activity
+            android:name=".ui.sensors.AdvancedSensorsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Advanced Machine Learning Activity -->
+        <activity
+            android:name=".ui.ml.AdvancedMachineLearningActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- About Activity -->
+        <activity
+            android:name=".ui.about.AboutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Edit Profile Activity -->
+        <activity
+            android:name=".ui.profile.EditProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Theme Settings Activity -->
+        <activity
+            android:name=".ui.theme.ThemeSettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Chat AI Activity -->
+        <activity
+            android:name=".ui.chat.ChatAIActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes.ChatAI" />
+
+
+        <!-- History Activity -->
+        <activity
+            android:name=".ui.history.HistoryActivity"
+            android:exported="false"
+            android:label="@string/history"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Registration Activity -->
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes.Register" />
+
+        
+
+        <!-- Forgot Password Activity -->
+        <activity
+            android:name=".ui.auth.ForgotPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Main Navigation Activity -->
+        <activity
+            android:name=".ui.common.MainNavigationActivity"
+            android:exported="false" />
+
+        <!-- Canvas Drawing Activity -->
+        <activity
+            android:name=".ui.task.CanvasDrawingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.ColoringShapes" />
+
+        <!-- Language Settings Activity -->
+        <activity
+            android:name=".ui.settings.LanguageSettingsActivity"
+            android:exported="false" />
+
+        <!-- Error Log Activity -->
+        <activity
+            android:name=".ui.common.ErrorLogActivity"
+            android:exported="false" />
+
+        <!-- Services -->
+        <service
+            android:name=".core.service.TimerService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="specialUse">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="Task timer for coloring activities" />
+        </service>
+
+        <service
+            android:name=".core.service.NotificationService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <service
+            android:name=".core.service.ScoringService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <!-- File Provider for sharing files -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

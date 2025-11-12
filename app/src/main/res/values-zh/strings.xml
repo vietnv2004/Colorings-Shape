@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">涂色形状</string>
+    <string name="app_subtitle">智能形状涂色</string>
+    <string name="version">版本 1.0.0</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_subtitle" translatable="false">智能形状涂色</string>
+    <string name="loading" translatable="false">加载中…</string>
+
+    <!-- Authentication -->
+    <string name="login" translatable="false">登录</string>
+    <string name="register" translatable="false">注册</string>
+    <string name="edit_profile">编辑个人资料</string>
+    <string name="user_name">用户名</string>
+    <string name="user_email">邮箱</string>
+    <string name="enter_user_name">输入用户名</string>
+    <string name="enter_user_email">输入邮箱</string>
+    <string name="statistics">统计</string>
+    <string name="level">等级</string>
+    <string name="score">分数</string>
+    <string name="login_title">欢迎回来</string>
+    <string name="login_subtitle" translatable="false">登录以继续</string>
+    <string name="register_title">创建新账户</string>
+    <string name="register_subtitle">注册开始使用</string>
+    <string name="already_have_account">已有账户？</string>
+    <string name="forgot_password">忘记密码？</string>
+    <string name="remember_me">记住登录</string>
+
+    <!-- Form Fields -->
+    <string name="email">邮箱</string>
+    <string name="email_uef">UEF 邮箱</string>
+    <string name="password">密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="full_name">姓名</string>
+    <string name="birth_year">出生年份</string>
+    <string name="gender">性别</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="terms_and_conditions">我同意使用条款</string>
+
+    <!-- Navigation -->
+    <string name="home">首页</string>
+    <string name="quest">任务</string>
+    <string name="progress">进度</string>
+    <string name="profile">个人资料</string>
+    <string name="back">返回</string>
+    <string name="next">下一步</string>
+    <string name="previous">上一步</string>
+    <string name="finish">完成</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="add">添加</string>
+    <string name="search">搜索</string>
+    <string name="filter">筛选</string>
+    <string name="sort">排序</string>
+
+    <!-- Tasks -->
+    <string name="tasks">任务</string>
+    <string name="available_tasks">可用任务</string>
+    <string name="task_list">任务列表</string>
+    <string name="task_details">任务详情</string>
+    <string name="start_task">开始任务</string>
+    <string name="complete_task">完成任务</string>
+    <string name="task_name">任务名称</string>
+    <string name="task_description">描述</string>
+    <string name="task_duration">时长</string>
+    <string name="task_difficulty">难度</string>
+    <string name="task_points">分数</string>
+    <string name="task_status">状态</string>
+
+    <!-- Shapes -->
+    <string name="shapes">形状</string>
+    <string name="circle">圆形</string>
+    <string name="square">正方形</string>
+    <string name="triangle">三角形</string>
+    <string name="rectangle">长方形</string>
+    <string name="pentagon">五边形</string>
+    <string name="hexagon">六边形</string>
+    <string name="star">星形</string>
+    <string name="heart">心形</string>
+
+    <!-- Task Names -->
+    <string name="task_color_circle">涂色圆形</string>
+    <string name="task_color_square">涂色正方形</string>
+    <string name="task_color_triangle">涂色三角形</string>
+    <string name="task_color_star">涂色星形</string>
+    <string name="task_color_heart">涂色心形</string>
+
+    <!-- Task Descriptions -->
+    <string name="task_desc_circle">用你喜欢的颜色涂色圆形</string>
+    <string name="task_desc_square">用你喜欢的颜色涂色正方形</string>
+    <string name="task_desc_triangle">用你喜欢的颜色涂色三角形</string>
+
+    <!-- Colors -->
+    <string name="colors">颜色</string>
+    <string name="red">红色</string>
+    <string name="blue">蓝色</string>
+    <string name="green">绿色</string>
+    <string name="yellow">黄色</string>
+    <string name="orange">橙色</string>
+    <string name="purple">紫色</string>
+    <string name="pink">粉色</string>
+    <string name="black">黑色</string>
+    <string name="white">白色</string>
+    <string name="gray">灰色</string>
+
+    <!-- Drawing -->
+    <string name="drawing">绘画</string>
+    <string name="brush">画笔</string>
+    <string name="brush_size">画笔大小</string>
+    <string name="color_picker">颜色选择器</string>
+    <string name="undo">撤销</string>
+    <string name="redo">重做</string>
+    <string name="clear">清除全部</string>
+    <string name="eraser">橡皮擦</string>
+
+    <!-- Scoring -->
+    <string name="total_score">总分</string>
+    <string name="high_score">最高分</string>
+    <string name="leaderboard">排行榜</string>
+    <string name="rank">排名</string>
+    <string name="your_rank">你的排名</string>
+    <string name="top_players">顶级玩家</string>
+    <string name="view_full_leaderboard">查看完整排行榜</string>
+
+    <!-- History -->
+    <string name="history">历史</string>
+    <string name="recent_history">最近历史</string>
+    <string name="view_all_history">查看所有历史</string>
+    <string name="completed_tasks">已完成任务</string>
+    <string name="view_history">查看历史</string>
+    <string name="no_history">无历史记录</string>
+
+    <!-- Settings -->
+    <string name="settings">设置</string>
+    <string name="language">语言</string>
+    <string name="theme">主题</string>
+    <string name="notifications">通知</string>
+    <string name="sound">声音</string>
+    <string name="vibration">震动</string>
+    <string name="offline_mode">连接状态</string>
+    <string name="data_management">数据管理</string>
+    <string name="export_data">导出数据</string>
+    <string name="import_data">导入数据</string>
+    <string name="about">关于</string>
+    <string name="dark_mode">深色模式</string>
+    <string name="enable_notifications">启用通知</string>
+    <string name="online_status">您已在线。所有功能都可用。</string>
+    <string name="offline_status">您已离线。某些功能受限。</string>
+
+    <!-- Admin -->
+    <string name="admin">管理员</string>
+    <string name="admin_dashboard">仪表板</string>
+    <string name="manage_tasks">管理任务</string>
+    <string name="manage_shapes">管理形状</string>
+    <string name="manage_users">管理用户</string>
+    <string name="reports">报告</string>
+
+    <!-- Messages -->
+    <string name="success">成功</string>
+    <string name="error">错误</string>
+    <string name="warning">警告</string>
+    <string name="info">信息</string>
+    <string name="confirm">确认</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="ok">确定</string>
+
+    <!-- Validation -->
+    <string name="email_required">请输入邮箱</string>
+    <string name="email_invalid">邮箱无效</string>
+    <string name="password_required">请输入密码</string>
+    <string name="password_too_short">密码太短</string>
+    <string name="passwords_not_match">密码不匹配</string>
+    <string name="field_required">此字段为必填项</string>
+
+    <!-- Time -->
+    <string name="time">时间</string>
+    <string name="timer">计时器</string>
+    <string name="time_remaining">剩余时间</string>
+    <string name="time_up">时间到</string>
+    <string name="seconds">秒</string>
+    <string name="minutes">分钟</string>
+    <string name="hours">小时</string>
+
+    <!-- Or -->
+    <string name="or">或</string>
+
+    <!-- Google Auth Buttons -->
+    <string name="sign_in_with_google">使用 Google 登入</string>
+    <string name="sign_up_with_google">使用 Google 註冊</string>
+
+    <!-- Difficulty Levels -->
+    <string name="easy">简单</string>
+    <string name="medium">中等</string>
+    <string name="hard">困难</string>
+    <string name="difficulty_label">难度：%s</string>
+    <string name="points_label">分数：%d</string>
+
+    <!-- Status -->
+    <string name="pending">待处理</string>
+    <string name="in_progress">进行中</string>
+    <string name="completed">已完成</string>
+    <string name="failed">失败</string>
+
+    <!-- Social -->
+    <string name="share">分享</string>
+    <string name="friends">朋友</string>
+    <string name="invite">邀请</string>
+
+    <!-- Empty States -->
+    <string name="no_tasks">无任务</string>
+    <string name="no_results">无结果</string>
+    <string name="empty_list">空列表</string>
+    <string name="empty_tasks">暂无任务</string>
+    <string name="empty_history">暂无历史</string>
+    <string name="empty_leaderboard">暂无排行榜</string>
+    <string name="empty_notifications">无通知</string>
+    <string name="empty_results">无结果</string>
+    <string name="empty_search">无搜索结果</string>
+
+    <!-- Actions -->
+    <string name="submit">提交</string>
+    <string name="retry">重试</string>
+    <string name="skip">跳过</string>
+    <string name="refresh">刷新</string>
+    <string name="export">导出</string>
+    <string name="notify" translatable="false">通知</string>
+    <string name="action_copy" translatable="false">复制</string>
+    <string name="action_cut" translatable="false">剪切</string>
+    <string name="action_paste" translatable="false">粘贴</string>
+    <string name="action_select_all">全选</string>
+    <string name="action_deselect_all" translatable="false">取消全选</string>
+    <string name="action_share" translatable="false">分享</string>
+    <string name="action_refresh">刷新</string>
+    <string name="action_retry" translatable="false">重试</string>
+
+    <!-- Face Check-in -->
+    <string name="face_checkin">人脸签到</string>
+    <string name="face_detected">检测到人脸</string>
+    <string name="face_not_detected">未检测到人脸</string>
+    <string name="position_face">将人脸放在框架内</string>
+
+    <!-- Achievements -->
+    <string name="achievement">成就</string>
+    <string name="achievements">成就</string>
+    <string name="achievement_unlocked">成就解锁</string>
+    <string name="total_achievements">总计：%d</string>
+    <string name="unlocked_achievements">已解锁：%d</string>
+    <string name="recent_achievements">最近成就</string>
+    <string name="view_all_achievements">查看所有成就</string>
+    <string name="all_achievements_title">所有成就</string>
+    <string name="first_task_title">第一个任务</string>
+    <string name="first_task_desc">完成你的第一个涂色任务</string>
+    <string name="top_scorer_title">高分玩家</string>
+    <string name="top_scorer_desc">在任务中获得90+分</string>
+    <string name="perfectionist">完美主义者</string>
+    <string name="perfectionist_desc">在任务中达到100%准确度</string>
+    <string name="speed_demon">速度恶魔</string>
+    <string name="speed_demon_desc">在2分钟内完成任务</string>
+    <string name="streak_master">连胜大师</string>
+    <string name="streak_master_desc">连续完成5个任务</string>
+    <string name="top_scorer">高分玩家</string>
+
+    <!-- Admin & Navigation -->
+    <string name="dashboard">仪表板</string>
+    <string name="users">用户</string>
+    <string name="management">管理</string>
+    <string name="chat_ai">Chat AI</string>
+    <string name="system_administration">系统管理</string>
+    <string name="task_management">任务管理</string>
+    <string name="task_management_desc">添加、编辑、删除任务</string>
+    <string name="user_management">用户管理</string>
+    <string name="user_management_desc">管理用户列表</string>
+    <string name="shape_management">形状管理</string>
+    <string name="shape_management_desc">添加、编辑、删除形状</string>
+
+    <!-- User Info -->
+    <string name="name">姓名</string>
+    <string name="user_rank">排名</string>
+    <string name="user_score">分数</string>
+    <string name="admin_name">管理员姓名</string>
+    <string name="personal_info">个人信息</string>
+
+    <!-- Task Related -->
+    <string name="add_task">添加任务</string>
+    <string name="task_title">任务标题</string>
+    <string name="task_detail">任务详情</string>
+    <string name="task_completed">已完成</string>
+    <string name="task_completion_rate">完成率</string>
+    <string name="tasks_completed">已完成任务</string>
+    <string name="total_tasks">总任务</string>
+    <string name="active_tasks">活跃任务</string>
+    <string name="recent_tasks">最近任务</string>
+    <string name="first_task">第一个任务</string>
+    <string name="continue_task">继续</string>
+    <string name="create_first_task">创建第一个任务</string>
+    <string name="start_first_task">开始第一个任务</string>
+
+    <!-- Time & Duration -->
+    <string name="duration">时长</string>
+    <string name="time_limit">时间限制</string>
+    <string name="time_taken">用时</string>
+    <string name="time_spent">已用时间</string>
+    <string name="time_spent_total">总时间</string>
+    <string name="total_time">总时间</string>
+    <string name="time_up_notification">时间到！</string>
+
+    <!-- Rankings & Scores -->
+    <string name="ranking">排名</string>
+    <string name="current_rank">当前排名</string>
+    <string name="your_score">你的分数</string>
+    <string name="top_3">前三名</string>
+    <string name="top_10">前十名</string>
+    <string name="top_100">前一百名</string>
+    <string name="average_score">平均分数</string>
+    <string name="bonus_points">奖励分数</string>
+    <string name="points">分数</string>
+
+    <!-- Drawing -->
+    <string name="drawing_canvas">画布</string>
+    <string name="your_drawing">你的画作</string>
+    <string name="brush_type">画笔类型</string>
+    <string name="color_palette">调色板</string>
+    <string name="clear_all">清除全部</string>
+
+    <!-- Settings Extended -->
+    <string name="general_settings">常规设置</string>
+    <string name="account_settings">账户设置</string>
+    <string name="privacy_settings">隐私设置</string>
+    <string name="notification_settings">通知设置</string>
+    <string name="language_settings">语言设置</string>
+    <string name="sound_settings">声音设置</string>
+    <string name="display_settings">显示设置</string>
+    <string name="reset_settings">重置设置</string>
+    <string name="select_language">选择语言</string>
+    <string name="english">英语</string>
+    <string name="vietnamese">越南语</string>
+    <string name="auto_theme">自动</string>
+
+    <!-- Status -->
+    <string name="not_started">未开始</string>
+    <string name="status_available">可用</string>
+    <string name="status_unlocked">已解锁</string>
+    <string name="status_locked">已锁定</string>
+    <string name="status_approved">已批准</string>
+    <string name="status_rejected">已拒绝</string>
+    <string name="expired">已过期</string>
+
+    <!-- Messages & Notifications -->
+    <string name="congratulations">恭喜！</string>
+    <string name="welcome_back">欢迎回来</string>
+    <string name="welcome_admin">欢迎管理员</string>
+    <string name="language_changed">语言已更改</string>
+    <string name="theme_changed">主题已更改</string>
+    <string name="notification_title">通知</string>
+    <string name="notification_message">通知消息</string>
+    <string name="notification_type">通知类型</string>
+    <string name="notification_time">时间</string>
+    <string name="notifications_title">通知</string>
+    <string name="mark_as_read">标记为已读</string>
+    <string name="mark_all_read">标记全部为已读</string>
+
+    <!-- Loading States -->
+    <string name="loading_general">加载中...</string>
+    <string name="loading_tasks">加载任务中...</string>
+    <string name="loading_history">加载历史中...</string>
+    <string name="loading_leaderboard">加载排行榜中...</string>
+    <string name="loading_login">登录中...</string>
+    <string name="loading_register">注册中...</string>
+    <string name="loading_save">保存中...</string>
+    <string name="loading_delete">删除中...</string>
+    <string name="loading_upload">上传中...</string>
+    <string name="loading_download">下载中...</string>
+    <string name="loading_sync">同步中...</string>
+
+    <!-- Success Messages -->
+    <string name="success_general">成功！</string>
+    <string name="success_login">登录成功</string>
+    <string name="success_register">注册成功</string>
+    <string name="success_save">保存成功</string>
+    <string name="success_update">更新成功</string>
+    <string name="success_delete">删除成功</string>
+    <string name="success_upload">上传成功</string>
+    <string name="success_download">下载成功</string>
+    <string name="login_success">登录成功</string>
+
+    <!-- Error Messages -->
+    <string name="error_general">发生错误</string>
+    <string name="error_network">网络错误</string>
+    <string name="error_server">服务器错误</string>
+    <string name="error_database">数据库错误</string>
+    <string name="error_authentication">认证错误</string>
+    <string name="error_permission">无权限</string>
+    <string name="error_validation">数据无效</string>
+    <string name="error_file_not_found">文件未找到</string>
+    <string name="error_unknown">未知错误</string>
+    <string name="invalid_email">邮箱无效</string>
+    <string name="login_failed">登录失败</string>
+
+    <!-- Validation -->
+    <string name="validation_email">邮箱无效</string>
+    <string name="validation_password">密码无效</string>
+    <string name="validation_name">姓名无效</string>
+    <string name="validation_phone">电话号码无效</string>
+    <string name="validation_birth_year">出生年份无效</string>
+    <string name="validation_password_match">密码不匹配</string>
+    <string name="validation_required">必填字段</string>
+    <string name="validation_url">URL无效</string>
+    <string name="uef_email_required">需要UEF邮箱 (@uef.edu.vn)</string>
+
+    <!-- Permissions -->
+    <string name="permission_required">需要权限</string>
+    <string name="permission_camera">相机权限</string>
+    <string name="permission_storage">存储权限</string>
+    <string name="permission_location">位置权限</string>
+    <string name="permission_notification">通知权限</string>
+    <string name="permission_granted">权限已授予</string>
+    <string name="permission_denied">权限被拒绝</string>
+
+    <!-- Features -->
+    <string name="feature_offline_mode">连接状态</string>
+    <string name="feature_sync">同步</string>
+    <string name="feature_backup">备份</string>
+    <string name="feature_restore">恢复</string>
+    <string name="feature_export">导出数据</string>
+    <string name="feature_import">导入数据</string>
+    <string name="feature_face_checkin">人脸签到</string>
+    <string name="sync_data">同步数据</string>
+    <string name="sync_failed">同步失败</string>
+    <string name="data_synced">数据已同步</string>
+    <string name="backup_data">备份</string>
+    <string name="restore_data">恢复</string>
+
+    <!-- Stats & Reports -->
+    <string name="reports_desc">详细报告</string>
+    <string name="age_distribution">年龄分布</string>
+    <string name="gender_distribution">性别分布</string>
+    <string name="total_users">总用户数</string>
+    <string name="accuracy">准确率</string>
+    <string name="experience">经验</string>
+    <string name="streak">连胜</string>
+    <string name="targets">目标</string>
+    <string name="result">结果</string>
+    <string name="overall_progress">总体进度</string>
+
+    <!-- Filters & Search -->
+    <string name="filter_all">全部</string>
+    <string name="filter_active">活跃</string>
+    <string name="filter_inactive">非活跃</string>
+    <string name="filter_completed">已完成</string>
+    <string name="filter_incomplete">未完成</string>
+    <string name="filter_by_difficulty">按难度筛选</string>
+    <string name="filter_high_score">高分</string>
+    <string name="search_tasks_hint">搜索任务...</string>
+    <string name="search_history_hint">搜索历史...</string>
+
+    <!-- Misc -->
+    <string name="help">帮助</string>
+    <string name="contact">联系</string>
+    <string name="instructions">说明</string>
+    <string name="instructions_text">使用说明</string>
+    <string name="show_details">显示详情</string>
+    <string name="other">其他</string>
+    <string name="complete">完成</string>
+    <string name="places">地点</string>
+    <string name="start_competing">开始竞赛</string>
+    <string name="completed_attempts">已完成尝试</string>
+    <string name="quick_actions">快速操作</string>
+    <string name="user_profile">用户资料</string>
+    <string name="analytics">分析</string>
+    <string name="social">社交</string>
+
+    <!-- Analytics -->
+    <string name="analytics_dashboard">分析仪表板</string>
+    <string name="completion_rate">完成率</string>
+    <string name="detailed_analytics">详细分析</string>
+    <string name="daily_progress">每日进度</string>
+    <string name="daily_progress_desc">每天完成的任务</string>
+    <string name="accuracy_rate">准确率</string>
+    <string name="accuracy_rate_desc">所有任务的平均准确率</string>
+    <string name="speed_improvement">速度提升</string>
+    <string name="speed_improvement_desc">相比上周的时间减少</string>
+    <string name="streak_days">连胜天数</string>
+    <string name="streak_days_desc">连续有活动的天数</string>
+    <string name="favorite_shape">最喜欢的形状</string>
+    <string name="favorite_shape_desc">完成最多的形状类型</string>
+    <string name="peak_performance">最佳表现</string>
+    <string name="peak_performance_desc">一天中完成任务的最佳时间</string>
+    <string name="tasks_per_day">任务/天</string>
+    <string name="days">天</string>
+
+    <!-- Social -->
+    <string name="social_feed">社交动态</string>
+    <string name="add_friend">添加朋友</string>
+    <string name="posts">帖子</string>
+    <string name="likes">点赞</string>
+    <string name="share_my_work">分享我的作品</string>
+    <string name="view_friends">查看朋友</string>
+    <string name="recent_posts">最近帖子</string>
+    <string name="hours_ago">%d小时前</string>
+    <string name="day_ago">1天前</string>
+    <string name="just_completed_first_task">刚刚完成了我的第一个涂色任务！🎨</string>
+    <string name="check_out_masterpiece">看看我的最新杰作！</string>
+    <string name="achieved_100_accuracy">在圆形任务中达到100%%准确率！🎯</string>
+
+    <!-- Admin Dashboard -->
+    <string name="welcome_admin_title">欢迎，管理员！</string>
+    <string name="task_management_btn">管理任务</string>
+    <string name="user_management_btn">管理用户</string>
+    <string name="reports_analytics_btn">报告与分析</string>
+    <string name="statistics_title">统计</string>
+    <string name="total_users_label">总用户数</string>
+    <string name="active_tasks_label">活跃任务</string>
+    <string name="completed_attempts_label">已完成尝试</string>
+    <string name="average_score_label">平均分数</string>
+
+    <!-- Advanced Admin -->
+    <string name="advanced_admin_title">高级仪表板</string>
+    <string name="user_registration_trends">用户注册趋势</string>
+    <string name="user_registration_desc">月度注册统计</string>
+    <string name="new_users_count">%d个新用户</string>
+    <string name="task_completion_rate_title">任务完成率</string>
+    <string name="task_completion_desc">成功完成的任务百分比</string>
+    <string name="avg_session_duration">平均会话时长</string>
+    <string name="avg_session_desc">用户在应用中花费的平均时间</string>
+    <string name="top_performing_tasks_title">表现最佳的任务</string>
+    <string name="top_tasks_desc">最受欢迎和最成功的任务</string>
+    <string name="circle_coloring">圆形涂色</string>
+    <string name="completion_percent">%d%%完成</string>
+    <string name="data_management_title">数据管理</string>
+
+    <!-- Confirmations -->
+    <string name="confirm_delete">确认删除？</string>
+    <string name="confirm_exit">确认退出？</string>
+    <string name="confirm_logout">确认登出？</string>
+    <string name="confirm_reset">确认重置？</string>
+    <string name="confirm_cancel">确认取消？</string>
+    <string name="confirm_save">确认保存？</string>
+
+    <!-- Units -->
+    <string name="unit_seconds">秒</string>
+    <string name="unit_minutes">分钟</string>
+    <string name="unit_hours">小时</string>
+    <string name="unit_days">天</string>
+    <string name="unit_points">分</string>
+    <string name="unit_percentage">%</string>
+    <string name="unit_count">次</string>
+
+    <!-- Date & Time Formats -->
+    <string name="date_format_short">yyyy/MM/dd</string>
+    <string name="date_format_long">yyyy年MM月dd日</string>
+    <string name="time_format_short">HH:mm</string>
+    <string name="time_format_long">HH:mm:ss</string>
+    <string name="datetime_format">yyyy/MM/dd HH:mm</string>
+
+    <!-- Empty State Titles -->
+    <string name="tasks_empty_title">无任务</string>
+    <string name="tasks_empty_subtitle">开始添加新任务</string>
+    <string name="tasks_empty_description">尚未创建任何任务</string>
+    <string name="history_empty_title">无历史记录</string>
+    <string name="history_empty_subtitle">开始完成任务</string>
+    <string name="history_empty_description">历史记录将显示在这里</string>
+    <string name="leaderboard_empty_title">无排行榜</string>
+    <string name="leaderboard_empty_subtitle">成为第一个</string>
+    <string name="leaderboard_empty_description">完成任务以登上排行榜</string>
+
+    <!-- Titles -->
+    <string name="leaderboard_title">排行榜</string>
+    <string name="profile_title">个人资料</string>
+    <string name="settings_title">设置</string>
+    <string name="progress_title">进度</string>
+    <string name="progress_label">进度</string>
+
+    <!-- Icons & Descriptions -->
+    <string name="task_icon_description">任务图标</string>
+    <string name="difficulty_icon_description">难度图标</string>
+    <string name="rank_icon_description">排名图标</string>
+    <string name="time_icon_description">时间图标</string>
+    <string name="notification_icon_description">通知图标</string>
+    <string name="shape_preview">形状预览</string>
+    <string name="shape_name">形状名称</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_label">无障碍标签</string>
+    <string name="accessibility_hint">无障碍提示</string>
+    <string name="accessibility_announcement">无障碍公告</string>
+    <string name="accessibility_content_description">内容描述</string>
+
+    <!-- Debug -->
+    <string name="debug_info">调试信息</string>
+    <string name="debug_logs">调试日志</string>
+    <string name="debug_export">导出调试</string>
+    <string name="debug_clear">清除调试</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_settings_title">个人资料与设置</string>
+    <string name="theme_customization">主题自定义</string>
+    <string name="theme_customization_desc">高级主题设置和颜色自定义</string>
+    <string name="advanced_features">高级功能</string>
+    <string name="gestures">手势</string>
+    <string name="haptics">触觉反馈</string>
+    <string name="machine_learning">机器学习</string>
+    <string name="networking">网络</string>
+    <string name="notifications_advanced">通知</string>
+    <string name="security">安全</string>
+    <string name="sensors">传感器</string>
+    <string name="sounds">声音</string>
+    
+    <!-- Advanced Networking -->
+    <string name="advanced_networking">高级网络</string>
+    <string name="network_status">网络状态</string>
+    <string name="network_ready">高级网络已就绪</string>
+    <string name="network_unavailable">网络不可用</string>
+    <string name="network_connecting">正在连接：%1$s</string>
+    <string name="network_information">网络信息</string>
+    <string name="network_config_description">配置高级网络以获得最佳性能。</string>
+    <string name="network_control">网络控制</string>
+    <string name="check_network">检查</string>
+    <string name="sync_network">⤓ 同步</string>
+    <string name="optimize_network">优化</string>
+    <string name="network_settings">网络设置</string>
+    <string name="enable_network">启用网络</string>
+    <string name="wifi_only">仅WiFi</string>
+    <string name="data_saving">数据节省</string>
+    <string name="auto_sync">自动同步</string>
+    <string name="available_network_features">可用网络功能</string>
+    <string name="wifi_optimization">WiFi优化</string>
+    <string name="wifi_optimization_description">优化WiFi连接性能</string>
+    <string name="data_compression">数据压缩</string>
+    <string name="data_compression_description">压缩数据以加快传输</string>
+    <string name="active">活跃</string>
+    <string name="use_feature">使用</string>
+    <string name="help_support">帮助</string>
+    <string name="contact_us">联系我们</string>
+    <string name="policies_terms">政策和条款</string>
+    <string name="support_center">支持中心</string>
+
+    <string name="support_center_description">支持和帮助中心</string>
+    <string name="logout">登出</string>
+    <string name="logout_description">从账户登出</string>
+    <string name="logout_confirm">确认登出？</string>
+    <string name="logout_message">您确定要登出吗？</string>
+    <string name="logout_success">登出成功</string>
+    <string name="feature_under_development">功能开发中</string>
+    <string name="app_version">版本 1.0.0 (1)</string>
+    <string name="company_name">5人公司</string>
+    <string name="company_email">邮箱：daihoc@uef.edu.vn</string>
+
+    <!-- Sound Settings -->
+    <string name="sound_status">声音状态</string>
+    <string name="sound_status_ready">高级声音已就绪</string>
+    <string name="sound_information">声音信息</string>
+    <string name="sound_information_desc">配置高级声音设置以获得沉浸式体验。</string>
+    <string name="sound_controls">声音控制</string>
+    <string name="play_sound">▶️ 播放</string>
+    <string name="stop_sound">⏹️ 停止</string>
+    <string name="test_sound">🧪 测试</string>
+    <string name="pitch">频率</string>
+    <string name="enable_sounds">启用声音</string>
+    <string name="available_sound_features">可用声音功能</string>
+    <string name="background_music_feature">背景音乐</string>
+    <string name="background_music_desc">涂色时的背景音乐</string>
+    <!-- About App -->
+    <string name="about_app">关于应用</string>
+    <string name="about_app_description">关于涂色形状的信息</string>
+    <string name="about_app_title">关于涂色形状</string>
+    <string name="about_introduction">涂色形状的创建有着独特的使命：培养对艺术的热爱，为每个人带来优质的涂色体验。我们希望将用户与艺术爱好者社区高度赞赏的美丽有趣的绘画联系起来。</string>
+    <string name="about_who_we_are">我们是谁</string>
+    <string name="about_who_we_are_content">涂色形状由一群充满激情的艺术爱好者开发。我们是独立的个人，不隶属于任何组织、机构或公司。</string>
+    <string name="about_important_info">重要信息</string>
+    <string name="about_important_info_content">• 涂色形状完全免费提供涂色绘画。\n\n• 我们应用中的所有绘画都完全免费提供。但是，为了增强涂色体验和支持艺术家，我们鼓励您支持您喜爱的绘画的作者。</string>
+    <string name="about_our_collection">我们的收藏</string>
+    <string name="about_collection_content">涂色形状中的绘画收集自互联网上的许多来源，包括艺术网站、涂色社区和许多其他来源。\n\n由于收集自许多不同来源，内容有时可能会有遗漏或不准确。我们感谢您的理解，并始终欢迎反馈，以帮助我们及时改进和修复这些问题。</string>
+    <string name="about_content_policy">内容政策</string>
+    <string name="about_policy_content">• 如果您是涂色形状上任何内容的版权所有者，并希望删除该内容，请发送邮件至support@coloring-shapes.com。我们将在收到您的请求后立即删除内容。\n\n• 由于我们的图书馆仍在发展中，我们不断寻找新的绘画与用户分享。如果您有特定的内容请求，请发送邮件给我们，我们将尽力尽快找到并提供您要求的绘画。</string>
+    <string name="about_footer_message">我们祝您在涂色形状中度过放松、舒适和有益的涂色时光。</string>
+    <string name="about_contact">联系：support@coloring-shapes.com</string>
+    
+    <!-- Contact Information -->
+    <string name="address_full">越南胡志明市平盛郡第2坊奠边府街145号</string>
+    <string name="phone_number">+84 28 5422 6666</string>
+    <string name="address_and_contact">地址与联系</string>
+    <string name="open_in_maps">在地图中打开</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_settings">主题设置</string>
+    <string name="choose_theme">选择主题</string>
+    <string name="system_theme">系统</string>
+    <string name="system_theme_description">跟随系统设置</string>
+    <string name="light_theme">浅色</string>
+    <string name="light_theme_description">浅色主题</string>
+    <string name="dark_theme">深色</string>
+    <string name="dark_theme_description">深色主题</string>
+    <string name="theme_preview">预览</string>
+    <string name="theme_preview_default">选择一个主题进行预览</string>
+    <string name="theme_info_title">信息</string>
+    <string name="theme_info_content">• 系统：自动跟随系统设置\n• 浅色：始终使用浅色主题\n• 深色：始终使用深色主题</string>
+    <string name="use">使用</string>
+
+    <!-- Advanced Sensors -->
+    <string name="advanced_sensors">高级传感器</string>
+    <string name="sensor_status">传感器状态</string>
+    <string name="sensor_status_ready">高级传感器已就绪</string>
+    <string name="sensor_information">传感器信息</string>
+    <string name="sensor_information_desc">配置高级传感器以获得更好的用户体验。</string>
+    <string name="sensor_controls">传感器控制</string>
+    <string name="test_sensor">🧪 测试</string>
+    <string name="calibrate_sensor">⚙️ 校准</string>
+    <string name="optimize_sensor">⚡ 优化</string>
+    <string name="sensor_settings">传感器设置</string>
+    <string name="sensitivity">灵敏度</string>
+    <string name="enable_sensors">启用传感器</string>
+    <string name="accelerometer">加速度计</string>
+    <string name="gyroscope">陀螺仪</string>
+    <string name="magnetometer">磁力计</string>
+    <string name="available_sensor_features">可用传感器功能</string>
+    <string name="motion_detection">运动检测</string>
+    <string name="motion_detection_desc">高级运动感应</string>
+
+    <!-- Advanced Notifications -->
+    <string name="advanced_notifications">高级通知</string>
+    <string name="notification_status">通知状态</string>
+    <string name="notification_status_ready">通知已就绪</string>
+    <string name="notification_information">通知信息</string>
+    <string name="notification_information_desc">配置高级通知设置以保持更新。</string>
+    <string name="notification_controls">通知控制</string>
+    <string name="test_notification">✓ 测试</string>
+    <string name="clear_notifications">🗑️ 清除</string>
+    <string name="sound_notifications">声音通知</string>
+    <string name="vibration_notifications">震动通知</string>
+    <string name="achievement_notifications">成就通知</string>
+    <string name="priority_notifications">优先通知</string>
+    <string name="available_notification_features">可用通知功能</string>
+    <string name="push_notifications">推送通知</string>
+    <string name="push_notifications_desc">实时推送通知</string>
+
+    <!-- Advanced Gestures -->
+    <string name="advanced_gestures">高级手势</string>
+    <string name="gesture_status">手势状态</string>
+    <string name="gesture_status_ready">手势已准备好进行配置</string>
+    <string name="gesture_information">手势信息</string>
+    <string name="gesture_information_desc">配置高级手势识别以进行视觉交互。</string>
+    <string name="gesture_controls">手势控制</string>
+    <string name="test_gesture">✓ 测试</string>
+    <string name="calibrate_gesture">⚙️ 校准</string>
+    <string name="gesture_settings">手势设置</string>
+    <string name="enable_gestures">启用手势</string>
+    <string name="tap_gestures">点击手势</string>
+    <string name="swipe_gestures">滑动手势</string>
+    <string name="pinch_gestures">捏合手势</string>
+    <string name="long_press_gestures">长按手势</string>
+    <string name="available_gesture_features">可用手势功能</string>
+    <string name="tap_gestures_feature">点击手势</string>
+    <string name="tap_gestures_desc">识别单击和双击</string>
+
+
+    <!-- Additional UI Features -->
+    <string name="ui_features">界面</string>
+    <string name="widgets">小部件</string>
+    <string name="visual_effects">视觉效果</string>
+
+    <!-- Language Support -->
+    <string name="current_language">中文</string>
+    <string name="language_vietnamese">越南语</string>
+    <string name="language_english">英语</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_japanese">日语</string>
+    <string name="language_korean">韩语</string>
+    <string name="language_thai">泰语</string>
+    <string name="language_french">法语</string>
+    <string name="language_german">德语</string>
+    <string name="language_spanish">西班牙语</string>
+    <string name="language_russian">俄语</string>
+
+    <!-- String Arrays -->
+    <string-array name="gender_options">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string-array name="role_options">
+        <item>用户</item>
+        <item>管理员</item>
+    </string-array>
+
+    <string-array name="language_options">
+        <item>越南语</item>
+        <item>英语</item>
+        <item>中文</item>
+        <item>日语</item>
+        <item>韩语</item>
+        <item>泰语</item>
+        <item>法语</item>
+        <item>德语</item>
+        <item>西班牙语</item>
+        <item>俄语</item>
+    </string-array>
+
+    <string-array name="language_codes">
+        <item>vi</item>
+        <item>en</item>
+        <item>zh</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>th</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>es</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- Advanced Sounds -->
+    <string name="advanced_sounds">高级声音</string>
+    <string name="audio_status">音频状态</string>
+    <string name="audio_ready">高级音频已就绪</string>
+    <string name="audio_information">音频信息</string>
+    <string name="audio_info_description">配置高级音频设置以获得沉浸式体验。</string>
+    <string name="audio_controls">音频控制</string>
+    <string name="play_audio">播放</string>
+    <string name="stop_audio">停止</string>
+    <string name="try_audio">尝试</string>
+    <string name="audio_settings">音频设置</string>
+    <string name="volume">音量</string>
+    <string name="frequency">频率</string>
+    <string name="enable_sound">启用声音</string>
+    <string name="background_music">背景音乐</string>
+    <string name="sound_effects">音效</string>
+    <string name="voice_feedback">语音反馈</string>
+    <string name="available_audio_features">可用音频功能</string>
+
+    <!-- Additional Profile Fields -->
+    <string name="enter_birth_year">输入出生年份</string>
+    <string name="change_password">更改密码</string>
+    <string name="current_password">当前密码</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_new_password">确认新密码</string>
+    <string name="enter_current_password">输入当前密码</string>
+    <string name="enter_new_password">输入新密码</string>
+    <string name="confirm_new_password_hint">确认新密码</string>
+
+    <!-- Missing String Resources -->
+    <string name="accessibility_controls">无障碍控制</string>
+    <string name="accessibility_feature_description">无障碍功能描述</string>
+    <string name="accessibility_feature_title">无障碍功能标题</string>
+    <string name="accessibility_features">无障碍功能</string>
+    <string name="accessibility_instructions">无障碍说明</string>
+    <string name="accessibility_instructions_desc">无障碍说明描述</string>
+    <string name="accessibility_settings">无障碍设置</string>
+    <string name="accessibility_status">无障碍状态</string>
+    <string name="accessibility_status_ready">无障碍已就绪</string>
+    <string name="achievement_description">成就描述</string>
+    <string name="achievement_name">成就名称</string>
+    <string name="active_status">活跃状态</string>
+    <string name="add_new_achievement">添加新成就</string>
+    <string name="add_new_task">添加新任务</string>
+    <string name="add_new_user">添加新用户</string>
+    <string name="admin_system_management">系统管理</string>
+    <string name="advanced_animations">高级动画</string>
+    <string name="advanced_blockchain">高级区块链</string>
+    <string name="advanced_camera">高级相机</string>
+    <string name="advanced_drawing_tools">高级绘图工具</string>
+    <string name="advanced_haptic_controls">高级触觉控制</string>
+    <string name="advanced_haptics">高级触觉</string>
+    <string name="advanced_machine_learning">高级机器学习</string>
+    <string name="advanced_security">高级安全</string>
+    <string name="advanced_themes">高级主题</string>
+    <string name="advanced_timer">高级计时器</string>
+    <string name="advanced_ui">高级界面</string>
+    <string name="advanced_visual_effects">高级视觉效果</string>
+    <string name="advanced_widgets">高级小部件</string>
+    <string name="ai_controls">AI控制</string>
+    <string name="ai_feature_description">AI功能描述</string>
+    <string name="ai_feature_title">AI功能标题</string>
+    <string name="ai_features">AI功能</string>
+    <string name="ai_no_suggestions">暂无建议</string>
+    <string name="ai_ready">AI已就绪</string>
+    <string name="ai_status">AI状态</string>
+    <string name="ai_suggestions">AI建议</string>
+    <string name="analytics_change">分析变化</string>
+    <string name="analytics_item_description">分析项目描述</string>
+    <string name="analytics_item_title">分析项目标题</string>
+    <string name="analytics_title">分析标题</string>
+    <string name="analytics_value">分析值</string>
+    <string name="analytics_value_25">25</string>
+    <string name="analytics_value_2h45m">2小时45分钟</string>
+    <string name="analytics_value_875">875</string>
+    <string name="analytics_value_92">92</string>
+    <string name="analyze_button">分析</string>
+    <string name="animation_feature_description">动画功能描述</string>
+    <string name="animation_feature_title">动画功能标题</string>
+    <string name="animation_information">动画信息</string>
+    <string name="animation_speed">动画速度</string>
+    <string name="animation_status">动画状态</string>
+    <string name="animations_ready">动画已就绪</string>
+    <string name="app_footer">应用页脚</string>
+    <string name="apply_button">应用</string>
+    <string name="apply_ui">应用界面</string>
+    <string name="apply_visual">应用视觉</string>
+    <string name="ar_controls">AR控制</string>
+    <string name="ar_feature_description">AR功能描述</string>
+    <string name="ar_feature_title">AR功能标题</string>
+    <string name="ar_features">AR功能</string>
+    <string name="ar_instructions">AR说明</string>
+    <string name="ar_ready">AR已就绪</string>
+    <string name="ar_start_instructions">AR开始说明</string>
+    <string name="ar_status">AR状态</string>
+    <string name="art_emoji">🎨</string>
+    <string name="auto_focus">自动对焦</string>
+    <string name="auto_learning">自动学习</string>
+    <string name="available_accessibility_features">可用无障碍功能</string>
+    <string name="available_commands">可用命令</string>
+    <string name="available_haptic_features">可用触觉功能</string>
+    <string name="available_ml_features">可用ML功能</string>
+    <string name="available_security_features">可用安全功能</string>
+    <string name="available_ui_features">可用界面功能</string>
+    <string name="available_visual_features">可用视觉功能</string>
+    <string name="back_to_login">返回登录</string>
+    <string name="biometric_auth_desc">生物识别认证描述</string>
+    <string name="biometric_authentication">生物识别认证</string>
+    <string name="birth_year_format">出生年份格式</string>
+    <string name="birth_year_label">出生年份标签</string>
+    <string name="blockchain_feature_description">区块链功能描述</string>
+    <string name="blockchain_feature_title">区块链功能标题</string>
+    <string name="blockchain_information">区块链信息</string>
+    <string name="blockchain_ready">区块链已就绪</string>
+    <string name="blockchain_status">区块链状态</string>
+    <string name="brightness">亮度</string>
+    <string name="brightness_label">亮度标签</string>
+    <string name="brightness_level">亮度级别</string>
+    <string name="brightness_level_value">亮度级别值</string>
+    <string name="brush_size_label">画笔大小标签</string>
+    <string name="calibrate_button">校准按钮</string>
+    <string name="calibrate_haptic">校准触觉</string>
+    <string name="camera_controls">相机控制</string>
+    <string name="camera_feature_description">相机功能描述</string>
+    <string name="camera_feature_title">相机功能标题</string>
+    <string name="camera_information">相机信息</string>
+    <string name="camera_permission_required">需要相机权限</string>
+    <string name="camera_ready">相机已就绪</string>
+    <string name="camera_settings">相机设置</string>
+    <string name="camera_settings_description">相机设置描述</string>
+    <string name="camera_status">相机状态</string>
+    <string name="capture_button">拍摄按钮</string>
+    <string name="change_password_button">更改密码按钮</string>
+    <string name="choose_from_gallery">从相册选择</string>
+    <string name="choose_language">选择语言</string>
+    <string name="clear_all_data">清除所有数据</string>
+    <string name="clear_button">清除按钮</string>
+    <string name="close">关闭</string>
+    <string name="cloud_sync">云同步</string>
+    <string name="color">颜色</string>
+    <string name="color_customization_description">颜色自定义描述</string>
+    <string name="color_effects">颜色效果</string>
+    <string name="color_name">颜色名称</string>
+    <string name="color_picker_title">颜色选择器标题</string>
+    <string name="coloring_task">涂色任务</string>
+    <string name="comment_count">评论数</string>
+    <string name="computer_emoji">🖥️</string>
+    <string name="contrast">对比度</string>
+    <string name="contrast_label">对比度标签</string>
+    <string name="create_button">创建按钮</string>
+    <string name="create_new_account">创建新账户</string>
+    <string name="created_date">创建日期</string>
+    <string name="custom_animations">自定义动画</string>
+    <string name="custom_animations_desc">自定义动画描述</string>
+    <string name="dark">深色</string>
+    <string name="data_augmentation">数据增强</string>
+    <string name="data_encryption">数据加密</string>
+    <string name="data_encryption_desc">数据加密描述</string>
+    <string name="date_format">日期格式</string>
+    <string name="delete_task">删除任务</string>
+    <string name="demo_email">演示邮箱</string>
+    <string name="demo_mode">演示模式</string>
+    <string name="demo_user">演示用户</string>
+    <string name="description">描述</string>
+    <string name="difficulty">难度</string>
+    <string name="double_tap">双击</string>
+    <string name="dynamic_themes">动态主题</string>
+    <string name="dynamic_themes_desc">动态主题描述</string>
+    <string name="edit_task">编辑任务</string>
+    <string name="enable_accessibility">启用无障碍</string>
+    <string name="enable_button">启用按钮</string>
+    <string name="enable_camera">启用相机</string>
+    <string name="enable_haptics">启用触觉</string>
+    <string name="enable_ml">启用ML</string>
+    <string name="enable_security">启用安全</string>
+    <string name="enable_security_button">启用安全按钮</string>
+    <string name="enable_ui_customization">启用界面自定义</string>
+    <string name="enable_visual_effects">启用视觉效果</string>
+    <string name="export_error">导出错误</string>
+    <string name="export_feature_developing">导出功能开发中</string>
+    <string name="female_user_emoji">👩</string>
+    <string name="filter_label">筛选标签</string>
+    <string name="flash_label">闪光灯标签</string>
+    <string name="forgot_password_description">输入您的UEF邮箱以接收密码重置说明</string>
+    <string name="forgot_password_title">忘记密码</string>
+    <string name="gesture_feature_description">手势功能描述</string>
+    <string name="gesture_feature_title">手势功能标题</string>
+    <string name="gesture_instructions">手势说明</string>
+    <string name="gestures_ready">手势已就绪</string>
+    <string name="gold_medal_emoji">🥇</string>
+    <string name="great_job">做得好</string>
+    <string name="haptic_controls">触觉控制</string>
+    <string name="haptic_feature_description">触觉功能描述</string>
+    <string name="haptic_feature_title">触觉功能标题</string>
+    <string name="haptic_information">触觉信息</string>
+    <string name="haptic_information_desc">触觉信息描述</string>
+    <string name="haptic_intensity">触觉强度</string>
+    <string name="haptic_intensity_control">触觉强度控制</string>
+    <string name="haptic_patterns">触觉模式</string>
+    <string name="haptic_settings">触觉设置</string>
+    <string name="haptic_status">触觉状态</string>
+    <string name="haptic_status_ready">触觉已就绪</string>
+    <string name="haptic_status_enabled">触觉反馈已启用 - 强度: %1$d%%</string>
+    <string name="haptic_status_disabled">触觉反馈已禁用</string>
+    <string name="haptic_testing">正在测试触觉...</string>
+    <string name="haptic_question">你能感觉到震动吗？</string>
+    <string name="haptic_description">配置触觉反馈以获得生动的触摸体验。</string>
+    <string name="haptic_types">触觉类型</string>
+    <string name="heavy">重</string>
+    <string name="heavy_haptic">重触觉</string>
+    <string name="heavy_haptic_description">重触觉描述</string>
+    <string name="high_contrast">高对比度</string>
+    <string name="import_error">导入错误</string>
+    <string name="import_feature_developing">导入功能开发中</string>
+    <string name="intensity">强度</string>
+    <string name="language_changed_english">语言已更改为英语</string>
+    <string name="language_changed_vietnamese">语言已更改为越南语</string>
+    <string name="large_text">大字体</string>
+    <string name="learning_rate">学习率</string>
+    <string name="level_format">等级格式</string>
+    <string name="light">浅色</string>
+    <string name="light_haptic">轻触觉</string>
+    <string name="light_haptic_description">轻触觉描述</string>
+    <string name="lighting_effects">照明效果</string>
+    <string name="like_count">❤️ %1$d</string>
+    <string name="locked">已锁定</string>
+    <string name="long_press">长按</string>
+    <string name="medium_haptic">中等触觉</string>
+    <string name="medium_haptic_description">中等触觉描述</string>
+    <string name="ml_configuration_description">ML配置描述</string>
+    <string name="ml_controls">ML控制</string>
+    <string name="ml_feature_description">ML功能描述</string>
+    <string name="ml_feature_title">ML功能标题</string>
+    <string name="ml_information">ML信息</string>
+    <string name="ml_information_desc">ML信息描述</string>
+    <string name="ml_settings">ML设置</string>
+    <string name="ml_status">ML状态</string>
+    <string name="ml_status_ready">ML已就绪</string>
+    <string name="moon_emoji">🌙</string>
+    <string name="network_feature_description">网络功能描述</string>
+    <string name="network_feature_title">网络功能标题</string>
+    <string name="neural_networks">神经网络</string>
+    <string name="neural_networks_desc">神经网络描述</string>
+    <string name="no_history_found">未找到历史记录</string>
+    <string name="no_leaderboard_data">无排行榜数据</string>
+    <string name="no_speech_detected">未检测到语音</string>
+    <string name="normal_mode">正常模式</string>
+    <string name="notification_feature_description">通知功能描述</string>
+    <string name="notification_feature_title">通知功能标题</string>
+    <string name="opacity_label">不透明度标签</string>
+    <string name="opacity_value">不透明度值</string>
+    <string name="other_gender">其他</string>
+    <string name="particle_effects">粒子效果</string>
+    <string name="particle_effects_desc">粒子效果描述</string>
+    <string name="pause_button">暂停按钮</string>
+    <string name="percent_symbol">%</string>
+    <string name="player_name">玩家姓名</string>
+    <string name="points_format">分数格式</string>
+    <string name="points_value">分数值</string>
+    <string name="points_with_unit">%1$d分</string>
+    <string name="points_zero">零分</string>
+    <string name="post_content">帖子内容</string>
+    <string name="predict_ml">预测ML</string>
+    <string name="pressure_haptics">压力触觉</string>
+    <string name="preview_visual">预览视觉</string>
+    <string name="primary_color">主色</string>
+    <string name="profile_image_saved">个人资料图片已保存</string>
+    <string name="profile_score_value">个人资料分数值</string>
+    <string name="rank_label">排名标签</string>
+    <string name="rank_number">排名号</string>
+    <string name="ready">就绪</string>
+    <string name="realtime">实时</string>
+    <string name="realtime_prediction">实时预测</string>
+    <string name="record_button">录制按钮</string>
+    <string name="redo_button">重做按钮</string>
+    <string name="refresh_emoji">🔄</string>
+    <string name="remove_button">删除按钮</string>
+    <string name="report_description">报告描述</string>
+    <string name="report_title">报告标题</string>
+    <string name="reset_button">重置按钮</string>
+    <string name="reset_database">重置数据库</string>
+    <string name="reset_haptic">重置触觉</string>
+    <string name="reset_ui">重置界面</string>
+    <string name="role">角色</string>
+    <string name="sample_email">示例邮箱</string>
+    <string name="sample_name">示例姓名</string>
+    <string name="saturation">饱和度</string>
+    <string name="save_haptic">保存触觉</string>
+    <string name="score_format">分数格式</string>
+    <string name="score_label">分数标签</string>
+    <string name="score_value">分数值</string>
+    <string name="secondary_color">辅助色</string>
+    <string name="security_controls">安全控制</string>
+    <string name="security_enable_description">安全启用描述</string>
+    <string name="security_feature_description">安全功能描述</string>
+    <string name="security_feature_title">安全功能标题</string>
+    <string name="security_information">安全信息</string>
+    <string name="security_information_desc">安全信息描述</string>
+    <string name="security_settings">安全设置</string>
+    <string name="security_status">安全状态</string>
+    <string name="security_status_ready">安全已就绪</string>
+    <string name="select_profile_image">选择个人资料图片</string>
+    <string name="send_instructions">发送说明</string>
+    <string name="sensor_feature_description">传感器功能描述</string>
+    <string name="sensor_feature_title">传感器功能标题</string>
+    <string name="settings_emoji">⚙️</string>
+    <string name="shape_type">形状类型</string>
+    <string name="share_button">分享按钮</string>
+    <string name="signal_emoji">📶</string>
+    <string name="single_tap">单击</string>
+    <string name="social_network">社交网络</string>
+    <string name="star_emoji">⭐</string>
+    <string name="start_ar_button">开始AR按钮</string>
+    <string name="start_button">开始按钮</string>
+    <string name="start_listening">开始聆听</string>
+    <string name="status_label">状态标签</string>
+    <string name="stop">停止</string>
+    <string name="storage_permission_required">需要存储权限</string>
+    <string name="suggest_button">建议按钮</string>
+    <string name="sun_emoji">☀️</string>
+    <string name="sync_controls">同步控制</string>
+    <string name="sync_feature_description">同步功能描述</string>
+    <string name="sync_feature_title">同步功能标题</string>
+    <string name="sync_progress">同步进度</string>
+    <string name="sync_ready">同步已就绪</string>
+    <string name="sync_ready_message">同步就绪消息</string>
+    <string name="sync_start_button">同步开始按钮</string>
+    <string name="sync_status">同步状态</string>
+    <string name="sync_stop_button">同步停止按钮</string>
+    <string name="system_management_title">系统管理标题</string>
+    <string name="system_statistics">系统统计</string>
+    <string name="take_photo">拍照</string>
+    <string name="target_emoji">🎯</string>
+    <string name="task_description_hint">任务描述提示</string>
+    <string name="task_duration_value">任务时长值</string>
+    <string name="task_history">任务历史</string>
+    <string name="task_label">任务标签</string>
+    <string name="task_name_hint">任务名称提示</string>
+    <string name="temperature_haptics">温度触觉</string>
+    <string name="test_accessibility">测试无障碍</string>
+    <string name="test_button">测试按钮</string>
+    <string name="test_haptic">测试触觉</string>
+    <string name="test_ml">测试ML</string>
+    <string name="test_security">测试安全</string>
+    <string name="test_visual">测试视觉</string>
+    <string name="theme_feature_description">主题功能描述</string>
+    <string name="theme_feature_title">主题功能标题</string>
+    <string name="theme_information">主题信息</string>
+    <string name="theme_intensity">主题强度</string>
+    <string name="theme_ready">主题已就绪</string>
+    <string name="theme_selection">主题选择</string>
+    <string name="theme_selection_description">主题选择描述</string>
+    <string name="theme_status">主题状态</string>
+    <string name="time_ago">时间前</string>
+    <string name="time_format">时间格式</string>
+    <string name="time_label">时间标签</string>
+    <string name="timer_controls">计时器控制</string>
+    <string name="timer_display">计时器显示</string>
+    <string name="timer_display_value">计时器显示值</string>
+    <string name="timer_duration">计时器时长</string>
+    <string name="timer_duration_instructions">计时器时长说明</string>
+    <string name="timer_feature_description">计时器功能描述</string>
+    <string name="timer_feature_title">计时器功能标题</string>
+    <string name="timer_ready">计时器已就绪</string>
+    <string name="timer_status">计时器状态</string>
+    <string name="total_achievements_count">总成就数</string>
+    <string name="total_plays_count">总游戏数</string>
+    <string name="total_tasks_count">总任务数</string>
+    <string name="total_users_count">总用户数</string>
+    <string name="train_button">训练按钮</string>
+    <string name="train_ml">训练ML</string>
+    <string name="try_demo">尝试演示</string>
+    <string name="two_factor_authentication">双因素认证</string>
+    <string name="type">类型</string>
+    <string name="ui_controls">界面控制</string>
+    <string name="ui_customization_description">界面自定义描述</string>
+    <string name="ui_feature_description">界面功能描述</string>
+    <string name="ui_feature_title">界面功能标题</string>
+    <string name="ui_information">界面信息</string>
+    <string name="ui_information_desc">界面信息描述</string>
+    <string name="ui_settings">界面设置</string>
+    <string name="ui_status">界面状态</string>
+    <string name="ui_status_ready">界面已就绪</string>
+    <string name="undo_button">撤销按钮</string>
+    <string name="user_label">用户标签</string>
+    <string name="user_management_title">用户管理标题</string>
+    <string name="user_role">用户角色</string>
+    <string name="value">值</string>
+    <string name="vibration_feedback">震动反馈</string>
+    <string name="vibration_feedback_desc">震动反馈描述</string>
+    <string name="vibration_haptics">震动触觉</string>
+    <string name="visual_configuration_description">视觉配置描述</string>
+    <string name="visual_controls">视觉控制</string>
+    <string name="visual_feature_description">视觉功能描述</string>
+    <string name="visual_feature_title">视觉功能标题</string>
+    <string name="visual_information">视觉信息</string>
+    <string name="visual_information_desc">视觉信息描述</string>
+    <string name="visual_settings">视觉设置</string>
+    <string name="visual_status">视觉状态</string>
+    <string name="visual_status_ready">视觉已就绪</string>
+    <string name="voice_commands">语音命令</string>
+    <string name="voice_controls">语音控制</string>
+    <string name="voice_over">语音播报</string>
+    <string name="voice_result">语音结果</string>
+    <string name="voice_status">语音状态</string>
+    <string name="widget_controls">小部件控制</string>
+    <string name="widget_creation_description">小部件创建描述</string>
+    <string name="widget_feature_description">小部件功能描述</string>
+    <string name="widget_feature_title">小部件功能标题</string>
+    <string name="widget_information">小部件信息</string>
+    <string name="widget_status">小部件状态</string>
+    <string name="widgets_ready">小部件已就绪</string>
+    <string name="zoom_label">缩放标签</string>
+    <string name="tet_theme">春节主题</string>
+    <string name="tet_theme_description">农历新年的特殊主题</string>
+    <string name="data_compression_desc">数据压缩描述</string>
+    <string name="wifi_optimization_desc">WiFi优化描述</string>
+
+    <!-- User Management Strings -->
+    <string name="filter_all_users">全部</string>
+    <string name="filter_users_role">用户</string>
+    <string name="filter_admin_role">管理员</string>
+    <string name="filter_active_users">活跃</string>
+    <string name="filter_locked_users">已锁定</string>
+    <string name="total_users_text">总计：%1$d 用户</string>
+    <string name="found_users_text">找到：%1$d 用户</string>
+    <string name="add_new_user_title">添加新用户</string>
+    <string name="add_user_button">添加</string>
+    <string name="edit_user_title">编辑用户</string>
+    <string name="update_button">更新</string>
+    <string name="delete_user_title">确认删除</string>
+    <string name="delete_user_message">确定要删除用户 %1$s 吗？</string>
+    <string name="delete_button">删除</string>
+    <string name="user_added_success">已添加用户</string>
+    <string name="user_updated_success">已更新用户</string>
+    <string name="user_deleted_success">已删除用户</string>
+    <string name="user_activated">已激活</string>
+    <string name="user_locked">已锁定</string>
+    <string name="user_status_changed">用户已%1$s</string>
+    <string name="enter_name_hint">请输入姓名</string>
+    <string name="password_min_length">密码必须至少6个字符</string>
+    <string name="invalid_birth_year">出生年份无效</string>
+    <string name="admin_role">管理员</string>
+    <string name="user_role_label">用户</string>
+    <string name="created_at_label">创建于：%1$s</string>
+
+    <!-- Achievement Management Strings -->
+    <string name="total_achievements_text">总成就数：%1$d</string>
+    <string name="edit_achievement_title">编辑成就</string>
+    <string name="enter_achievement_name">请输入成就名称</string>
+    <string name="achievement_updated">成就已更新</string>
+    <string name="achievement_added">已添加成就</string>
+    <string name="delete_achievement_title">删除成就</string>
+    <string name="delete_achievement_message">确定要删除成就 \"%1$s\" 吗？</string>
+    <string name="achievement_deleted">成就已删除</string>
+    <string name="achievement_name_hint">成就名称</string>
+    <string name="achievement_description_hint">描述</string>
+    <string name="achievement_icon_hint">图标（表情符号）</string>
+    <string name="achievement_requirement_hint">要求（数字）</string>
+    <string name="achievement_points_hint">奖励积分</string>
+
+    <!-- Leaderboard Management Strings -->
+    <string name="filter_top_10">前10名</string>
+    <string name="filter_top_50">前50名</string>
+    <string name="filter_top_100">前100名</string>
+    <string name="total_attempts_text">总尝试次数：%1$d</string>
+
+    <!-- Admin Dashboard Strings -->
+    <string name="reset_database_title">确认重置数据库</string>
+    <string name="reset_database_message">您确定要删除所有数据并重新创建10个任务 + 10个样本账户吗？\n\n注意：所有当前数据将被删除！</string>
+    <string name="confirm_reset_button">确认</string>
+    <string name="reset_database_success">✅ 数据库重置成功！\n已创建10个任务 + 10个账户。</string>
+    <string name="reset_database_error">❌ 重置数据库时出错：%1$s</string>
+    <string name="error_loading_statistics">加载统计信息出错</string>
+    <string name="users_count_format">%1$d 用户</string>
+    <string name="tasks_count_format">%1$d 任务</string>
+    <string name="attempts_count_format">%1$d 次</string>
+    <string name="points_count_format">%1$d 分</string>
+
+    <!-- User Management -->
+    <string name="search_users_hint">搜索...</string>
+    <string name="export_excel_label">📊 导出 Excel</string>
+    
+    <!-- Advanced Sounds -->
+    <string name="select_music">选择音乐</string>
+    <string name="select">选择</string>
+    <string name="turn_off">关闭</string>
+    <string name="turn_on">开启</string>
+    <string name="inactive">未激活</string>
+    <string name="sound_effects_desc">按下按钮时的声音</string>
+    <string name="notification_sound">通知声音</string>
+    <string name="notification_sound_desc">有通知时的声音</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_selected">已选择主题: %1$s</string>
+    <string name="theme_applied_immediately">更改已立即应用！</string>
+    
+    <!-- Advanced Admin Reports -->
+    <string name="score_distribution">分数分布</string>
+    <string name="score_distribution_desc">按分数级别的尝试次数</string>
+    <string name="most_active_user">最活跃的用户</string>
+    <string name="most_active_user_desc">完成任务最多的用户</string>
+    <string name="achievements_stat">成就</string>
+    <string name="achievements_stat_desc">已解锁的成就数</string>
+    <string name="avg_completion_speed">平均完成速度</string>
+    <string name="avg_completion_speed_desc">完成1个任务的平均时间</string>
+    <string name="incomplete_rate">未完成率</string>
+    <string name="incomplete_rate_desc">放弃任务的百分比</string>
+    <string name="new_users_7days">新用户（7天）</string>
+    <string name="new_users_7days_desc">新注册用户数</string>
+    <string name="total_attempts">总尝试次数</string>
+    <string name="total_attempts_desc">执行任务的总用户数</string>
+    <string name="completed_attempts_trend">%1$d完成</string>
+    <string name="score_excellent">优秀</string>
+    <string name="score_good">良好</string>
+    <string name="score_fair">一般</string>
+    <string name="score_average">平均</string>
+    <string name="status_good">✓ 良好</string>
+    <string name="status_average">○ 平均</string>
+    <string name="status_need_improve">✗ 需要改进</string>
+    <string name="status_active">✓ 活跃</string>
+    <string name="status_stable">○ 稳定</string>
+    <string name="status_fast">✓ 快</string>
+    <string name="status_medium">○ 中等</string>
+    <string name="status_slow">✗ 慢</string>
+    <string name="status_high">✗ 高</string>
+    <string name="status_growth">✓ 增长</string>
+    <string name="status_no_data">○ 无</string>
+    <string name="no_data">暂无数据</string>
+    <string name="not_available">N/A</string>
+    <string name="total_format">总计：%1$d次</string>
+    <string name="attempts_completed">%1$d完成</string>
+    <string name="unlocked_percent">%1$d%% 已解锁</string>
+    <string name="users_count">%1$d人</string>
+    <string name="attempts">次</string>
+    
+    <!-- Leaderboard -->
+    <string name="total_score_tab">总分</string>
+    <string name="drawing_score_tab">绘图分数</string>
+    <string name="leaderboard_load_error">加载排行榜错误：%1$s</string>
+    <string name="score_points">%1$d分</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="leaderboard_management">排行榜管理</string>
+    <string name="user_prefix">用户: %1$s</string>
+    <string name="task_prefix">任务: %1$s</string>
+    
+    <!-- Social Network - Post Content -->
+    <string name="post_created_colorful_garden">我创建了一个色彩缤纷的花园！ 🌸</string>
+    <string name="post_beautiful_mountain_lake">美丽的山湖景色！ 🏔️</string>
+    <string name="post_city_at_night">灯火辉煌的城市夜景！ 🌃</string>
+    <string name="post_fairytale_castle">梦中的童话城堡！ 🏰</string>
+    <string name="post_tropical_beach">带有棕榈树的热带海滩！ 🏖️</string>
+    <string name="days_ago">%1$d天前</string>
+
+</resources>

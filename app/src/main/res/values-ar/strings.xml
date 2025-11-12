@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">تلوين الأشكال</string>
+    <string name="app_subtitle">تلوين الأشكال الذكي</string>
+    <string name="version">الإصدار 1.0.0</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_subtitle" translatable="false">تلوين الأشكال الذكي</string>
+    <string name="loading" translatable="false">جاري التحميل…</string>
+
+    <!-- Authentication -->
+    <string name="login" translatable="false">تسجيل الدخول</string>
+    <string name="register" translatable="false">التسجيل</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="user_email">البريد الإلكتروني</string>
+    <string name="enter_user_name">أدخل اسم المستخدم</string>
+    <string name="enter_user_email">أدخل البريد الإلكتروني</string>
+    <string name="statistics">الإحصائيات</string>
+    <string name="level">المستوى</string>
+    <string name="score">النقاط</string>
+    <string name="login_title">مرحباً بعودتك</string>
+    <string name="login_subtitle" translatable="false">سجل الدخول للمتابعة</string>
+    <string name="register_title">إنشاء حساب جديد</string>
+    <string name="register_subtitle">سجل للبدء</string>
+    <string name="already_have_account">هل لديك حساب بالفعل؟</string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    <string name="remember_me">تذكر تسجيل الدخول</string>
+
+    <!-- Form Fields -->
+    <string name="email">البريد الإلكتروني</string>
+    <string name="email_uef">البريد الإلكتروني UEF</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="full_name">الاسم الكامل</string>
+    <string name="birth_year">سنة الميلاد</string>
+    <string name="gender">الجنس</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="terms_and_conditions">أوافق على الشروط والأحكام</string>
+
+    <!-- Navigation -->
+    <string name="home">الرئيسية</string>
+    <string name="quest">المهمة</string>
+    <string name="progress">التقدم</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="back">رجوع</string>
+    <string name="next">التالي</string>
+    <string name="previous">السابق</string>
+    <string name="finish">إنهاء</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="edit">تعديل</string>
+    <string name="delete">حذف</string>
+    <string name="add">إضافة</string>
+    <string name="search">بحث</string>
+    <string name="filter">تصفية</string>
+    <string name="sort">ترتيب</string>
+
+    <!-- Tasks -->
+    <string name="tasks">المهام</string>
+    <string name="available_tasks">المهام المتاحة</string>
+    <string name="task_list">قائمة المهام</string>
+    <string name="task_details">تفاصيل المهمة</string>
+    <string name="start_task">بدء المهمة</string>
+    <string name="complete_task">إكمال المهمة</string>
+    <string name="task_name">اسم المهمة</string>
+    <string name="task_description">الوصف</string>
+    <string name="task_duration">المدة</string>
+    <string name="task_difficulty">الصعوبة</string>
+    <string name="task_points">النقاط</string>
+    <string name="task_status">الحالة</string>
+
+    <!-- Shapes -->
+    <string name="shapes">الأشكال</string>
+    <string name="circle">دائرة</string>
+    <string name="square">مربع</string>
+    <string name="triangle">مثلث</string>
+    <string name="rectangle">مستطيل</string>
+    <string name="pentagon">خماسي</string>
+    <string name="hexagon">سداسي</string>
+    <string name="star">نجمة</string>
+    <string name="heart">قلب</string>
+
+    <!-- Task Names -->
+    <string name="task_color_circle">تلوين الدائرة</string>
+    <string name="task_color_square">تلوين المربع</string>
+    <string name="task_color_triangle">تلوين المثلث</string>
+    <string name="task_color_star">تلوين النجمة</string>
+    <string name="task_color_heart">تلوين القلب</string>
+
+    <!-- Task Descriptions -->
+    <string name="task_desc_circle">لون الدائرة بلونك المفضل</string>
+    <string name="task_desc_square">لون المربع بلونك المفضل</string>
+    <string name="task_desc_triangle">لون المثلث بلونك المفضل</string>
+
+    <!-- Colors -->
+    <string name="colors">الألوان</string>
+    <string name="red">أحمر</string>
+    <string name="blue">أزرق</string>
+    <string name="green">أخضر</string>
+    <string name="yellow">أصفر</string>
+    <string name="orange">برتقالي</string>
+    <string name="purple">بنفسجي</string>
+    <string name="pink">وردي</string>
+    <string name="black">أسود</string>
+    <string name="white">أبيض</string>
+    <string name="gray">رمادي</string>
+
+    <!-- Drawing -->
+    <string name="drawing">الرسم</string>
+    <string name="brush">الفرشاة</string>
+    <string name="brush_size">حجم الفرشاة</string>
+    <string name="color_picker">منتقي الألوان</string>
+    <string name="undo">تراجع</string>
+    <string name="redo">إعادة</string>
+    <string name="clear">مسح الكل</string>
+    <string name="eraser">الممحاة</string>
+
+    <!-- Scoring -->
+    <string name="total_score">إجمالي النقاط</string>
+    <string name="high_score">أعلى نقاط</string>
+    <string name="leaderboard">لوحة المتصدرين</string>
+    <string name="rank">الترتيب</string>
+    <string name="your_rank">ترتيبك</string>
+    <string name="top_players">أفضل اللاعبين</string>
+    <string name="view_full_leaderboard">عرض لوحة المتصدرين كاملة</string>
+
+    <!-- History -->
+    <string name="history">السجل</string>
+    <string name="recent_history">السجل الأخير</string>
+    <string name="view_all_history">عرض كل السجل</string>
+    <string name="completed_tasks">المهام المكتملة</string>
+    <string name="view_history">عرض السجل</string>
+    <string name="no_history">لا يوجد سجل</string>
+
+    <!-- Settings -->
+    <string name="settings">الإعدادات</string>
+    <string name="language">اللغة</string>
+    <string name="theme">المظهر</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="sound">الصوت</string>
+    <string name="vibration">الاهتزاز</string>
+    <string name="offline_mode">حالة الاتصال</string>
+    <string name="data_management">إدارة البيانات</string>
+    <string name="export_data">تصدير البيانات</string>
+    <string name="import_data">استيراد البيانات</string>
+    <string name="about">حول</string>
+    <string name="dark_mode">الوضع المظلم</string>
+    <string name="enable_notifications">تفعيل الإشعارات</string>
+    <string name="online_status">أنت متصل. جميع الميزات متاحة.</string>
+    <string name="offline_status">أنت غير متصل. بعض الميزات محدودة.</string>
+
+    <!-- Admin -->
+    <string name="admin">المدير</string>
+    <string name="admin_dashboard">لوحة التحكم</string>
+    <string name="manage_tasks">إدارة المهام</string>
+    <string name="manage_shapes">إدارة الأشكال</string>
+    <string name="manage_users">إدارة المستخدمين</string>
+    <string name="reports">التقارير</string>
+
+    <!-- Messages -->
+    <string name="success">نجح</string>
+    <string name="error">خطأ</string>
+    <string name="warning">تحذير</string>
+    <string name="info">معلومات</string>
+    <string name="confirm">تأكيد</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="ok">موافق</string>
+
+    <!-- Validation -->
+    <string name="email_required">يرجى إدخال البريد الإلكتروني</string>
+    <string name="email_invalid">بريد إلكتروني غير صالح</string>
+    <string name="password_required">يرجى إدخال كلمة المرور</string>
+    <string name="password_too_short">كلمة المرور قصيرة جداً</string>
+    <string name="passwords_not_match">كلمات المرور غير متطابقة</string>
+    <string name="field_required">هذا الحقل مطلوب</string>
+
+    <!-- Time -->
+    <string name="time">الوقت</string>
+    <string name="timer">الموقت</string>
+    <string name="time_remaining">الوقت المتبقي</string>
+    <string name="time_up">انتهى الوقت!</string>
+    <string name="seconds">ثواني</string>
+    <string name="minutes">دقائق</string>
+    <string name="hours">ساعات</string>
+
+    <!-- Or -->
+    <string name="or">أو</string>
+
+    <!-- Difficulty Levels -->
+    <string name="easy">سهل</string>
+
+    <!-- Google Auth Buttons -->
+    <string name="sign_in_with_google">تسجيل الدخول باستخدام Google</string>
+    <string name="sign_up_with_google">التسجيل باستخدام Google</string>
+    <string name="medium">متوسط</string>
+    <string name="hard">صعب</string>
+    <string name="difficulty_label">الصعوبة: %s</string>
+    <string name="points_label">النقاط: %d</string>
+
+    <!-- Status -->
+    <string name="pending">معلق</string>
+    <string name="in_progress">قيد التنفيذ</string>
+    <string name="completed">مكتمل</string>
+    <string name="failed">فشل</string>
+
+    <!-- Social -->
+    <string name="share">مشاركة</string>
+    <string name="friends">الأصدقاء</string>
+    <string name="invite">دعوة</string>
+
+    <!-- Empty States -->
+    <string name="no_tasks">لا توجد مهام</string>
+    <string name="no_results">لا توجد نتائج</string>
+    <string name="empty_list">قائمة فارغة</string>
+    <string name="empty_tasks">لا توجد مهام بعد</string>
+    <string name="empty_history">لا يوجد سجل بعد</string>
+    <string name="empty_leaderboard">لا توجد لوحة متصدرين بعد</string>
+    <string name="empty_notifications">لا توجد إشعارات</string>
+    <string name="empty_results">لا توجد نتائج</string>
+    <string name="empty_search">لا توجد نتائج بحث</string>
+
+    <!-- Actions -->
+    <string name="submit">إرسال</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="skip">تخطي</string>
+    <string name="refresh">تحديث</string>
+    <string name="export">تصدير</string>
+    <string name="notify" translatable="false">إشعار</string>
+    <string name="action_copy" translatable="false">نسخ</string>
+    <string name="action_cut" translatable="false">قص</string>
+    <string name="action_paste" translatable="false">لصق</string>
+    <string name="action_select_all">تحديد الكل</string>
+    <string name="action_deselect_all" translatable="false">إلغاء التحديد</string>
+    <string name="action_share" translatable="false">مشاركة</string>
+    <string name="action_refresh">تحديث</string>
+    <string name="action_retry" translatable="false">إعادة المحاولة</string>
+
+    <!-- Face Check-in -->
+    <string name="face_checkin">تسجيل الدخول بالوجه</string>
+    <string name="face_detected">تم اكتشاف الوجه</string>
+    <string name="face_not_detected">لم يتم اكتشاف الوجه</string>
+    <string name="position_face">ضع وجهك داخل الإطار</string>
+
+    <!-- Achievements -->
+    <string name="achievement">الإنجاز</string>
+    <string name="achievements">الإنجازات</string>
+    <string name="achievement_unlocked">تم فتح الإنجاز</string>
+    <string name="total_achievements">المجموع: %d</string>
+    <string name="unlocked_achievements">المفتوح: %d</string>
+    <string name="recent_achievements">الإنجازات الأخيرة</string>
+    <string name="view_all_achievements">عرض كل الإنجازات</string>
+    <string name="all_achievements_title">جميع الإنجازات</string>
+    <string name="first_task_title">المهمة الأولى</string>
+    <string name="first_task_desc">أكمل مهمة التلوين الأولى</string>
+    <string name="top_scorer_title">أعلى نقاط</string>
+    <string name="top_scorer_desc">احصل على 90+ نقطة في مهمة</string>
+    <string name="perfectionist">الكمالي</string>
+    <string name="perfectionist_desc">احصل على 100% دقة في مهمة</string>
+    <string name="speed_demon">شيطان السرعة</string>
+    <string name="speed_demon_desc">أكمل مهمة في أقل من دقيقتين</string>
+    <string name="streak_master">سيد السلسلة</string>
+    <string name="streak_master_desc">أكمل 5 مهام متتالية</string>
+    <string name="top_scorer">أعلى نقاط</string>
+
+    <!-- Admin & Navigation -->
+    <string name="dashboard">لوحة التحكم</string>
+    <string name="users">المستخدمون</string>
+    <string name="management">الإدارة</string>
+    <string name="chat_ai">Chat AI</string>
+    <string name="system_administration">إدارة النظام</string>
+    <string name="task_management">إدارة المهام</string>
+    <string name="task_management_desc">إضافة وتعديل وحذف المهام</string>
+    <string name="user_management">إدارة المستخدمين</string>
+    <string name="user_management_desc">إدارة قائمة المستخدمين</string>
+    <string name="shape_management">إدارة الأشكال</string>
+    <string name="shape_management_desc">إضافة وتعديل وحذف الأشكال</string>
+
+    <!-- User Info -->
+    <string name="name">الاسم</string>
+    <string name="user_rank">الترتيب</string>
+    <string name="user_score">النقاط</string>
+    <string name="admin_name">اسم المدير</string>
+    <string name="personal_info">المعلومات الشخصية</string>
+
+    <!-- Task Related -->
+    <string name="add_task">إضافة مهمة</string>
+    <string name="task_title">عنوان المهمة</string>
+    <string name="task_detail">تفاصيل المهمة</string>
+    <string name="task_completed">مكتمل</string>
+    <string name="task_completion_rate">معدل الإكمال</string>
+    <string name="tasks_completed">المهام المكتملة</string>
+    <string name="total_tasks">إجمالي المهام</string>
+    <string name="active_tasks">المهام النشطة</string>
+    <string name="recent_tasks">المهام الأخيرة</string>
+    <string name="first_task">المهمة الأولى</string>
+    <string name="continue_task">متابعة</string>
+    <string name="create_first_task">إنشاء المهمة الأولى</string>
+    <string name="start_first_task">بدء المهمة الأولى</string>
+
+    <!-- Time & Duration -->
+    <string name="duration">المدة</string>
+    <string name="time_limit">حد الوقت</string>
+    <string name="time_taken">الوقت المستغرق</string>
+    <string name="time_spent">الوقت المنفق</string>
+    <string name="time_spent_total">إجمالي الوقت</string>
+    <string name="total_time">إجمالي الوقت</string>
+    <string name="time_up_notification">انتهى الوقت!</string>
+
+    <!-- Rankings & Scores -->
+    <string name="ranking">الترتيب</string>
+    <string name="current_rank">الترتيب الحالي</string>
+    <string name="your_score">نقاطك</string>
+    <string name="top_3">أفضل 3</string>
+    <string name="top_10">أفضل 10</string>
+    <string name="top_100">أفضل 100</string>
+    <string name="average_score">متوسط النقاط</string>
+    <string name="bonus_points">نقاط إضافية</string>
+    <string name="points">النقاط</string>
+
+    <!-- Drawing -->
+    <string name="drawing_canvas">لوحة الرسم</string>
+    <string name="your_drawing">رسمك</string>
+    <string name="brush_type">نوع الفرشاة</string>
+    <string name="color_palette">لوحة الألوان</string>
+    <string name="clear_all">مسح الكل</string>
+
+    <!-- Settings Extended -->
+    <string name="general_settings">الإعدادات العامة</string>
+    <string name="account_settings">إعدادات الحساب</string>
+    <string name="privacy_settings">إعدادات الخصوصية</string>
+    <string name="notification_settings">إعدادات الإشعارات</string>
+    <string name="language_settings">إعدادات اللغة</string>
+    <string name="sound_settings">إعدادات الصوت</string>
+    <string name="display_settings">إعدادات العرض</string>
+    <string name="reset_settings">إعادة تعيين الإعدادات</string>
+    <string name="select_language">اختيار اللغة</string>
+    <string name="english">الإنجليزية</string>
+    <string name="vietnamese">الفيتنامية</string>
+    <string name="auto_theme">تلقائي</string>
+
+    <!-- Status -->
+    <string name="not_started">لم يبدأ</string>
+    <string name="status_available">متاح</string>
+    <string name="status_unlocked">غير مقفل</string>
+    <string name="status_locked">مقفل</string>
+    <string name="status_approved">موافق عليه</string>
+    <string name="status_rejected">مرفوض</string>
+    <string name="expired">منتهي الصلاحية</string>
+
+    <!-- Messages & Notifications -->
+    <string name="congratulations">تهانينا!</string>
+    <string name="welcome_back">مرحباً بعودتك</string>
+    <string name="welcome_admin">مرحباً أيها المدير</string>
+    <string name="language_changed">تم تغيير اللغة</string>
+    <string name="theme_changed">تم تغيير المظهر</string>
+    <string name="notification_title">الإشعار</string>
+    <string name="notification_message">رسالة الإشعار</string>
+    <string name="notification_type">نوع الإشعار</string>
+    <string name="notification_time">الوقت</string>
+    <string name="notifications_title">الإشعارات</string>
+    <string name="mark_as_read">تعيين كمقروء</string>
+    <string name="mark_all_read">تعيين الكل كمقروء</string>
+
+    <!-- Loading States -->
+    <string name="loading_general">جاري التحميل...</string>
+    <string name="loading_tasks">جاري تحميل المهام...</string>
+    <string name="loading_history">جاري تحميل السجل...</string>
+    <string name="loading_leaderboard">جاري تحميل لوحة المتصدرين...</string>
+    <string name="loading_login">جاري تسجيل الدخول...</string>
+    <string name="loading_register">جاري التسجيل...</string>
+    <string name="loading_save">جاري الحفظ...</string>
+    <string name="loading_delete">جاري الحذف...</string>
+    <string name="loading_upload">جاري الرفع...</string>
+    <string name="loading_download">جاري التحميل...</string>
+    <string name="loading_sync">جاري المزامنة...</string>
+
+    <!-- Success Messages -->
+    <string name="success_general">نجح!</string>
+    <string name="success_login">تم تسجيل الدخول بنجاح</string>
+    <string name="success_register">تم التسجيل بنجاح</string>
+    <string name="success_save">تم الحفظ بنجاح</string>
+    <string name="success_update">تم التحديث بنجاح</string>
+    <string name="success_delete">تم الحذف بنجاح</string>
+    <string name="success_upload">تم الرفع بنجاح</string>
+    <string name="success_download">تم التحميل بنجاح</string>
+    <string name="login_success">تم تسجيل الدخول بنجاح</string>
+
+    <!-- Error Messages -->
+    <string name="error_general">حدث خطأ</string>
+    <string name="error_network">خطأ في الشبكة</string>
+    <string name="error_server">خطأ في الخادم</string>
+    <string name="error_database">خطأ في قاعدة البيانات</string>
+    <string name="error_authentication">خطأ في المصادقة</string>
+    <string name="error_permission">لا توجد صلاحية</string>
+    <string name="error_validation">بيانات غير صالحة</string>
+    <string name="error_file_not_found">لم يتم العثور على الملف</string>
+    <string name="error_unknown">خطأ غير معروف</string>
+    <string name="invalid_email">بريد إلكتروني غير صالح</string>
+    <string name="login_failed">فشل تسجيل الدخول</string>
+
+    <!-- Validation -->
+    <string name="validation_email">بريد إلكتروني غير صالح</string>
+    <string name="validation_password">كلمة مرور غير صالحة</string>
+    <string name="validation_name">اسم غير صالح</string>
+    <string name="validation_phone">رقم هاتف غير صالح</string>
+    <string name="validation_birth_year">سنة ميلاد غير صالحة</string>
+    <string name="validation_password_match">كلمات المرور غير متطابقة</string>
+    <string name="validation_required">حقل مطلوب</string>
+    <string name="validation_url">رابط غير صالح</string>
+    <string name="uef_email_required">مطلوب بريد إلكتروني UEF (@uef.edu.vn)</string>
+
+    <!-- Permissions -->
+    <string name="permission_required">مطلوب إذن</string>
+    <string name="permission_camera">إذن الكاميرا</string>
+    <string name="permission_storage">إذن التخزين</string>
+    <string name="permission_location">إذن الموقع</string>
+    <string name="permission_notification">إذن الإشعارات</string>
+    <string name="permission_granted">تم منح الإذن</string>
+    <string name="permission_denied">تم رفض الإذن</string>
+
+    <!-- Features -->
+    <string name="feature_offline_mode">حالة الاتصال</string>
+    <string name="feature_sync">المزامنة</string>
+    <string name="feature_backup">النسخ الاحتياطي</string>
+    <string name="feature_restore">الاستعادة</string>
+    <string name="feature_export">تصدير البيانات</string>
+    <string name="feature_import">استيراد البيانات</string>
+    <string name="feature_face_checkin">تسجيل الدخول بالوجه</string>
+    <string name="sync_data">مزامنة البيانات</string>
+    <string name="sync_failed">فشلت المزامنة</string>
+    <string name="data_synced">تمت مزامنة البيانات</string>
+    <string name="backup_data">النسخ الاحتياطي</string>
+    <string name="restore_data">الاستعادة</string>
+
+    <!-- Stats & Reports -->
+    <string name="reports_desc">تقارير مفصلة</string>
+    <string name="age_distribution">توزيع العمر</string>
+    <string name="gender_distribution">توزيع الجنس</string>
+    <string name="total_users">إجمالي المستخدمين</string>
+    <string name="accuracy">الدقة</string>
+    <string name="experience">الخبرة</string>
+    <string name="streak">السلسلة</string>
+    <string name="targets">الأهداف</string>
+    <string name="result">النتيجة</string>
+    <string name="overall_progress">التقدم الإجمالي</string>
+
+    <!-- Filters & Search -->
+    <string name="filter_all">الكل</string>
+    <string name="filter_active">نشط</string>
+    <string name="filter_inactive">غير نشط</string>
+    <string name="filter_completed">مكتمل</string>
+    <string name="filter_incomplete">غير مكتمل</string>
+    <string name="filter_by_difficulty">تصفية حسب الصعوبة</string>
+    <string name="filter_high_score">نقاط عالية</string>
+    <string name="filter_top_10">أعلى 10</string>
+    <string name="filter_top_50">أعلى 50</string>
+    <string name="filter_top_100">أعلى 100</string>
+    <string name="total_attempts_text">إجمالي المحاولات: %1$d</string>
+    <string name="search_tasks_hint">البحث في المهام...</string>
+    <string name="search_history_hint">البحث في السجل...</string>
+
+    <!-- Misc -->
+    <string name="help">المساعدة</string>
+    <string name="contact">الاتصال</string>
+    <string name="instructions">التعليمات</string>
+    <string name="instructions_text">طريقة الاستخدام</string>
+    <string name="show_details">عرض التفاصيل</string>
+    <string name="other">أخرى</string>
+    <string name="complete">مكتمل</string>
+    <string name="places">الأماكن</string>
+    <string name="start_competing">بدء المنافسة</string>
+    <string name="completed_attempts">المحاولات المكتملة</string>
+    <string name="quick_actions">الإجراءات السريعة</string>
+    <string name="user_profile">الملف الشخصي للمستخدم</string>
+    <string name="analytics">التحليلات</string>
+    <string name="social">الاجتماعي</string>
+
+    <!-- Analytics -->
+    <string name="analytics_dashboard">لوحة التحليلات</string>
+    <string name="completion_rate">معدل الإكمال</string>
+    <string name="detailed_analytics">تحليلات مفصلة</string>
+    <string name="daily_progress">التقدم اليومي</string>
+    <string name="daily_progress_desc">المهام المكتملة يومياً</string>
+    <string name="accuracy_rate">معدل الدقة</string>
+    <string name="accuracy_rate_desc">متوسط الدقة في جميع المهام</string>
+    <string name="speed_improvement">تحسن السرعة</string>
+    <string name="speed_improvement_desc">تقليل الوقت مقارنة بالأسبوع الماضي</string>
+    <string name="streak_days">أيام السلسلة</string>
+    <string name="streak_days_desc">أيام النشاط المتتالية</string>
+    <string name="favorite_shape">الشكل المفضل</string>
+    <string name="favorite_shape_desc">نوع الشكل الأكثر إكمالاً</string>
+    <string name="peak_performance">أداء الذروة</string>
+    <string name="peak_performance_desc">أفضل وقت في اليوم للمهام</string>
+    <string name="tasks_per_day">مهام/يوم</string>
+    <string name="days">أيام</string>
+
+    <!-- Social -->
+    <string name="social_feed">الخلاصة الاجتماعية</string>
+    <string name="add_friend">إضافة صديق</string>
+    <string name="posts">المنشورات</string>
+    <string name="likes">الإعجابات</string>
+    <string name="share_my_work">مشاركة عملي</string>
+    <string name="view_friends">عرض الأصدقاء</string>
+    <string name="recent_posts">المنشورات الأخيرة</string>
+    <string name="hours_ago">منذ %d ساعة</string>
+    <string name="day_ago">منذ يوم واحد</string>
+    <string name="just_completed_first_task">لقد أكملت للتو مهمة التلوين الأولى! 🎨</string>
+    <string name="check_out_masterpiece">تحقق من تحفتي الفنية الأخيرة!</string>
+    <string name="achieved_100_accuracy">حقق 100%% دقة في مهمة الدائرة! 🎯</string>
+
+    <!-- Admin Dashboard -->
+    <string name="welcome_admin_title">مرحباً أيها المدير!</string>
+    <string name="task_management_btn">إدارة المهام</string>
+    <string name="user_management_btn">إدارة المستخدمين</string>
+    <string name="reports_analytics_btn">التقارير والتحليلات</string>
+    <string name="statistics_title">الإحصائيات</string>
+    <string name="total_users_label">إجمالي المستخدمين</string>
+    <string name="active_tasks_label">المهام النشطة</string>
+    <string name="completed_attempts_label">المحاولات المكتملة</string>
+    <string name="average_score_label">متوسط النقاط</string>
+
+    <!-- Advanced Admin -->
+    <string name="advanced_admin_title">لوحة تحكم متقدمة</string>
+    <string name="user_registration_trends">اتجاهات تسجيل المستخدمين</string>
+    <string name="user_registration_desc">إحصائيات التسجيل الشهرية</string>
+    <string name="new_users_count">%d مستخدم جديد</string>
+    <string name="task_completion_rate_title">معدل إكمال المهام</string>
+    <string name="task_completion_desc">نسبة المهام المكتملة بنجاح</string>
+    <string name="avg_session_duration">متوسط مدة الجلسة</string>
+    <string name="avg_session_desc">متوسط الوقت الذي يقضيه المستخدمون في التطبيق</string>
+    <string name="top_performing_tasks_title">أفضل المهام أداءً</string>
+    <string name="top_tasks_desc">أشهر وأنجح المهام</string>
+    <string name="circle_coloring">تلوين الدائرة</string>
+    <string name="completion_percent">%d%% مكتمل</string>
+    <string name="data_management_title">إدارة البيانات</string>
+
+    <!-- Confirmations -->
+    <string name="confirm_delete">تأكيد الحذف؟</string>
+    <string name="confirm_exit">تأكيد الخروج؟</string>
+    <string name="confirm_logout">تأكيد تسجيل الخروج؟</string>
+    <string name="confirm_reset">تأكيد إعادة التعيين؟</string>
+    <string name="confirm_cancel">تأكيد الإلغاء؟</string>
+    <string name="confirm_save">تأكيد الحفظ؟</string>
+
+    <!-- Units -->
+    <string name="unit_seconds">ثواني</string>
+    <string name="unit_minutes">دقائق</string>
+    <string name="unit_hours">ساعات</string>
+    <string name="unit_days">أيام</string>
+    <string name="unit_points">نقاط</string>
+    <string name="unit_percentage">%</string>
+    <string name="unit_count">مرة</string>
+
+    <!-- Date & Time Formats -->
+    <string name="date_format_short">yyyy/MM/dd</string>
+    <string name="date_format_long">dd MMMM yyyy</string>
+    <string name="time_format_short">HH:mm</string>
+    <string name="time_format_long">HH:mm:ss</string>
+    <string name="datetime_format">yyyy/MM/dd HH:mm</string>
+
+    <!-- Empty State Titles -->
+    <string name="tasks_empty_title">لا توجد مهام</string>
+    <string name="tasks_empty_subtitle">ابدأ بإضافة مهام جديدة</string>
+    <string name="tasks_empty_description">لم يتم إنشاء مهام بعد</string>
+    <string name="history_empty_title">لا يوجد سجل</string>
+    <string name="history_empty_subtitle">ابدأ بإكمال المهام</string>
+    <string name="history_empty_description">سيظهر السجل هنا</string>
+    <string name="leaderboard_empty_title">لا توجد لوحة متصدرين</string>
+    <string name="leaderboard_empty_subtitle">كن الأول</string>
+    <string name="leaderboard_empty_description">أكمل المهام للوصول إلى لوحة المتصدرين</string>
+
+    <!-- Titles -->
+    <string name="leaderboard_title">لوحة المتصدرين</string>
+    <string name="profile_title">الملف الشخصي</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="progress_title">التقدم</string>
+    <string name="progress_label">التقدم</string>
+
+    <!-- Icons & Descriptions -->
+    <string name="task_icon_description">أيقونة المهمة</string>
+    <string name="difficulty_icon_description">أيقونة الصعوبة</string>
+    <string name="rank_icon_description">أيقونة الترتيب</string>
+    <string name="time_icon_description">أيقونة الوقت</string>
+    <string name="notification_icon_description">أيقونة الإشعار</string>
+    <string name="shape_preview">معاينة الشكل</string>
+    <string name="shape_name">اسم الشكل</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_label">تسمية إمكانية الوصول</string>
+    <string name="accessibility_hint">تلميح إمكانية الوصول</string>
+    <string name="accessibility_announcement">إعلان إمكانية الوصول</string>
+    <string name="accessibility_content_description">وصف المحتوى</string>
+
+    <!-- Debug -->
+    <string name="debug_info">معلومات التصحيح</string>
+    <string name="debug_logs">سجلات التصحيح</string>
+    <string name="debug_export">تصدير التصحيح</string>
+    <string name="debug_clear">مسح التصحيح</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_settings_title">الملف الشخصي والإعدادات</string>
+    <string name="theme_customization">تخصيص المظهر</string>
+    <string name="theme_customization_desc">إعدادات مظهر متقدمة وتخصيص الألوان</string>
+    <string name="advanced_features">الميزات المتقدمة</string>
+    <string name="gestures">الإيماءات</string>
+    <string name="haptics">اللمسيات</string>
+    <string name="machine_learning">التعلم الآلي</string>
+    <string name="networking">الشبكات</string>
+    <string name="notifications_advanced">الإشعارات</string>
+    <string name="security">الأمان</string>
+    <string name="sensors">المستشعرات</string>
+    <string name="sounds">الأصوات</string>
+    
+    <!-- Advanced Networking -->
+    <string name="advanced_networking">الشبكات المتقدمة</string>
+    <string name="network_status">حالة الشبكة</string>
+    <string name="network_ready">الشبكات المتقدمة جاهزة</string>
+    <string name="network_information">معلومات الشبكة</string>
+    <string name="network_config_description">قم بتكوين الشبكات المتقدمة للحصول على أفضل أداء.</string>
+    <string name="network_control">تحكم الشبكة</string>
+    <string name="check_network">فحص</string>
+    <string name="sync_network">⤓ مزامنة</string>
+    <string name="optimize_network">تحسين</string>
+    <string name="network_settings">إعدادات الشبكة</string>
+    <string name="enable_network">تفعيل الشبكة</string>
+    <string name="wifi_only">واي فاي فقط</string>
+    <string name="data_saving">توفير البيانات</string>
+    <string name="auto_sync">مزامنة تلقائية</string>
+    <string name="available_network_features">ميزات الشبكة المتاحة</string>
+    <string name="wifi_optimization">تحسين الواي فاي</string>
+    <string name="wifi_optimization_desc">تحسين أداء اتصال الواي فاي</string>
+    <string name="data_compression">ضغط البيانات</string>
+    <string name="data_compression_desc">ضغط البيانات لنقل أسرع</string>
+    <string name="active">نشط</string>
+    <string name="use_feature">استخدام</string>
+    <string name="help_support">المساعدة</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="policies_terms">السياسات والشروط</string>
+    <string name="support_center">مركز الدعم</string>
+    <string name="support_center_description">مركز الدعم والمساعدة</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="logout_description">تسجيل الخروج من الحساب</string>
+    <string name="logout_confirm">تأكيد تسجيل الخروج؟</string>
+    <string name="logout_message">هل أنت متأكد من أنك تريد تسجيل الخروج؟</string>
+    <string name="logout_success">تم تسجيل الخروج بنجاح</string>
+    <string name="feature_under_development">الميزة قيد التطوير</string>
+    <string name="app_version">الإصدار 1.0.0 (1)</string>
+    <string name="company_name">شركة من 5 أشخاص</string>
+    <string name="company_email">البريد الإلكتروني: daihoc@uef.edu.vn</string>
+
+    <!-- Sound Settings -->
+    <string name="sound_status">حالة الصوت</string>
+    <string name="sound_status_ready">ميزات الصوت المتقدمة جاهزة</string>
+    <string name="sound_information">معلومات الصوت</string>
+    <string name="sound_information_desc">قم بتكوين إعدادات الصوت المتقدمة لتجربة غامرة.</string>
+    <string name="sound_controls">تحكم الصوت</string>
+    <string name="play_sound">▶️ تشغيل</string>
+    <string name="stop_sound">⏹️ إيقاف</string>
+    <string name="test_sound">🧪 اختبار</string>
+    <string name="pitch">الطبقة</string>
+    <string name="enable_sounds">تفعيل الأصوات</string>
+    <string name="available_sound_features">ميزات الصوت المتاحة</string>
+    <string name="background_music_feature">الموسيقى الخلفية</string>
+    <string name="background_music_desc">موسيقى خلفية أثناء التلوين</string>
+    <!-- About App -->
+    <string name="about_app">حول التطبيق</string>
+    <string name="about_app_description">معلومات حول تلوين الأشكال</string>
+    <string name="about_app_title">حول تلوين الأشكال</string>
+    <string name="about_introduction">تم إنشاء تلوين الأشكال بمهمة فريدة: تعزيز حب الفن وتقديم تجارب تلوين عالية الجودة للجميع. نريد ربط المستخدمين بصور جميلة ومثيرة للاهتمام تحظى بتقدير كبير من مجتمع محبي الفن.</string>
+    <string name="about_who_we_are">من نحن</string>
+    <string name="about_who_we_are_content">يتم تطوير تلوين الأشكال من قبل فريق من محبي الفن المتحمسين. نحن أفراد مستقلون لا ننتمي إلى أي منظمة أو مؤسسة أو شركة.</string>
+    <string name="about_important_info">معلومات مهمة</string>
+    <string name="about_important_info_content">• يوفر تلوين الأشكال جميع صور التلوين مجاناً تماماً.\n\n• جميع الصور في تطبيقنا مقدمة مجاناً تماماً. ولكن لتحسين تجربة التلوين ودعم الفنانين، نوصي بدعم مؤلفي الصور التي تحبها.</string>
+    <string name="about_our_collection">مجموعتنا</string>
+    <string name="about_collection_content">يتم جمع صور تلوين الأشكال من العديد من المصادر المتاحة على الإنترنت، بما في ذلك مواقع الفن ومجتمعات التلوين والعديد من المصادر الأخرى.\n\nنظراً للجمع من مصادر مختلفة كثيرة، قد تكون هناك أحياناً ثغرات أو عدم دقة في المحتوى. نقدر تفهمك ونرحب دائماً بالملاحظات لمساعدتنا في تحسين وتصحيح هذه المشاكل في الوقت المناسب.</string>
+    <string name="about_content_policy">سياسة المحتوى</string>
+    <string name="about_policy_content">• إذا كنت صاحب حقوق الطبع والنشر لأي محتوى في تلوين الأشكال وتريد إزالة هذا المحتوى، يرجى إرسال بريد إلكتروني إلينا على support@coloring-shapes.com. سنقوم بإزالة المحتوى فوراً بعد استلام طلبك.\n\n• نظراً لأن مكتبتنا لا تزال قيد التطوير، نبحث باستمرار عن صور جديدة لمشاركتها مع المستخدمين. إذا كان لديك طلبات محتوى محددة، يرجى إرسال بريد إلكتروني إلينا وسنبذل قصارى جهدنا للعثور على الصور وتقديمها في أسرع وقت ممكن كما تريد.</string>
+    <string name="about_footer_message">نتمنى لك أوقات تلوين مريحة ومفيدة مع تلوين الأشكال.</string>
+    <string name="about_contact">الاتصال: support@coloring-shapes.com</string>
+    
+    <!-- Contact Information -->
+    <string name="address_full">145 طريق دين بيان فو، المنطقة 2، بنه ثانه، مدينة هو تشي منه، فيتنام</string>
+    <string name="phone_number">+84 28 5422 6666</string>
+    <string name="address_and_contact">العنوان والاتصال</string>
+    <string name="open_in_maps">فتح في الخرائط</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_settings">إعدادات المظهر</string>
+    <string name="choose_theme">اختيار المظهر</string>
+    <string name="system_theme">النظام</string>
+    <string name="system_theme_description">اتباع إعدادات النظام</string>
+    <string name="light_theme">فاتح</string>
+    <string name="light_theme_description">مظهر فاتح</string>
+    <string name="dark_theme">داكن</string>
+    <string name="dark_theme_description">مظهر داكن</string>
+    <string name="theme_preview">معاينة</string>
+    <string name="theme_preview_default">اختر مظهراً للمعاينة</string>
+    <string name="theme_info_title">معلومات</string>
+    <string name="theme_info_content">• النظام: اتباع إعدادات النظام تلقائياً\n• فاتح: استخدام المظهر الفاتح دائماً\n• داكن: استخدام المظهر الداكن دائماً</string>
+    <string name="use">استخدام</string>
+
+    <!-- Advanced Sensors -->
+    <string name="advanced_sensors">المستشعرات المتقدمة</string>
+    <string name="sensor_status">حالة المستشعر</string>
+    <string name="sensor_status_ready">المستشعرات المتقدمة جاهزة</string>
+    <string name="sensor_information">معلومات المستشعر</string>
+    <string name="sensor_information_desc">قم بتكوين المستشعرات المتقدمة لتجربة مستخدم أفضل.</string>
+    <string name="sensor_controls">تحكم المستشعر</string>
+    <string name="test_sensor">🧪 اختبار</string>
+    <string name="calibrate_sensor">⚙️ معايرة</string>
+    <string name="optimize_sensor">⚡ تحسين</string>
+    <string name="sensor_settings">إعدادات المستشعر</string>
+    <string name="sensitivity">الحساسية</string>
+    <string name="enable_sensors">تفعيل المستشعرات</string>
+    <string name="accelerometer">مقياس التسارع</string>
+    <string name="gyroscope">الجيروسكوب</string>
+    <string name="magnetometer">مقياس المغناطيسية</string>
+    <string name="available_sensor_features">ميزات المستشعر المتاحة</string>
+    <string name="motion_detection">كشف الحركة</string>
+    <string name="motion_detection_desc">كشف حركة متقدم</string>
+
+    <!-- Advanced Notifications -->
+    <string name="advanced_notifications">الإشعارات المتقدمة</string>
+    <string name="notification_status">حالة الإشعار</string>
+    <string name="notification_status_ready">الإشعارات جاهزة</string>
+    <string name="notification_information">معلومات الإشعار</string>
+    <string name="notification_information_desc">قم بتكوين إعدادات الإشعارات المتقدمة للبقاء محدثاً.</string>
+    <string name="notification_controls">تحكم الإشعارات</string>
+    <string name="test_notification">✓ اختبار</string>
+    <string name="clear_notifications">🗑️ مسح</string>
+    <string name="sound_notifications">إشعارات صوتية</string>
+    <string name="vibration_notifications">إشعارات اهتزازية</string>
+    <string name="achievement_notifications">إشعارات الإنجازات</string>
+    <string name="priority_notifications">إشعارات أولوية</string>
+    <string name="available_notification_features">ميزات الإشعار المتاحة</string>
+    <string name="push_notifications">إشعارات دفع</string>
+    <string name="push_notifications_desc">إشعارات دفع في الوقت الفعلي</string>
+
+    <!-- Advanced Gestures -->
+    <string name="advanced_gestures">الإيماءات المتقدمة</string>
+    <string name="gesture_status">حالة الإيماءة</string>
+    <string name="gesture_status_ready">الإيماءات جاهزة للتكوين</string>
+    <string name="gesture_information">معلومات الإيماءة</string>
+    <string name="gesture_information_desc">قم بتكوين التعرف المتقدم على الإيماءات للتفاعل البصري.</string>
+    <string name="gesture_controls">تحكم الإيماءات</string>
+    <string name="test_gesture">✓ اختبار</string>
+    <string name="calibrate_gesture">⚙️ معايرة</string>
+    <string name="gesture_settings">إعدادات الإيماءة</string>
+    <string name="enable_gestures">تفعيل الإيماءات</string>
+    <string name="tap_gestures">إيماءات اللمس</string>
+    <string name="swipe_gestures">إيماءات السحب</string>
+    <string name="pinch_gestures">إيماءات القرص</string>
+    <string name="long_press_gestures">إيماءات الضغط الطويل</string>
+    <string name="available_gesture_features">ميزات الإيماءة المتاحة</string>
+    <string name="tap_gestures_feature">إيماءات اللمس</string>
+    <string name="tap_gestures_desc">التعرف على اللمس المفرد والمزدوج</string>
+
+
+    <!-- Additional UI Features -->
+    <string name="ui_features">واجهة المستخدم</string>
+    <string name="widgets">الودجات</string>
+    <string name="visual_effects">التأثيرات البصرية</string>
+
+    <!-- Language Support -->
+    <string name="current_language">العربية</string>
+    <string name="language_vietnamese">الفيتنامية</string>
+    <string name="language_english">الإنجليزية</string>
+    <string name="language_chinese">الصينية</string>
+    <string name="language_japanese">اليابانية</string>
+    <string name="language_korean">الكورية</string>
+    <string name="language_thai">التايلاندية</string>
+    <string name="language_french">الفرنسية</string>
+    <string name="language_german">الألمانية</string>
+    <string name="language_spanish">الإسبانية</string>
+    <string name="language_russian">الروسية</string>
+
+    <!-- String Arrays -->
+    <string-array name="gender_options">
+        <item>ذكر</item>
+        <item>أنثى</item>
+    </string-array>
+
+    <string-array name="role_options">
+        <item>مستخدم</item>
+        <item>مدير</item>
+    </string-array>
+
+    <string-array name="language_options">
+        <item>الفيتنامية</item>
+        <item>الإنجليزية</item>
+        <item>الصينية</item>
+        <item>اليابانية</item>
+        <item>الكورية</item>
+        <item>التايلاندية</item>
+        <item>الفرنسية</item>
+        <item>الألمانية</item>
+        <item>الإسبانية</item>
+        <item>الروسية</item>
+    </string-array>
+
+    <string-array name="language_codes">
+        <item>vi</item>
+        <item>en</item>
+        <item>zh</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>th</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>es</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- Advanced Sounds -->
+    <string name="advanced_sounds">الأصوات المتقدمة</string>
+    <string name="audio_status">حالة الصوت</string>
+    <string name="audio_ready">ميزات الصوت المتقدمة جاهزة</string>
+    <string name="audio_information">معلومات الصوت</string>
+    <string name="audio_info_description">قم بتكوين إعدادات الصوت المتقدمة لتجربة غامرة.</string>
+    <string name="audio_controls">تحكم الصوت</string>
+    <string name="play_audio">تشغيل</string>
+    <string name="stop_audio">إيقاف</string>
+    <string name="try_audio">جرب</string>
+    <string name="audio_settings">إعدادات الصوت</string>
+    <string name="volume">مستوى الصوت</string>
+    <string name="frequency">التردد</string>
+    <string name="enable_sound">تفعيل الصوت</string>
+    <string name="background_music">الموسيقى الخلفية</string>
+    <string name="sound_effects">التأثيرات الصوتية</string>
+    <string name="voice_feedback">التغذية الراجعة الصوتية</string>
+    <string name="available_audio_features">ميزات الصوت المتاحة</string>
+
+    <!-- Additional Profile Fields -->
+    <string name="enter_birth_year">أدخل سنة الميلاد</string>
+    <string name="change_password">تغيير كلمة المرور</string>
+    <string name="current_password">كلمة المرور الحالية</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
+    <string name="confirm_new_password">تأكيد كلمة المرور الجديدة</string>
+    <string name="enter_current_password">أدخل كلمة المرور الحالية</string>
+    <string name="enter_new_password">أدخل كلمة المرور الجديدة</string>
+    <string name="confirm_new_password_hint">تأكيد كلمة المرور الجديدة</string>
+
+    <!-- Missing String Resources -->
+    <string name="accessibility_controls">تحكم إمكانية الوصول</string>
+    <string name="accessibility_feature_description">وصف ميزة إمكانية الوصول</string>
+    <string name="accessibility_feature_title">عنوان ميزة إمكانية الوصول</string>
+    <string name="accessibility_features">ميزات إمكانية الوصول</string>
+    <string name="accessibility_instructions">تعليمات إمكانية الوصول</string>
+    <string name="accessibility_instructions_desc">وصف تعليمات إمكانية الوصول</string>
+    <string name="accessibility_settings">إعدادات إمكانية الوصول</string>
+    <string name="accessibility_status">حالة إمكانية الوصول</string>
+    <string name="accessibility_status_ready">إمكانية الوصول جاهزة</string>
+    <string name="achievement_description">وصف الإنجاز</string>
+    <string name="achievement_name">اسم الإنجاز</string>
+    <string name="active_status">الحالة النشطة</string>
+    <string name="add_new_achievement">إضافة إنجاز جديد</string>
+    <string name="add_new_task">إضافة مهمة جديدة</string>
+    <string name="add_new_user">إضافة مستخدم جديد</string>
+    <string name="admin_system_management">إدارة النظام</string>
+    <string name="advanced_animations">الرسوم المتحركة المتقدمة</string>
+    <string name="advanced_blockchain">البلوك تشين المتقدم</string>
+    <string name="advanced_camera">الكاميرا المتقدمة</string>
+    <string name="advanced_drawing_tools">أدوات الرسم المتقدمة</string>
+    <string name="advanced_haptic_controls">تحكم اللمسيات المتقدم</string>
+    <string name="advanced_haptics">اللمسيات المتقدمة</string>
+    <string name="advanced_machine_learning">التعلم الآلي المتقدم</string>
+    <string name="advanced_security">الأمان المتقدم</string>
+    <string name="advanced_themes">المظاهر المتقدمة</string>
+    <string name="advanced_timer">الموقت المتقدم</string>
+    <string name="advanced_ui">واجهة المستخدم المتقدمة</string>
+    <string name="advanced_visual_effects">التأثيرات البصرية المتقدمة</string>
+    <string name="advanced_widgets">الودجات المتقدمة</string>
+    <string name="ai_controls">تحكم الذكاء الاصطناعي</string>
+    <string name="ai_feature_description">وصف ميزة الذكاء الاصطناعي</string>
+    <string name="ai_feature_title">عنوان ميزة الذكاء الاصطناعي</string>
+    <string name="ai_features">ميزات الذكاء الاصطناعي</string>
+    <string name="ai_no_suggestions">لا توجد اقتراحات بعد</string>
+    <string name="ai_ready">الذكاء الاصطناعي جاهز</string>
+    <string name="ai_status">حالة الذكاء الاصطناعي</string>
+    <string name="ai_suggestions">اقتراحات الذكاء الاصطناعي</string>
+    <string name="analytics_change">تغيير التحليلات</string>
+    <string name="analytics_item_description">وصف عنصر التحليلات</string>
+    <string name="analytics_item_title">عنوان عنصر التحليلات</string>
+    <string name="analytics_title">عنوان التحليلات</string>
+    <string name="analytics_value">قيمة التحليلات</string>
+    <string name="analytics_value_25">25</string>
+    <string name="analytics_value_2h45m">2س 45د</string>
+    <string name="analytics_value_875">875</string>
+    <string name="analytics_value_92">92</string>
+    <string name="analyze_button">تحليل</string>
+    <string name="animation_feature_description">وصف ميزة الرسوم المتحركة</string>
+    <string name="animation_feature_title">عنوان ميزة الرسوم المتحركة</string>
+    <string name="animation_information">معلومات الرسوم المتحركة</string>
+    <string name="animation_speed">سرعة الرسوم المتحركة</string>
+    <string name="animation_status">حالة الرسوم المتحركة</string>
+    <string name="animations_ready">الرسوم المتحركة جاهزة</string>
+    <string name="app_footer">تذييل التطبيق</string>
+    <string name="apply_button">تطبيق</string>
+    <string name="apply_ui">تطبيق واجهة المستخدم</string>
+    <string name="apply_visual">تطبيق بصري</string>
+    <string name="ar_controls">تحكم الواقع المعزز</string>
+    <string name="ar_feature_description">وصف ميزة الواقع المعزز</string>
+    <string name="ar_feature_title">عنوان ميزة الواقع المعزز</string>
+    <string name="ar_features">ميزات الواقع المعزز</string>
+    <string name="ar_instructions">تعليمات الواقع المعزز</string>
+    <string name="ar_ready">الواقع المعزز جاهز</string>
+    <string name="ar_start_instructions">تعليمات بدء الواقع المعزز</string>
+    <string name="ar_status">حالة الواقع المعزز</string>
+    <string name="art_emoji">🎨</string>
+    <string name="auto_focus">التركيز التلقائي</string>
+    <string name="auto_learning">التعلم التلقائي</string>
+    <string name="available_accessibility_features">ميزات إمكانية الوصول المتاحة</string>
+    <string name="available_commands">الأوامر المتاحة</string>
+    <string name="available_haptic_features">ميزات اللمسيات المتاحة</string>
+    <string name="available_ml_features">ميزات التعلم الآلي المتاحة</string>
+    <string name="available_security_features">ميزات الأمان المتاحة</string>
+    <string name="available_ui_features">ميزات واجهة المستخدم المتاحة</string>
+    <string name="available_visual_features">الميزات البصرية المتاحة</string>
+    <string name="back_to_login">العودة لتسجيل الدخول</string>
+    <string name="biometric_auth_desc">وصف المصادقة البيومترية</string>
+    <string name="biometric_authentication">المصادقة البيومترية</string>
+    <string name="birth_year_format">تنسيق سنة الميلاد</string>
+    <string name="birth_year_label">تسمية سنة الميلاد</string>
+    <string name="blockchain_feature_description">وصف ميزة البلوك تشين</string>
+    <string name="blockchain_feature_title">عنوان ميزة البلوك تشين</string>
+    <string name="blockchain_information">معلومات البلوك تشين</string>
+    <string name="blockchain_ready">البلوك تشين جاهز</string>
+    <string name="blockchain_status">حالة البلوك تشين</string>
+    <string name="brightness">السطوع</string>
+    <string name="brightness_label">تسمية السطوع</string>
+    <string name="brightness_level">مستوى السطوع</string>
+    <string name="brightness_level_value">قيمة مستوى السطوع</string>
+    <string name="brush_size_label">تسمية حجم الفرشاة</string>
+    <string name="calibrate_button">زر المعايرة</string>
+    <string name="calibrate_haptic">معايرة اللمسيات</string>
+    <string name="camera_controls">تحكم الكاميرا</string>
+    <string name="camera_feature_description">وصف ميزة الكاميرا</string>
+    <string name="camera_feature_title">عنوان ميزة الكاميرا</string>
+    <string name="camera_information">معلومات الكاميرا</string>
+    <string name="camera_permission_required">مطلوب إذن الكاميرا</string>
+    <string name="camera_ready">الكاميرا جاهزة</string>
+    <string name="camera_settings">إعدادات الكاميرا</string>
+    <string name="camera_settings_description">وصف إعدادات الكاميرا</string>
+    <string name="camera_status">حالة الكاميرا</string>
+    <string name="capture_button">زر الالتقاط</string>
+    <string name="change_password_button">زر تغيير كلمة المرور</string>
+    <string name="choose_from_gallery">اختيار من المعرض</string>
+    <string name="choose_language">اختيار اللغة</string>
+    <string name="clear_all_data">مسح جميع البيانات</string>
+    <string name="clear_button">زر المسح</string>
+    <string name="close">إغلاق</string>
+    <string name="cloud_sync">مزامنة السحابة</string>
+    <string name="color">اللون</string>
+    <string name="color_customization_description">وصف تخصيص الألوان</string>
+    <string name="color_effects">تأثيرات الألوان</string>
+    <string name="color_name">اسم اللون</string>
+    <string name="color_picker_title">عنوان منتقي الألوان</string>
+    <string name="coloring_task">مهمة التلوين</string>
+    <string name="comment_count">عدد التعليقات</string>
+    <string name="computer_emoji">🖥️</string>
+    <string name="contrast">التباين</string>
+    <string name="contrast_label">تسمية التباين</string>
+    <string name="create_button">زر الإنشاء</string>
+    <string name="create_new_account">إنشاء حساب جديد</string>
+    <string name="created_date">تاريخ الإنشاء</string>
+    <string name="custom_animations">رسوم متحركة مخصصة</string>
+    <string name="custom_animations_desc">وصف الرسوم المتحركة المخصصة</string>
+    <string name="dark">داكن</string>
+    <string name="data_augmentation">زيادة البيانات</string>
+    <string name="data_encryption">تشفير البيانات</string>
+    <string name="data_encryption_desc">وصف تشفير البيانات</string>
+    <string name="date_format">تنسيق التاريخ</string>
+    <string name="delete_task">حذف المهمة</string>
+    <string name="demo_email">البريد الإلكتروني التجريبي</string>
+    <string name="demo_mode">الوضع التجريبي</string>
+    <string name="demo_user">المستخدم التجريبي</string>
+    <string name="description">الوصف</string>
+    <string name="difficulty">الصعوبة</string>
+    <string name="double_tap">اللمس المزدوج</string>
+    <string name="dynamic_themes">المظاهر الديناميكية</string>
+    <string name="dynamic_themes_desc">وصف المظاهر الديناميكية</string>
+    <string name="edit_task">تعديل المهمة</string>
+    <string name="enable_accessibility">تفعيل إمكانية الوصول</string>
+    <string name="enable_button">زر التفعيل</string>
+    <string name="enable_camera">تفعيل الكاميرا</string>
+    <string name="enable_haptics">تفعيل اللمسيات</string>
+    <string name="enable_ml">تفعيل التعلم الآلي</string>
+    <string name="enable_security">تفعيل الأمان</string>
+    <string name="enable_security_button">زر تفعيل الأمان</string>
+    <string name="enable_ui_customization">تفعيل تخصيص واجهة المستخدم</string>
+    <string name="enable_visual_effects">تفعيل التأثيرات البصرية</string>
+    <string name="export_error">خطأ التصدير</string>
+    <string name="export_feature_developing">ميزة التصدير قيد التطوير</string>
+    <string name="female_user_emoji">👩</string>
+    <string name="filter_label">تسمية التصفية</string>
+    <string name="flash_label">تسمية الفلاش</string>
+    <string name="forgot_password_description">أدخل بريدك الإلكتروني UEF لتلقي تعليمات إعادة تعيين كلمة المرور</string>
+    <string name="forgot_password_title">نسيان كلمة المرور</string>
+    <string name="gesture_feature_description">وصف ميزة الإيماءة</string>
+    <string name="gesture_feature_title">عنوان ميزة الإيماءة</string>
+    <string name="gesture_instructions">تعليمات الإيماءة</string>
+    <string name="gestures_ready">الإيماءات جاهزة</string>
+    <string name="gold_medal_emoji">🥇</string>
+    <string name="great_job">عمل رائع</string>
+    <string name="haptic_controls">تحكم اللمسيات</string>
+    <string name="haptic_feature_description">وصف ميزة اللمسيات</string>
+    <string name="haptic_feature_title">عنوان ميزة اللمسيات</string>
+    <string name="haptic_information">معلومات اللمسيات</string>
+    <string name="haptic_information_desc">وصف معلومات اللمسيات</string>
+    <string name="haptic_intensity">شدة اللمسيات</string>
+    <string name="haptic_intensity_control">تحكم شدة اللمسيات</string>
+    <string name="haptic_patterns">أنماط اللمسيات</string>
+    <string name="haptic_settings">إعدادات اللمسيات</string>
+    <string name="haptic_status">حالة اللمسيات</string>
+    <string name="haptic_status_ready">اللمسيات جاهزة</string>
+    <string name="haptic_types">أنواع اللمسيات</string>
+    <string name="heavy">ثقيل</string>
+    <string name="heavy_haptic">لمسيات ثقيلة</string>
+    <string name="heavy_haptic_description">وصف اللمسيات الثقيلة</string>
+    <string name="high_contrast">تباين عالي</string>
+    <string name="import_error">خطأ الاستيراد</string>
+    <string name="import_feature_developing">ميزة الاستيراد قيد التطوير</string>
+    <string name="intensity">الشدة</string>
+    <string name="language_changed_english">تم تغيير اللغة إلى الإنجليزية</string>
+    <string name="language_changed_vietnamese">تم تغيير اللغة إلى الفيتنامية</string>
+    <string name="large_text">نص كبير</string>
+    <string name="learning_rate">معدل التعلم</string>
+    <string name="level_format">تنسيق المستوى</string>
+    <string name="light">فاتح</string>
+    <string name="light_haptic">لمسيات خفيفة</string>
+    <string name="light_haptic_description">وصف اللمسيات الخفيفة</string>
+    <string name="lighting_effects">تأثيرات الإضاءة</string>
+    <string name="like_count">❤️ %1$d</string>
+    <string name="locked">مقفل</string>
+    <string name="long_press">الضغط الطويل</string>
+    <string name="medium_haptic">لمسيات متوسطة</string>
+    <string name="medium_haptic_description">وصف اللمسيات المتوسطة</string>
+    <string name="ml_configuration_description">وصف تكوين التعلم الآلي</string>
+    <string name="ml_controls">تحكم التعلم الآلي</string>
+    <string name="ml_feature_description">وصف ميزة التعلم الآلي</string>
+    <string name="ml_feature_title">عنوان ميزة التعلم الآلي</string>
+    <string name="ml_information">معلومات التعلم الآلي</string>
+    <string name="ml_information_desc">وصف معلومات التعلم الآلي</string>
+    <string name="ml_settings">إعدادات التعلم الآلي</string>
+    <string name="ml_status">حالة التعلم الآلي</string>
+    <string name="ml_status_ready">التعلم الآلي جاهز</string>
+    <string name="moon_emoji">🌙</string>
+    <string name="network_feature_description">وصف ميزة الشبكة</string>
+    <string name="network_feature_title">عنوان ميزة الشبكة</string>
+    <string name="neural_networks">الشبكات العصبية</string>
+    <string name="neural_networks_desc">وصف الشبكات العصبية</string>
+    <string name="no_history_found">لم يتم العثور على سجل</string>
+    <string name="no_leaderboard_data">لا توجد بيانات لوحة متصدرين</string>
+    <string name="no_speech_detected">لم يتم اكتشاف كلام</string>
+    <string name="normal_mode">الوضع العادي</string>
+    <string name="notification_feature_description">وصف ميزة الإشعار</string>
+    <string name="notification_feature_title">عنوان ميزة الإشعار</string>
+    <string name="opacity_label">تسمية الشفافية</string>
+    <string name="opacity_value">قيمة الشفافية</string>
+    <string name="other_gender">أخرى</string>
+    <string name="particle_effects">تأثيرات الجسيمات</string>
+    <string name="particle_effects_desc">وصف تأثيرات الجسيمات</string>
+    <string name="pause_button">زر الإيقاف المؤقت</string>
+    <string name="percent_symbol">%</string>
+    <string name="player_name">اسم اللاعب</string>
+    <string name="points_format">تنسيق النقاط</string>
+    <string name="points_value">قيمة النقاط</string>
+    <string name="points_zero">نقاط صفر</string>
+    <string name="post_content">محتوى المنشور</string>
+    <string name="predict_ml">التنبؤ بالتعلم الآلي</string>
+    <string name="pressure_haptics">لمسيات الضغط</string>
+    <string name="preview_visual">معاينة بصرية</string>
+    <string name="primary_color">اللون الأساسي</string>
+    <string name="profile_image_saved">تم حفظ صورة الملف الشخصي</string>
+    <string name="profile_score_value">قيمة نقاط الملف الشخصي</string>
+    <string name="rank_label">تسمية الترتيب</string>
+    <string name="rank_number">رقم الترتيب</string>
+    <string name="ready">جاهز</string>
+    <string name="realtime">الوقت الفعلي</string>
+    <string name="realtime_prediction">التنبؤ في الوقت الفعلي</string>
+    <string name="record_button">زر التسجيل</string>
+    <string name="redo_button">زر الإعادة</string>
+    <string name="refresh_emoji">🔄</string>
+    <string name="remove_button">زر الإزالة</string>
+    <string name="report_description">وصف التقرير</string>
+    <string name="report_title">عنوان التقرير</string>
+    <string name="reset_button">زر إعادة التعيين</string>
+    <string name="reset_database">إعادة تعيين قاعدة البيانات</string>
+    <string name="reset_haptic">إعادة تعيين اللمسيات</string>
+    <string name="reset_ui">إعادة تعيين واجهة المستخدم</string>
+    <string name="role">الدور</string>
+    <string name="sample_email">البريد الإلكتروني النموذجي</string>
+    <string name="sample_name">الاسم النموذجي</string>
+    <string name="saturation">التشبع</string>
+    <string name="save_haptic">حفظ اللمسيات</string>
+    <string name="score_format">تنسيق النقاط</string>
+    <string name="score_label">تسمية النقاط</string>
+    <string name="score_value">قيمة النقاط</string>
+    <string name="secondary_color">اللون الثانوي</string>
+    <string name="security_controls">تحكم الأمان</string>
+    <string name="security_enable_description">وصف تفعيل الأمان</string>
+    <string name="security_feature_description">وصف ميزة الأمان</string>
+    <string name="security_feature_title">عنوان ميزة الأمان</string>
+    <string name="security_information">معلومات الأمان</string>
+    <string name="security_information_desc">وصف معلومات الأمان</string>
+    <string name="security_settings">إعدادات الأمان</string>
+    <string name="security_status">حالة الأمان</string>
+    <string name="security_status_ready">الأمان جاهز</string>
+    <string name="select_profile_image">اختيار صورة الملف الشخصي</string>
+    <string name="send_instructions">إرسال التعليمات</string>
+    <string name="sensor_feature_description">وصف ميزة المستشعر</string>
+    <string name="sensor_feature_title">عنوان ميزة المستشعر</string>
+    <string name="settings_emoji">⚙️</string>
+    <string name="shape_type">نوع الشكل</string>
+    <string name="share_button">زر المشاركة</string>
+    <string name="signal_emoji">📶</string>
+    <string name="single_tap">اللمس المفرد</string>
+    <string name="social_network">الشبكة الاجتماعية</string>
+    <string name="star_emoji">⭐</string>
+    <string name="start_ar_button">زر بدء الواقع المعزز</string>
+    <string name="start_button">زر البدء</string>
+    <string name="start_listening">بدء الاستماع</string>
+    <string name="status_label">تسمية الحالة</string>
+    <string name="stop">إيقاف</string>
+    <string name="storage_permission_required">مطلوب إذن التخزين</string>
+    <string name="suggest_button">زر الاقتراح</string>
+    <string name="sun_emoji">☀️</string>
+    <string name="sync_controls">تحكم المزامنة</string>
+    <string name="sync_feature_description">وصف ميزة المزامنة</string>
+    <string name="sync_feature_title">عنوان ميزة المزامنة</string>
+    <string name="sync_progress">تقدم المزامنة</string>
+    <string name="sync_ready">المزامنة جاهزة</string>
+    <string name="sync_ready_message">رسالة جاهزية المزامنة</string>
+    <string name="sync_start_button">زر بدء المزامنة</string>
+    <string name="sync_status">حالة المزامنة</string>
+    <string name="sync_stop_button">زر إيقاف المزامنة</string>
+    <string name="system_management_title">عنوان إدارة النظام</string>
+    <string name="system_statistics">إحصائيات النظام</string>
+    <string name="take_photo">التقاط صورة</string>
+    <string name="target_emoji">🎯</string>
+    <string name="task_description_hint">تلميح وصف المهمة</string>
+    <string name="task_duration_value">قيمة مدة المهمة</string>
+    <string name="task_history">سجل المهام</string>
+    <string name="task_label">تسمية المهمة</string>
+    <string name="task_name_hint">تلميح اسم المهمة</string>
+    <string name="temperature_haptics">لمسيات الحرارة</string>
+    <string name="test_accessibility">اختبار إمكانية الوصول</string>
+    <string name="test_button">زر الاختبار</string>
+    <string name="test_haptic">اختبار اللمسيات</string>
+    <string name="test_ml">اختبار التعلم الآلي</string>
+    <string name="test_security">اختبار الأمان</string>
+    <string name="test_visual">اختبار بصري</string>
+    <string name="theme_feature_description">وصف ميزة المظهر</string>
+    <string name="theme_feature_title">عنوان ميزة المظهر</string>
+    <string name="theme_information">معلومات المظهر</string>
+    <string name="theme_intensity">شدة المظهر</string>
+    <string name="theme_ready">المظهر جاهز</string>
+    <string name="theme_selection">اختيار المظهر</string>
+    <string name="theme_selection_description">وصف اختيار المظهر</string>
+    <string name="theme_status">حالة المظهر</string>
+    <string name="time_ago">منذ وقت</string>
+    <string name="time_format">تنسيق الوقت</string>
+    <string name="time_label">تسمية الوقت</string>
+    <string name="timer_controls">تحكم الموقت</string>
+    <string name="timer_display">عرض الموقت</string>
+    <string name="timer_display_value">قيمة عرض الموقت</string>
+    <string name="timer_duration">مدة الموقت</string>
+    <string name="timer_duration_instructions">تعليمات مدة الموقت</string>
+    <string name="timer_feature_description">وصف ميزة الموقت</string>
+    <string name="timer_feature_title">عنوان ميزة الموقت</string>
+    <string name="timer_ready">الموقت جاهز</string>
+    <string name="timer_status">حالة الموقت</string>
+    <string name="total_achievements_count">إجمالي عدد الإنجازات</string>
+    <string name="total_plays_count">إجمالي عدد الألعاب</string>
+    <string name="total_tasks_count">إجمالي عدد المهام</string>
+    <string name="total_users_count">إجمالي عدد المستخدمين</string>
+    <string name="train_button">زر التدريب</string>
+    <string name="train_ml">تدريب التعلم الآلي</string>
+    <string name="try_demo">جرب التجريبي</string>
+    <string name="two_factor_authentication">المصادقة الثنائية</string>
+    <string name="type">النوع</string>
+    <string name="ui_controls">تحكم واجهة المستخدم</string>
+    <string name="ui_customization_description">وصف تخصيص واجهة المستخدم</string>
+    <string name="ui_feature_description">وصف ميزة واجهة المستخدم</string>
+    <string name="ui_feature_title">عنوان ميزة واجهة المستخدم</string>
+    <string name="ui_information">معلومات واجهة المستخدم</string>
+    <string name="ui_information_desc">وصف معلومات واجهة المستخدم</string>
+    <string name="ui_settings">إعدادات واجهة المستخدم</string>
+    <string name="ui_status">حالة واجهة المستخدم</string>
+    <string name="ui_status_ready">واجهة المستخدم جاهزة</string>
+    <string name="undo_button">زر التراجع</string>
+    <string name="user_label">تسمية المستخدم</string>
+    <string name="user_management_title">عنوان إدارة المستخدمين</string>
+    <string name="user_role">دور المستخدم</string>
+    <string name="value">القيمة</string>
+    <string name="vibration_feedback">التغذية الراجعة الاهتزازية</string>
+    <string name="vibration_feedback_desc">وصف التغذية الراجعة الاهتزازية</string>
+    <string name="vibration_haptics">لمسيات الاهتزاز</string>
+    <string name="visual_configuration_description">وصف التكوين البصري</string>
+    <string name="visual_controls">التحكم البصري</string>
+    <string name="visual_feature_description">وصف الميزة البصرية</string>
+    <string name="visual_feature_title">عنوان الميزة البصرية</string>
+    <string name="visual_information">المعلومات البصرية</string>
+    <string name="visual_information_desc">وصف المعلومات البصرية</string>
+    <string name="visual_settings">الإعدادات البصرية</string>
+    <string name="visual_status">الحالة البصرية</string>
+    <string name="visual_status_ready">البصري جاهز</string>
+    <string name="voice_commands">الأوامر الصوتية</string>
+    <string name="voice_controls">التحكم الصوتي</string>
+    <string name="voice_over">التعليق الصوتي</string>
+    <string name="voice_result">النتيجة الصوتية</string>
+    <string name="voice_status">الحالة الصوتية</string>
+    <string name="widget_controls">تحكم الودجات</string>
+    <string name="widget_creation_description">وصف إنشاء الودجات</string>
+    <string name="widget_feature_description">وصف ميزة الودجات</string>
+    <string name="widget_feature_title">عنوان ميزة الودجات</string>
+    <string name="widget_information">معلومات الودجات</string>
+    <string name="widget_status">حالة الودجات</string>
+    <string name="widgets_ready">الودجات جاهزة</string>
+    <string name="zoom_label">تسمية التكبير</string>
+    <string name="tet_theme">مظهر التت</string>
+    <string name="tet_theme_description">مظهر خاص لعيد رأس السنة</string>
+    <string name="error_loading_statistics">خطأ في تحميل الإحصائيات</string>
+    <string name="users_count_format">%1$d مستخدم</string>
+    <string name="tasks_count_format">%1$d مهمة</string>
+    <string name="attempts_count_format">%1$d محاولة</string>
+    <string name="points_count_format">%1$d نقطة</string>
+
+    <!-- User Management -->
+    <string name="search_users_hint">بحث...</string>
+    <string name="export_excel_label">📊 تصدير Excel</string>
+    
+    <!-- Advanced Sounds -->
+    <string name="select_music">اختيار الموسيقى</string>
+    <string name="select">اختيار</string>
+    <string name="turn_off">إيقاف</string>
+    <string name="turn_on">تشغيل</string>
+    <string name="inactive">غير نشط</string>
+    <string name="sound_effects_desc">صوت عند الضغط على الزر</string>
+    <string name="notification_sound">صوت الإشعار</string>
+    <string name="notification_sound_desc">صوت عند وجود إشعار</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_selected">تم اختيار المظهر: %1$s</string>
+    <string name="theme_applied_immediately">تم تطبيق التغييرات على الفور!</string>
+    
+    <!-- Advanced Admin Reports -->
+    <string name="score_distribution">توزيع النقاط</string>
+    <string name="score_distribution_desc">عدد المحاولات حسب مستوى النقاط</string>
+    <string name="most_active_user">أكثر المستخدمين نشاطاً</string>
+    <string name="most_active_user_desc">المستخدم الذي أكمل معظم المهام</string>
+    <string name="achievements_stat">الإنجازات</string>
+    <string name="achievements_stat_desc">عدد الإنجازات المفتوحة</string>
+    <string name="avg_completion_speed">متوسط سرعة الإكمال</string>
+    <string name="avg_completion_speed_desc">متوسط الوقت لإكمال مهمة واحدة</string>
+    <string name="incomplete_rate">معدل غير المكتملة</string>
+    <string name="incomplete_rate_desc">نسبة المهام المتروكة</string>
+    <string name="new_users_7days">مستخدمون جدد (7 أيام)</string>
+    <string name="new_users_7days_desc">عدد المستخدمين المسجلين الجدد</string>
+    <string name="total_attempts">إجمالي المحاولات</string>
+    <string name="total_attempts_desc">إجمالي عدد المستخدمين الذين يقومون بالمهام</string>
+    <string name="completed_attempts_trend">%1$d مكتملة</string>
+    <string name="score_excellent">ممتاز</string>
+    <string name="score_good">جيد</string>
+    <string name="score_fair">جيد</string>
+    <string name="score_average">متوسط</string>
+    <string name="status_good">✓ جيد</string>
+    <string name="status_average">○ متوسط</string>
+    <string name="status_need_improve">✗ يحتاج تحسين</string>
+    <string name="status_active">✓ نشط</string>
+    <string name="status_stable">○ مستقر</string>
+    <string name="status_fast">✓ سريع</string>
+    <string name="status_medium">○ متوسط</string>
+    <string name="status_slow">✗ بطيء</string>
+    <string name="status_high">✗ عالٍ</string>
+    <string name="status_growth">✓ نمو</string>
+    <string name="status_no_data">○ لا يوجد</string>
+    <string name="no_data">لا توجد بيانات بعد</string>
+    <string name="not_available">N/A</string>
+    <string name="total_format">الإجمالي: %1$d محاولة</string>
+    <string name="attempts_completed">%1$d مكتملة</string>
+    <string name="unlocked_percent">%1$d%% مفتوحة</string>
+    <string name="users_count">%1$d مستخدم</string>
+    <string name="attempts">محاولة</string>
+    
+    <!-- Leaderboard -->
+    <string name="total_score_tab">النقاط الإجمالية</string>
+    <string name="drawing_score_tab">نقاط الرسم</string>
+    <string name="leaderboard_load_error">خطأ في تحميل لوحة المتصدرين: %1$s</string>
+    <string name="score_points">%1$d نقطة</string>
+    <string name="unknown_error">خطأ غير معروف</string>
+    <string name="leaderboard_management">إدارة لوحة المتصدرين</string>
+    <string name="user_prefix">المستخدم: %1$s</string>
+    <string name="task_prefix">المهمة: %1$s</string>
+    
+    <!-- Social Network - Post Content -->
+    <string name="post_created_colorful_garden">لقد صنعت حديقة ملونة! 🌸</string>
+    <string name="post_beautiful_mountain_lake">منظر بحيرة جبلية جميل! 🏔️</string>
+    <string name="post_city_at_night">مدينة ليلية مع أضواء متلألئة! 🌃</string>
+    <string name="post_fairytale_castle">قلعة خرافية في حلمي! 🏰</string>
+    <string name="post_tropical_beach">شاطئ استوائي مع أشجار نخيل! 🏖️</string>
+    <string name="days_ago">منذ %1$d أيام</string>
+
+</resources>

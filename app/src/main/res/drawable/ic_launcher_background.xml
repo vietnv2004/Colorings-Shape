@@ -1,0 +1,61 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Vibrant Gradient Background -->
+    
+    <!-- Base gradient -->
+    <path
+        android:fillColor="#7C4DFF"
+        android:pathData="M0,0 L108,0 L108,108 L0,108 Z" />
+    
+    <path
+        android:fillColor="#9C27B0"
+        android:fillAlpha="0.5"
+        android:pathData="M0,0 L108,0 L108,70 L0,108 Z" />
+    
+    <path
+        android:fillColor="#E040FB"
+        android:fillAlpha="0.3"
+        android:pathData="M0,108 L108,0 L108,108 Z" />
+    
+    <!-- Decorative circles -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.08"
+        android:pathData="M15,15 A20,20 0 1,1 15,15.01 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.10"
+        android:pathData="M90,25 A15,15 0 1,1 90,25.01 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.12"
+        android:pathData="M25,85 A22,22 0 1,1 25,85.01 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.09"
+        android:pathData="M88,80 A12,12 0 1,1 88,80.01 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.07"
+        android:pathData="M50,10 A10,10 0 1,1 50,10.01 Z" />
+    
+    <!-- Abstract shapes -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.06"
+        android:pathData="M70,90 L80,85 L85,95 L75,100 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.05"
+        android:pathData="M10,40 L20,35 L25,45 L15,50 Z" />
+    
+</vector>

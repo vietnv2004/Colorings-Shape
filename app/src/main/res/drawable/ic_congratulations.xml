@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Star 1 - Top Center -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M60,20 L65,35 L80,35 L68,45 L73,60 L60,50 L47,60 L52,45 L40,35 L55,35 Z" />
+    
+    <!-- Star 2 - Left -->
+    <path
+        android:fillColor="#FFA500"
+        android:pathData="M20,60 L25,75 L40,75 L28,85 L33,100 L20,90 L7,100 L12,85 L0,75 L15,75 Z" />
+    
+    <!-- Star 3 - Right -->
+    <path
+        android:fillColor="#FF6347"
+        android:pathData="M100,60 L105,75 L120,75 L108,85 L113,100 L100,90 L87,100 L92,85 L80,75 L95,75 Z" />
+    
+    <!-- Celebration Arc -->
+    <path
+        android:fillColor="#FFD700"
+        android:strokeWidth="3"
+        android:pathData="M30,100 Q60,70 90,100" />
+    
+    <!-- Confetti 1 - Pink Circle as Path -->
+    <path
+        android:fillColor="#FF1493"
+        android:pathData="M41,81 C41,79 42.5,77 45,77 C47.5,77 49,79 49,81 C49,83 47.5,85 45,85 C42.5,85 41,83 41,81 Z" />
+    
+    <!-- Confetti 2 - Cyan Circle as Path -->
+    <path
+        android:fillColor="#00CED1"
+        android:pathData="M56,86 C56,84 57.5,82 60,82 C62.5,82 64,84 64,86 C64,88 62.5,90 60,90 C57.5,90 56,88 56,86 Z" />
+    
+    <!-- Confetti 3 - Green Circle as Path -->
+    <path
+        android:fillColor="#32CD32"
+        android:pathData="M71,81 C71,79 72.5,77 75,77 C77.5,77 79,79 79,81 C79,83 77.5,85 75,85 C72.5,85 71,83 71,81 Z" />
+    
+</vector>

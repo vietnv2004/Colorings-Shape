@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="60dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    
+    <!-- Traditional Tet button pattern -->
+    
+    <!-- Central flower -->
+    <path
+        android:fillColor="@color/tet_gold_light"
+        android:pathData="M30,15 C32,12 35,15 33,18 C35,21 32,24 30,21 C28,24 25,21 27,18 C25,15 28,12 30,15 Z" />
+    
+    <!-- Corner decorations -->
+    <path
+        android:fillColor="@color/tet_gold_accent"
+        android:pathData="M10,10 C12,8 15,10 13,12 C15,14 12,16 10,14 C8,16 5,14 7,12 C5,10 8,8 10,10 Z" />
+    
+    <path
+        android:fillColor="@color/tet_gold_accent"
+        android:pathData="M50,10 C52,8 55,10 53,12 C55,14 52,16 50,14 C48,16 45,14 47,12 C45,10 48,8 50,10 Z" />
+    
+    <path
+        android:fillColor="@color/tet_gold_accent"
+        android:pathData="M10,50 C12,48 15,50 13,52 C15,54 12,56 10,54 C8,56 5,54 7,52 C5,50 8,48 10,50 Z" />
+    
+    <path
+        android:fillColor="@color/tet_gold_accent"
+        android:pathData="M50,50 C52,48 55,50 53,52 C55,54 52,56 50,54 C48,56 45,54 47,52 C45,50 48,48 50,50 Z" />
+    
+    <!-- Side decorations -->
+    <path
+        android:fillColor="@color/tet_gold_light"
+        android:pathData="M5,30 C7,28 10,30 8,32 C10,34 7,36 5,34 C3,36 0,34 2,32 C0,30 3,28 5,30 Z" />
+    
+    <path
+        android:fillColor="@color/tet_gold_light"
+        android:pathData="M55,30 C57,28 60,30 58,32 C60,34 57,36 55,34 C53,36 50,34 52,32 C50,30 53,28 55,30 Z" />
+    
+    <path
+        android:fillColor="@color/tet_gold_light"
+        android:pathData="M30,5 C32,3 35,5 33,7 C35,9 32,11 30,9 C28,11 25,9 27,7 C25,5 28,3 30,5 Z" />
+    
+    <path
+        android:fillColor="@color/tet_gold_light"
+        android:pathData="M30,55 C32,53 35,55 33,57 C35,59 32,61 30,59 C28,61 25,59 27,57 C25,55 28,53 30,55 Z" />
+    
+</vector>
+
+
+
+
+
+

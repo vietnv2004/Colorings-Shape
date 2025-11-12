@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ColoringShapes" parent="Theme.Material3.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_dark</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="colorSurface">@color/surface_color</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorError">@color/error_color</item>
+        <item name="colorOnError">@color/white</item>
+        <!-- Material3 specific colors for cream theme -->
+        <item name="colorSurfaceContainer">@color/background_color</item>
+        <item name="colorSurfaceContainerHigh">@color/background_color</item>
+        <item name="colorSurfaceContainerHighest">@color/background_color</item>
+        <item name="colorSurfaceDim">@color/background_color</item>
+        <item name="colorSurfaceBright">@color/background_color</item>
+    </style>
+
+    <!-- Light Theme -->
+    <style name="Theme.ColoringShapes.Light" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="colorSurface">@color/background_color</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorError">@color/error_color</item>
+        <item name="colorOnError">@color/white</item>
+        <!-- Material3 specific colors for cream theme -->
+        <item name="colorSurfaceContainer">@color/background_color</item>
+        <item name="colorSurfaceContainerHigh">@color/background_color</item>
+        <item name="colorSurfaceContainerHighest">@color/background_color</item>
+        <item name="colorSurfaceDim">@color/background_color</item>
+        <item name="colorSurfaceBright">@color/background_color</item>
+    </style>
+
+    <!-- Chat AI Theme - No Action Bar -->
+    <style name="Theme.ColoringShapes.ChatAI" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="colorSurface">@color/background_color</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorError">@color/error_color</item>
+        <item name="colorOnError">@color/white</item>
+        <!-- Material3 specific colors for cream theme -->
+        <item name="colorSurfaceContainer">@color/background_color</item>
+        <item name="colorSurfaceContainerHigh">@color/background_color</item>
+        <item name="colorSurfaceContainerHighest">@color/background_color</item>
+        <item name="colorSurfaceDim">@color/background_color</item>
+        <item name="colorSurfaceBright">@color/background_color</item>
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="Theme.ColoringShapes.Dark" parent="Theme.Material3.Dark">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/dark_secondary</item>
+        <item name="colorSecondaryVariant">@color/dark_secondary_variant</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <item name="android:windowBackground">@color/dark_background</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+        <item name="colorOnBackground">@color/text_primary_dark</item>
+        <item name="colorError">@color/error_color</item>
+        <item name="colorOnError">@color/white</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.ColoringShapes.Splash" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/primary_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_dark</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">@color/primary_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Login Screen Theme -->
+    <style name="Theme.ColoringShapes.Login" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Register Screen Theme -->
+    <style name="Theme.ColoringShapes.Register" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Home Screen Theme -->
+    <style name="Theme.ColoringShapes.Home" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Task Detail Theme -->
+    <style name="Theme.ColoringShapes.TaskDetail" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Canvas Drawing Theme -->
+    <style name="Theme.ColoringShapes.Canvas" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Result Screen Theme -->
+    <style name="Theme.ColoringShapes.Result" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Admin Dashboard Theme -->
+    <style name="Theme.ColoringShapes.Admin" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Progress Screen Theme -->
+    <style name="Theme.ColoringShapes.Progress" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Profile Screen Theme -->
+    <style name="Theme.ColoringShapes.Profile" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Settings Screen Theme -->
+    <style name="Theme.ColoringShapes.Settings" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Notification Screen Theme -->
+    <style name="Theme.ColoringShapes.Notification" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+
+    <!-- Leaderboard Screen Theme -->
+    <style name="Theme.ColoringShapes.Leaderboard" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+    
+    <!-- Language Settings Theme -->
+    <style name="Theme.ColoringShapes.Language" parent="Theme.Material3.Light">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary_color</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+    </style>
+    
+
+    <!-- Custom Card Styles -->
+    <style name="Card.Default" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="Card.Elevated" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">8dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="Card.Outlined" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/card_border</item>
+    </style>
+
+    <!-- Custom Input Styles -->
+    <style name="Input.Default" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxStrokeColor">@color/primary_color</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+    </style>
+
+    <style name="Input.Error" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+        <item name="boxStrokeColor">@color/error_color</item>
+        <item name="hintTextColor">@color/error_color</item>
+        <item name="errorTextColor">@color/error_color</item>
+    </style>
+
+    <!-- Custom Progress Styles -->
+    <style name="Progress.Default" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="android:progressTint">@color/primary_color</item>
+        <item name="android:progressBackgroundTint">@color/progress_background</item>
+    </style>
+
+    <style name="Progress.Success" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="android:progressTint">@color/success_color</item>
+        <item name="android:progressBackgroundTint">@color/progress_background</item>
+    </style>
+
+    <style name="Progress.Warning" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="android:progressTint">@color/warning_color</item>
+        <item name="android:progressBackgroundTint">@color/progress_background</item>
+    </style>
+
+    <style name="Progress.Error" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="android:progressTint">@color/error_color</item>
+        <item name="android:progressBackgroundTint">@color/progress_background</item>
+    </style>
+
+
+    <style name="Chip.Success" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/success_color</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="chipStrokeColor">@color/success_color</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <style name="Chip.Warning" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/warning_color</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="chipStrokeColor">@color/warning_color</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <style name="Chip.Error" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/error_color</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="chipStrokeColor">@color/error_color</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <!-- Custom AppBar Styles -->
+    <style name="AppBar.Default" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/primary_color</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+    </style>
+
+    <style name="AppBar.Transparent" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/transparent</item>
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="subtitleTextColor">@color/text_secondary</item>
+    </style>
+
+    <!-- Custom Bottom Navigation Styles -->
+    <style name="BottomNavigation.Default" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/white</item>
+        <item name="itemIconTint">@color/primary_color</item>
+        <item name="itemTextColor">@color/primary_color</item>
+        <item name="itemActiveIndicatorStyle">@style/ActiveIndicator</item>
+    </style>
+
+
+    <style name="FAB.Success" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/success_color</item>
+        <item name="tint">@color/white</item>
+        <item name="elevation">6dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+    </style>
+
+    <!-- Custom Dialog Styles -->
+    <style name="Dialog.Default" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowElevation">8dp</item>
+    </style>
+
+    <style name="Dialog.Alert" parent="Theme.MaterialComponents.Dialog.Alert">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowElevation">8dp</item>
+    </style>
+
+    <!-- Custom Snackbar Styles -->
+    <style name="Snackbar.Default" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:background">@color/primary_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Snackbar.Success" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:background">@color/success_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Snackbar.Warning" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:background">@color/warning_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Snackbar.Error" parent="Widget.MaterialComponents.Snackbar">
+        <item name="android:background">@color/error_color</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Tết 2026 Theme -->
+    <style name="Theme.ColoringShapes.Tet" parent="Theme.Material3.Light">
+        <!-- Primary colors - Traditional Red -->
+        <item name="colorPrimary">@color/tet_red_primary</item>
+        <item name="colorPrimaryVariant">@color/tet_red_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <!-- Secondary colors - Traditional Gold -->
+        <item name="colorSecondary">@color/tet_gold_primary</item>
+        <item name="colorSecondaryVariant">@color/tet_gold_dark</item>
+        <item name="colorOnSecondary">@color/tet_text_primary</item>
+        
+        <!-- Background colors -->
+        <item name="android:windowBackground">@drawable/tet_background_pattern</item>
+        <item name="colorSurface">@color/tet_surface</item>
+        <item name="colorOnSurface">@color/tet_text_primary</item>
+        <item name="colorOnBackground">@color/tet_text_primary</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/tet_red_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/tet_error</item>
+        <item name="colorOnError">@color/white</item>
+        
+        <!-- Tertiary colors -->
+        <item name="colorTertiary">@color/tet_blossom_pink</item>
+        <item name="colorOnTertiary">@color/tet_text_primary</item>
+        
+        <!-- Outline colors -->
+        <item name="colorOutline">@color/tet_gold_accent</item>
+        <item name="colorOutlineVariant">@color/tet_gold_light</item>
+        
+        <!-- Card colors -->
+        <item name="colorSurfaceVariant">@color/tet_card_background</item>
+        
+        <!-- Button colors -->
+        <item name="colorPrimaryContainer">@color/tet_gold_light</item>
+        <item name="colorOnPrimaryContainer">@color/tet_text_primary</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/tet_text_primary</item>
+        <item name="android:textColorSecondary">@color/tet_text_secondary</item>
+        <item name="android:textColorTertiary">@color/tet_text_tertiary</item>
+        <item name="android:textColorHint">@color/tet_text_hint</item>
+        
+        <!-- Additional theme colors -->
+        <item name="colorSurfaceContainer">@color/tet_surface</item>
+        <item name="colorSurfaceContainerHigh">@color/tet_surface</item>
+        <item name="colorSurfaceContainerHighest">@color/tet_card_background</item>
+        <item name="colorSurfaceDim">@color/tet_background</item>
+        <item name="colorSurfaceBright">@color/tet_surface</item>
+    </style>
+
+    <!-- Tết Theme Card Styles -->
+    <style name="Card.Tet" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">6dp</item>
+        <item name="cardBackgroundColor">@color/tet_card_background</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/tet_gold_accent</item>
+    </style>
+
+    <!-- Tết Theme Button Styles -->
+    <style name="Button.Tet.Primary" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/button_tet_primary_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">16dp</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="Button.Tet.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:background">@drawable/button_tet_secondary_background</item>
+        <item name="android:textColor">@color/tet_red_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">16dp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="strokeColor">@color/tet_red_primary</item>
+        <item name="strokeWidth">2dp</item>
+    </style>
+
+    <!-- Tết Theme Text Styles -->
+    <style name="Text.Tet.Title" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/tet_text_primary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="Text.Tet.Subtitle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/tet_text_secondary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <style name="Text.Tet.Body" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/tet_text_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">serif</item>
+    </style>
+
+    <!-- Tết Theme AppBar -->
+    <style name="AppBar.Tet" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@drawable/appbar_tet_background</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/tet_gold_light</item>
+    </style>
+
+    <!-- Tết Theme Bottom Navigation -->
+    <style name="BottomNavigation.Tet" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/tet_surface</item>
+        <item name="itemIconTint">@color/tet_red_primary</item>
+        <item name="itemTextColor">@color/tet_red_primary</item>
+        <item name="itemActiveIndicatorStyle">@style/ActiveIndicator.Tet</item>
+    </style>
+
+    <style name="ActiveIndicator.Tet" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/tet_gold_accent</item>
+        <item name="android:width">64dp</item>
+        <item name="android:height">32dp</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#E8F5E8"
+        android:pathData="M0,0 L200,0 L200,200 L0,200 Z" />
+
+    <!-- Garden fence -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M20,100 L20,180 L25,180 L25,100 Z" />
+    
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M40,100 L40,180 L45,180 L45,100 Z" />
+    
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M60,100 L60,180 L65,180 L65,100 Z" />
+    
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M80,100 L80,180 L85,180 L85,100 Z" />
+
+    <!-- Horizontal fence -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M20,120 L85,120 L85,125 L20,125 Z" />
+    
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M20,150 L85,150 L85,155 L20,155 Z" />
+
+    <!-- Flowers -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M30,140 C32,135 35,135 37,140 C35,145 32,145 30,140 Z" />
+    
+    <path
+        android:fillColor="#E91E63"
+        android:pathData="M50,130 C52,125 55,125 57,130 C55,135 52,135 50,130 Z" />
+    
+    <path
+        android:fillColor="#9C27B0"
+        android:pathData="M70,135 C72,130 75,130 77,135 C75,140 72,140 70,135 Z" />
+
+    <!-- Flower stems -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M33,140 L33,150" />
+    
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M53,130 L53,140" />
+    
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M73,135 L73,145" />
+
+    <!-- Butterfly -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M120,80 C125,75 130,75 135,80 C130,85 125,85 120,80 Z" />
+    
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M125,80 C130,75 135,75 140,80 C135,85 130,85 125,80 Z" />
+
+    <!-- Butterfly body -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M130,80 L130,90" />
+
+    <!-- Tree -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M150,100 L150,180 L160,180 L160,100 Z" />
+    
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M140,100 C150,80 160,80 170,100 C160,120 140,120 140,100 Z" />
+
+    <!-- Tree fruits -->
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M150,120 C152,118 154,118 156,120 C154,122 152,122 150,120 Z" />
+    
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M155,110 C157,108 159,108 161,110 C159,112 157,112 155,110 Z" />
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M170,30 C180,30 190,40 190,50 C190,60 180,70 170,70 C160,70 150,60 150,50 C150,40 160,30 170,30 Z" />
+
+    <!-- Sun rays -->
+    <path
+        android:fillColor="#FFD54F"
+        android:strokeWidth="2"
+        android:pathData="M170,10 L170,20 M190,50 L200,50 M170,80 L170,90 M140,50 L130,50 M155,25 L150,20 M185,25 L190,20 M155,75 L150,80 M185,75 L190,80" />
+
+    <!-- Clouds -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M20,30 C25,25 35,25 40,30 C45,25 55,25 60,30 C55,35 45,35 40,30 C35,35 25,35 20,30 Z" />
+
+</vector>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color">
+
+    <!-- Top Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@color/primary_color">
+
+        <ImageButton
+            android:id="@+id/exitButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_exit"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Thoát"
+            android:layout_marginEnd="12dp" />
+
+        <TextView
+            android:id="@+id/taskName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/coloring_task"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/timer_display_value"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:background="@drawable/bg_timer"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+    <!-- Drawing Canvas -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:background="@color/white"
+        android:elevation="4dp">
+
+        <!-- Shape outline in background -->
+        <ImageView
+            android:id="@+id/shapeImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/shape_circle_outline"
+            android:scaleType="fitCenter"
+            android:padding="40dp" />
+
+        <!-- Drawing canvas on top -->
+        <com.uef.coloring_app.ui.drawing.DrawingView
+            android:id="@+id/drawingView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <!-- Color Palette -->
+    <LinearLayout
+        android:id="@+id/colorPalette"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="@color/surface_color">
+
+        <View
+            android:id="@+id/colorRed"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/circle_red"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <View
+            android:id="@+id/colorBlue"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/circle_blue"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <View
+            android:id="@+id/colorGreen"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/circle_green"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <View
+            android:id="@+id/colorYellow"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/circle_yellow"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <View
+            android:id="@+id/colorOrange"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/circle_orange"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <View
+            android:id="@+id/colorPurple"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="6dp"
+            android:background="@drawable/circle_purple"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+    <!-- Color Intensity Control -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/surface_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/brightness_level"
+            android:textSize="14sp"
+            android:textColor="@color/text_primary_on_light"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/colorIntensitySlider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="50"
+            android:valueTo="900"
+            android:value="500"
+            android:stepSize="50"
+            app:thumbColor="@color/primary_color"
+            app:trackColorActive="@color/primary_color"
+            app:trackColorInactive="@color/divider_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/light"
+                android:textSize="12sp"
+                android:textColor="@color/text_hint_on_light" />
+
+            <TextView
+                android:id="@+id/intensityLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/brightness_level_value"
+                android:textSize="12sp"
+                android:textColor="@color/text_primary_on_light" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/dark"
+                android:textSize="12sp"
+                android:textColor="@color/text_hint_on_light"
+                android:gravity="end" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Control Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="@color/white"
+        android:elevation="4dp">
+
+        <Button
+            android:id="@+id/undoButton"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:layout_margin="6dp"
+            android:text="@string/undo"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:minHeight="56dp"
+            style="@style/Button.Secondary" />
+
+        <Button
+            android:id="@+id/redoButton"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:layout_margin="6dp"
+            android:text="@string/redo"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:minHeight="56dp"
+            style="@style/Button.Secondary" />
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:layout_margin="6dp"
+            android:text="@string/clear"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:minHeight="56dp"
+            style="@style/Button.Danger" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:layout_margin="6dp"
+            android:text="@string/submit"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:minHeight="56dp"
+            style="@style/Button.Success" />
+
+    </LinearLayout>
+
+</LinearLayout>

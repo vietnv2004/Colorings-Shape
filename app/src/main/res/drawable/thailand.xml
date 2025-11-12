@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="900dp"
+    android:height="600dp"
+    android:viewportWidth="30"
+    android:viewportHeight="20">
+
+    <!-- Nền đỏ (trên cùng) -->
+    <path
+        android:fillColor="#A51931"
+        android:pathData="M0,0h30v4h-30z" />
+
+    <!-- Dải trắng thứ nhất -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,4h30v4h-30z" />
+
+    <!-- Dải xanh đậm ở giữa -->
+    <path
+        android:fillColor="#2D2A4A"
+        android:pathData="M0,8h30v4h-30z" />
+
+    <!-- Dải trắng thứ hai -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,12h30v4h-30z" />
+
+    <!-- Nền đỏ (dưới cùng) -->
+    <path
+        android:fillColor="#A51931"
+        android:pathData="M0,16h30v4h-30z" />
+
+</vector>
+

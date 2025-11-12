@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">도형 색칠하기</string>
+    <string name="app_subtitle">스마트 도형 색칠하기</string>
+    <string name="version">버전 1.0.0</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_subtitle" translatable="false">스마트 도형 색칠하기</string>
+    <string name="loading" translatable="false">로딩 중…</string>
+
+    <!-- Authentication -->
+    <string name="login" translatable="false">로그인</string>
+    <string name="register" translatable="false">회원가입</string>
+    <string name="edit_profile">프로필 편집</string>
+    <string name="user_name">사용자 이름</string>
+    <string name="user_email">이메일</string>
+    <string name="enter_user_name">사용자 이름 입력</string>
+    <string name="enter_user_email">이메일 입력</string>
+    <string name="statistics">통계</string>
+    <string name="level">레벨</string>
+    <string name="score">점수</string>
+    <string name="login_title">다시 오신 것을 환영합니다</string>
+    <string name="login_subtitle" translatable="false">계속하려면 로그인하세요</string>
+    <string name="register_title">새 계정 만들기</string>
+    <string name="register_subtitle">시작하려면 회원가입하세요</string>
+    <string name="already_have_account">이미 계정이 있으신가요?</string>
+    <string name="forgot_password">비밀번호를 잊으셨나요?</string>
+    <string name="remember_me">로그인 상태 유지</string>
+
+    <!-- Form Fields -->
+    <string name="email">이메일</string>
+    <string name="email_uef">UEF 이메일</string>
+    <string name="password">비밀번호</string>
+    <string name="confirm_password">비밀번호 확인</string>
+    <string name="full_name">전체 이름</string>
+    <string name="birth_year">출생년도</string>
+    <string name="gender">성별</string>
+    <string name="male">남성</string>
+    <string name="female">여성</string>
+    <string name="terms_and_conditions">이용약관에 동의합니다</string>
+
+    <!-- Navigation -->
+    <string name="home">홈</string>
+    <string name="quest">퀘스트</string>
+    <string name="progress">진행률</string>
+    <string name="profile">프로필</string>
+    <string name="back">뒤로</string>
+    <string name="next">다음</string>
+    <string name="previous">이전</string>
+    <string name="finish">완료</string>
+    <string name="cancel">취소</string>
+    <string name="save">저장</string>
+    <string name="edit">편집</string>
+    <string name="delete">삭제</string>
+    <string name="add">추가</string>
+    <string name="search">검색</string>
+    <string name="filter">필터</string>
+    <string name="sort">정렬</string>
+
+    <!-- Tasks -->
+    <string name="tasks">작업</string>
+    <string name="available_tasks">사용 가능한 작업</string>
+    <string name="task_list">작업 목록</string>
+    <string name="task_details">작업 세부사항</string>
+    <string name="start_task">작업 시작</string>
+    <string name="complete_task">작업 완료</string>
+    <string name="task_name">작업 이름</string>
+    <string name="task_description">설명</string>
+    <string name="task_duration">소요 시간</string>
+    <string name="task_difficulty">난이도</string>
+    <string name="task_points">포인트</string>
+    <string name="task_status">상태</string>
+
+    <!-- Shapes -->
+    <string name="shapes">도형</string>
+    <string name="circle">원</string>
+    <string name="square">정사각형</string>
+    <string name="triangle">삼각형</string>
+    <string name="rectangle">직사각형</string>
+    <string name="pentagon">오각형</string>
+    <string name="hexagon">육각형</string>
+    <string name="star">별</string>
+    <string name="heart">하트</string>
+
+    <!-- Task Names -->
+    <string name="task_color_circle">원 색칠하기</string>
+    <string name="task_color_square">정사각형 색칠하기</string>
+    <string name="task_color_triangle">삼각형 색칠하기</string>
+    <string name="task_color_star">별 색칠하기</string>
+    <string name="task_color_heart">하트 색칠하기</string>
+
+    <!-- Task Descriptions -->
+    <string name="task_desc_circle">좋아하는 색으로 원을 색칠하세요</string>
+    <string name="task_desc_square">좋아하는 색으로 정사각형을 색칠하세요</string>
+    <string name="task_desc_triangle">좋아하는 색으로 삼각형을 색칠하세요</string>
+
+    <!-- Colors -->
+    <string name="colors">색상</string>
+    <string name="red">빨간색</string>
+    <string name="blue">파란색</string>
+    <string name="green">초록색</string>
+    <string name="yellow">노란색</string>
+    <string name="orange">주황색</string>
+    <string name="purple">보라색</string>
+    <string name="pink">분홍색</string>
+    <string name="black">검은색</string>
+    <string name="white">흰색</string>
+    <string name="gray">회색</string>
+
+    <!-- Drawing -->
+    <string name="drawing">그리기</string>
+    <string name="brush">브러시</string>
+    <string name="brush_size">브러시 크기</string>
+    <string name="color_picker">색상 선택기</string>
+    <string name="undo">실행 취소</string>
+    <string name="redo">다시 실행</string>
+    <string name="clear">모두 지우기</string>
+    <string name="eraser">지우개</string>
+
+    <!-- Scoring -->
+    <string name="total_score">총 점수</string>
+    <string name="high_score">최고 점수</string>
+    <string name="leaderboard">리더보드</string>
+    <string name="rank">순위</string>
+    <string name="your_rank">당신의 순위</string>
+    <string name="top_players">상위 플레이어</string>
+    <string name="view_full_leaderboard">전체 리더보드 보기</string>
+
+    <!-- History -->
+    <string name="history">기록</string>
+    <string name="recent_history">최근 기록</string>
+    <string name="view_all_history">모든 기록 보기</string>
+    <string name="completed_tasks">완료된 작업</string>
+    <string name="view_history">기록 보기</string>
+    <string name="no_history">기록 없음</string>
+
+    <!-- Settings -->
+    <string name="settings">설정</string>
+    <string name="language">언어</string>
+    <string name="theme">테마</string>
+    <string name="notifications">알림</string>
+    <string name="sound">소리</string>
+    <string name="vibration">진동</string>
+    <string name="offline_mode">연결 상태</string>
+    <string name="data_management">데이터 관리</string>
+    <string name="export_data">데이터 내보내기</string>
+    <string name="import_data">데이터 가져오기</string>
+    <string name="about">정보</string>
+    <string name="dark_mode">다크 모드</string>
+    <string name="enable_notifications">알림 활성화</string>
+    <string name="online_status">온라인입니다. 모든 기능을 사용할 수 있습니다.</string>
+    <string name="offline_status">오프라인입니다. 일부 기능이 제한됩니다.</string>
+
+    <!-- Admin -->
+    <string name="admin">관리자</string>
+    <string name="admin_dashboard">대시보드</string>
+    <string name="manage_tasks">작업 관리</string>
+    <string name="manage_shapes">도형 관리</string>
+    <string name="manage_users">사용자 관리</string>
+    <string name="reports">보고서</string>
+
+    <!-- Messages -->
+    <string name="success">성공</string>
+    <string name="error">오류</string>
+    <string name="warning">경고</string>
+    <string name="info">정보</string>
+    <string name="confirm">확인</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="ok">확인</string>
+
+    <!-- Validation -->
+    <string name="email_required">이메일을 입력해주세요</string>
+    <string name="email_invalid">유효하지 않은 이메일</string>
+    <string name="password_required">비밀번호를 입력해주세요</string>
+    <string name="password_too_short">비밀번호가 너무 짧습니다</string>
+    <string name="passwords_not_match">비밀번호가 일치하지 않습니다</string>
+    <string name="field_required">이 필드는 필수입니다</string>
+
+    <!-- Time -->
+    <string name="time">시간</string>
+    <string name="timer">타이머</string>
+    <string name="time_remaining">남은 시간</string>
+    <string name="time_up">시간 종료!</string>
+    <string name="seconds">초</string>
+    <string name="minutes">분</string>
+    <string name="hours">시간</string>
+
+    <!-- Or -->
+    <string name="or">또는</string>
+
+    <!-- Google Auth Buttons -->
+    <string name="sign_in_with_google">Google로 로그인</string>
+    <string name="sign_up_with_google">Google로 가입</string>
+
+    <!-- Difficulty Levels -->
+    <string name="easy">쉬움</string>
+    <string name="medium">보통</string>
+    <string name="hard">어려움</string>
+    <string name="difficulty_label">난이도: %s</string>
+    <string name="points_label">포인트: %d</string>
+
+    <!-- Status -->
+    <string name="pending">대기 중</string>
+    <string name="in_progress">진행 중</string>
+    <string name="completed">완료</string>
+    <string name="failed">실패</string>
+
+    <!-- Social -->
+    <string name="share">공유</string>
+    <string name="friends">친구</string>
+    <string name="invite">초대</string>
+
+    <!-- Empty States -->
+    <string name="no_tasks">작업 없음</string>
+    <string name="no_results">결과 없음</string>
+    <string name="empty_list">빈 목록</string>
+    <string name="empty_tasks">아직 작업이 없습니다</string>
+    <string name="empty_history">아직 기록이 없습니다</string>
+    <string name="empty_leaderboard">아직 리더보드가 없습니다</string>
+    <string name="empty_notifications">알림 없음</string>
+    <string name="empty_results">결과 없음</string>
+    <string name="empty_search">검색 결과 없음</string>
+
+    <!-- Actions -->
+    <string name="submit">제출</string>
+    <string name="retry">다시 시도</string>
+    <string name="skip">건너뛰기</string>
+    <string name="refresh">새로고침</string>
+    <string name="export">내보내기</string>
+    <string name="notify" translatable="false">알림</string>
+    <string name="action_copy" translatable="false">복사</string>
+    <string name="action_cut" translatable="false">잘라내기</string>
+    <string name="action_paste" translatable="false">붙여넣기</string>
+    <string name="action_select_all">모두 선택</string>
+    <string name="action_deselect_all" translatable="false">선택 해제</string>
+    <string name="action_share" translatable="false">공유</string>
+    <string name="action_refresh">새로고침</string>
+    <string name="action_retry" translatable="false">다시 시도</string>
+
+    <!-- Face Check-in -->
+    <string name="face_checkin">얼굴 인식 체크인</string>
+    <string name="face_detected">얼굴이 감지되었습니다</string>
+    <string name="face_not_detected">얼굴이 감지되지 않았습니다</string>
+    <string name="position_face">얼굴을 프레임 안에 위치시키세요</string>
+
+    <!-- Achievements -->
+    <string name="achievement">성취</string>
+    <string name="achievements">성취</string>
+    <string name="achievement_unlocked">성취 해제</string>
+    <string name="total_achievements">총: %d</string>
+    <string name="unlocked_achievements">해제됨: %d</string>
+    <string name="recent_achievements">최근 성취</string>
+    <string name="view_all_achievements">모든 성취 보기</string>
+    <string name="all_achievements_title">모든 성취</string>
+    <string name="first_task_title">첫 번째 작업</string>
+    <string name="first_task_desc">첫 번째 색칠하기 작업을 완료하세요</string>
+    <string name="top_scorer_title">고득점자</string>
+    <string name="top_scorer_desc">작업에서 90점 이상 획득</string>
+    <string name="perfectionist">완벽주의자</string>
+    <string name="perfectionist_desc">작업에서 100% 정확도 달성</string>
+    <string name="speed_demon">속도 악마</string>
+    <string name="speed_demon_desc">2분 이내에 작업 완료</string>
+    <string name="streak_master">연속 마스터</string>
+    <string name="streak_master_desc">5개 연속 작업 완료</string>
+    <string name="top_scorer">고득점자</string>
+
+    <!-- Admin & Navigation -->
+    <string name="dashboard">대시보드</string>
+    <string name="users">사용자</string>
+    <string name="management">관리</string>
+    <string name="chat_ai">Chat AI</string>
+    <string name="system_administration">시스템 관리</string>
+    <string name="task_management">작업 관리</string>
+    <string name="task_management_desc">작업 추가, 편집, 삭제</string>
+    <string name="user_management">사용자 관리</string>
+    <string name="user_management_desc">사용자 목록 관리</string>
+    <string name="shape_management">도형 관리</string>
+    <string name="shape_management_desc">도형 추가, 편집, 삭제</string>
+
+    <!-- User Info -->
+    <string name="name">이름</string>
+    <string name="user_rank">순위</string>
+    <string name="user_score">점수</string>
+    <string name="admin_name">관리자 이름</string>
+    <string name="personal_info">개인 정보</string>
+
+    <!-- Task Related -->
+    <string name="add_task">작업 추가</string>
+    <string name="task_title">작업 제목</string>
+    <string name="task_detail">작업 세부사항</string>
+    <string name="task_completed">완료</string>
+    <string name="task_completion_rate">완료율</string>
+    <string name="tasks_completed">완료된 작업</string>
+    <string name="total_tasks">총 작업 수</string>
+    <string name="active_tasks">활성 작업</string>
+    <string name="recent_tasks">최근 작업</string>
+    <string name="first_task">첫 번째 작업</string>
+    <string name="continue_task">계속</string>
+    <string name="create_first_task">첫 번째 작업 만들기</string>
+    <string name="start_first_task">첫 번째 작업 시작</string>
+
+    <!-- Time & Duration -->
+    <string name="duration">소요 시간</string>
+    <string name="time_limit">시간 제한</string>
+    <string name="time_taken">소요 시간</string>
+    <string name="time_spent">사용 시간</string>
+    <string name="time_spent_total">총 시간</string>
+    <string name="total_time">총 시간</string>
+    <string name="time_up_notification">시간 종료!</string>
+
+    <!-- Rankings & Scores -->
+    <string name="ranking">순위</string>
+    <string name="current_rank">현재 순위</string>
+    <string name="your_score">당신의 점수</string>
+    <string name="top_3">상위 3</string>
+    <string name="top_10">상위 10</string>
+    <string name="top_100">상위 100</string>
+    <string name="average_score">평균 점수</string>
+    <string name="bonus_points">보너스 포인트</string>
+    <string name="points">포인트</string>
+
+    <!-- Drawing -->
+    <string name="drawing_canvas">그리기 캔버스</string>
+    <string name="your_drawing">당신의 작품</string>
+    <string name="brush_type">브러시 유형</string>
+    <string name="color_palette">색상 팔레트</string>
+    <string name="clear_all">모두 지우기</string>
+
+    <!-- Settings Extended -->
+    <string name="general_settings">일반 설정</string>
+    <string name="account_settings">계정 설정</string>
+    <string name="privacy_settings">개인정보 설정</string>
+    <string name="notification_settings">알림 설정</string>
+    <string name="language_settings">언어 설정</string>
+    <string name="sound_settings">소리 설정</string>
+    <string name="display_settings">화면 설정</string>
+    <string name="reset_settings">설정 재설정</string>
+    <string name="select_language">언어 선택</string>
+    <string name="english">영어</string>
+    <string name="vietnamese">베트남어</string>
+    <string name="auto_theme">자동</string>
+
+    <!-- Status -->
+    <string name="not_started">시작하지 않음</string>
+    <string name="status_available">사용 가능</string>
+    <string name="status_unlocked">잠금 해제</string>
+    <string name="status_locked">잠김</string>
+    <string name="status_approved">승인됨</string>
+    <string name="status_rejected">거부됨</string>
+    <string name="expired">만료됨</string>
+
+    <!-- Messages & Notifications -->
+    <string name="congratulations">축하합니다!</string>
+    <string name="welcome_back">다시 오신 것을 환영합니다</string>
+    <string name="welcome_admin">관리자님, 환영합니다</string>
+    <string name="language_changed">언어가 변경되었습니다</string>
+    <string name="theme_changed">테마가 변경되었습니다</string>
+    <string name="notification_title">알림</string>
+    <string name="notification_message">알림 메시지</string>
+    <string name="notification_type">알림 유형</string>
+    <string name="notification_time">시간</string>
+    <string name="notifications_title">알림</string>
+    <string name="mark_as_read">읽음으로 표시</string>
+    <string name="mark_all_read">모두 읽음으로 표시</string>
+
+    <!-- Loading States -->
+    <string name="loading_general">로딩 중...</string>
+    <string name="loading_tasks">작업 로딩 중...</string>
+    <string name="loading_history">기록 로딩 중...</string>
+    <string name="loading_leaderboard">리더보드 로딩 중...</string>
+    <string name="loading_login">로그인 중...</string>
+    <string name="loading_register">등록 중...</string>
+    <string name="loading_save">저장 중...</string>
+    <string name="loading_delete">삭제 중...</string>
+    <string name="loading_upload">업로드 중...</string>
+    <string name="loading_download">다운로드 중...</string>
+    <string name="loading_sync">동기화 중...</string>
+
+    <!-- Success Messages -->
+    <string name="success_general">성공!</string>
+    <string name="success_login">로그인 성공</string>
+    <string name="success_register">등록 성공</string>
+    <string name="success_save">저장 성공</string>
+    <string name="success_update">업데이트 성공</string>
+    <string name="success_delete">삭제 성공</string>
+    <string name="success_upload">업로드 성공</string>
+    <string name="success_download">다운로드 성공</string>
+    <string name="login_success">로그인 성공</string>
+
+    <!-- Error Messages -->
+    <string name="error_general">오류가 발생했습니다</string>
+    <string name="error_network">네트워크 오류</string>
+    <string name="error_server">서버 오류</string>
+    <string name="error_database">데이터베이스 오류</string>
+    <string name="error_authentication">인증 오류</string>
+    <string name="error_permission">권한 없음</string>
+    <string name="error_validation">유효하지 않은 데이터</string>
+    <string name="error_file_not_found">파일을 찾을 수 없습니다</string>
+    <string name="error_unknown">알 수 없는 오류</string>
+    <string name="invalid_email">유효하지 않은 이메일</string>
+    <string name="login_failed">로그인 실패</string>
+
+    <!-- Validation -->
+    <string name="validation_email">유효하지 않은 이메일</string>
+    <string name="validation_password">유효하지 않은 비밀번호</string>
+    <string name="validation_name">유효하지 않은 이름</string>
+    <string name="validation_phone">유효하지 않은 전화번호</string>
+    <string name="validation_birth_year">유효하지 않은 출생년도</string>
+    <string name="validation_password_match">비밀번호가 일치하지 않습니다</string>
+    <string name="validation_required">필수 필드</string>
+    <string name="validation_url">유효하지 않은 URL</string>
+    <string name="uef_email_required">UEF 이메일이 필요합니다 (@uef.edu.vn)</string>
+
+    <!-- Permissions -->
+    <string name="permission_required">권한이 필요합니다</string>
+    <string name="permission_camera">카메라 권한</string>
+    <string name="permission_storage">저장소 권한</string>
+    <string name="permission_location">위치 권한</string>
+    <string name="permission_notification">알림 권한</string>
+    <string name="permission_granted">권한이 부여되었습니다</string>
+    <string name="permission_denied">권한이 거부되었습니다</string>
+
+    <!-- Features -->
+    <string name="feature_offline_mode">연결 상태</string>
+    <string name="feature_sync">동기화</string>
+    <string name="feature_backup">백업</string>
+    <string name="feature_restore">복원</string>
+    <string name="feature_export">데이터 내보내기</string>
+    <string name="feature_import">데이터 가져오기</string>
+    <string name="feature_face_checkin">얼굴 인식 체크인</string>
+    <string name="sync_data">데이터 동기화</string>
+    <string name="sync_failed">동기화 실패</string>
+    <string name="data_synced">데이터 동기화됨</string>
+    <string name="backup_data">백업</string>
+    <string name="restore_data">복원</string>
+
+    <!-- Stats & Reports -->
+    <string name="reports_desc">상세 보고서</string>
+    <string name="age_distribution">연령 분포</string>
+    <string name="gender_distribution">성별 분포</string>
+    <string name="total_users">총 사용자 수</string>
+    <string name="accuracy">정확도</string>
+    <string name="experience">경험</string>
+    <string name="streak">연속</string>
+    <string name="targets">목표</string>
+    <string name="result">결과</string>
+    <string name="overall_progress">전체 진행률</string>
+
+    <!-- Filters & Search -->
+    <string name="filter_all">모두</string>
+    <string name="filter_active">활성</string>
+    <string name="filter_inactive">비활성</string>
+    <string name="filter_completed">완료</string>
+    <string name="filter_incomplete">미완료</string>
+    <string name="filter_by_difficulty">난이도별 필터</string>
+    <string name="filter_high_score">고득점</string>
+    <string name="search_tasks_hint">작업 검색...</string>
+    <string name="search_history_hint">기록 검색...</string>
+
+    <!-- Misc -->
+    <string name="help">도움말</string>
+    <string name="contact">연락처</string>
+    <string name="instructions">지침</string>
+    <string name="instructions_text">사용 방법</string>
+    <string name="show_details">세부사항 보기</string>
+    <string name="other">기타</string>
+    <string name="complete">완료</string>
+    <string name="places">장소</string>
+    <string name="start_competing">경쟁 시작</string>
+    <string name="completed_attempts">완료된 시도</string>
+    <string name="quick_actions">빠른 작업</string>
+    <string name="user_profile">사용자 프로필</string>
+    <string name="analytics">분석</string>
+    <string name="social">소셜</string>
+
+    <!-- Analytics -->
+    <string name="analytics_dashboard">분석 대시보드</string>
+    <string name="completion_rate">완료율</string>
+    <string name="detailed_analytics">상세 분석</string>
+    <string name="daily_progress">일일 진행률</string>
+    <string name="daily_progress_desc">일일 완료 작업</string>
+    <string name="accuracy_rate">정확도</string>
+    <string name="accuracy_rate_desc">모든 작업의 평균 정확도</string>
+    <string name="speed_improvement">속도 개선</string>
+    <string name="speed_improvement_desc">지난 주 대비 시간 단축</string>
+    <string name="streak_days">연속 일수</string>
+    <string name="streak_days_desc">연속 활동 일수</string>
+    <string name="favorite_shape">좋아하는 도형</string>
+    <string name="favorite_shape_desc">가장 많이 완료한 도형 유형</string>
+    <string name="peak_performance">최고 성능</string>
+    <string name="peak_performance_desc">작업에 최적한 시간대</string>
+    <string name="tasks_per_day">작업/일</string>
+    <string name="days">일</string>
+
+    <!-- Social -->
+    <string name="social_feed">소셜 피드</string>
+    <string name="add_friend">친구 추가</string>
+    <string name="posts">게시물</string>
+    <string name="likes">좋아요</string>
+    <string name="share_my_work">내 작품 공유</string>
+    <string name="view_friends">친구 보기</string>
+    <string name="recent_posts">최근 게시물</string>
+    <string name="hours_ago">%d시간 전</string>
+    <string name="day_ago">1일 전</string>
+    <string name="just_completed_first_task">첫 번째 색칠하기 작업을 완료했습니다! 🎨</string>
+    <string name="check_out_masterpiece">내 최신 걸작을 확인해보세요!</string>
+    <string name="achieved_100_accuracy">원 작업에서 100%% 정확도를 달성했습니다! 🎯</string>
+
+    <!-- Admin Dashboard -->
+    <string name="welcome_admin_title">관리자님, 환영합니다!</string>
+    <string name="task_management_btn">작업 관리</string>
+    <string name="user_management_btn">사용자 관리</string>
+    <string name="reports_analytics_btn">보고서 및 분석</string>
+    <string name="statistics_title">통계</string>
+    <string name="total_users_label">총 사용자 수</string>
+    <string name="active_tasks_label">활성 작업</string>
+    <string name="completed_attempts_label">완료된 시도</string>
+    <string name="average_score_label">평균 점수</string>
+
+    <!-- Advanced Admin -->
+    <string name="advanced_admin_title">고급 대시보드</string>
+    <string name="user_registration_trends">사용자 등록 트렌드</string>
+    <string name="user_registration_desc">월별 등록 통계</string>
+    <string name="new_users_count">%d명의 신규 사용자</string>
+    <string name="task_completion_rate_title">작업 완료율</string>
+    <string name="task_completion_desc">성공적으로 완료된 작업의 비율</string>
+    <string name="avg_session_duration">평균 세션 시간</string>
+    <string name="avg_session_desc">사용자가 앱에서 보내는 평균 시간</string>
+    <string name="top_performing_tasks_title">최고 성능 작업</string>
+    <string name="top_tasks_desc">가장 인기 있고 성공적인 작업</string>
+    <string name="circle_coloring">원 색칠하기</string>
+    <string name="completion_percent">%d%% 완료</string>
+    <string name="data_management_title">데이터 관리</string>
+
+    <!-- Confirmations -->
+    <string name="confirm_delete">삭제를 확인하시겠습니까?</string>
+    <string name="confirm_exit">종료를 확인하시겠습니까?</string>
+    <string name="confirm_logout">로그아웃을 확인하시겠습니까?</string>
+    <string name="confirm_reset">재설정을 확인하시겠습니까?</string>
+    <string name="confirm_cancel">취소를 확인하시겠습니까?</string>
+    <string name="confirm_save">저장을 확인하시겠습니까?</string>
+
+    <!-- Units -->
+    <string name="unit_seconds">초</string>
+    <string name="unit_minutes">분</string>
+    <string name="unit_hours">시간</string>
+    <string name="unit_days">일</string>
+    <string name="unit_points">포인트</string>
+    <string name="unit_percentage">%</string>
+    <string name="unit_count">회</string>
+
+    <!-- Date & Time Formats -->
+    <string name="date_format_short">yyyy/MM/dd</string>
+    <string name="date_format_long">yyyy년 MM월 dd일</string>
+    <string name="time_format_short">HH:mm</string>
+    <string name="time_format_long">HH:mm:ss</string>
+    <string name="datetime_format">yyyy/MM/dd HH:mm</string>
+
+    <!-- Empty State Titles -->
+    <string name="tasks_empty_title">작업 없음</string>
+    <string name="tasks_empty_subtitle">새로운 작업 추가 시작</string>
+    <string name="tasks_empty_description">아직 작업이 생성되지 않았습니다</string>
+    <string name="history_empty_title">기록 없음</string>
+    <string name="history_empty_subtitle">작업 완료 시작</string>
+    <string name="history_empty_description">기록이 여기에 표시됩니다</string>
+    <string name="leaderboard_empty_title">리더보드 없음</string>
+    <string name="leaderboard_empty_subtitle">첫 번째가 되세요</string>
+    <string name="leaderboard_empty_description">리더보드에 오르려면 작업을 완료하세요</string>
+
+    <!-- Titles -->
+    <string name="leaderboard_title">리더보드</string>
+    <string name="profile_title">프로필</string>
+    <string name="settings_title">설정</string>
+    <string name="progress_title">진행률</string>
+    <string name="progress_label">진행률</string>
+
+    <!-- Icons & Descriptions -->
+    <string name="task_icon_description">작업 아이콘</string>
+    <string name="difficulty_icon_description">난이도 아이콘</string>
+    <string name="rank_icon_description">순위 아이콘</string>
+    <string name="time_icon_description">시간 아이콘</string>
+    <string name="notification_icon_description">알림 아이콘</string>
+    <string name="shape_preview">도형 미리보기</string>
+    <string name="shape_name">도형 이름</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_label">접근성 라벨</string>
+    <string name="accessibility_hint">접근성 힌트</string>
+    <string name="accessibility_announcement">접근성 공지</string>
+    <string name="accessibility_content_description">콘텐츠 설명</string>
+
+    <!-- Debug -->
+    <string name="debug_info">디버그 정보</string>
+    <string name="debug_logs">디버그 로그</string>
+    <string name="debug_export">디버그 내보내기</string>
+    <string name="debug_clear">디버그 지우기</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_settings_title">프로필 및 설정</string>
+    <string name="theme_customization">테마 사용자 정의</string>
+    <string name="theme_customization_desc">고급 테마 설정 및 색상 사용자 정의</string>
+    <string name="advanced_features">고급 기능</string>
+    <string name="gestures">제스처</string>
+    <string name="haptics">햅틱</string>
+    <string name="machine_learning">머신러닝</string>
+    <string name="networking">네트워킹</string>
+    <string name="notifications_advanced">알림</string>
+    <string name="security">보안</string>
+    <string name="sensors">센서</string>
+    <string name="sounds">소리</string>
+    
+    <!-- Advanced Networking -->
+    <string name="advanced_networking">고급 네트워킹</string>
+    <string name="network_status">네트워크 상태</string>
+    <string name="network_ready">고급 네트워크 준비 완료</string>
+    <string name="network_information">네트워크 정보</string>
+    <string name="network_config_description">최적의 성능을 위해 고급 네트워크를 설정하세요.</string>
+    <string name="network_unavailable">네트워크를 사용할 수 없습니다</string>
+    <string name="network_connecting">연결 중: %1$s</string>
+    <string name="network_control">네트워크 제어</string>
+    <string name="check_network">확인</string>
+    <string name="sync_network">⤓ 동기화</string>
+    <string name="optimize_network">최적화</string>
+    <string name="network_settings">네트워크 설정</string>
+    <string name="enable_network">네트워크 활성화</string>
+    <string name="wifi_only">WiFi만</string>
+    <string name="data_saving">데이터 절약</string>
+    <string name="auto_sync">자동 동기화</string>
+    <string name="available_network_features">사용 가능한 네트워크 기능</string>
+    <string name="wifi_optimization">WiFi 최적화</string>
+    <string name="wifi_optimization_desc">WiFi 연결 성능 최적화</string>
+    <string name="data_compression">데이터 압축</string>
+    <string name="data_compression_desc">더 빠른 전송을 위한 데이터 압축</string>
+    <string name="active">활성</string>
+    <string name="use_feature">사용</string>
+    <string name="help_support">도움말</string>
+    <string name="contact_us">문의하기</string>
+    <string name="policies_terms">정책 및 약관</string>
+    <string name="support_center">지원 센터</string>
+    <string name="support_center_description">지원 및 도움말 센터</string>
+    <string name="logout">로그아웃</string>
+    <string name="logout_description">계정에서 로그아웃</string>
+    <string name="logout_confirm">로그아웃을 확인하시겠습니까?</string>
+    <string name="logout_message">로그아웃하시겠습니까?</string>
+    <string name="logout_success">로그아웃 성공</string>
+    <string name="feature_under_development">기능 개발 중</string>
+    <string name="app_version">버전 1.0.0 (1)</string>
+    <string name="company_name">5명 회사</string>
+    <string name="company_email">이메일: daihoc@uef.edu.vn</string>
+
+    <!-- Sound Settings -->
+    <string name="sound_status">소리 상태</string>
+    <string name="sound_status_ready">고급 소리 준비 완료</string>
+    <string name="sound_information">소리 정보</string>
+    <string name="sound_information_desc">몰입감 있는 경험을 위해 고급 소리 설정을 설정하세요.</string>
+    <string name="sound_controls">소리 제어</string>
+    <string name="play_sound">▶️ 재생</string>
+    <string name="stop_sound">⏹️ 중지</string>
+    <string name="test_sound">🧪 테스트</string>
+    <string name="pitch">주파수</string>
+    <string name="enable_sounds">소리 활성화</string>
+    <string name="available_sound_features">사용 가능한 소리 기능</string>
+    <string name="background_music_feature">배경 음악</string>
+    <string name="background_music_desc">색칠하기 중 배경 음악</string>
+    <!-- About App -->
+    <string name="about_app">앱 정보</string>
+    <string name="about_app_description">도형 색칠하기 정보</string>
+    <string name="about_app_title">도형 색칠하기 정보</string>
+    <string name="about_introduction">도형 색칠하기는 예술에 대한 사랑을 키우고 모든 사람에게 고품질의 색칠하기 경험을 제공한다는 독특한 사명을 가지고 만들어졌습니다. 우리는 예술 애호가 커뮤니티에서 높이 평가받는 아름답고 흥미로운 그림으로 사용자들을 연결하고 싶습니다.</string>
+    <string name="about_who_we_are">우리 소개</string>
+    <string name="about_who_we_are_content">도형 색칠하기는 열정적인 예술 애호가 팀에 의해 개발되었습니다. 우리는 독립적인 개인이며 어떤 조직, 기관, 회사에도 소속되어 있지 않습니다.</string>
+    <string name="about_important_info">중요한 정보</string>
+    <string name="about_important_info_content">• 도형 색칠하기는 모든 색칠하기 그림을 완전히 무료로 제공합니다.\n\n• 우리 앱의 모든 그림은 완전히 무료로 제공됩니다. 하지만 색칠하기 경험을 향상시키고 예술가들을 지원하기 위해 좋아하는 그림의 작가를 지원하는 것을 권장합니다.</string>
+    <string name="about_our_collection">우리의 컬렉션</string>
+    <string name="about_collection_content">도형 색칠하기의 그림은 인터넷에서 사용 가능한 많은 소스에서 수집되며, 아트 웹사이트, 색칠하기 커뮤니티 및 기타 많은 소스가 포함됩니다.\n\n많은 다른 소스에서 수집하기 때문에 때때로 콘텐츠에 누락이나 부정확성이 있을 수 있습니다. 이해해 주시고 이러한 문제를 신속하게 개선하고 수정하는 데 도움이 되는 피드백을 항상 환영합니다.</string>
+    <string name="about_content_policy">콘텐츠 정책</string>
+    <string name="about_policy_content">• 도형 색칠하기의 어떤 콘텐츠의 저작권자이고 해당 콘텐츠를 삭제하고 싶다면 support@coloring-shapes.com으로 이메일을 보내주세요. 요청을 받은 후 즉시 콘텐츠를 삭제하겠습니다.\n\n• 우리의 라이브러리가 아직 개발 중이므로 사용자와 공유할 새로운 그림을 지속적으로 찾고 있습니다. 특정 콘텐츠 요청이 있다면 이메일을 보내주시면 가능한 한 빨리 요청된 그림을 찾아 제공하도록 노력하겠습니다.</string>
+    <string name="about_footer_message">도형 색칠하기로 편안하고 유익한 색칠하기 시간을 보내시기 바랍니다.</string>
+    <string name="about_contact">연락처: support@coloring-shapes.com</string>
+    
+    <!-- Contact Information -->
+    <string name="address_full">베트남 호치민시 빈탄구 제2구 디엔비엔푸 거리 145번지</string>
+    <string name="phone_number">+84 28 5422 6666</string>
+    <string name="address_and_contact">주소 및 연락처</string>
+    <string name="open_in_maps">지도에서 열기</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_settings">테마 설정</string>
+    <string name="choose_theme">테마 선택</string>
+    <string name="system_theme">시스템</string>
+    <string name="system_theme_description">시스템 설정 따르기</string>
+    <string name="light_theme">라이트</string>
+    <string name="light_theme_description">라이트 테마</string>
+    <string name="dark_theme">다크</string>
+    <string name="dark_theme_description">다크 테마</string>
+    <string name="theme_preview">미리보기</string>
+    <string name="theme_preview_default">미리보기할 테마 선택</string>
+    <string name="theme_info_title">정보</string>
+    <string name="theme_info_content">• 시스템: 시스템 설정을 자동으로 따르기\n• 라이트: 항상 라이트 테마 사용\n• 다크: 항상 다크 테마 사용</string>
+    <string name="use">사용</string>
+
+    <!-- Advanced Sensors -->
+    <string name="advanced_sensors">고급 센서</string>
+    <string name="sensor_status">센서 상태</string>
+    <string name="sensor_status_ready">고급 센서 준비 완료</string>
+    <string name="sensor_information">센서 정보</string>
+    <string name="sensor_information_desc">더 나은 사용자 경험을 위해 고급 센서를 설정하세요.</string>
+    <string name="sensor_controls">센서 제어</string>
+    <string name="test_sensor">🧪 테스트</string>
+    <string name="calibrate_sensor">⚙️ 보정</string>
+    <string name="optimize_sensor">⚡ 최적화</string>
+    <string name="sensor_settings">센서 설정</string>
+    <string name="sensitivity">감도</string>
+    <string name="enable_sensors">센서 활성화</string>
+    <string name="accelerometer">가속도계</string>
+    <string name="gyroscope">자이로스코프</string>
+    <string name="magnetometer">자력계</string>
+    <string name="available_sensor_features">사용 가능한 센서 기능</string>
+    <string name="motion_detection">모션 감지</string>
+    <string name="motion_detection_desc">고급 모션 감지</string>
+
+    <!-- Advanced Notifications -->
+    <string name="advanced_notifications">고급 알림</string>
+    <string name="notification_status">알림 상태</string>
+    <string name="notification_status_ready">알림 준비 완료</string>
+    <string name="notification_information">알림 정보</string>
+    <string name="notification_information_desc">최신 상태를 유지하기 위해 고급 알림 설정을 설정하세요.</string>
+    <string name="notification_controls">알림 제어</string>
+    <string name="test_notification">✓ 테스트</string>
+    <string name="clear_notifications">🗑️ 지우기</string>
+    <string name="sound_notifications">소리 알림</string>
+    <string name="vibration_notifications">진동 알림</string>
+    <string name="achievement_notifications">성취 알림</string>
+    <string name="priority_notifications">우선순위 알림</string>
+    <string name="available_notification_features">사용 가능한 알림 기능</string>
+    <string name="push_notifications">푸시 알림</string>
+    <string name="push_notifications_desc">실시간 푸시 알림</string>
+
+    <!-- Advanced Gestures -->
+    <string name="advanced_gestures">고급 제스처</string>
+    <string name="gesture_status">제스처 상태</string>
+    <string name="gesture_status_ready">제스처 설정 준비 완료</string>
+    <string name="gesture_information">제스처 정보</string>
+    <string name="gesture_information_desc">시각적 상호작용을 위한 고급 제스처 인식을 설정하세요.</string>
+    <string name="gesture_controls">제스처 제어</string>
+    <string name="test_gesture">✓ 테스트</string>
+    <string name="calibrate_gesture">⚙️ 보정</string>
+    <string name="gesture_settings">제스처 설정</string>
+    <string name="enable_gestures">제스처 활성화</string>
+    <string name="tap_gestures">탭 제스처</string>
+    <string name="swipe_gestures">스와이프 제스처</string>
+    <string name="pinch_gestures">핀치 제스처</string>
+    <string name="long_press_gestures">롱프레스 제스처</string>
+    <string name="available_gesture_features">사용 가능한 제스처 기능</string>
+    <string name="tap_gestures_feature">탭 제스처</string>
+    <string name="tap_gestures_desc">싱글 탭과 더블 탭 인식</string>
+
+
+    <!-- Additional UI Features -->
+    <string name="ui_features">UI</string>
+    <string name="widgets">위젯</string>
+    <string name="visual_effects">시각 효과</string>
+
+    <!-- Language Support -->
+    <string name="current_language">한국어</string>
+    <string name="language_vietnamese">베트남어</string>
+    <string name="language_english">영어</string>
+    <string name="language_chinese">중국어</string>
+    <string name="language_japanese">일본어</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_thai">태국어</string>
+    <string name="language_french">프랑스어</string>
+    <string name="language_german">독일어</string>
+    <string name="language_spanish">스페인어</string>
+    <string name="language_russian">러시아어</string>
+
+    <!-- String Arrays -->
+    <string-array name="gender_options">
+        <item>남성</item>
+        <item>여성</item>
+    </string-array>
+
+    <string-array name="role_options">
+        <item>사용자</item>
+        <item>관리자</item>
+    </string-array>
+
+    <string-array name="language_options">
+        <item>베트남어</item>
+        <item>영어</item>
+        <item>중국어</item>
+        <item>일본어</item>
+        <item>한국어</item>
+        <item>태국어</item>
+        <item>프랑스어</item>
+        <item>독일어</item>
+        <item>스페인어</item>
+        <item>러시아어</item>
+    </string-array>
+
+    <string-array name="language_codes">
+        <item>vi</item>
+        <item>en</item>
+        <item>zh</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>th</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>es</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- Advanced Sounds -->
+    <string name="advanced_sounds">고급 소리</string>
+    <string name="audio_status">오디오 상태</string>
+    <string name="audio_ready">고급 오디오 준비 완료</string>
+    <string name="audio_information">오디오 정보</string>
+    <string name="audio_info_description">몰입감 있는 경험을 위해 고급 오디오 설정을 설정하세요.</string>
+    <string name="audio_controls">오디오 제어</string>
+    <string name="play_audio">재생</string>
+    <string name="stop_audio">중지</string>
+    <string name="try_audio">시도</string>
+    <string name="audio_settings">오디오 설정</string>
+    <string name="volume">볼륨</string>
+    <string name="frequency">주파수</string>
+    <string name="enable_sound">소리 활성화</string>
+    <string name="background_music">배경 음악</string>
+    <string name="sound_effects">음향 효과</string>
+    <string name="voice_feedback">음성 피드백</string>
+    <string name="available_audio_features">사용 가능한 오디오 기능</string>
+
+    <!-- Additional Profile Fields -->
+    <string name="enter_birth_year">출생년도 입력</string>
+    <string name="change_password">비밀번호 변경</string>
+    <string name="current_password">현재 비밀번호</string>
+    <string name="new_password">새 비밀번호</string>
+    <string name="confirm_new_password">새 비밀번호 확인</string>
+    <string name="enter_current_password">현재 비밀번호 입력</string>
+    <string name="enter_new_password">새 비밀번호 입력</string>
+    <string name="confirm_new_password_hint">새 비밀번호 확인</string>
+
+    <!-- Missing String Resources -->
+    <string name="accessibility_controls">접근성 제어</string>
+    <string name="accessibility_feature_description">접근성 기능 설명</string>
+    <string name="accessibility_feature_title">접근성 기능 제목</string>
+    <string name="accessibility_features">접근성 기능</string>
+    <string name="accessibility_instructions">접근성 지침</string>
+    <string name="accessibility_instructions_desc">접근성 지침 설명</string>
+    <string name="accessibility_settings">접근성 설정</string>
+    <string name="accessibility_status">접근성 상태</string>
+    <string name="accessibility_status_ready">접근성 준비 완료</string>
+    <string name="achievement_description">성취 설명</string>
+    <string name="achievement_name">성취 이름</string>
+    <string name="active_status">활성 상태</string>
+    <string name="add_new_achievement">새 성취 추가</string>
+    <string name="add_new_task">새 작업 추가</string>
+    <string name="add_new_user">새 사용자 추가</string>
+    <string name="admin_system_management">시스템 관리</string>
+    <string name="advanced_animations">고급 애니메이션</string>
+    <string name="advanced_blockchain">고급 블록체인</string>
+    <string name="advanced_camera">고급 카메라</string>
+    <string name="advanced_drawing_tools">고급 그리기 도구</string>
+    <string name="advanced_haptic_controls">고급 햅틱 제어</string>
+    <string name="advanced_haptics">고급 햅틱</string>
+    <string name="advanced_machine_learning">고급 머신러닝</string>
+    <string name="advanced_security">고급 보안</string>
+    <string name="advanced_themes">고급 테마</string>
+    <string name="advanced_timer">고급 타이머</string>
+    <string name="advanced_ui">고급 UI</string>
+    <string name="advanced_visual_effects">고급 시각 효과</string>
+    <string name="advanced_widgets">고급 위젯</string>
+    <string name="ai_controls">AI 제어</string>
+    <string name="ai_feature_description">AI 기능 설명</string>
+    <string name="ai_feature_title">AI 기능 제목</string>
+    <string name="ai_features">AI 기능</string>
+    <string name="ai_no_suggestions">아직 제안이 없습니다</string>
+    <string name="ai_ready">AI 준비 완료</string>
+    <string name="ai_status">AI 상태</string>
+    <string name="ai_suggestions">AI 제안</string>
+    <string name="analytics_change">분석 변경</string>
+    <string name="analytics_item_description">분석 항목 설명</string>
+    <string name="analytics_item_title">분석 항목 제목</string>
+    <string name="analytics_title">분석 제목</string>
+    <string name="analytics_value">분석 값</string>
+    <string name="analytics_value_25">25</string>
+    <string name="analytics_value_2h45m">2시간 45분</string>
+    <string name="analytics_value_875">875</string>
+    <string name="analytics_value_92">92</string>
+    <string name="analyze_button">분석</string>
+    <string name="animation_feature_description">애니메이션 기능 설명</string>
+    <string name="animation_feature_title">애니메이션 기능 제목</string>
+    <string name="animation_information">애니메이션 정보</string>
+    <string name="animation_speed">애니메이션 속도</string>
+    <string name="animation_status">애니메이션 상태</string>
+    <string name="animations_ready">애니메이션 준비 완료</string>
+    <string name="app_footer">앱 푸터</string>
+    <string name="apply_button">적용</string>
+    <string name="apply_ui">UI 적용</string>
+    <string name="apply_visual">시각 적용</string>
+    <string name="ar_controls">AR 제어</string>
+    <string name="ar_feature_description">AR 기능 설명</string>
+    <string name="ar_feature_title">AR 기능 제목</string>
+    <string name="ar_features">AR 기능</string>
+    <string name="ar_instructions">AR 지침</string>
+    <string name="ar_ready">AR 준비 완료</string>
+    <string name="ar_start_instructions">AR 시작 지침</string>
+    <string name="ar_status">AR 상태</string>
+    <string name="art_emoji">🎨</string>
+    <string name="auto_focus">자동 포커스</string>
+    <string name="auto_learning">자동 학습</string>
+    <string name="available_accessibility_features">사용 가능한 접근성 기능</string>
+    <string name="available_commands">사용 가능한 명령</string>
+    <string name="available_haptic_features">사용 가능한 햅틱 기능</string>
+    <string name="available_ml_features">사용 가능한 ML 기능</string>
+    <string name="available_security_features">사용 가능한 보안 기능</string>
+    <string name="available_ui_features">사용 가능한 UI 기능</string>
+    <string name="available_visual_features">사용 가능한 시각 기능</string>
+    <string name="back_to_login">로그인으로 돌아가기</string>
+    <string name="biometric_auth_desc">생체 인증 설명</string>
+    <string name="biometric_authentication">생체 인증</string>
+    <string name="birth_year_format">출생년도 형식</string>
+    <string name="birth_year_label">출생년도 라벨</string>
+    <string name="blockchain_feature_description">블록체인 기능 설명</string>
+    <string name="blockchain_feature_title">블록체인 기능 제목</string>
+    <string name="blockchain_information">블록체인 정보</string>
+    <string name="blockchain_ready">블록체인 준비 완료</string>
+    <string name="blockchain_status">블록체인 상태</string>
+    <string name="brightness">밝기</string>
+    <string name="brightness_label">밝기 라벨</string>
+    <string name="brightness_level">밝기 레벨</string>
+    <string name="brightness_level_value">밝기 레벨 값</string>
+    <string name="brush_size_label">브러시 크기 라벨</string>
+    <string name="calibrate_button">보정 버튼</string>
+    <string name="calibrate_haptic">햅틱 보정</string>
+    <string name="camera_controls">카메라 제어</string>
+    <string name="camera_feature_description">카메라 기능 설명</string>
+    <string name="camera_feature_title">카메라 기능 제목</string>
+    <string name="camera_information">카메라 정보</string>
+    <string name="camera_permission_required">카메라 권한 필요</string>
+    <string name="camera_ready">카메라 준비 완료</string>
+    <string name="camera_settings">카메라 설정</string>
+    <string name="camera_settings_description">카메라 설정 설명</string>
+    <string name="camera_status">카메라 상태</string>
+    <string name="capture_button">캡처 버튼</string>
+    <string name="change_password_button">비밀번호 변경 버튼</string>
+    <string name="choose_from_gallery">갤러리에서 선택</string>
+    <string name="choose_language">언어 선택</string>
+    <string name="clear_all_data">모든 데이터 지우기</string>
+    <string name="clear_button">지우기 버튼</string>
+    <string name="close">닫기</string>
+    <string name="cloud_sync">클라우드 동기화</string>
+    <string name="color">색상</string>
+    <string name="color_customization_description">색상 사용자 정의 설명</string>
+    <string name="color_effects">색상 효과</string>
+    <string name="color_name">색상 이름</string>
+    <string name="color_picker_title">색상 선택기 제목</string>
+    <string name="coloring_task">색칠하기 작업</string>
+    <string name="comment_count">댓글 수</string>
+    <string name="computer_emoji">🖥️</string>
+    <string name="contrast">대비</string>
+    <string name="contrast_label">대비 라벨</string>
+    <string name="create_button">만들기 버튼</string>
+    <string name="create_new_account">새 계정 만들기</string>
+    <string name="created_date">생성일</string>
+    <string name="custom_animations">사용자 정의 애니메이션</string>
+    <string name="custom_animations_desc">사용자 정의 애니메이션 설명</string>
+    <string name="dark">다크</string>
+    <string name="data_augmentation">데이터 증강</string>
+    <string name="data_encryption">데이터 암호화</string>
+    <string name="data_encryption_desc">데이터 암호화 설명</string>
+    <string name="date_format">날짜 형식</string>
+    <string name="delete_task">작업 삭제</string>
+    <string name="demo_email">데모 이메일</string>
+    <string name="demo_mode">데모 모드</string>
+    <string name="demo_user">데모 사용자</string>
+    <string name="description">설명</string>
+    <string name="difficulty">난이도</string>
+    <string name="double_tap">더블 탭</string>
+    <string name="dynamic_themes">동적 테마</string>
+    <string name="dynamic_themes_desc">동적 테마 설명</string>
+    <string name="edit_task">작업 편집</string>
+    <string name="enable_accessibility">접근성 활성화</string>
+    <string name="enable_button">활성화 버튼</string>
+    <string name="enable_camera">카메라 활성화</string>
+    <string name="enable_haptics">햅틱 활성화</string>
+    <string name="enable_ml">ML 활성화</string>
+    <string name="enable_security">보안 활성화</string>
+    <string name="enable_security_button">보안 활성화 버튼</string>
+    <string name="enable_ui_customization">UI 사용자 정의 활성화</string>
+    <string name="enable_visual_effects">시각 효과 활성화</string>
+    <string name="export_error">내보내기 오류</string>
+    <string name="export_feature_developing">내보내기 기능 개발 중</string>
+    <string name="female_user_emoji">👩</string>
+    <string name="filter_label">필터 라벨</string>
+    <string name="flash_label">플래시 라벨</string>
+    <string name="forgot_password_description">UEF 이메일을 입력하여 비밀번호 재설정 지침을 받으세요</string>
+    <string name="forgot_password_title">비밀번호 찾기</string>
+    <string name="gesture_feature_description">제스처 기능 설명</string>
+    <string name="gesture_feature_title">제스처 기능 제목</string>
+    <string name="gesture_instructions">제스처 지침</string>
+    <string name="gestures_ready">제스처 준비 완료</string>
+    <string name="gold_medal_emoji">🥇</string>
+    <string name="great_job">훌륭한 작업</string>
+    <string name="haptic_controls">햅틱 제어</string>
+    <string name="haptic_feature_description">햅틱 기능 설명</string>
+    <string name="haptic_feature_title">햅틱 기능 제목</string>
+    <string name="haptic_information">햅틱 정보</string>
+    <string name="haptic_information_desc">햅틱 정보 설명</string>
+    <string name="haptic_intensity">햅틱 강도</string>
+    <string name="haptic_intensity_control">햅틱 강도 제어</string>
+    <string name="haptic_patterns">햅틱 패턴</string>
+    <string name="haptic_settings">햅틱 설정</string>
+    <string name="haptic_status">햅틱 상태</string>
+    <string name="haptic_status_ready">햅틱 준비 완료</string>
+    <string name="haptic_status_enabled">햅틱 피드백이 활성화되었습니다 - 강도: %1$d%%</string>
+    <string name="haptic_status_disabled">햅틱 피드백이 비활성화되었습니다</string>
+    <string name="haptic_testing">햅틱 테스트 중...</string>
+    <string name="haptic_question">진동을 느낄 수 있습니까?</string>
+    <string name="haptic_description">생생한 터치 경험을 위해 햅틱 피드백을 구성하십시오.</string>
+    <string name="haptic_types">햅틱 유형</string>
+    <string name="heavy">무거운</string>
+    <string name="heavy_haptic">무거운 햅틱</string>
+    <string name="heavy_haptic_description">무거운 햅틱 설명</string>
+    <string name="high_contrast">고대비</string>
+    <string name="import_error">가져오기 오류</string>
+    <string name="import_feature_developing">가져오기 기능 개발 중</string>
+    <string name="intensity">강도</string>
+    <string name="language_changed_english">언어가 영어로 변경되었습니다</string>
+    <string name="language_changed_vietnamese">언어가 베트남어로 변경되었습니다</string>
+    <string name="large_text">큰 텍스트</string>
+    <string name="learning_rate">학습률</string>
+    <string name="level_format">레벨 형식</string>
+    <string name="light">라이트</string>
+    <string name="light_haptic">가벼운 햅틱</string>
+    <string name="light_haptic_description">가벼운 햅틱 설명</string>
+    <string name="lighting_effects">조명 효과</string>
+    <string name="like_count">❤️ %1$d</string>
+    <string name="locked">잠김</string>
+    <string name="long_press">롱프레스</string>
+    <string name="medium_haptic">중간 햅틱</string>
+    <string name="medium_haptic_description">중간 햅틱 설명</string>
+    <string name="ml_configuration_description">ML 설정 설명</string>
+    <string name="ml_controls">ML 제어</string>
+    <string name="ml_feature_description">ML 기능 설명</string>
+    <string name="ml_feature_title">ML 기능 제목</string>
+    <string name="ml_information">ML 정보</string>
+    <string name="ml_information_desc">ML 정보 설명</string>
+    <string name="ml_settings">ML 설정</string>
+    <string name="ml_status">ML 상태</string>
+    <string name="ml_status_ready">ML 준비 완료</string>
+    <string name="moon_emoji">🌙</string>
+    <string name="network_feature_description">네트워크 기능 설명</string>
+    <string name="network_feature_title">네트워크 기능 제목</string>
+    <string name="neural_networks">신경망</string>
+    <string name="neural_networks_desc">신경망 설명</string>
+    <string name="no_history_found">기록을 찾을 수 없습니다</string>
+    <string name="no_leaderboard_data">리더보드 데이터 없음</string>
+    <string name="no_speech_detected">음성이 감지되지 않았습니다</string>
+    <string name="normal_mode">일반 모드</string>
+    <string name="notification_feature_description">알림 기능 설명</string>
+    <string name="notification_feature_title">알림 기능 제목</string>
+    <string name="opacity_label">불투명도 라벨</string>
+    <string name="opacity_value">불투명도 값</string>
+    <string name="other_gender">기타</string>
+    <string name="particle_effects">파티클 효과</string>
+    <string name="particle_effects_desc">파티클 효과 설명</string>
+    <string name="pause_button">일시정지 버튼</string>
+    <string name="percent_symbol">%</string>
+    <string name="player_name">플레이어 이름</string>
+    <string name="points_format">포인트 형식</string>
+    <string name="points_value">포인트 값</string>
+    <string name="points_zero">제로 포인트</string>
+    <string name="post_content">게시물 내용</string>
+    <string name="predict_ml">ML 예측</string>
+    <string name="pressure_haptics">압력 햅틱</string>
+    <string name="preview_visual">시각 미리보기</string>
+    <string name="primary_color">주 색상</string>
+    <string name="profile_image_saved">프로필 이미지가 저장되었습니다</string>
+    <string name="profile_score_value">프로필 점수 값</string>
+    <string name="rank_label">순위 라벨</string>
+    <string name="rank_number">순위 번호</string>
+    <string name="ready">준비 완료</string>
+    <string name="realtime">실시간</string>
+    <string name="realtime_prediction">실시간 예측</string>
+    <string name="record_button">녹음 버튼</string>
+    <string name="redo_button">다시 실행 버튼</string>
+    <string name="refresh_emoji">🔄</string>
+    <string name="remove_button">제거 버튼</string>
+    <string name="report_description">보고서 설명</string>
+    <string name="report_title">보고서 제목</string>
+    <string name="reset_button">재설정 버튼</string>
+    <string name="reset_database">데이터베이스 재설정</string>
+    <string name="reset_haptic">햅틱 재설정</string>
+    <string name="reset_ui">UI 재설정</string>
+    <string name="role">역할</string>
+    <string name="sample_email">샘플 이메일</string>
+    <string name="sample_name">샘플 이름</string>
+    <string name="saturation">채도</string>
+    <string name="save_haptic">햅틱 저장</string>
+    <string name="score_format">점수 형식</string>
+    <string name="score_label">점수 라벨</string>
+    <string name="score_value">점수 값</string>
+    <string name="secondary_color">보조 색상</string>
+    <string name="security_controls">보안 제어</string>
+    <string name="security_enable_description">보안 활성화 설명</string>
+    <string name="security_feature_description">보안 기능 설명</string>
+    <string name="security_feature_title">보안 기능 제목</string>
+    <string name="security_information">보안 정보</string>
+    <string name="security_information_desc">보안 정보 설명</string>
+    <string name="security_settings">보안 설정</string>
+    <string name="security_status">보안 상태</string>
+    <string name="security_status_ready">보안 준비 완료</string>
+    <string name="select_profile_image">프로필 이미지 선택</string>
+    <string name="send_instructions">지침 보내기</string>
+    <string name="sensor_feature_description">센서 기능 설명</string>
+    <string name="sensor_feature_title">센서 기능 제목</string>
+    <string name="settings_emoji">⚙️</string>
+    <string name="shape_type">도형 유형</string>
+    <string name="share_button">공유 버튼</string>
+    <string name="signal_emoji">📶</string>
+    <string name="single_tap">싱글 탭</string>
+    <string name="social_network">소셜 네트워크</string>
+    <string name="star_emoji">⭐</string>
+    <string name="start_ar_button">AR 시작 버튼</string>
+    <string name="start_button">시작 버튼</string>
+    <string name="start_listening">듣기 시작</string>
+    <string name="status_label">상태 라벨</string>
+    <string name="stop">중지</string>
+    <string name="storage_permission_required">저장소 권한 필요</string>
+    <string name="suggest_button">제안 버튼</string>
+    <string name="sun_emoji">☀️</string>
+    <string name="sync_controls">동기화 제어</string>
+    <string name="sync_feature_description">동기화 기능 설명</string>
+    <string name="sync_feature_title">동기화 기능 제목</string>
+    <string name="sync_progress">동기화 진행률</string>
+    <string name="sync_ready">동기화 준비 완료</string>
+    <string name="sync_ready_message">동기화 준비 완료 메시지</string>
+    <string name="sync_start_button">동기화 시작 버튼</string>
+    <string name="sync_status">동기화 상태</string>
+    <string name="sync_stop_button">동기화 중지 버튼</string>
+    <string name="system_management_title">시스템 관리 제목</string>
+    <string name="system_statistics">시스템 통계</string>
+    <string name="take_photo">사진 촬영</string>
+    <string name="target_emoji">🎯</string>
+    <string name="task_description_hint">작업 설명 힌트</string>
+    <string name="task_duration_value">작업 소요 시간 값</string>
+    <string name="task_history">작업 기록</string>
+    <string name="task_label">작업 라벨</string>
+    <string name="task_name_hint">작업 이름 힌트</string>
+    <string name="temperature_haptics">온도 햅틱</string>
+    <string name="test_accessibility">접근성 테스트</string>
+    <string name="test_button">테스트 버튼</string>
+    <string name="test_haptic">햅틱 테스트</string>
+    <string name="test_ml">ML 테스트</string>
+    <string name="test_security">보안 테스트</string>
+    <string name="test_visual">시각 테스트</string>
+    <string name="theme_feature_description">테마 기능 설명</string>
+    <string name="theme_feature_title">테마 기능 제목</string>
+    <string name="theme_information">테마 정보</string>
+    <string name="theme_intensity">테마 강도</string>
+    <string name="theme_ready">테마 준비 완료</string>
+    <string name="theme_selection">테마 선택</string>
+    <string name="theme_selection_description">테마 선택 설명</string>
+    <string name="theme_status">테마 상태</string>
+    <string name="time_ago">시간 전</string>
+    <string name="time_format">시간 형식</string>
+    <string name="time_label">시간 라벨</string>
+    <string name="timer_controls">타이머 제어</string>
+    <string name="timer_display">타이머 표시</string>
+    <string name="timer_display_value">타이머 표시 값</string>
+    <string name="timer_duration">타이머 소요 시간</string>
+    <string name="timer_duration_instructions">타이머 소요 시간 지침</string>
+    <string name="timer_feature_description">타이머 기능 설명</string>
+    <string name="timer_feature_title">타이머 기능 제목</string>
+    <string name="timer_ready">타이머 준비 완료</string>
+    <string name="timer_status">타이머 상태</string>
+    <string name="total_achievements_count">총 성취 수</string>
+    <string name="total_plays_count">총 플레이 수</string>
+    <string name="total_tasks_count">총 작업 수</string>
+    <string name="total_users_count">총 사용자 수</string>
+    <string name="train_button">훈련 버튼</string>
+    <string name="train_ml">ML 훈련</string>
+    <string name="try_demo">데모 시도</string>
+    <string name="two_factor_authentication">이중 인증</string>
+    <string name="type">유형</string>
+    <string name="ui_controls">UI 제어</string>
+    <string name="ui_customization_description">UI 사용자 정의 설명</string>
+    <string name="ui_feature_description">UI 기능 설명</string>
+    <string name="ui_feature_title">UI 기능 제목</string>
+    <string name="ui_information">UI 정보</string>
+    <string name="ui_information_desc">UI 정보 설명</string>
+    <string name="ui_settings">UI 설정</string>
+    <string name="ui_status">UI 상태</string>
+    <string name="ui_status_ready">UI 준비 완료</string>
+    <string name="undo_button">실행 취소 버튼</string>
+    <string name="user_label">사용자 라벨</string>
+    <string name="user_management_title">사용자 관리 제목</string>
+    <string name="user_role">사용자 역할</string>
+    <string name="value">값</string>
+    <string name="vibration_feedback">진동 피드백</string>
+    <string name="vibration_feedback_desc">진동 피드백 설명</string>
+    <string name="vibration_haptics">진동 햅틱</string>
+    <string name="visual_configuration_description">시각 설정 설명</string>
+    <string name="visual_controls">시각 제어</string>
+    <string name="visual_feature_description">시각 기능 설명</string>
+    <string name="visual_feature_title">시각 기능 제목</string>
+    <string name="visual_information">시각 정보</string>
+    <string name="visual_information_desc">시각 정보 설명</string>
+    <string name="visual_settings">시각 설정</string>
+    <string name="visual_status">시각 상태</string>
+    <string name="visual_status_ready">시각 준비 완료</string>
+    <string name="voice_commands">음성 명령</string>
+    <string name="voice_controls">음성 제어</string>
+    <string name="voice_over">음성 오버</string>
+    <string name="voice_result">음성 결과</string>
+    <string name="voice_status">음성 상태</string>
+    <string name="widget_controls">위젯 제어</string>
+    <string name="widget_creation_description">위젯 생성 설명</string>
+    <string name="widget_feature_description">위젯 기능 설명</string>
+    <string name="widget_feature_title">위젯 기능 제목</string>
+    <string name="widget_information">위젯 정보</string>
+    <string name="widget_status">위젯 상태</string>
+    <string name="widgets_ready">위젯 준비 완료</string>
+    <string name="zoom_label">줌 라벨</string>
+    <string name="tet_theme">뗏 테마</string>
+    <string name="tet_theme_description">설날 특별 테마</string>
+
+    <!-- User Management Strings -->
+    <string name="filter_all_users">모두</string>
+    <string name="filter_users_role">사용자</string>
+    <string name="filter_admin_role">관리자</string>
+    <string name="filter_active_users">활성</string>
+    <string name="filter_locked_users">잠김</string>
+    <string name="total_users_text">전체: %1$d명</string>
+    <string name="found_users_text">찾음: %1$d명</string>
+    <string name="add_new_user_title">새 사용자 추가</string>
+    <string name="add_user_button">추가</string>
+    <string name="edit_user_title">사용자 편집</string>
+    <string name="update_button">업데이트</string>
+    <string name="delete_user_title">삭제 확인</string>
+    <string name="delete_user_message">사용자 %1$s을(를) 삭제하시겠습니까?</string>
+    <string name="delete_button">삭제</string>
+    <string name="user_added_success">사용자가 추가되었습니다</string>
+    <string name="user_updated_success">사용자가 업데이트되었습니다</string>
+    <string name="user_deleted_success">사용자가 삭제되었습니다</string>
+    <string name="user_activated">활성화됨</string>
+    <string name="user_locked">잠김</string>
+    <string name="user_status_changed">사용자가 %1$s되었습니다</string>
+    <string name="enter_name_hint">이름을 입력하세요</string>
+    <string name="password_min_length">비밀번호는 최소 6자 이상이어야 합니다</string>
+    <string name="invalid_birth_year">생년이 잘못되었습니다</string>
+    <string name="admin_role">관리자</string>
+    <string name="user_role_label">사용자</string>
+    <string name="created_at_label">생성: %1$s</string>
+
+    <!-- Achievement Management Strings -->
+    <string name="total_achievements_text">총 업적: %1$d</string>
+    <string name="edit_achievement_title">업적 수정</string>
+    <string name="enter_achievement_name">업적 이름을 입력하세요</string>
+    <string name="achievement_updated">업적이 업데이트되었습니다</string>
+    <string name="achievement_added">업적이 추가되었습니다</string>
+    <string name="delete_achievement_title">업적 삭제</string>
+    <string name="delete_achievement_message">업적 \"%1$s\"을(를) 삭제하시겠습니까?</string>
+    <string name="achievement_deleted">업적이 삭제되었습니다</string>
+    <string name="achievement_name_hint">업적 이름</string>
+    <string name="achievement_description_hint">설명</string>
+    <string name="achievement_icon_hint">아이콘 (이모지)</string>
+    <string name="achievement_requirement_hint">요구사항 (숫자)</string>
+    <string name="achievement_points_hint">보상 포인트</string>
+
+    <!-- Leaderboard Management Strings -->
+    <string name="filter_top_10">상위 10</string>
+    <string name="filter_top_50">상위 50</string>
+    <string name="filter_top_100">상위 100</string>
+    <string name="total_attempts_text">총 시도 횟수: %1$d</string>
+
+    <!-- Admin Dashboard Strings -->
+    <string name="reset_database_title">데이터베이스 재설정 확인</string>
+    <string name="reset_database_message">모든 데이터를 삭제하고 10개의 작업 + 10개의 샘플 계정을 다시 생성하시겠습니까?\n\n주의: 모든 현재 데이터가 삭제됩니다!</string>
+    <string name="confirm_reset_button">확인</string>
+    <string name="reset_database_success">✅ 데이터베이스가 성공적으로 재설정되었습니다!\n10개의 작업 + 10개의 계정이 생성되었습니다.</string>
+    <string name="reset_database_error">❌ 데이터베이스 재설정 중 오류: %1$s</string>
+    <string name="error_loading_statistics">통계 로드 오류</string>
+    <string name="users_count_format">%1$d명</string>
+    <string name="tasks_count_format">%1$d개 작업</string>
+    <string name="attempts_count_format">%1$d회</string>
+    <string name="points_count_format">%1$d점</string>
+
+    <!-- User Management -->
+    <string name="search_users_hint">검색...</string>
+    <string name="export_excel_label">📊 엑셀 내보내기</string>
+    
+    <!-- Advanced Sounds -->
+    <string name="select_music">음악 선택</string>
+    <string name="select">선택</string>
+    <string name="turn_off">끄기</string>
+    <string name="turn_on">켜기</string>
+    <string name="inactive">비활성</string>
+    <string name="sound_effects_desc">버튼을 누를 때 소리</string>
+    <string name="notification_sound">알림 소리</string>
+    <string name="notification_sound_desc">알림이 있을 때 소리</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_selected">선택된 테마: %1$s</string>
+    <string name="theme_applied_immediately">변경사항이 즉시 적용되었습니다!</string>
+    
+    <!-- Advanced Admin Reports -->
+    <string name="score_distribution">점수 분포</string>
+    <string name="score_distribution_desc">점수 수준별 시도 횟수</string>
+    <string name="most_active_user">가장 활발한 사용자</string>
+    <string name="most_active_user_desc">가장 많은 작업을 완료한 사용자</string>
+    <string name="achievements_stat">성과</string>
+    <string name="achievements_stat_desc">전체 중 잠금 해제된 성과 수</string>
+    <string name="avg_completion_speed">평균 완료 속도</string>
+    <string name="avg_completion_speed_desc">1개 작업을 완료하는 평균 시간</string>
+    <string name="incomplete_rate">미완료율</string>
+    <string name="incomplete_rate_desc">중단된 작업의 비율</string>
+    <string name="new_users_7days">신규 사용자 (7일)</string>
+    <string name="new_users_7days_desc">새로 등록된 사용자 수</string>
+    <string name="total_attempts">총 시도 횟수</string>
+    <string name="total_attempts_desc">작업을 수행하는 총 사용자 수</string>
+    <string name="completed_attempts_trend">%1$d 완료</string>
+    <string name="score_excellent">우수</string>
+    <string name="score_good">좋음</string>
+    <string name="score_fair">양호</string>
+    <string name="score_average">평균</string>
+    <string name="status_good">✓ 좋음</string>
+    <string name="status_average">○ 평균</string>
+    <string name="status_need_improve">✗ 개선 필요</string>
+    <string name="status_active">✓ 활동적</string>
+    <string name="status_stable">○ 안정</string>
+    <string name="status_fast">✓ 빠름</string>
+    <string name="status_medium">○ 중간</string>
+    <string name="status_slow">✗ 느림</string>
+    <string name="status_high">✗ 높음</string>
+    <string name="status_growth">✓ 성장</string>
+    <string name="status_no_data">○ 없음</string>
+    <string name="no_data">데이터 없음</string>
+    <string name="not_available">N/A</string>
+    <string name="total_format">총: %1$d회</string>
+    <string name="attempts_completed">%1$d 완료</string>
+    <string name="unlocked_percent">%1$d%% 잠금 해제</string>
+    <string name="users_count">%1$d명</string>
+    <string name="attempts">회</string>
+    
+    <!-- Leaderboard -->
+    <string name="total_score_tab">총 점수</string>
+    <string name="drawing_score_tab">그리기 점수</string>
+    <string name="leaderboard_load_error">리더보드 로드 오류: %1$s</string>
+    <string name="score_points">%1$d점</string>
+    <string name="unknown_error">알 수 없는 오류</string>
+    <string name="leaderboard_management">리더보드 관리</string>
+    <string name="user_prefix">사용자: %1$s</string>
+    <string name="task_prefix">작업: %1$s</string>
+    
+    <!-- Social Network - Post Content -->
+    <string name="post_created_colorful_garden">다채로운 정원을 만들었습니다! 🌸</string>
+    <string name="post_beautiful_mountain_lake">아름다운 산호수 풍경! 🏔️</string>
+    <string name="post_city_at_night">반짝이는 등불이 있는 야경 도시! 🌃</string>
+    <string name="post_fairytale_castle">꿈속의 동화성! 🏰</string>
+    <string name="post_tropical_beach">야자수가 있는 열대 해변! 🏖️</string>
+    <string name="days_ago">%1$d일 전</string>
+
+</resources>

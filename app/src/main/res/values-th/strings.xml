@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">ระบายสีรูปทรง</string>
+    <string name="app_subtitle">ระบายสีรูปทรงอัจฉริยะ</string>
+    <string name="version">เวอร์ชัน 1.0.0</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_subtitle" translatable="false">ระบายสีรูปทรงอัจฉริยะ</string>
+    <string name="loading" translatable="false">กำลังโหลด…</string>
+
+    <!-- Authentication -->
+    <string name="login" translatable="false">เข้าสู่ระบบ</string>
+    <string name="register" translatable="false">สมัครสมาชิก</string>
+    <string name="edit_profile">แก้ไขโปรไฟล์</string>
+    <string name="user_name">ชื่อผู้ใช้</string>
+    <string name="user_email">อีเมล</string>
+    <string name="enter_user_name">ใส่ชื่อผู้ใช้</string>
+    <string name="enter_user_email">ใส่อีเมล</string>
+    <string name="statistics">สถิติ</string>
+    <string name="level">ระดับ</string>
+    <string name="score">คะแนน</string>
+    <string name="login_title">ยินดีต้อนรับกลับ</string>
+    <string name="login_subtitle" translatable="false">เข้าสู่ระบบเพื่อดำเนินการต่อ</string>
+    <string name="register_title">สร้างบัญชีใหม่</string>
+    <string name="register_subtitle">สมัครสมาชิกเพื่อเริ่มต้น</string>
+    <string name="already_have_account">มีบัญชีอยู่แล้ว?</string>
+    <string name="forgot_password">ลืมรหัสผ่าน?</string>
+    <string name="remember_me">จำการเข้าสู่ระบบ</string>
+
+    <!-- Form Fields -->
+    <string name="email">อีเมล</string>
+    <string name="email_uef">อีเมล UEF</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="confirm_password">ยืนยันรหัสผ่าน</string>
+    <string name="full_name">ชื่อเต็ม</string>
+    <string name="birth_year">ปีเกิด</string>
+    <string name="gender">เพศ</string>
+    <string name="male">ชาย</string>
+    <string name="female">หญิง</string>
+    <string name="terms_and_conditions">ฉันยอมรับข้อกำหนดการใช้งาน</string>
+
+    <!-- Navigation -->
+    <string name="home">หน้าแรก</string>
+    <string name="quest">ภารกิจ</string>
+    <string name="progress">ความคืบหน้า</string>
+    <string name="profile">โปรไฟล์</string>
+    <string name="back">กลับ</string>
+    <string name="next">ถัดไป</string>
+    <string name="previous">ก่อนหน้า</string>
+    <string name="finish">เสร็จสิ้น</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="save">บันทึก</string>
+    <string name="edit">แก้ไข</string>
+    <string name="delete">ลบ</string>
+    <string name="add">เพิ่ม</string>
+    <string name="search">ค้นหา</string>
+    <string name="filter">กรอง</string>
+    <string name="sort">เรียงลำดับ</string>
+
+    <!-- Tasks -->
+    <string name="tasks">ภารกิจ</string>
+    <string name="available_tasks">ภารกิจที่มี</string>
+    <string name="task_list">รายการภารกิจ</string>
+    <string name="task_details">รายละเอียดภารกิจ</string>
+    <string name="start_task">เริ่มภารกิจ</string>
+    <string name="complete_task">ทำภารกิจให้เสร็จ</string>
+    <string name="task_name">ชื่อภารกิจ</string>
+    <string name="task_description">คำอธิบาย</string>
+    <string name="task_duration">ระยะเวลา</string>
+    <string name="task_difficulty">ความยาก</string>
+    <string name="task_points">คะแนน</string>
+    <string name="task_status">สถานะ</string>
+
+    <!-- Shapes -->
+    <string name="shapes">รูปทรง</string>
+    <string name="circle">วงกลม</string>
+    <string name="square">สี่เหลี่ยมจัตุรัส</string>
+    <string name="triangle">สามเหลี่ยม</string>
+    <string name="rectangle">สี่เหลี่ยมผืนผ้า</string>
+    <string name="pentagon">ห้าเหลี่ยม</string>
+    <string name="hexagon">หกเหลี่ยม</string>
+    <string name="star">ดาว</string>
+    <string name="heart">หัวใจ</string>
+
+    <!-- Task Names -->
+    <string name="task_color_circle">ระบายสีวงกลม</string>
+    <string name="task_color_square">ระบายสีสี่เหลี่ยมจัตุรัส</string>
+    <string name="task_color_triangle">ระบายสีสามเหลี่ยม</string>
+    <string name="task_color_star">ระบายสีดาว</string>
+    <string name="task_color_heart">ระบายสีหัวใจ</string>
+
+    <!-- Task Descriptions -->
+    <string name="task_desc_circle">ระบายสีวงกลมด้วยสีที่คุณชอบ</string>
+    <string name="task_desc_square">ระบายสีสี่เหลี่ยมจัตุรัสด้วยสีที่คุณชอบ</string>
+    <string name="task_desc_triangle">ระบายสีสามเหลี่ยมด้วยสีที่คุณชอบ</string>
+
+    <!-- Colors -->
+    <string name="colors">สี</string>
+    <string name="red">สีแดง</string>
+    <string name="blue">สีน้ำเงิน</string>
+    <string name="green">สีเขียว</string>
+    <string name="yellow">สีเหลือง</string>
+    <string name="orange">สีส้ม</string>
+    <string name="purple">สีม่วง</string>
+    <string name="pink">สีชมพู</string>
+    <string name="black">สีดำ</string>
+    <string name="white">สีขาว</string>
+    <string name="gray">สีเทา</string>
+
+    <!-- Drawing -->
+    <string name="drawing">การวาด</string>
+    <string name="brush">พู่กัน</string>
+    <string name="brush_size">ขนาดพู่กัน</string>
+    <string name="color_picker">ตัวเลือกสี</string>
+    <string name="undo">ยกเลิก</string>
+    <string name="redo">ทำซ้ำ</string>
+    <string name="clear">ลบทั้งหมด</string>
+    <string name="eraser">ยางลบ</string>
+
+    <!-- Scoring -->
+    <string name="total_score">คะแนนรวม</string>
+    <string name="high_score">คะแนนสูงสุด</string>
+    <string name="leaderboard">ตารางคะแนน</string>
+    <string name="rank">อันดับ</string>
+    <string name="your_rank">อันดับของคุณ</string>
+    <string name="top_players">ผู้เล่นอันดับต้น</string>
+    <string name="view_full_leaderboard">ดูตารางคะแนนทั้งหมด</string>
+
+    <!-- History -->
+    <string name="history">ประวัติ</string>
+    <string name="recent_history">ประวัติล่าสุด</string>
+    <string name="view_all_history">ดูประวัติทั้งหมด</string>
+    <string name="completed_tasks">ภารกิจที่เสร็จสิ้น</string>
+    <string name="view_history">ดูประวัติ</string>
+    <string name="no_history">ไม่มีประวัติ</string>
+
+    <!-- Settings -->
+    <string name="settings">การตั้งค่า</string>
+    <string name="language">ภาษา</string>
+    <string name="theme">ธีม</string>
+    <string name="notifications">การแจ้งเตือน</string>
+    <string name="sound">เสียง</string>
+    <string name="vibration">การสั่น</string>
+    <string name="offline_mode">สถานะการเชื่อมต่อ</string>
+    <string name="data_management">การจัดการข้อมูล</string>
+    <string name="export_data">ส่งออกข้อมูล</string>
+    <string name="import_data">นำเข้าข้อมูล</string>
+    <string name="about">เกี่ยวกับ</string>
+    <string name="dark_mode">โหมดมืด</string>
+    <string name="enable_notifications">เปิดการแจ้งเตือน</string>
+    <string name="online_status">คุณออนไลน์ ฟีเจอร์ทั้งหมดพร้อมใช้งาน</string>
+    <string name="offline_status">คุณออฟไลน์ ฟีเจอร์บางส่วนถูกจำกัด</string>
+
+    <!-- Admin -->
+    <string name="admin">ผู้ดูแลระบบ</string>
+    <string name="admin_dashboard">แดชบอร์ด</string>
+    <string name="manage_tasks">จัดการภารกิจ</string>
+    <string name="manage_shapes">จัดการรูปทรง</string>
+    <string name="manage_users">จัดการผู้ใช้</string>
+    <string name="reports">รายงาน</string>
+
+    <!-- Messages -->
+    <string name="success">สำเร็จ</string>
+    <string name="error">ข้อผิดพลาด</string>
+    <string name="warning">คำเตือน</string>
+    <string name="info">ข้อมูล</string>
+    <string name="confirm">ยืนยัน</string>
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่</string>
+    <string name="ok">ตกลง</string>
+
+    <!-- Validation -->
+    <string name="email_required">กรุณาใส่อีเมล</string>
+    <string name="email_invalid">อีเมลไม่ถูกต้อง</string>
+    <string name="password_required">กรุณาใส่รหัสผ่าน</string>
+    <string name="password_too_short">รหัสผ่านสั้นเกินไป</string>
+    <string name="passwords_not_match">รหัสผ่านไม่ตรงกัน</string>
+    <string name="field_required">ฟิลด์นี้จำเป็นต้องกรอก</string>
+
+    <!-- Time -->
+    <string name="time">เวลา</string>
+    <string name="timer">ตัวจับเวลา</string>
+    <string name="time_remaining">เวลาที่เหลือ</string>
+    <string name="time_up">หมดเวลา</string>
+    <string name="seconds">วินาที</string>
+    <string name="minutes">นาที</string>
+    <string name="hours">ชั่วโมง</string>
+
+    <!-- Or -->
+    <string name="or">หรือ</string>
+
+    <!-- Google Auth Buttons -->
+    <string name="sign_in_with_google">เข้าสู่ระบบด้วย Google</string>
+    <string name="sign_up_with_google">สมัครด้วย Google</string>
+
+    <!-- Difficulty Levels -->
+    <string name="easy">ง่าย</string>
+    <string name="medium">ปานกลาง</string>
+    <string name="hard">ยาก</string>
+    <string name="difficulty_label">ความยาก: %s</string>
+    <string name="points_label">คะแนน: %d</string>
+
+    <!-- Status -->
+    <string name="pending">รอดำเนินการ</string>
+    <string name="in_progress">กำลังดำเนินการ</string>
+    <string name="completed">เสร็จสิ้น</string>
+    <string name="failed">ล้มเหลว</string>
+
+    <!-- Social -->
+    <string name="share">แชร์</string>
+    <string name="friends">เพื่อน</string>
+    <string name="invite">เชิญ</string>
+
+    <!-- Empty States -->
+    <string name="no_tasks">ไม่มีภารกิจ</string>
+    <string name="no_results">ไม่มีผลลัพธ์</string>
+    <string name="empty_list">รายการว่าง</string>
+    <string name="empty_tasks">ยังไม่มีภารกิจ</string>
+    <string name="empty_history">ยังไม่มีประวัติ</string>
+    <string name="empty_leaderboard">ยังไม่มีตารางคะแนน</string>
+    <string name="empty_notifications">ไม่มีการแจ้งเตือน</string>
+    <string name="empty_results">ไม่มีผลลัพธ์</string>
+    <string name="empty_search">ไม่มีผลการค้นหา</string>
+
+    <!-- Actions -->
+    <string name="submit">ส่ง</string>
+    <string name="retry">ลองใหม่</string>
+    <string name="skip">ข้าม</string>
+    <string name="refresh">รีเฟรช</string>
+    <string name="export">ส่งออก</string>
+    <string name="notify" translatable="false">แจ้งเตือน</string>
+    <string name="action_copy" translatable="false">คัดลอก</string>
+    <string name="action_cut" translatable="false">ตัด</string>
+    <string name="action_paste" translatable="false">วาง</string>
+    <string name="action_select_all">เลือกทั้งหมด</string>
+    <string name="action_deselect_all" translatable="false">ยกเลิกการเลือกทั้งหมด</string>
+    <string name="action_share" translatable="false">แชร์</string>
+    <string name="action_refresh">รีเฟรช</string>
+    <string name="action_retry" translatable="false">ลองใหม่</string>
+
+    <!-- Face Check-in -->
+    <string name="face_checkin">เช็คอินด้วยใบหน้า</string>
+    <string name="face_detected">ตรวจพบใบหน้า</string>
+    <string name="face_not_detected">ไม่ตรวจพบใบหน้า</string>
+    <string name="position_face">วางใบหน้าในกรอบ</string>
+
+    <!-- Achievements -->
+    <string name="achievement">ความสำเร็จ</string>
+    <string name="achievements">ความสำเร็จ</string>
+    <string name="achievement_unlocked">ปลดล็อกความสำเร็จ</string>
+    <string name="total_achievements">ทั้งหมด: %d</string>
+    <string name="unlocked_achievements">ปลดล็อกแล้ว: %d</string>
+    <string name="recent_achievements">ความสำเร็จล่าสุด</string>
+    <string name="view_all_achievements">ดูความสำเร็จทั้งหมด</string>
+    <string name="all_achievements_title">ความสำเร็จทั้งหมด</string>
+    <string name="first_task_title">ภารกิจแรก</string>
+    <string name="first_task_desc">ทำภารกิจระบายสีแรกของคุณให้เสร็จ</string>
+    <string name="top_scorer_title">ผู้ทำคะแนนสูง</string>
+    <string name="top_scorer_desc">ทำคะแนน 90+ ในภารกิจ</string>
+    <string name="perfectionist">นักสมบูรณ์แบบ</string>
+    <string name="perfectionist_desc">บรรลุความแม่นยำ 100% ในภารกิจ</string>
+    <string name="speed_demon">ปีศาจความเร็ว</string>
+    <string name="speed_demon_desc">ทำภารกิจให้เสร็จภายใน 2 นาที</string>
+    <string name="streak_master">เจ้าแห่งความต่อเนื่อง</string>
+    <string name="streak_master_desc">ทำภารกิจติดต่อกัน 5 ครั้ง</string>
+    <string name="top_scorer">ผู้ทำคะแนนสูง</string>
+
+    <!-- Admin & Navigation -->
+    <string name="dashboard">แดชบอร์ด</string>
+    <string name="users">ผู้ใช้</string>
+    <string name="management">การจัดการ</string>
+    <string name="chat_ai">Chat AI</string>
+    <string name="system_administration">การจัดการระบบ</string>
+    <string name="task_management">การจัดการภารกิจ</string>
+    <string name="task_management_desc">เพิ่ม แก้ไข ลบภารกิจ</string>
+    <string name="user_management">การจัดการผู้ใช้</string>
+    <string name="user_management_desc">จัดการรายชื่อผู้ใช้</string>
+    <string name="shape_management">การจัดการรูปทรง</string>
+    <string name="shape_management_desc">เพิ่ม แก้ไข ลบรูปทรง</string>
+
+    <!-- User Info -->
+    <string name="name">ชื่อ</string>
+    <string name="user_rank">อันดับ</string>
+    <string name="user_score">คะแนน</string>
+    <string name="admin_name">ชื่อผู้ดูแลระบบ</string>
+    <string name="personal_info">ข้อมูลส่วนตัว</string>
+
+    <!-- Task Related -->
+    <string name="add_task">เพิ่มภารกิจ</string>
+    <string name="task_title">ชื่อภารกิจ</string>
+    <string name="task_detail">รายละเอียดภารกิจ</string>
+    <string name="task_completed">เสร็จสิ้น</string>
+    <string name="task_completion_rate">อัตราการเสร็จสิ้น</string>
+    <string name="tasks_completed">ภารกิจที่เสร็จสิ้น</string>
+    <string name="total_tasks">ภารกิจทั้งหมด</string>
+    <string name="active_tasks">ภารกิจที่ใช้งานอยู่</string>
+    <string name="recent_tasks">ภารกิจล่าสุด</string>
+    <string name="first_task">ภารกิจแรก</string>
+    <string name="continue_task">ดำเนินการต่อ</string>
+    <string name="create_first_task">สร้างภารกิจแรก</string>
+    <string name="start_first_task">เริ่มภารกิจแรก</string>
+
+    <!-- Time & Duration -->
+    <string name="duration">ระยะเวลา</string>
+    <string name="time_limit">ขีดจำกัดเวลา</string>
+    <string name="time_taken">เวลาที่ใช้</string>
+    <string name="time_spent">เวลาที่ใช้ไป</string>
+    <string name="time_spent_total">เวลารวม</string>
+    <string name="total_time">เวลารวม</string>
+    <string name="time_up_notification">หมดเวลา!</string>
+
+    <!-- Rankings & Scores -->
+    <string name="ranking">การจัดอันดับ</string>
+    <string name="current_rank">อันดับปัจจุบัน</string>
+    <string name="your_score">คะแนนของคุณ</string>
+    <string name="top_3">3 อันดับแรก</string>
+    <string name="top_10">10 อันดับแรก</string>
+    <string name="top_100">100 อันดับแรก</string>
+    <string name="average_score">คะแนนเฉลี่ย</string>
+    <string name="bonus_points">คะแนนโบนัส</string>
+    <string name="points">คะแนน</string>
+
+    <!-- Drawing -->
+    <string name="drawing_canvas">ผ้าใบวาด</string>
+    <string name="your_drawing">ภาพวาดของคุณ</string>
+    <string name="brush_type">ประเภทพู่กัน</string>
+    <string name="color_palette">จานสี</string>
+    <string name="clear_all">ลบทั้งหมด</string>
+
+    <!-- Settings Extended -->
+    <string name="general_settings">การตั้งค่าทั่วไป</string>
+    <string name="account_settings">การตั้งค่าบัญชี</string>
+    <string name="privacy_settings">การตั้งค่าความเป็นส่วนตัว</string>
+    <string name="notification_settings">การตั้งค่าการแจ้งเตือน</string>
+    <string name="language_settings">การตั้งค่าภาษา</string>
+    <string name="sound_settings">การตั้งค่าเสียง</string>
+    <string name="display_settings">การตั้งค่าการแสดงผล</string>
+    <string name="reset_settings">รีเซ็ตการตั้งค่า</string>
+    <string name="select_language">เลือกภาษา</string>
+    <string name="english">ภาษาอังกฤษ</string>
+    <string name="vietnamese">ภาษาเวียดนาม</string>
+    <string name="auto_theme">อัตโนมัติ</string>
+
+    <!-- Status -->
+    <string name="not_started">ยังไม่เริ่ม</string>
+    <string name="status_available">พร้อมใช้งาน</string>
+    <string name="status_unlocked">ปลดล็อกแล้ว</string>
+    <string name="status_locked">ล็อกแล้ว</string>
+    <string name="status_approved">อนุมัติแล้ว</string>
+    <string name="status_rejected">ปฏิเสธแล้ว</string>
+    <string name="expired">หมดอายุแล้ว</string>
+
+    <!-- Messages & Notifications -->
+    <string name="congratulations">ยินดีด้วย!</string>
+    <string name="welcome_back">ยินดีต้อนรับกลับ</string>
+    <string name="welcome_admin">ยินดีต้อนรับผู้ดูแลระบบ</string>
+    <string name="language_changed">เปลี่ยนภาษาแล้ว</string>
+    <string name="theme_changed">เปลี่ยนธีมแล้ว</string>
+    <string name="notification_title">การแจ้งเตือน</string>
+    <string name="notification_message">ข้อความแจ้งเตือน</string>
+    <string name="notification_type">ประเภทการแจ้งเตือน</string>
+    <string name="notification_time">เวลา</string>
+    <string name="notifications_title">การแจ้งเตือน</string>
+    <string name="mark_as_read">ทำเครื่องหมายว่าอ่านแล้ว</string>
+    <string name="mark_all_read">ทำเครื่องหมายทั้งหมดว่าอ่านแล้ว</string>
+
+    <!-- Loading States -->
+    <string name="loading_general">กำลังโหลด...</string>
+    <string name="loading_tasks">กำลังโหลดภารกิจ...</string>
+    <string name="loading_history">กำลังโหลดประวัติ...</string>
+    <string name="loading_leaderboard">กำลังโหลดตารางคะแนน...</string>
+    <string name="loading_login">กำลังเข้าสู่ระบบ...</string>
+    <string name="loading_register">กำลังสมัครสมาชิก...</string>
+    <string name="loading_save">กำลังบันทึก...</string>
+    <string name="loading_delete">กำลังลบ...</string>
+    <string name="loading_upload">กำลังอัปโหลด...</string>
+    <string name="loading_download">กำลังดาวน์โหลด...</string>
+    <string name="loading_sync">กำลังซิงค์...</string>
+
+    <!-- Success Messages -->
+    <string name="success_general">สำเร็จ!</string>
+    <string name="success_login">เข้าสู่ระบบสำเร็จ</string>
+    <string name="success_register">สมัครสมาชิกสำเร็จ</string>
+    <string name="success_save">บันทึกสำเร็จ</string>
+    <string name="success_update">อัปเดตสำเร็จ</string>
+    <string name="success_delete">ลบสำเร็จ</string>
+    <string name="success_upload">อัปโหลดสำเร็จ</string>
+    <string name="success_download">ดาวน์โหลดสำเร็จ</string>
+    <string name="login_success">เข้าสู่ระบบสำเร็จ</string>
+
+    <!-- Error Messages -->
+    <string name="error_general">เกิดข้อผิดพลาด</string>
+    <string name="error_network">ข้อผิดพลาดเครือข่าย</string>
+    <string name="error_server">ข้อผิดพลาดเซิร์ฟเวอร์</string>
+    <string name="error_database">ข้อผิดพลาดฐานข้อมูล</string>
+    <string name="error_authentication">ข้อผิดพลาดการยืนยันตัวตน</string>
+    <string name="error_permission">ไม่มีสิทธิ์</string>
+    <string name="error_validation">ข้อมูลไม่ถูกต้อง</string>
+    <string name="error_file_not_found">ไม่พบไฟล์</string>
+    <string name="error_unknown">ข้อผิดพลาดที่ไม่ทราบ</string>
+    <string name="invalid_email">อีเมลไม่ถูกต้อง</string>
+    <string name="login_failed">เข้าสู่ระบบล้มเหลว</string>
+
+    <!-- Validation -->
+    <string name="validation_email">อีเมลไม่ถูกต้อง</string>
+    <string name="validation_password">รหัสผ่านไม่ถูกต้อง</string>
+    <string name="validation_name">ชื่อไม่ถูกต้อง</string>
+    <string name="validation_phone">หมายเลขโทรศัพท์ไม่ถูกต้อง</string>
+    <string name="validation_birth_year">ปีเกิดไม่ถูกต้อง</string>
+    <string name="validation_password_match">รหัสผ่านไม่ตรงกัน</string>
+    <string name="validation_required">ฟิลด์จำเป็น</string>
+    <string name="validation_url">URL ไม่ถูกต้อง</string>
+    <string name="uef_email_required">ต้องใช้อีเมล UEF (@uef.edu.vn)</string>
+
+    <!-- Permissions -->
+    <string name="permission_required">ต้องได้รับสิทธิ์</string>
+    <string name="permission_camera">สิทธิ์กล้อง</string>
+    <string name="permission_storage">สิทธิ์การจัดเก็บ</string>
+    <string name="permission_location">สิทธิ์ตำแหน่ง</string>
+    <string name="permission_notification">สิทธิ์การแจ้งเตือน</string>
+    <string name="permission_granted">ได้รับสิทธิ์แล้ว</string>
+    <string name="permission_denied">ถูกปฏิเสธสิทธิ์</string>
+
+    <!-- Features -->
+    <string name="feature_offline_mode">สถานะการเชื่อมต่อ</string>
+    <string name="feature_sync">ซิงค์</string>
+    <string name="feature_backup">สำรองข้อมูล</string>
+    <string name="feature_restore">กู้คืน</string>
+    <string name="feature_export">ส่งออกข้อมูล</string>
+    <string name="feature_import">นำเข้าข้อมูล</string>
+    <string name="feature_face_checkin">เช็คอินด้วยใบหน้า</string>
+    <string name="sync_data">ซิงค์ข้อมูล</string>
+    <string name="sync_failed">ซิงค์ล้มเหลว</string>
+    <string name="data_synced">ซิงค์ข้อมูลแล้ว</string>
+    <string name="backup_data">สำรองข้อมูล</string>
+    <string name="restore_data">กู้คืนข้อมูล</string>
+
+    <!-- Stats & Reports -->
+    <string name="reports_desc">รายงานรายละเอียด</string>
+    <string name="age_distribution">การกระจายอายุ</string>
+    <string name="gender_distribution">การกระจายเพศ</string>
+    <string name="total_users">ผู้ใช้ทั้งหมด</string>
+    <string name="accuracy">ความแม่นยำ</string>
+    <string name="experience">ประสบการณ์</string>
+    <string name="streak">ความต่อเนื่อง</string>
+    <string name="targets">เป้าหมาย</string>
+    <string name="result">ผลลัพธ์</string>
+    <string name="overall_progress">ความคืบหน้ารวม</string>
+
+    <!-- Filters & Search -->
+    <string name="filter_all">ทั้งหมด</string>
+    <string name="filter_active">ใช้งานอยู่</string>
+    <string name="filter_inactive">ไม่ใช้งาน</string>
+    <string name="filter_completed">เสร็จสิ้น</string>
+    <string name="filter_incomplete">ไม่เสร็จสิ้น</string>
+    <string name="filter_by_difficulty">กรองตามความยาก</string>
+    <string name="filter_high_score">คะแนนสูง</string>
+    <string name="search_tasks_hint">ค้นหาภารกิจ...</string>
+    <string name="search_history_hint">ค้นหาประวัติ...</string>
+
+    <!-- Misc -->
+    <string name="help">ช่วยเหลือ</string>
+    <string name="contact">ติดต่อ</string>
+    <string name="instructions">คำแนะนำ</string>
+    <string name="instructions_text">คำแนะนำการใช้งาน</string>
+    <string name="show_details">แสดงรายละเอียด</string>
+    <string name="other">อื่นๆ</string>
+    <string name="complete">เสร็จสิ้น</string>
+    <string name="places">สถานที่</string>
+    <string name="start_competing">เริ่มแข่งขัน</string>
+    <string name="completed_attempts">ความพยายามที่เสร็จสิ้น</string>
+    <string name="quick_actions">การดำเนินการด่วน</string>
+    <string name="user_profile">โปรไฟล์ผู้ใช้</string>
+    <string name="analytics">การวิเคราะห์</string>
+    <string name="social">สังคม</string>
+
+    <!-- Analytics -->
+    <string name="analytics_dashboard">แดชบอร์ดการวิเคราะห์</string>
+    <string name="completion_rate">อัตราการเสร็จสิ้น</string>
+    <string name="detailed_analytics">การวิเคราะห์รายละเอียด</string>
+    <string name="daily_progress">ความคืบหน้าประจำวัน</string>
+    <string name="daily_progress_desc">ภารกิจที่เสร็จสิ้นต่อวัน</string>
+    <string name="accuracy_rate">อัตราความแม่นยำ</string>
+    <string name="accuracy_rate_desc">ความแม่นยำเฉลี่ยในภารกิจทั้งหมด</string>
+    <string name="speed_improvement">การปรับปรุงความเร็ว</string>
+    <string name="speed_improvement_desc">การลดเวลาที่เปรียบเทียบกับสัปดาห์ที่แล้ว</string>
+    <string name="streak_days">วันความต่อเนื่อง</string>
+    <string name="streak_days_desc">วันที่มีกิจกรรมต่อเนื่อง</string>
+    <string name="favorite_shape">รูปทรงที่ชื่นชอบ</string>
+    <string name="favorite_shape_desc">ประเภทรูปทรงที่ทำเสร็จมากที่สุด</string>
+    <string name="peak_performance">ประสิทธิภาพสูงสุด</string>
+    <string name="peak_performance_desc">เวลาที่ดีที่สุดในวันสำหรับภารกิจ</string>
+    <string name="tasks_per_day">ภารกิจ/วัน</string>
+    <string name="days">วัน</string>
+
+    <!-- Social -->
+    <string name="social_feed">ฟีดสังคม</string>
+    <string name="add_friend">เพิ่มเพื่อน</string>
+    <string name="posts">โพสต์</string>
+    <string name="likes">ไลค์</string>
+    <string name="share_my_work">แชร์ผลงานของฉัน</string>
+    <string name="view_friends">ดูเพื่อน</string>
+    <string name="recent_posts">โพสต์ล่าสุด</string>
+    <string name="hours_ago">%d ชั่วโมงที่แล้ว</string>
+    <string name="day_ago">1 วันที่แล้ว</string>
+    <string name="just_completed_first_task">เพิ่งทำภารกิจระบายสีแรกเสร็จ! 🎨</string>
+    <string name="check_out_masterpiece">ดูผลงานชิ้นเอกล่าสุดของฉัน!</string>
+    <string name="achieved_100_accuracy">ทำความแม่นยำ 100%% ในภารกิจวงกลม! 🎯</string>
+
+    <!-- Admin Dashboard -->
+    <string name="welcome_admin_title">ยินดีต้อนรับ ผู้ดูแลระบบ!</string>
+    <string name="task_management_btn">จัดการภารกิจ</string>
+    <string name="user_management_btn">จัดการผู้ใช้</string>
+    <string name="reports_analytics_btn">รายงานและการวิเคราะห์</string>
+    <string name="statistics_title">สถิติ</string>
+    <string name="total_users_label">ผู้ใช้ทั้งหมด</string>
+    <string name="active_tasks_label">ภารกิจที่ใช้งานอยู่</string>
+    <string name="completed_attempts_label">ความพยายามที่เสร็จสิ้น</string>
+    <string name="average_score_label">คะแนนเฉลี่ย</string>
+
+    <!-- Advanced Admin -->
+    <string name="advanced_admin_title">แดชบอร์ดขั้นสูง</string>
+    <string name="user_registration_trends">แนวโน้มการสมัครสมาชิกผู้ใช้</string>
+    <string name="user_registration_desc">สถิติการสมัครสมาชิกรายเดือน</string>
+    <string name="new_users_count">ผู้ใช้ใหม่ %d คน</string>
+    <string name="task_completion_rate_title">อัตราการเสร็จสิ้นภารกิจ</string>
+    <string name="task_completion_desc">เปอร์เซ็นต์ของภารกิจที่เสร็จสิ้นสำเร็จ</string>
+    <string name="avg_session_duration">ระยะเวลาเซสชันเฉลี่ย</string>
+    <string name="avg_session_desc">เวลาที่ผู้ใช้ใช้ในแอปโดยเฉลี่ย</string>
+    <string name="top_performing_tasks_title">ภารกิจที่ทำได้ดีที่สุด</string>
+    <string name="top_tasks_desc">ภารกิจที่ได้รับความนิยมและประสบความสำเร็จมากที่สุด</string>
+    <string name="circle_coloring">การระบายสีวงกลม</string>
+    <string name="completion_percent">เสร็จสิ้น %d%%</string>
+    <string name="data_management_title">การจัดการข้อมูล</string>
+
+    <!-- Confirmations -->
+    <string name="confirm_delete">ยืนยันการลบ?</string>
+    <string name="confirm_exit">ยืนยันการออก?</string>
+    <string name="confirm_logout">ยืนยันการออกจากระบบ?</string>
+    <string name="confirm_reset">ยืนยันการรีเซ็ต?</string>
+    <string name="confirm_cancel">ยืนยันการยกเลิก?</string>
+    <string name="confirm_save">ยืนยันการบันทึก?</string>
+
+    <!-- Units -->
+    <string name="unit_seconds">วินาที</string>
+    <string name="unit_minutes">นาที</string>
+    <string name="unit_hours">ชั่วโมง</string>
+    <string name="unit_days">วัน</string>
+    <string name="unit_points">คะแนน</string>
+    <string name="unit_percentage">%</string>
+    <string name="unit_count">ครั้ง</string>
+
+    <!-- Date & Time Formats -->
+    <string name="date_format_short">dd/MM/yyyy</string>
+    <string name="date_format_long">dd MMMM yyyy</string>
+    <string name="time_format_short">HH:mm</string>
+    <string name="time_format_long">HH:mm:ss</string>
+    <string name="datetime_format">dd/MM/yyyy HH:mm</string>
+
+    <!-- Empty State Titles -->
+    <string name="tasks_empty_title">ไม่มีภารกิจ</string>
+    <string name="tasks_empty_subtitle">เริ่มเพิ่มภารกิจใหม่</string>
+    <string name="tasks_empty_description">ยังไม่มีการสร้างภารกิจใดๆ</string>
+    <string name="history_empty_title">ไม่มีประวัติ</string>
+    <string name="history_empty_subtitle">เริ่มทำภารกิจให้เสร็จ</string>
+    <string name="history_empty_description">ประวัติจะแสดงที่นี่</string>
+    <string name="leaderboard_empty_title">ไม่มีตารางคะแนน</string>
+    <string name="leaderboard_empty_subtitle">เป็นคนแรก</string>
+    <string name="leaderboard_empty_description">ทำภารกิจให้เสร็จเพื่อขึ้นตารางคะแนน</string>
+
+    <!-- Titles -->
+    <string name="leaderboard_title">ตารางคะแนน</string>
+    <string name="profile_title">โปรไฟล์</string>
+    <string name="settings_title">การตั้งค่า</string>
+    <string name="progress_title">ความคืบหน้า</string>
+    <string name="progress_label">ความคืบหน้า</string>
+
+    <!-- Icons & Descriptions -->
+    <string name="task_icon_description">ไอคอนภารกิจ</string>
+    <string name="difficulty_icon_description">ไอคอนความยาก</string>
+    <string name="rank_icon_description">ไอคอนอันดับ</string>
+    <string name="time_icon_description">ไอคอนเวลา</string>
+    <string name="notification_icon_description">ไอคอนการแจ้งเตือน</string>
+    <string name="shape_preview">ตัวอย่างรูปทรง</string>
+    <string name="shape_name">ชื่อรูปทรง</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_label">ป้ายกำกับการเข้าถึง</string>
+    <string name="accessibility_hint">คำแนะนำการเข้าถึง</string>
+    <string name="accessibility_announcement">ประกาศการเข้าถึง</string>
+    <string name="accessibility_content_description">คำอธิบายเนื้อหา</string>
+
+    <!-- Debug -->
+    <string name="debug_info">ข้อมูลดีบัก</string>
+    <string name="debug_logs">บันทึกดีบัก</string>
+    <string name="debug_export">ส่งออกดีบัก</string>
+    <string name="debug_clear">ล้างดีบัก</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_settings_title">โปรไฟล์และการตั้งค่า</string>
+    <string name="theme_customization">การปรับแต่งธีม</string>
+    <string name="theme_customization_desc">การตั้งค่าธีมขั้นสูงและการปรับแต่งสี</string>
+    <string name="advanced_features">ฟีเจอร์ขั้นสูง</string>
+    <string name="gestures">ท่าทาง</string>
+    <string name="haptics">การสั่นสะเทือน</string>
+    <string name="machine_learning">การเรียนรู้ของเครื่อง</string>
+    <string name="networking">เครือข่าย</string>
+    <string name="notifications_advanced">การแจ้งเตือน</string>
+    <string name="security">ความปลอดภัย</string>
+    <string name="sensors">เซ็นเซอร์</string>
+    <string name="sounds">เสียง</string>
+    
+    <!-- Advanced Networking -->
+    <string name="advanced_networking">เครือข่ายขั้นสูง</string>
+    <string name="network_status">สถานะเครือข่าย</string>
+    <string name="network_ready">เครือข่ายขั้นสูงพร้อมใช้งาน</string>
+    <string name="network_information">ข้อมูลเครือข่าย</string>
+    <string name="network_config_description">กำหนดค่าเครือข่ายขั้นสูงเพื่อประสิทธิภาพที่ดีที่สุด</string>
+    <string name="network_control">ควบคุมเครือข่าย</string>
+    <string name="check_network">ตรวจสอบ</string>
+    <string name="sync_network">⤓ ซิงค์</string>
+    <string name="optimize_network">ปรับปรุง</string>
+    <string name="network_settings">การตั้งค่าเครือข่าย</string>
+    <string name="enable_network">เปิดใช้งานเครือข่าย</string>
+    <string name="wifi_only">WiFi เท่านั้น</string>
+    <string name="data_saving">ประหยัดข้อมูล</string>
+    <string name="auto_sync">ซิงค์อัตโนมัติ</string>
+    <string name="available_network_features">ฟีเจอร์เครือข่ายที่มี</string>
+    <string name="wifi_optimization">การปรับปรุง WiFi</string>
+    <string name="wifi_optimization_description">ปรับปรุงประสิทธิภาพการเชื่อมต่อ WiFi</string>
+    <string name="data_compression">การบีบอัดข้อมูล</string>
+    <string name="data_compression_description">บีบอัดข้อมูลเพื่อการส่งผ่านที่เร็วขึ้น</string>
+    <string name="active">ใช้งานอยู่</string>
+    <string name="use_feature">ใช้</string>
+    <string name="help_support">ช่วยเหลือ</string>
+    <string name="contact_us">ติดต่อเรา</string>
+    <string name="policies_terms">นโยบายและข้อกำหนด</string>
+    <string name="support_center">ศูนย์ช่วยเหลือ</string>
+    <string name="support_center_description">ศูนย์สนับสนุนและช่วยเหลือ</string>
+    <string name="logout">ออกจากระบบ</string>
+    <string name="logout_description">ออกจากบัญชี</string>
+    <string name="logout_confirm">ยืนยันการออกจากระบบ?</string>
+    <string name="logout_message">คุณแน่ใจหรือไม่ว่าต้องการออกจากระบบ?</string>
+    <string name="logout_success">ออกจากระบบสำเร็จ</string>
+    <string name="feature_under_development">ฟีเจอร์กำลังพัฒนา</string>
+    <string name="app_version">เวอร์ชัน 1.0.0 (1)</string>
+    <string name="company_name">บริษัท 5 คน</string>
+    <string name="company_email">อีเมล: daihoc@uef.edu.vn</string>
+
+    <!-- Sound Settings -->
+    <string name="sound_status">สถานะเสียง</string>
+    <string name="sound_status_ready">เสียงขั้นสูงพร้อมใช้งาน</string>
+    <string name="sound_information">ข้อมูลเสียง</string>
+    <string name="sound_information_desc">กำหนดค่าเสียงขั้นสูงเพื่อประสบการณ์ที่ดื่มด่ำ</string>
+    <string name="sound_controls">ควบคุมเสียง</string>
+    <string name="play_sound">▶️ เล่น</string>
+    <string name="stop_sound">⏹️ หยุด</string>
+    <string name="test_sound">🧪 ทดสอบ</string>
+    <string name="pitch">ความถี่</string>
+    <string name="enable_sounds">เปิดใช้งานเสียง</string>
+    <string name="available_sound_features">ฟีเจอร์เสียงที่มี</string>
+    <string name="background_music_feature">เพลงพื้นหลัง</string>
+    <string name="background_music_desc">เพลงพื้นหลังขณะระบายสี</string>
+    <!-- About App -->
+    <string name="about_app">เกี่ยวกับแอป</string>
+    <string name="about_app_description">ข้อมูลเกี่ยวกับระบายสีรูปทรง</string>
+    <string name="about_app_title">เกี่ยวกับระบายสีรูปทรง</string>
+    <string name="about_introduction">ระบายสีรูปทรงถูกสร้างขึ้นด้วยภารกิจพิเศษ: เพื่อบ่มเพาะความรักในศิลปะและนำประสบการณ์การระบายสีคุณภาพมาสู่ทุกคน เราต้องการเชื่อมต่อผู้ใช้กับภาพวาดที่สวยงามและน่าสนใจซึ่งได้รับการชื่นชมอย่างสูงจากชุมชนคนรักศิลปะ</string>
+    <string name="about_who_we_are">เราเป็นใคร</string>
+    <string name="about_who_we_are_content">ระบายสีรูปทรงได้รับการพัฒนาโดยทีมคนรักศิลปะที่มีความหลงใหล เราเป็นบุคคลอิสระ ไม่ได้สังกัดกับองค์กร หน่วยงาน หรือบริษัทใดๆ</string>
+    <string name="about_important_info">ข้อมูลสำคัญ</string>
+    <string name="about_important_info_content">• ระบายสีรูปทรงให้ภาพวาดระบายสีฟรีทั้งหมด\n\n• ภาพวาดทั้งหมดในแอปของเราให้บริการฟรีทั้งหมด อย่างไรก็ตาม เพื่อเพิ่มประสบการณ์การระบายสีและสนับสนุนศิลปิน เราขอแนะนำให้คุณสนับสนุนผู้เขียนภาพวาดที่คุณชื่นชอบ</string>
+    <string name="about_our_collection">คอลเลกชันของเรา</string>
+    <string name="about_collection_content">ภาพวาดในระบายสีรูปทรงรวบรวมจากแหล่งต่างๆ มากมายที่มีอยู่ในอินเทอร์เน็ต รวมถึงเว็บไซต์ศิลปะ ชุมชนการระบายสี และแหล่งอื่นๆ อีกมากมาย\n\nเนื่องจากรวบรวมจากแหล่งต่างๆ มากมาย อาจมีข้อผิดพลาดหรือความไม่ถูกต้องในเนื้อหาในบางครั้ง เราขอขอบคุณความเข้าใจของคุณและยินดีต้อนรับข้อเสนอแนะเสมอเพื่อช่วยให้เราปรับปรุงและแก้ไขปัญหาเหล่านี้ได้ทันที</string>
+    <string name="about_content_policy">นโยบายเนื้อหา</string>
+    <string name="about_policy_content">• หากคุณเป็นเจ้าของลิขสิทธิ์ของเนื้อหาใดๆ ในระบายสีรูปทรงและต้องการลบเนื้อหานั้น กรุณาส่งอีเมลมาที่ support@coloring-shapes.com เราจะลบเนื้อหาทันทีหลังจากได้รับคำขอของคุณ\n\n• เนื่องจากห้องสมุดของเรายังคงพัฒนา เราค้นหาภาพวาดใหม่ๆ อย่างต่อเนื่องเพื่อแบ่งปันกับผู้ใช้ หากคุณมีคำขอเนื้อหาเฉพาะ กรุณาส่งอีเมลมาให้เรา และเราจะพยายามหาภาพวาดและให้บริการตามที่คุณต้องการให้เร็วที่สุดเท่าที่เป็นไปได้</string>
+    <string name="about_footer_message">เราขอให้คุณมีช่วงเวลาการระบายสีที่ผ่อนคลาย สบายใจ และเป็นประโยชน์กับระบายสีรูปทรง</string>
+    <string name="about_contact">ติดต่อ: support@coloring-shapes.com</string>
+    
+    <!-- Contact Information -->
+    <string name="address_full">145 ถนนเดียนเบียนฟู แขวงที่ 2 บินห์ถัน นครโฮจิมินห์ ประเทศเวียดนาม</string>
+    <string name="phone_number">+84 28 5422 6666</string>
+    <string name="address_and_contact">ที่อยู่และการติดต่อ</string>
+    <string name="open_in_maps">เปิดในแผนที่</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_settings">การตั้งค่าธีม</string>
+    <string name="choose_theme">เลือกธีม</string>
+    <string name="system_theme">ระบบ</string>
+    <string name="system_theme_description">ตามการตั้งค่าระบบ</string>
+    <string name="light_theme">สว่าง</string>
+    <string name="light_theme_description">ธีมสว่าง</string>
+    <string name="dark_theme">มืด</string>
+    <string name="dark_theme_description">ธีมมืด</string>
+    <string name="theme_preview">ตัวอย่าง</string>
+    <string name="theme_preview_default">เลือกธีมเพื่อดูตัวอย่าง</string>
+    <string name="theme_info_title">ข้อมูล</string>
+    <string name="theme_info_content">• ระบบ: ตามการตั้งค่าระบบอัตโนมัติ\n• สว่าง: ใช้ธีมสว่างเสมอ\n• มืด: ใช้ธีมมืดเสมอ</string>
+    <string name="use">ใช้</string>
+
+    <!-- Advanced Sensors -->
+    <string name="advanced_sensors">เซ็นเซอร์ขั้นสูง</string>
+    <string name="sensor_status">สถานะเซ็นเซอร์</string>
+    <string name="sensor_status_ready">เซ็นเซอร์ขั้นสูงพร้อมใช้งาน</string>
+    <string name="sensor_information">ข้อมูลเซ็นเซอร์</string>
+    <string name="sensor_information_desc">กำหนดค่าเซ็นเซอร์ขั้นสูงเพื่อประสบการณ์ผู้ใช้ที่ดีขึ้น</string>
+    <string name="sensor_controls">ควบคุมเซ็นเซอร์</string>
+    <string name="test_sensor">🧪 ทดสอบ</string>
+    <string name="calibrate_sensor">⚙️ ปรับเทียบ</string>
+    <string name="optimize_sensor">⚡ ปรับปรุง</string>
+    <string name="sensor_settings">การตั้งค่าเซ็นเซอร์</string>
+    <string name="sensitivity">ความไว</string>
+    <string name="enable_sensors">เปิดใช้งานเซ็นเซอร์</string>
+    <string name="accelerometer">เครื่องวัดความเร่ง</string>
+    <string name="gyroscope">ไจโรสโคป</string>
+    <string name="magnetometer">เครื่องวัดแม่เหล็ก</string>
+    <string name="available_sensor_features">ฟีเจอร์เซ็นเซอร์ที่มี</string>
+    <string name="motion_detection">การตรวจจับการเคลื่อนไหว</string>
+    <string name="motion_detection_desc">การตรวจจับการเคลื่อนไหวขั้นสูง</string>
+
+    <!-- Advanced Notifications -->
+    <string name="advanced_notifications">การแจ้งเตือนขั้นสูง</string>
+    <string name="notification_status">สถานะการแจ้งเตือน</string>
+    <string name="notification_status_ready">การแจ้งเตือนพร้อมใช้งาน</string>
+    <string name="notification_information">ข้อมูลการแจ้งเตือน</string>
+    <string name="notification_information_desc">กำหนดค่าการแจ้งเตือนขั้นสูงเพื่อให้ทันสมัยอยู่เสมอ</string>
+    <string name="notification_controls">ควบคุมการแจ้งเตือน</string>
+    <string name="test_notification">✓ ทดสอบ</string>
+    <string name="clear_notifications">🗑️ ล้าง</string>
+    <string name="sound_notifications">การแจ้งเตือนเสียง</string>
+    <string name="vibration_notifications">การแจ้งเตือนการสั่น</string>
+    <string name="achievement_notifications">การแจ้งเตือนความสำเร็จ</string>
+    <string name="priority_notifications">การแจ้งเตือนความสำคัญ</string>
+    <string name="available_notification_features">ฟีเจอร์การแจ้งเตือนที่มี</string>
+    <string name="push_notifications">การแจ้งเตือนแบบพุช</string>
+    <string name="push_notifications_desc">การแจ้งเตือนแบบพุชแบบเรียลไทม์</string>
+
+    <!-- Advanced Gestures -->
+    <string name="advanced_gestures">ท่าทางขั้นสูง</string>
+    <string name="gesture_status">สถานะท่าทาง</string>
+    <string name="gesture_status_ready">ท่าทางพร้อมสำหรับการกำหนดค่า</string>
+    <string name="gesture_information">ข้อมูลท่าทาง</string>
+    <string name="gesture_information_desc">กำหนดค่าการจดจำท่าทางขั้นสูงสำหรับการโต้ตอบด้วยภาพ</string>
+    <string name="gesture_controls">ควบคุมท่าทาง</string>
+    <string name="test_gesture">✓ ทดสอบ</string>
+    <string name="calibrate_gesture">⚙️ ปรับเทียบ</string>
+    <string name="gesture_settings">การตั้งค่าท่าทาง</string>
+    <string name="enable_gestures">เปิดใช้งานท่าทาง</string>
+    <string name="tap_gestures">ท่าทางแตะ</string>
+    <string name="swipe_gestures">ท่าทางปัด</string>
+    <string name="pinch_gestures">ท่าทางบีบ</string>
+    <string name="long_press_gestures">ท่าทางกดค้าง</string>
+    <string name="available_gesture_features">ฟีเจอร์ท่าทางที่มี</string>
+    <string name="tap_gestures_feature">ท่าทางแตะ</string>
+    <string name="tap_gestures_desc">จดจำการแตะเดี่ยวและการแตะคู่</string>
+
+
+    <!-- Additional UI Features -->
+    <string name="ui_features">UI</string>
+    <string name="widgets">วิดเจ็ต</string>
+    <string name="visual_effects">เอฟเฟกต์ภาพ</string>
+
+    <!-- Language Support -->
+    <string name="current_language">ไทย</string>
+    <string name="language_vietnamese">ภาษาเวียดนาม</string>
+    <string name="language_english">ภาษาอังกฤษ</string>
+    <string name="language_chinese">ภาษาจีน</string>
+    <string name="language_japanese">ภาษาญี่ปุ่น</string>
+    <string name="language_korean">ภาษาเกาหลี</string>
+    <string name="language_thai">ภาษาไทย</string>
+    <string name="language_french">ภาษาฝรั่งเศส</string>
+    <string name="language_german">ภาษาเยอรมัน</string>
+    <string name="language_spanish">ภาษาสเปน</string>
+    <string name="language_russian">ภาษารัสเซีย</string>
+
+    <!-- String Arrays -->
+    <string-array name="gender_options">
+        <item>ชาย</item>
+        <item>หญิง</item>
+    </string-array>
+
+    <string-array name="role_options">
+        <item>ผู้ใช้</item>
+        <item>ผู้ดูแลระบบ</item>
+    </string-array>
+
+    <string-array name="language_options">
+        <item>ภาษาเวียดนาม</item>
+        <item>ภาษาอังกฤษ</item>
+        <item>ภาษาจีน</item>
+        <item>ภาษาญี่ปุ่น</item>
+        <item>ภาษาเกาหลี</item>
+        <item>ภาษาไทย</item>
+        <item>ภาษาฝรั่งเศส</item>
+        <item>ภาษาเยอรมัน</item>
+        <item>ภาษาสเปน</item>
+        <item>ภาษารัสเซีย</item>
+    </string-array>
+
+    <string-array name="language_codes">
+        <item>vi</item>
+        <item>en</item>
+        <item>zh</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>th</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>es</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- Advanced Sounds -->
+    <string name="advanced_sounds">เสียงขั้นสูง</string>
+    <string name="audio_status">สถานะเสียง</string>
+    <string name="audio_ready">เสียงขั้นสูงพร้อมใช้งาน</string>
+    <string name="audio_information">ข้อมูลเสียง</string>
+    <string name="audio_info_description">กำหนดค่าเสียงขั้นสูงเพื่อประสบการณ์ที่ดื่มด่ำ</string>
+    <string name="audio_controls">ควบคุมเสียง</string>
+    <string name="play_audio">เล่น</string>
+    <string name="stop_audio">หยุด</string>
+    <string name="try_audio">ลอง</string>
+    <string name="audio_settings">การตั้งค่าเสียง</string>
+    <string name="volume">ระดับเสียง</string>
+    <string name="frequency">ความถี่</string>
+    <string name="enable_sound">เปิดใช้งานเสียง</string>
+    <string name="background_music">เพลงพื้นหลัง</string>
+    <string name="sound_effects">เอฟเฟกต์เสียง</string>
+    <string name="voice_feedback">ข้อเสนอแนะเสียง</string>
+    <string name="available_audio_features">ฟีเจอร์เสียงที่มี</string>
+
+    <!-- Additional Profile Fields -->
+    <string name="enter_birth_year">ใส่ปีเกิด</string>
+    <string name="change_password">เปลี่ยนรหัสผ่าน</string>
+    <string name="current_password">รหัสผ่านปัจจุบัน</string>
+    <string name="new_password">รหัสผ่านใหม่</string>
+    <string name="confirm_new_password">ยืนยันรหัสผ่านใหม่</string>
+    <string name="enter_current_password">ใส่รหัสผ่านปัจจุบัน</string>
+    <string name="enter_new_password">ใส่รหัสผ่านใหม่</string>
+    <string name="confirm_new_password_hint">ยืนยันรหัสผ่านใหม่</string>
+
+    <!-- Missing String Resources -->
+    <string name="accessibility_controls">ควบคุมการเข้าถึง</string>
+    <string name="accessibility_feature_description">คำอธิบายฟีเจอร์การเข้าถึง</string>
+    <string name="accessibility_feature_title">ชื่อฟีเจอร์การเข้าถึง</string>
+    <string name="accessibility_features">ฟีเจอร์การเข้าถึง</string>
+    <string name="accessibility_instructions">คำแนะนำการเข้าถึง</string>
+    <string name="accessibility_instructions_desc">คำอธิบายคำแนะนำการเข้าถึง</string>
+    <string name="accessibility_settings">การตั้งค่าการเข้าถึง</string>
+    <string name="accessibility_status">สถานะการเข้าถึง</string>
+    <string name="accessibility_status_ready">การเข้าถึงพร้อมใช้งาน</string>
+    <string name="achievement_description">คำอธิบายความสำเร็จ</string>
+    <string name="achievement_name">ชื่อความสำเร็จ</string>
+    <string name="active_status">สถานะใช้งาน</string>
+    <string name="add_new_achievement">เพิ่มความสำเร็จใหม่</string>
+    <string name="add_new_task">เพิ่มภารกิจใหม่</string>
+    <string name="add_new_user">เพิ่มผู้ใช้ใหม่</string>
+    <string name="admin_system_management">การจัดการระบบ</string>
+    <string name="advanced_animations">แอนิเมชันขั้นสูง</string>
+    <string name="advanced_blockchain">บล็อกเชนขั้นสูง</string>
+    <string name="advanced_camera">กล้องขั้นสูง</string>
+    <string name="advanced_drawing_tools">เครื่องมือวาดขั้นสูง</string>
+    <string name="advanced_haptic_controls">ควบคุมการสั่นสะเทือนขั้นสูง</string>
+    <string name="advanced_haptics">การสั่นสะเทือนขั้นสูง</string>
+    <string name="advanced_machine_learning">การเรียนรู้ของเครื่องขั้นสูง</string>
+    <string name="advanced_security">ความปลอดภัยขั้นสูง</string>
+    <string name="advanced_themes">ธีมขั้นสูง</string>
+    <string name="advanced_timer">ตัวจับเวลาขั้นสูง</string>
+    <string name="advanced_ui">UI ขั้นสูง</string>
+    <string name="advanced_visual_effects">เอฟเฟกต์ภาพขั้นสูง</string>
+    <string name="advanced_widgets">วิดเจ็ตขั้นสูง</string>
+    <string name="ai_controls">ควบคุม AI</string>
+    <string name="ai_feature_description">คำอธิบายฟีเจอร์ AI</string>
+    <string name="ai_feature_title">ชื่อฟีเจอร์ AI</string>
+    <string name="ai_features">ฟีเจอร์ AI</string>
+    <string name="ai_no_suggestions">ยังไม่มีข้อเสนอแนะ</string>
+    <string name="ai_ready">AI พร้อมใช้งาน</string>
+    <string name="ai_status">สถานะ AI</string>
+    <string name="ai_suggestions">ข้อเสนอแนะ AI</string>
+    <string name="analytics_change">การเปลี่ยนแปลงการวิเคราะห์</string>
+    <string name="analytics_item_description">คำอธิบายรายการวิเคราะห์</string>
+    <string name="analytics_item_title">ชื่อรายการวิเคราะห์</string>
+    <string name="analytics_title">ชื่อการวิเคราะห์</string>
+    <string name="analytics_value">ค่าการวิเคราะห์</string>
+    <string name="analytics_value_25">25</string>
+    <string name="analytics_value_2h45m">2 ชม. 45 นาที</string>
+    <string name="analytics_value_875">875</string>
+    <string name="analytics_value_92">92</string>
+    <string name="analyze_button">วิเคราะห์</string>
+    <string name="animation_feature_description">คำอธิบายฟีเจอร์แอนิเมชัน</string>
+    <string name="animation_feature_title">ชื่อฟีเจอร์แอนิเมชัน</string>
+    <string name="animation_information">ข้อมูลแอนิเมชัน</string>
+    <string name="animation_speed">ความเร็วแอนิเมชัน</string>
+    <string name="animation_status">สถานะแอนิเมชัน</string>
+    <string name="animations_ready">แอนิเมชันพร้อมใช้งาน</string>
+    <string name="app_footer">ส่วนท้ายแอป</string>
+    <string name="apply_button">ใช้</string>
+    <string name="apply_ui">ใช้ UI</string>
+    <string name="apply_visual">ใช้ภาพ</string>
+    <string name="ar_controls">ควบคุม AR</string>
+    <string name="ar_feature_description">คำอธิบายฟีเจอร์ AR</string>
+    <string name="ar_feature_title">ชื่อฟีเจอร์ AR</string>
+    <string name="ar_features">ฟีเจอร์ AR</string>
+    <string name="ar_instructions">คำแนะนำ AR</string>
+    <string name="ar_ready">AR พร้อมใช้งาน</string>
+    <string name="ar_start_instructions">คำแนะนำเริ่มต้น AR</string>
+    <string name="ar_status">สถานะ AR</string>
+    <string name="art_emoji">🎨</string>
+    <string name="auto_focus">โฟกัสอัตโนมัติ</string>
+    <string name="auto_learning">การเรียนรู้อัตโนมัติ</string>
+    <string name="available_accessibility_features">ฟีเจอร์การเข้าถึงที่มี</string>
+    <string name="available_commands">คำสั่งที่มี</string>
+    <string name="available_haptic_features">ฟีเจอร์การสั่นสะเทือนที่มี</string>
+    <string name="available_ml_features">ฟีเจอร์ ML ที่มี</string>
+    <string name="available_security_features">ฟีเจอร์ความปลอดภัยที่มี</string>
+    <string name="available_ui_features">ฟีเจอร์ UI ที่มี</string>
+    <string name="available_visual_features">ฟีเจอร์ภาพที่มี</string>
+    <string name="back_to_login">กลับไปเข้าสู่ระบบ</string>
+    <string name="biometric_auth_desc">คำอธิบายการยืนยันตัวตนด้วยชีวภาพ</string>
+    <string name="biometric_authentication">การยืนยันตัวตนด้วยชีวภาพ</string>
+    <string name="birth_year_format">รูปแบบปีเกิด</string>
+    <string name="birth_year_label">ป้ายปีเกิด</string>
+    <string name="blockchain_feature_description">คำอธิบายฟีเจอร์บล็อกเชน</string>
+    <string name="blockchain_feature_title">ชื่อฟีเจอร์บล็อกเชน</string>
+    <string name="blockchain_information">ข้อมูลบล็อกเชน</string>
+    <string name="blockchain_ready">บล็อกเชนพร้อมใช้งาน</string>
+    <string name="blockchain_status">สถานะบล็อกเชน</string>
+    <string name="brightness">ความสว่าง</string>
+    <string name="brightness_label">ป้ายความสว่าง</string>
+    <string name="brightness_level">ระดับความสว่าง</string>
+    <string name="brightness_level_value">ค่าชั้นความสว่าง</string>
+    <string name="brush_size_label">ป้ายขนาดพู่กัน</string>
+    <string name="calibrate_button">ปุ่มปรับเทียบ</string>
+    <string name="calibrate_haptic">ปรับเทียบการสั่นสะเทือน</string>
+    <string name="camera_controls">ควบคุมกล้อง</string>
+    <string name="camera_feature_description">คำอธิบายฟีเจอร์กล้อง</string>
+    <string name="camera_feature_title">ชื่อฟีเจอร์กล้อง</string>
+    <string name="camera_information">ข้อมูลกล้อง</string>
+    <string name="camera_permission_required">ต้องได้รับสิทธิ์กล้อง</string>
+    <string name="camera_ready">กล้องพร้อมใช้งาน</string>
+    <string name="camera_settings">การตั้งค่ากล้อง</string>
+    <string name="camera_settings_description">คำอธิบายการตั้งค่ากล้อง</string>
+    <string name="camera_status">สถานะกล้อง</string>
+    <string name="capture_button">ปุ่มถ่าย</string>
+    <string name="change_password_button">ปุ่มเปลี่ยนรหัสผ่าน</string>
+    <string name="choose_from_gallery">เลือกจากแกลเลอรี่</string>
+    <string name="choose_language">เลือกภาษา</string>
+    <string name="clear_all_data">ลบข้อมูลทั้งหมด</string>
+    <string name="clear_button">ปุ่มลบ</string>
+    <string name="close">ปิด</string>
+    <string name="cloud_sync">ซิงค์คลาวด์</string>
+    <string name="color">สี</string>
+    <string name="color_customization_description">คำอธิบายการปรับแต่งสี</string>
+    <string name="color_effects">เอฟเฟกต์สี</string>
+    <string name="color_name">ชื่อสี</string>
+    <string name="color_picker_title">ชื่อตัวเลือกสี</string>
+    <string name="coloring_task">ภารกิจระบายสี</string>
+    <string name="comment_count">จำนวนความคิดเห็น</string>
+    <string name="computer_emoji">🖥️</string>
+    <string name="contrast">ความคมชัด</string>
+    <string name="contrast_label">ป้ายความคมชัด</string>
+    <string name="create_button">ปุ่มสร้าง</string>
+    <string name="create_new_account">สร้างบัญชีใหม่</string>
+    <string name="created_date">วันที่สร้าง</string>
+    <string name="custom_animations">แอนิเมชันที่กำหนดเอง</string>
+    <string name="custom_animations_desc">คำอธิบายแอนิเมชันที่กำหนดเอง</string>
+    <string name="dark">มืด</string>
+    <string name="data_augmentation">การเพิ่มข้อมูล</string>
+    <string name="data_encryption">การเข้ารหัสข้อมูล</string>
+    <string name="data_encryption_desc">คำอธิบายการเข้ารหัสข้อมูล</string>
+    <string name="date_format">รูปแบบวันที่</string>
+    <string name="delete_task">ลบภารกิจ</string>
+    <string name="demo_email">อีเมลสาธิต</string>
+    <string name="demo_mode">โหมดสาธิต</string>
+    <string name="demo_user">ผู้ใช้สาธิต</string>
+    <string name="description">คำอธิบาย</string>
+    <string name="difficulty">ความยาก</string>
+    <string name="double_tap">แตะคู่</string>
+    <string name="dynamic_themes">ธีมแบบไดนามิก</string>
+    <string name="dynamic_themes_desc">คำอธิบายธีมแบบไดนามิก</string>
+    <string name="edit_task">แก้ไขภารกิจ</string>
+    <string name="enable_accessibility">เปิดใช้งานการเข้าถึง</string>
+    <string name="enable_button">ปุ่มเปิดใช้งาน</string>
+    <string name="enable_camera">เปิดใช้งานกล้อง</string>
+    <string name="enable_haptics">เปิดใช้งานการสั่นสะเทือน</string>
+    <string name="enable_ml">เปิดใช้งาน ML</string>
+    <string name="enable_security">เปิดใช้งานความปลอดภัย</string>
+    <string name="enable_security_button">ปุ่มเปิดใช้งานความปลอดภัย</string>
+    <string name="enable_ui_customization">เปิดใช้งานการปรับแต่ง UI</string>
+    <string name="enable_visual_effects">เปิดใช้งานเอฟเฟกต์ภาพ</string>
+    <string name="export_error">ข้อผิดพลาดการส่งออก</string>
+    <string name="export_feature_developing">ฟีเจอร์ส่งออกกำลังพัฒนา</string>
+    <string name="female_user_emoji">👩</string>
+    <string name="filter_label">ป้ายกรอง</string>
+    <string name="flash_label">ป้ายแฟลช</string>
+    <string name="forgot_password_description">ป้อนอีเมล UEF ของคุณเพื่อรับคำแนะนำในการรีเซ็ตรหัสผ่าน</string>
+    <string name="forgot_password_title">ลืมรหัสผ่าน</string>
+    <string name="gesture_feature_description">คำอธิบายฟีเจอร์ท่าทาง</string>
+    <string name="gesture_feature_title">ชื่อฟีเจอร์ท่าทาง</string>
+    <string name="gesture_instructions">คำแนะนำท่าทาง</string>
+    <string name="gestures_ready">ท่าทางพร้อมใช้งาน</string>
+    <string name="gold_medal_emoji">🥇</string>
+    <string name="great_job">ทำได้ดีมาก</string>
+    <string name="haptic_controls">ควบคุมการสั่นสะเทือน</string>
+    <string name="haptic_feature_description">คำอธิบายฟีเจอร์การสั่นสะเทือน</string>
+    <string name="haptic_feature_title">ชื่อฟีเจอร์การสั่นสะเทือน</string>
+    <string name="haptic_information">ข้อมูลการสั่นสะเทือน</string>
+    <string name="haptic_information_desc">คำอธิบายข้อมูลการสั่นสะเทือน</string>
+    <string name="haptic_intensity">ความเข้มการสั่นสะเทือน</string>
+    <string name="haptic_intensity_control">ควบคุมความเข้มการสั่นสะเทือน</string>
+    <string name="haptic_patterns">รูปแบบการสั่นสะเทือน</string>
+    <string name="haptic_settings">การตั้งค่าการสั่นสะเทือน</string>
+    <string name="haptic_status">สถานะการสั่นสะเทือน</string>
+    <string name="haptic_status_ready">การสั่นสะเทือนพร้อมใช้งาน</string>
+    <string name="haptic_types">ประเภทการสั่นสะเทือน</string>
+    <string name="heavy">หนัก</string>
+    <string name="heavy_haptic">การสั่นสะเทือนหนัก</string>
+    <string name="heavy_haptic_description">คำอธิบายการสั่นสะเทือนหนัก</string>
+    <string name="high_contrast">ความคมชัดสูง</string>
+    <string name="import_error">ข้อผิดพลาดการนำเข้า</string>
+    <string name="import_feature_developing">ฟีเจอร์นำเข้ากำลังพัฒนา</string>
+    <string name="intensity">ความเข้ม</string>
+    <string name="language_changed_english">เปลี่ยนภาษาเป็นภาษาอังกฤษแล้ว</string>
+    <string name="language_changed_vietnamese">เปลี่ยนภาษาเป็นภาษาเวียดนามแล้ว</string>
+    <string name="large_text">ข้อความใหญ่</string>
+    <string name="learning_rate">อัตราการเรียนรู้</string>
+    <string name="level_format">รูปแบบระดับ</string>
+    <string name="light">สว่าง</string>
+    <string name="light_haptic">การสั่นสะเทือนเบา</string>
+    <string name="light_haptic_description">คำอธิบายการสั่นสะเทือนเบา</string>
+    <string name="lighting_effects">เอฟเฟกต์แสง</string>
+    <string name="like_count">❤️ %1$d</string>
+    <string name="locked">ล็อกแล้ว</string>
+    <string name="long_press">กดค้าง</string>
+    <string name="medium_haptic">การสั่นสะเทือนปานกลาง</string>
+    <string name="medium_haptic_description">คำอธิบายการสั่นสะเทือนปานกลาง</string>
+    <string name="ml_configuration_description">คำอธิบายการกำหนดค่า ML</string>
+    <string name="ml_controls">ควบคุม ML</string>
+    <string name="ml_feature_description">คำอธิบายฟีเจอร์ ML</string>
+    <string name="ml_feature_title">ชื่อฟีเจอร์ ML</string>
+    <string name="ml_information">ข้อมูล ML</string>
+    <string name="ml_information_desc">คำอธิบายข้อมูล ML</string>
+    <string name="ml_settings">การตั้งค่า ML</string>
+    <string name="ml_status">สถานะ ML</string>
+    <string name="ml_status_ready">ML พร้อมใช้งาน</string>
+    <string name="moon_emoji">🌙</string>
+    <string name="network_feature_description">คำอธิบายฟีเจอร์เครือข่าย</string>
+    <string name="network_feature_title">ชื่อฟีเจอร์เครือข่าย</string>
+    <string name="neural_networks">เครือข่ายประสาท</string>
+    <string name="neural_networks_desc">คำอธิบายเครือข่ายประสาท</string>
+    <string name="no_history_found">ไม่พบประวัติ</string>
+    <string name="no_leaderboard_data">ไม่มีข้อมูลตารางคะแนน</string>
+    <string name="no_speech_detected">ไม่ตรวจพบเสียงพูด</string>
+    <string name="normal_mode">โหมดปกติ</string>
+    <string name="notification_feature_description">คำอธิบายฟีเจอร์การแจ้งเตือน</string>
+    <string name="notification_feature_title">ชื่อฟีเจอร์การแจ้งเตือน</string>
+    <string name="opacity_label">ป้ายความโปร่งใส</string>
+    <string name="opacity_value">ค่าความโปร่งใส</string>
+    <string name="other_gender">อื่นๆ</string>
+    <string name="particle_effects">เอฟเฟกต์อนุภาค</string>
+    <string name="particle_effects_desc">คำอธิบายเอฟเฟกต์อนุภาค</string>
+    <string name="pause_button">ปุ่มหยุดชั่วคราว</string>
+    <string name="percent_symbol">%</string>
+    <string name="player_name">ชื่อผู้เล่น</string>
+    <string name="points_format">รูปแบบคะแนน</string>
+    <string name="points_value">ค่าคะแนน</string>
+    <string name="points_zero">คะแนนศูนย์</string>
+    <string name="post_content">เนื้อหาโพสต์</string>
+    <string name="predict_ml">ทำนาย ML</string>
+    <string name="pressure_haptics">การสั่นสะเทือนแรงดัน</string>
+    <string name="preview_visual">ตัวอย่างภาพ</string>
+    <string name="primary_color">สีหลัก</string>
+    <string name="profile_image_saved">บันทึกรูปโปรไฟล์แล้ว</string>
+    <string name="profile_score_value">ค่าคะแนนโปรไฟล์</string>
+    <string name="rank_label">ป้ายอันดับ</string>
+    <string name="rank_number">หมายเลขอันดับ</string>
+    <string name="ready">พร้อม</string>
+    <string name="realtime">เรียลไทม์</string>
+    <string name="realtime_prediction">การทำนายเรียลไทม์</string>
+    <string name="record_button">ปุ่มบันทึก</string>
+    <string name="redo_button">ปุ่มทำซ้ำ</string>
+    <string name="refresh_emoji">🔄</string>
+    <string name="remove_button">ปุ่มลบ</string>
+    <string name="report_description">คำอธิบายรายงาน</string>
+    <string name="report_title">ชื่อรายงาน</string>
+    <string name="reset_button">ปุ่มรีเซ็ต</string>
+    <string name="reset_database">รีเซ็ตฐานข้อมูล</string>
+    <string name="reset_haptic">รีเซ็ตการสั่นสะเทือน</string>
+    <string name="reset_ui">รีเซ็ต UI</string>
+    <string name="role">บทบาท</string>
+    <string name="sample_email">อีเมลตัวอย่าง</string>
+    <string name="sample_name">ชื่อตัวอย่าง</string>
+    <string name="saturation">ความอิ่มตัว</string>
+    <string name="save_haptic">บันทึกการสั่นสะเทือน</string>
+    <string name="score_format">รูปแบบคะแนน</string>
+    <string name="score_label">ป้ายคะแนน</string>
+    <string name="score_value">ค่าคะแนน</string>
+    <string name="secondary_color">สีรอง</string>
+    <string name="security_controls">ควบคุมความปลอดภัย</string>
+    <string name="security_enable_description">คำอธิบายการเปิดใช้งานความปลอดภัย</string>
+    <string name="security_feature_description">คำอธิบายฟีเจอร์ความปลอดภัย</string>
+    <string name="security_feature_title">ชื่อฟีเจอร์ความปลอดภัย</string>
+    <string name="security_information">ข้อมูลความปลอดภัย</string>
+    <string name="security_information_desc">คำอธิบายข้อมูลความปลอดภัย</string>
+    <string name="security_settings">การตั้งค่าความปลอดภัย</string>
+    <string name="security_status">สถานะความปลอดภัย</string>
+    <string name="security_status_ready">ความปลอดภัยพร้อมใช้งาน</string>
+    <string name="select_profile_image">เลือกรูปโปรไฟล์</string>
+    <string name="send_instructions">ส่งคำแนะนำ</string>
+    <string name="sensor_feature_description">คำอธิบายฟีเจอร์เซ็นเซอร์</string>
+    <string name="sensor_feature_title">ชื่อฟีเจอร์เซ็นเซอร์</string>
+    <string name="settings_emoji">⚙️</string>
+    <string name="shape_type">ประเภทรูปทรง</string>
+    <string name="share_button">ปุ่มแชร์</string>
+    <string name="signal_emoji">📶</string>
+    <string name="single_tap">แตะเดี่ยว</string>
+    <string name="social_network">เครือข่ายสังคม</string>
+    <string name="star_emoji">⭐</string>
+    <string name="start_ar_button">ปุ่มเริ่ม AR</string>
+    <string name="start_button">ปุ่มเริ่ม</string>
+    <string name="start_listening">เริ่มฟัง</string>
+    <string name="status_label">ป้ายสถานะ</string>
+    <string name="stop">หยุด</string>
+    <string name="storage_permission_required">ต้องได้รับสิทธิ์การจัดเก็บ</string>
+    <string name="suggest_button">ปุ่มแนะนำ</string>
+    <string name="sun_emoji">☀️</string>
+    <string name="sync_controls">ควบคุมการซิงค์</string>
+    <string name="sync_feature_description">คำอธิบายฟีเจอร์การซิงค์</string>
+    <string name="sync_feature_title">ชื่อฟีเจอร์การซิงค์</string>
+    <string name="sync_progress">ความคืบหน้าการซิงค์</string>
+    <string name="sync_ready">การซิงค์พร้อมใช้งาน</string>
+    <string name="sync_ready_message">ข้อความการซิงค์พร้อมใช้งาน</string>
+    <string name="sync_start_button">ปุ่มเริ่มการซิงค์</string>
+    <string name="sync_status">สถานะการซิงค์</string>
+    <string name="sync_stop_button">ปุ่มหยุดการซิงค์</string>
+    <string name="system_management_title">ชื่อการจัดการระบบ</string>
+    <string name="system_statistics">สถิติระบบ</string>
+    <string name="take_photo">ถ่ายรูป</string>
+    <string name="target_emoji">🎯</string>
+    <string name="task_description_hint">คำแนะนำคำอธิบายภารกิจ</string>
+    <string name="task_duration_value">ค่าความยาวภารกิจ</string>
+    <string name="task_history">ประวัติภารกิจ</string>
+    <string name="task_label">ป้ายภารกิจ</string>
+    <string name="task_name_hint">คำแนะนำชื่อภารกิจ</string>
+    <string name="temperature_haptics">การสั่นสะเทือนอุณหภูมิ</string>
+    <string name="test_accessibility">ทดสอบการเข้าถึง</string>
+    <string name="test_button">ปุ่มทดสอบ</string>
+    <string name="test_haptic">ทดสอบการสั่นสะเทือน</string>
+    <string name="test_ml">ทดสอบ ML</string>
+    <string name="test_security">ทดสอบความปลอดภัย</string>
+    <string name="test_visual">ทดสอบภาพ</string>
+    <string name="theme_feature_description">คำอธิบายฟีเจอร์ธีม</string>
+    <string name="theme_feature_title">ชื่อฟีเจอร์ธีม</string>
+    <string name="theme_information">ข้อมูลธีม</string>
+    <string name="theme_intensity">ความเข้มธีม</string>
+    <string name="theme_ready">ธีมพร้อมใช้งาน</string>
+    <string name="theme_selection">การเลือกธีม</string>
+    <string name="theme_selection_description">คำอธิบายการเลือกธีม</string>
+    <string name="theme_status">สถานะธีม</string>
+    <string name="time_ago">เวลาที่แล้ว</string>
+    <string name="time_format">รูปแบบเวลา</string>
+    <string name="time_label">ป้ายเวลา</string>
+    <string name="timer_controls">ควบคุมตัวจับเวลา</string>
+    <string name="timer_display">แสดงตัวจับเวลา</string>
+    <string name="timer_display_value">ค่าการแสดงตัวจับเวลา</string>
+    <string name="timer_duration">ระยะเวลาตัวจับเวลา</string>
+    <string name="timer_duration_instructions">คำแนะนำระยะเวลาตัวจับเวลา</string>
+    <string name="timer_feature_description">คำอธิบายฟีเจอร์ตัวจับเวลา</string>
+    <string name="timer_feature_title">ชื่อฟีเจอร์ตัวจับเวลา</string>
+    <string name="timer_ready">ตัวจับเวลาพร้อมใช้งาน</string>
+    <string name="timer_status">สถานะตัวจับเวลา</string>
+    <string name="total_achievements_count">จำนวนความสำเร็จทั้งหมด</string>
+    <string name="total_plays_count">จำนวนการเล่นทั้งหมด</string>
+    <string name="total_tasks_count">จำนวนภารกิจทั้งหมด</string>
+    <string name="total_users_count">จำนวนผู้ใช้ทั้งหมด</string>
+    <string name="train_button">ปุ่มฝึก</string>
+    <string name="train_ml">ฝึก ML</string>
+    <string name="try_demo">ลองสาธิต</string>
+    <string name="two_factor_authentication">การยืนยันตัวตนสองขั้นตอน</string>
+    <string name="type">ประเภท</string>
+    <string name="ui_controls">ควบคุม UI</string>
+    <string name="ui_customization_description">คำอธิบายการปรับแต่ง UI</string>
+    <string name="ui_feature_description">คำอธิบายฟีเจอร์ UI</string>
+    <string name="ui_feature_title">ชื่อฟีเจอร์ UI</string>
+    <string name="ui_information">ข้อมูล UI</string>
+    <string name="ui_information_desc">คำอธิบายข้อมูล UI</string>
+    <string name="ui_settings">การตั้งค่า UI</string>
+    <string name="ui_status">สถานะ UI</string>
+    <string name="ui_status_ready">UI พร้อมใช้งาน</string>
+    <string name="undo_button">ปุ่มยกเลิก</string>
+    <string name="user_label">ป้ายผู้ใช้</string>
+    <string name="user_management_title">ชื่อการจัดการผู้ใช้</string>
+    <string name="user_role">บทบาทผู้ใช้</string>
+    <string name="value">ค่า</string>
+    <string name="vibration_feedback">ข้อเสนอแนะการสั่น</string>
+    <string name="vibration_feedback_desc">คำอธิบายข้อเสนอแนะการสั่น</string>
+    <string name="vibration_haptics">การสั่นสะเทือนการสั่น</string>
+    <string name="visual_configuration_description">คำอธิบายการกำหนดค่าภาพ</string>
+    <string name="visual_controls">ควบคุมภาพ</string>
+    <string name="visual_feature_description">คำอธิบายฟีเจอร์ภาพ</string>
+    <string name="visual_feature_title">ชื่อฟีเจอร์ภาพ</string>
+    <string name="visual_information">ข้อมูลภาพ</string>
+    <string name="visual_information_desc">คำอธิบายข้อมูลภาพ</string>
+    <string name="visual_settings">การตั้งค่าภาพ</string>
+    <string name="visual_status">สถานะภาพ</string>
+    <string name="visual_status_ready">ภาพพร้อมใช้งาน</string>
+    <string name="voice_commands">คำสั่งเสียง</string>
+    <string name="voice_controls">ควบคุมเสียง</string>
+    <string name="voice_over">เสียงพากย์</string>
+    <string name="voice_result">ผลเสียง</string>
+    <string name="voice_status">สถานะเสียง</string>
+    <string name="widget_controls">ควบคุมวิดเจ็ต</string>
+    <string name="widget_creation_description">คำอธิบายการสร้างวิดเจ็ต</string>
+    <string name="widget_feature_description">คำอธิบายฟีเจอร์วิดเจ็ต</string>
+    <string name="widget_feature_title">ชื่อฟีเจอร์วิดเจ็ต</string>
+    <string name="widget_information">ข้อมูลวิดเจ็ต</string>
+    <string name="widget_status">สถานะวิดเจ็ต</string>
+    <string name="widgets_ready">วิดเจ็ตพร้อมใช้งาน</string>
+    <string name="zoom_label">ป้ายซูม</string>
+    <string name="tet_theme">ธีมตรุษจีน</string>
+    <string name="tet_theme_description">ธีมพิเศษสำหรับตรุษจีน</string>
+    <string name="data_compression_desc">คำอธิบายการบีบอัดข้อมูล</string>
+    <string name="wifi_optimization_desc">คำอธิบายการเพิ่มประสิทธิภาพ WiFi</string>
+
+    <!-- User Management Strings -->
+    <string name="filter_all_users">ทั้งหมด</string>
+    <string name="filter_users_role">ผู้ใช้</string>
+    <string name="filter_admin_role">ผู้ดูแลระบบ</string>
+    <string name="filter_active_users">ใช้งานอยู่</string>
+    <string name="filter_locked_users">ถูกล็อค</string>
+    <string name="total_users_text">รวม: %1$d ผู้ใช้</string>
+    <string name="found_users_text">พบ: %1$d ผู้ใช้</string>
+    <string name="add_new_user_title">เพิ่มผู้ใช้ใหม่</string>
+    <string name="add_user_button">เพิ่ม</string>
+    <string name="edit_user_title">แก้ไขผู้ใช้</string>
+    <string name="update_button">อัปเดต</string>
+    <string name="delete_user_title">ยืนยันการลบ</string>
+    <string name="delete_user_message">คุณต้องการลบผู้ใช้ %1$s ใช่ไหม?</string>
+    <string name="delete_button">ลบ</string>
+    <string name="user_added_success">เพิ่มผู้ใช้แล้ว</string>
+    <string name="user_updated_success">อัปเดตผู้ใช้แล้ว</string>
+    <string name="user_deleted_success">ลบผู้ใช้แล้ว</string>
+    <string name="user_activated">เปิดใช้งานแล้ว</string>
+    <string name="user_locked">ถูกล็อค</string>
+    <string name="user_status_changed">ผู้ใช้ถูก%1$sแล้ว</string>
+    <string name="enter_name_hint">กรุณากรอกชื่อ</string>
+    <string name="password_min_length">รหัสผ่านต้องมีอย่างน้อย 6 ตัวอักษร</string>
+    <string name="invalid_birth_year">ปีเกิดไม่ถูกต้อง</string>
+    <string name="admin_role">ผู้ดูแลระบบ</string>
+    <string name="user_role_label">ผู้ใช้</string>
+    <string name="created_at_label">สร้างเมื่อ: %1$s</string>
+
+    <!-- Achievement Management Strings -->
+    <string name="total_achievements_text">ความสำเร็จทั้งหมด: %1$d</string>
+    <string name="edit_achievement_title">แก้ไขความสำเร็จ</string>
+    <string name="enter_achievement_name">กรุณาป้อนชื่อความสำเร็จ</string>
+    <string name="achievement_updated">อัปเดตความสำเร็จแล้ว</string>
+    <string name="achievement_added">เพิ่มความสำเร็จแล้ว</string>
+    <string name="delete_achievement_title">ลบความสำเร็จ</string>
+    <string name="delete_achievement_message">คุณแน่ใจหรือไม่ว่าต้องการลบความสำเร็จ \"%1$s\"?</string>
+    <string name="achievement_deleted">ลบความสำเร็จแล้ว</string>
+    <string name="achievement_name_hint">ชื่อความสำเร็จ</string>
+    <string name="achievement_description_hint">คำอธิบาย</string>
+    <string name="achievement_icon_hint">ไอคอน (อิโมจิ)</string>
+    <string name="achievement_requirement_hint">ความต้องการ (ตัวเลข)</string>
+    <string name="achievement_points_hint">คะแนนรางวัล</string>
+
+    <!-- Leaderboard Management Strings -->
+    <string name="filter_top_10">ท็อป 10</string>
+    <string name="filter_top_50">ท็อป 50</string>
+    <string name="filter_top_100">ท็อป 100</string>
+    <string name="total_attempts_text">จำนวนครั้งทั้งหมด: %1$d</string>
+
+    <!-- Admin Dashboard Strings -->
+    <string name="reset_database_title">ยืนยันการรีเซ็ตฐานข้อมูล</string>
+    <string name="reset_database_message">คุณแน่ใจหรือไม่ว่าต้องการลบข้อมูลทั้งหมดและสร้าง 10 งาน + 10 บัญชีตัวอย่างใหม่?\n\nหมายเหตุ: ข้อมูลปัจจุบันทั้งหมดจะถูกลบ!</string>
+    <string name="confirm_reset_button">ยืนยัน</string>
+    <string name="reset_database_success">✅ รีเซ็ตฐานข้อมูลสำเร็จแล้ว!\nได้สร้าง 10 งาน + 10 บัญชีแล้ว</string>
+    <string name="reset_database_error">❌ เกิดข้อผิดพลาดในการรีเซ็ตฐานข้อมูล: %1$s</string>
+    <string name="error_loading_statistics">เกิดข้อผิดพลาดในการโหลดสถิติ</string>
+    <string name="users_count_format">%1$d ผู้ใช้</string>
+    <string name="tasks_count_format">%1$d งาน</string>
+    <string name="attempts_count_format">%1$d ครั้ง</string>
+    <string name="points_count_format">%1$d คะแนน</string>
+
+    <!-- User Management -->
+    <string name="search_users_hint">ค้นหา...</string>
+    <string name="export_excel_label">📊 ส่งออก Excel</string>
+    
+    <!-- Advanced Sounds -->
+    <string name="select_music">เลือกเพลง</string>
+    <string name="select">เลือก</string>
+    <string name="turn_off">ปิด</string>
+    <string name="turn_on">เปิด</string>
+    <string name="inactive">ไม่ใช้งาน</string>
+    <string name="sound_effects_desc">เสียงเมื่อกดปุ่ม</string>
+    <string name="notification_sound">เสียงแจ้งเตือน</string>
+    <string name="notification_sound_desc">เสียงเมื่อมีการแจ้งเตือน</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_selected">เลือกธีม: %1$s</string>
+    <string name="theme_applied_immediately">การเปลี่ยนแปลงถูกนำไปใช้ทันที!</string>
+    
+    <!-- Advanced Admin Reports -->
+    <string name="score_distribution">การกระจายคะแนน</string>
+    <string name="score_distribution_desc">จำนวนครั้งที่ลองตามระดับคะแนน</string>
+    <string name="most_active_user">ผู้ใช้ที่กระตือรือร้นที่สุด</string>
+    <string name="most_active_user_desc">ผู้ใช้ที่ทำงานเสร็จมากที่สุด</string>
+    <string name="achievements_stat">ความสำเร็จ</string>
+    <string name="achievements_stat_desc">จำนวนความสำเร็จที่ปลดล็อค</string>
+    <string name="avg_completion_speed">ความเร็วในการทำสำเร็จเฉลี่ย</string>
+    <string name="avg_completion_speed_desc">เวลาเฉลี่ยในการทำงาน 1 งาน</string>
+    <string name="incomplete_rate">อัตราไม่สมบูรณ์</string>
+    <string name="incomplete_rate_desc">เปอร์เซ็นต์ของงานที่ถูกทิ้ง</string>
+    <string name="new_users_7days">ผู้ใช้ใหม่ (7 วัน)</string>
+    <string name="new_users_7days_desc">จำนวนผู้ใช้ที่ลงทะเบียนใหม่</string>
+    <string name="total_attempts">จำนวนครั้งพยายามทั้งหมด</string>
+    <string name="total_attempts_desc">จำนวนผู้ใช้ทั้งหมดที่ทำงาน</string>
+    <string name="completed_attempts_trend">%1$d เสร็จสิ้น</string>
+    <string name="score_excellent">ดีเยี่ยม</string>
+    <string name="score_good">ดี</string>
+    <string name="score_fair">ปานกลาง</string>
+    <string name="score_average">เฉลี่ย</string>
+    <string name="status_good">✓ ดี</string>
+    <string name="status_average">○ เฉลี่ย</string>
+    <string name="status_need_improve">✗ ต้องปรับปรุง</string>
+    <string name="status_active">✓ กระตือรือร้น</string>
+    <string name="status_stable">○ คงที่</string>
+    <string name="status_fast">✓ เร็ว</string>
+    <string name="status_medium">○ ปานกลาง</string>
+    <string name="status_slow">✗ ช้า</string>
+    <string name="status_high">✗ สูง</string>
+    <string name="status_growth">✓ เติบโต</string>
+    <string name="status_no_data">○ ไม่มี</string>
+    <string name="no_data">ไม่มีข้อมูล</string>
+    <string name="not_available">N/A</string>
+    <string name="total_format">รวม: %1$d ครั้ง</string>
+    <string name="attempts_completed">%1$d เสร็จสิ้น</string>
+    <string name="unlocked_percent">%1$d%% ปลดล็อค</string>
+    <string name="users_count">%1$d คน</string>
+    <string name="attempts">ครั้ง</string>
+    
+    <!-- Leaderboard -->
+    <string name="total_score_tab">คะแนนรวม</string>
+    <string name="drawing_score_tab">คะแนนการวาด</string>
+    <string name="leaderboard_load_error">ข้อผิดพลาดในการโหลดกระดานผู้นำ: %1$s</string>
+    <string name="score_points">%1$d คะแนน</string>
+    <string name="unknown_error">ข้อผิดพลาดที่ไม่ทราบ</string>
+    <string name="leaderboard_management">จัดการกระดานผู้นำ</string>
+    <string name="user_prefix">ผู้ใช้: %1$s</string>
+    <string name="task_prefix">ภารกิจ: %1$s</string>
+    
+    <!-- Social Network - Post Content -->
+    <string name="post_created_colorful_garden">ฉันสร้างสวนสีสันสดใสแล้ว! 🌸</string>
+    <string name="post_beautiful_mountain_lake">ทิวทัศน์ทะเลสาบภูเขาที่สวยงาม! 🏔️</string>
+    <string name="post_city_at_night">เมืองยามค่ำคืนกับแสงไฟที่ส่องประกาย! 🌃</string>
+    <string name="post_fairytale_castle">ปราสาทเทพนิยายในความฝัน! 🏰</string>
+    <string name="post_tropical_beach">ชายหาดเขตร้อนพร้อมต้นปาล์ม! 🏖️</string>
+    <string name="days_ago">%1$d วันที่แล้ว</string>
+
+</resources>

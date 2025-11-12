@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Pentagon outline for coloring -->
+    <path
+        android:pathData="M100,30 L160,70 L140,140 L60,140 L40,70 Z"
+        android:strokeColor="#000000"
+        android:strokeWidth="4"
+        android:fillColor="@android:color/transparent" />
+</vector>
+
+

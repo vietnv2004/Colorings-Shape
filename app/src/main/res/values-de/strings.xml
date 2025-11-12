@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Formen Ausmalen</string>
+    <string name="app_subtitle">Intelligentes Formen Ausmalen</string>
+    <string name="version">Version 1.0.0</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_subtitle" translatable="false">Intelligentes Formen Ausmalen</string>
+    <string name="loading" translatable="false">Laden…</string>
+
+    <!-- Authentication -->
+    <string name="login" translatable="false">Anmelden</string>
+    <string name="register" translatable="false">Registrieren</string>
+    <string name="edit_profile">Profil bearbeiten</string>
+    <string name="user_name">Benutzername</string>
+    <string name="user_email">E-Mail</string>
+    <string name="enter_user_name">Benutzername eingeben</string>
+    <string name="enter_user_email">E-Mail eingeben</string>
+    <string name="statistics">Statistiken</string>
+    <string name="level">Level</string>
+    <string name="score">Punkte</string>
+    <string name="login_title">Willkommen zurück</string>
+    <string name="login_subtitle" translatable="false">Melden Sie sich an, um fortzufahren</string>
+    <string name="register_title">Neues Konto erstellen</string>
+    <string name="register_subtitle">Registrieren Sie sich, um zu beginnen</string>
+    <string name="already_have_account">Haben Sie bereits ein Konto?</string>
+    <string name="forgot_password">Passwort vergessen?</string>
+    <string name="remember_me">Anmeldung merken</string>
+
+    <!-- Form Fields -->
+    <string name="email">E-Mail</string>
+    <string name="email_uef">UEF E-Mail</string>
+    <string name="password">Passwort</string>
+    <string name="confirm_password">Passwort bestätigen</string>
+    <string name="full_name">Vollständiger Name</string>
+    <string name="birth_year">Geburtsjahr</string>
+    <string name="gender">Geschlecht</string>
+    <string name="male">Männlich</string>
+    <string name="female">Weiblich</string>
+    <string name="terms_and_conditions">Ich akzeptiere die Nutzungsbedingungen</string>
+
+    <!-- Navigation -->
+    <string name="home">Startseite</string>
+    <string name="quest">Quest</string>
+    <string name="progress">Fortschritt</string>
+    <string name="profile">Profil</string>
+    <string name="back">Zurück</string>
+    <string name="next">Weiter</string>
+    <string name="previous">Vorherige</string>
+    <string name="finish">Beenden</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="save">Speichern</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="delete">Löschen</string>
+    <string name="add">Hinzufügen</string>
+    <string name="search">Suchen</string>
+    <string name="filter">Filtern</string>
+    <string name="sort">Sortieren</string>
+
+    <!-- Tasks -->
+    <string name="tasks">Aufgaben</string>
+    <string name="available_tasks">Verfügbare Aufgaben</string>
+    <string name="task_list">Aufgabenliste</string>
+    <string name="task_details">Aufgabendetails</string>
+    <string name="start_task">Aufgabe starten</string>
+    <string name="complete_task">Aufgabe abschließen</string>
+    <string name="task_name">Aufgabenname</string>
+    <string name="task_description">Beschreibung</string>
+    <string name="task_duration">Dauer</string>
+    <string name="task_difficulty">Schwierigkeit</string>
+    <string name="task_points">Punkte</string>
+    <string name="task_status">Status</string>
+
+    <!-- Shapes -->
+    <string name="shapes">Formen</string>
+    <string name="circle">Kreis</string>
+    <string name="square">Quadrat</string>
+    <string name="triangle">Dreieck</string>
+    <string name="rectangle">Rechteck</string>
+    <string name="pentagon">Fünfeck</string>
+    <string name="hexagon">Sechseck</string>
+    <string name="star">Stern</string>
+    <string name="heart">Herz</string>
+
+    <!-- Task Names -->
+    <string name="task_color_circle">Kreis ausmalen</string>
+    <string name="task_color_square">Quadrat ausmalen</string>
+    <string name="task_color_triangle">Dreieck ausmalen</string>
+    <string name="task_color_star">Stern ausmalen</string>
+    <string name="task_color_heart">Herz ausmalen</string>
+
+    <!-- Task Descriptions -->
+    <string name="task_desc_circle">Malen Sie den Kreis mit Ihrer Lieblingsfarbe aus</string>
+    <string name="task_desc_square">Malen Sie das Quadrat mit Ihrer Lieblingsfarbe aus</string>
+    <string name="task_desc_triangle">Malen Sie das Dreieck mit Ihrer Lieblingsfarbe aus</string>
+
+    <!-- Colors -->
+    <string name="colors">Farben</string>
+    <string name="red">Rot</string>
+    <string name="blue">Blau</string>
+    <string name="green">Grün</string>
+    <string name="yellow">Gelb</string>
+    <string name="orange">Orange</string>
+    <string name="purple">Lila</string>
+    <string name="pink">Rosa</string>
+    <string name="black">Schwarz</string>
+    <string name="white">Weiß</string>
+    <string name="gray">Grau</string>
+
+    <!-- Drawing -->
+    <string name="drawing">Zeichnen</string>
+    <string name="brush">Pinsel</string>
+    <string name="brush_size">Pinselgröße</string>
+    <string name="color_picker">Farbauswahl</string>
+    <string name="undo">Rückgängig</string>
+    <string name="redo">Wiederholen</string>
+    <string name="clear">Alles löschen</string>
+    <string name="eraser">Radiergummi</string>
+
+    <!-- Scoring -->
+    <string name="total_score">Gesamtpunktzahl</string>
+    <string name="high_score">Höchstpunktzahl</string>
+    <string name="leaderboard">Bestenliste</string>
+    <string name="rank">Rang</string>
+    <string name="your_rank">Ihr Rang</string>
+    <string name="top_players">Top-Spieler</string>
+    <string name="view_full_leaderboard">Vollständige Bestenliste anzeigen</string>
+
+    <!-- History -->
+    <string name="history">Verlauf</string>
+    <string name="recent_history">Letzter Verlauf</string>
+    <string name="view_all_history">Gesamten Verlauf anzeigen</string>
+    <string name="completed_tasks">Abgeschlossene Aufgaben</string>
+    <string name="view_history">Verlauf anzeigen</string>
+    <string name="no_history">Kein Verlauf</string>
+
+    <!-- Settings -->
+    <string name="settings">Einstellungen</string>
+    <string name="language">Sprache</string>
+    <string name="theme">Design</string>
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="sound">Ton</string>
+    <string name="vibration">Vibration</string>
+    <string name="offline_mode">Verbindungsstatus</string>
+    <string name="data_management">Datenverwaltung</string>
+    <string name="export_data">Daten exportieren</string>
+    <string name="import_data">Daten importieren</string>
+    <string name="about">Über</string>
+    <string name="dark_mode">Dunkler Modus</string>
+    <string name="enable_notifications">Benachrichtigungen aktivieren</string>
+    <string name="online_status">Sie sind online. Alle Funktionen sind verfügbar.</string>
+    <string name="offline_status">Sie sind offline. Einige Funktionen sind eingeschränkt.</string>
+
+    <!-- Admin -->
+    <string name="admin">Administrator</string>
+    <string name="admin_dashboard">Dashboard</string>
+    <string name="manage_tasks">Aufgaben verwalten</string>
+    <string name="manage_shapes">Formen verwalten</string>
+    <string name="manage_users">Benutzer verwalten</string>
+    <string name="reports">Berichte</string>
+
+    <!-- Messages -->
+    <string name="success">Erfolg</string>
+    <string name="error">Fehler</string>
+    <string name="warning">Warnung</string>
+    <string name="info">Information</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="ok">OK</string>
+
+    <!-- Validation -->
+    <string name="email_required">Bitte geben Sie die E-Mail ein</string>
+    <string name="email_invalid">Ungültige E-Mail</string>
+    <string name="password_required">Bitte geben Sie das Passwort ein</string>
+    <string name="password_too_short">Passwort zu kurz</string>
+    <string name="passwords_not_match">Passwörter stimmen nicht überein</string>
+    <string name="field_required">Dieses Feld ist erforderlich</string>
+
+    <!-- Time -->
+    <string name="time">Zeit</string>
+    <string name="timer">Timer</string>
+    <string name="time_remaining">Verbleibende Zeit</string>
+    <string name="time_up">Zeit abgelaufen!</string>
+    <string name="seconds">Sekunden</string>
+    <string name="minutes">Minuten</string>
+    <string name="hours">Stunden</string>
+
+    <!-- Or -->
+    <string name="or">oder</string>
+
+    <!-- Google Auth Buttons -->
+    <string name="sign_in_with_google">Mit Google anmelden</string>
+    <string name="sign_up_with_google">Mit Google registrieren</string>
+
+    <!-- Difficulty Levels -->
+    <string name="easy">Einfach</string>
+    <string name="medium">Mittel</string>
+    <string name="hard">Schwer</string>
+    <string name="difficulty_label">Schwierigkeit: %s</string>
+    <string name="points_label">Punkte: %d</string>
+
+    <!-- Status -->
+    <string name="pending">Ausstehend</string>
+    <string name="in_progress">In Bearbeitung</string>
+    <string name="completed">Abgeschlossen</string>
+    <string name="failed">Fehlgeschlagen</string>
+
+    <!-- Social -->
+    <string name="share">Teilen</string>
+    <string name="friends">Freunde</string>
+    <string name="invite">Einladen</string>
+
+    <!-- Empty States -->
+    <string name="no_tasks">Keine Aufgaben</string>
+    <string name="no_results">Keine Ergebnisse</string>
+    <string name="empty_list">Leere Liste</string>
+    <string name="empty_tasks">Noch keine Aufgaben</string>
+    <string name="empty_history">Noch kein Verlauf</string>
+    <string name="empty_leaderboard">Noch keine Bestenliste</string>
+    <string name="empty_notifications">Keine Benachrichtigungen</string>
+    <string name="empty_results">Keine Ergebnisse</string>
+    <string name="empty_search">Keine Suchergebnisse</string>
+
+    <!-- Actions -->
+    <string name="submit">Absenden</string>
+    <string name="retry">Wiederholen</string>
+    <string name="skip">Überspringen</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="export">Exportieren</string>
+    <string name="notify" translatable="false">Benachrichtigen</string>
+    <string name="action_copy" translatable="false">Kopieren</string>
+    <string name="action_cut" translatable="false">Ausschneiden</string>
+    <string name="action_paste" translatable="false">Einfügen</string>
+    <string name="action_select_all">Alle auswählen</string>
+    <string name="action_deselect_all" translatable="false">Auswahl aufheben</string>
+    <string name="action_share" translatable="false">Teilen</string>
+    <string name="action_refresh">Aktualisieren</string>
+    <string name="action_retry" translatable="false">Wiederholen</string>
+
+    <!-- Face Check-in -->
+    <string name="face_checkin">Gesichtserkennung Check-in</string>
+    <string name="face_detected">Gesicht erkannt</string>
+    <string name="face_not_detected">Gesicht nicht erkannt</string>
+    <string name="position_face">Positionieren Sie Ihr Gesicht im Rahmen</string>
+
+    <!-- Achievements -->
+    <string name="achievement">Erfolg</string>
+    <string name="achievements">Erfolge</string>
+    <string name="achievement_unlocked">Erfolg freigeschaltet</string>
+    <string name="total_achievements">Gesamt: %d</string>
+    <string name="unlocked_achievements">Freigeschaltet: %d</string>
+    <string name="recent_achievements">Letzte Erfolge</string>
+    <string name="view_all_achievements">Alle Erfolge anzeigen</string>
+    <string name="all_achievements_title">Alle Erfolge</string>
+    <string name="first_task_title">Erste Aufgabe</string>
+    <string name="first_task_desc">Schließen Sie Ihre erste Ausmalaufgabe ab</string>
+    <string name="top_scorer_title">Top-Scorer</string>
+    <string name="top_scorer_desc">Erreichen Sie 90+ Punkte in einer Aufgabe</string>
+    <string name="perfectionist">Perfektionist</string>
+    <string name="perfectionist_desc">Erreichen Sie 100% Genauigkeit in einer Aufgabe</string>
+    <string name="speed_demon">Geschwindigkeitsdämon</string>
+    <string name="speed_demon_desc">Absolvieren Sie eine Aufgabe in weniger als 2 Minuten</string>
+    <string name="streak_master">Serienmeister</string>
+    <string name="streak_master_desc">Absolvieren Sie 5 aufeinanderfolgende Aufgaben</string>
+    <string name="top_scorer">Top-Scorer</string>
+
+    <!-- Admin & Navigation -->
+    <string name="dashboard">Dashboard</string>
+    <string name="users">Benutzer</string>
+    <string name="management">Verwaltung</string>
+    <string name="chat_ai">Chat AI</string>
+    <string name="system_administration">Systemverwaltung</string>
+    <string name="task_management">Aufgabenverwaltung</string>
+    <string name="task_management_desc">Aufgaben hinzufügen, bearbeiten, löschen</string>
+    <string name="user_management">Benutzerverwaltung</string>
+    <string name="user_management_desc">Benutzerliste verwalten</string>
+    <string name="shape_management">Formenverwaltung</string>
+    <string name="shape_management_desc">Formen hinzufügen, bearbeiten, löschen</string>
+
+    <!-- User Info -->
+    <string name="name">Name</string>
+    <string name="user_rank">Rang</string>
+    <string name="user_score">Punkte</string>
+    <string name="admin_name">Administratorname</string>
+    <string name="personal_info">Persönliche Informationen</string>
+
+    <!-- Task Related -->
+    <string name="add_task">Aufgabe hinzufügen</string>
+    <string name="task_title">Aufgabentitel</string>
+    <string name="task_detail">Aufgabendetails</string>
+    <string name="task_completed">Abgeschlossen</string>
+    <string name="task_completion_rate">Abschlussrate</string>
+    <string name="tasks_completed">Abgeschlossene Aufgaben</string>
+    <string name="total_tasks">Gesamtaufgaben</string>
+    <string name="active_tasks">Aktive Aufgaben</string>
+    <string name="recent_tasks">Letzte Aufgaben</string>
+    <string name="first_task">Erste Aufgabe</string>
+    <string name="continue_task">Fortsetzen</string>
+    <string name="create_first_task">Erste Aufgabe erstellen</string>
+    <string name="start_first_task">Erste Aufgabe starten</string>
+
+    <!-- Time & Duration -->
+    <string name="duration">Dauer</string>
+    <string name="time_limit">Zeitlimit</string>
+    <string name="time_taken">Benötigte Zeit</string>
+    <string name="time_spent">Verbrachte Zeit</string>
+    <string name="time_spent_total">Gesamtzeit</string>
+    <string name="total_time">Gesamtzeit</string>
+    <string name="time_up_notification">Zeit abgelaufen!</string>
+
+    <!-- Rankings & Scores -->
+    <string name="ranking">Rangliste</string>
+    <string name="current_rank">Aktueller Rang</string>
+    <string name="your_score">Ihre Punkte</string>
+    <string name="top_3">Top 3</string>
+    <string name="top_10">Top 10</string>
+    <string name="top_100">Top 100</string>
+    <string name="average_score">Durchschnittspunktzahl</string>
+    <string name="bonus_points">Bonuspunkte</string>
+    <string name="points">Punkte</string>
+
+    <!-- Drawing -->
+    <string name="drawing_canvas">Zeichenfläche</string>
+    <string name="your_drawing">Ihr Bild</string>
+    <string name="brush_type">Pinseltyp</string>
+    <string name="color_palette">Farbpalette</string>
+    <string name="clear_all">Alles löschen</string>
+
+    <!-- Settings Extended -->
+    <string name="general_settings">Allgemeine Einstellungen</string>
+    <string name="account_settings">Kontoeinstellungen</string>
+    <string name="privacy_settings">Datenschutzeinstellungen</string>
+    <string name="notification_settings">Benachrichtigungseinstellungen</string>
+    <string name="language_settings">Spracheinstellungen</string>
+    <string name="sound_settings">Toneinstellungen</string>
+    <string name="display_settings">Anzeigeeinstellungen</string>
+    <string name="reset_settings">Einstellungen zurücksetzen</string>
+    <string name="select_language">Sprache auswählen</string>
+    <string name="english">Englisch</string>
+    <string name="vietnamese">Vietnamesisch</string>
+    <string name="auto_theme">Automatisch</string>
+
+    <!-- Status -->
+    <string name="not_started">Nicht gestartet</string>
+    <string name="status_available">Verfügbar</string>
+    <string name="status_unlocked">Entsperrt</string>
+    <string name="status_locked">Gesperrt</string>
+    <string name="status_approved">Genehmigt</string>
+    <string name="status_rejected">Abgelehnt</string>
+    <string name="expired">Abgelaufen</string>
+
+    <!-- Messages & Notifications -->
+    <string name="congratulations">Herzlichen Glückwunsch!</string>
+    <string name="welcome_back">Willkommen zurück</string>
+    <string name="welcome_admin">Willkommen Administrator</string>
+    <string name="language_changed">Sprache geändert</string>
+    <string name="theme_changed">Design geändert</string>
+    <string name="notification_title">Benachrichtigung</string>
+    <string name="notification_message">Benachrichtigungsnachricht</string>
+    <string name="notification_type">Benachrichtigungstyp</string>
+    <string name="notification_time">Zeit</string>
+    <string name="notifications_title">Benachrichtigungen</string>
+    <string name="mark_as_read">Als gelesen markieren</string>
+    <string name="mark_all_read">Alle als gelesen markieren</string>
+
+    <!-- Loading States -->
+    <string name="loading_general">Laden...</string>
+    <string name="loading_tasks">Aufgaben laden...</string>
+    <string name="loading_history">Verlauf laden...</string>
+    <string name="loading_leaderboard">Bestenliste laden...</string>
+    <string name="loading_login">Anmelden...</string>
+    <string name="loading_register">Registrieren...</string>
+    <string name="loading_save">Speichern...</string>
+    <string name="loading_delete">Löschen...</string>
+    <string name="loading_upload">Hochladen...</string>
+    <string name="loading_download">Herunterladen...</string>
+    <string name="loading_sync">Synchronisieren...</string>
+
+    <!-- Success Messages -->
+    <string name="success_general">Erfolg!</string>
+    <string name="success_login">Anmeldung erfolgreich</string>
+    <string name="success_register">Registrierung erfolgreich</string>
+    <string name="success_save">Speichern erfolgreich</string>
+    <string name="success_update">Aktualisierung erfolgreich</string>
+    <string name="success_delete">Löschen erfolgreich</string>
+    <string name="success_upload">Upload erfolgreich</string>
+    <string name="success_download">Download erfolgreich</string>
+    <string name="login_success">Anmeldung erfolgreich</string>
+
+    <!-- Error Messages -->
+    <string name="error_general">Ein Fehler ist aufgetreten</string>
+    <string name="error_network">Netzwerkfehler</string>
+    <string name="error_server">Serverfehler</string>
+    <string name="error_database">Datenbankfehler</string>
+    <string name="error_authentication">Authentifizierungsfehler</string>
+    <string name="error_permission">Keine Berechtigung</string>
+    <string name="error_validation">Ungültige Daten</string>
+    <string name="error_file_not_found">Datei nicht gefunden</string>
+    <string name="error_unknown">Unbekannter Fehler</string>
+    <string name="invalid_email">Ungültige E-Mail</string>
+    <string name="login_failed">Anmeldung fehlgeschlagen</string>
+
+    <!-- Validation -->
+    <string name="validation_email">Ungültige E-Mail</string>
+    <string name="validation_password">Ungültiges Passwort</string>
+    <string name="validation_name">Ungültiger Name</string>
+    <string name="validation_phone">Ungültige Telefonnummer</string>
+    <string name="validation_birth_year">Ungültiges Geburtsjahr</string>
+    <string name="validation_password_match">Passwörter stimmen nicht überein</string>
+    <string name="validation_required">Pflichtfeld</string>
+    <string name="validation_url">Ungültige URL</string>
+    <string name="uef_email_required">UEF-E-Mail erforderlich (@uef.edu.vn)</string>
+
+    <!-- Permissions -->
+    <string name="permission_required">Berechtigung erforderlich</string>
+    <string name="permission_camera">Kameraberechtigung</string>
+    <string name="permission_storage">Speicherberechtigung</string>
+    <string name="permission_location">Standortberechtigung</string>
+    <string name="permission_notification">Benachrichtigungsberechtigung</string>
+    <string name="permission_granted">Berechtigung erteilt</string>
+    <string name="permission_denied">Berechtigung verweigert</string>
+
+    <!-- Features -->
+    <string name="feature_offline_mode">Verbindungsstatus</string>
+    <string name="feature_sync">Synchronisieren</string>
+    <string name="feature_backup">Backup</string>
+    <string name="feature_restore">Wiederherstellen</string>
+    <string name="feature_export">Daten exportieren</string>
+    <string name="feature_import">Daten importieren</string>
+    <string name="feature_face_checkin">Gesichtserkennung Check-in</string>
+    <string name="sync_data">Daten synchronisieren</string>
+    <string name="sync_failed">Synchronisation fehlgeschlagen</string>
+    <string name="data_synced">Daten synchronisiert</string>
+    <string name="backup_data">Backup</string>
+    <string name="restore_data">Wiederherstellen</string>
+
+    <!-- Stats & Reports -->
+    <string name="reports_desc">Detaillierte Berichte</string>
+    <string name="age_distribution">Altersverteilung</string>
+    <string name="gender_distribution">Geschlechtsverteilung</string>
+    <string name="total_users">Gesamtbenutzer</string>
+    <string name="accuracy">Genauigkeit</string>
+    <string name="experience">Erfahrung</string>
+    <string name="streak">Serie</string>
+    <string name="targets">Ziele</string>
+    <string name="result">Ergebnis</string>
+    <string name="overall_progress">Gesamtfortschritt</string>
+
+    <!-- Filters & Search -->
+    <string name="filter_all">Alle</string>
+    <string name="filter_active">Aktiv</string>
+    <string name="filter_inactive">Inaktiv</string>
+    <string name="filter_completed">Abgeschlossen</string>
+    <string name="filter_incomplete">Unvollständig</string>
+    <string name="filter_by_difficulty">Nach Schwierigkeit filtern</string>
+    <string name="filter_high_score">Hohe Punktzahl</string>
+    <string name="filter_top_10">Top 10</string>
+    <string name="filter_top_50">Top 50</string>
+    <string name="filter_top_100">Top 100</string>
+    <string name="total_attempts_text">Gesamtversuche: %1$d</string>
+    <string name="search_tasks_hint">Aufgaben suchen...</string>
+    <string name="search_history_hint">Verlauf suchen...</string>
+
+    <!-- Misc -->
+    <string name="help">Hilfe</string>
+    <string name="contact">Kontakt</string>
+    <string name="instructions">Anweisungen</string>
+    <string name="instructions_text">Verwendung</string>
+    <string name="show_details">Details anzeigen</string>
+    <string name="other">Andere</string>
+    <string name="complete">Vollständig</string>
+    <string name="places">Orte</string>
+    <string name="start_competing">Wettbewerb starten</string>
+    <string name="completed_attempts">Abgeschlossene Versuche</string>
+    <string name="quick_actions">Schnellaktionen</string>
+    <string name="user_profile">Benutzerprofil</string>
+    <string name="analytics">Analytik</string>
+    <string name="social">Sozial</string>
+
+    <!-- Analytics -->
+    <string name="analytics_dashboard">Analytik-Dashboard</string>
+    <string name="completion_rate">Abschlussrate</string>
+    <string name="detailed_analytics">Detaillierte Analytik</string>
+    <string name="daily_progress">Täglicher Fortschritt</string>
+    <string name="daily_progress_desc">Täglich abgeschlossene Aufgaben</string>
+    <string name="accuracy_rate">Genauigkeitsrate</string>
+    <string name="accuracy_rate_desc">Durchschnittliche Genauigkeit bei allen Aufgaben</string>
+    <string name="speed_improvement">Geschwindigkeitsverbesserung</string>
+    <string name="speed_improvement_desc">Zeitverkürzung im Vergleich zur letzten Woche</string>
+    <string name="streak_days">Serientage</string>
+    <string name="streak_days_desc">Konsekutive Aktivitätstage</string>
+    <string name="favorite_shape">Lieblingsform</string>
+    <string name="favorite_shape_desc">Am häufigsten abgeschlossene Form</string>
+    <string name="peak_performance">Höchstleistung</string>
+    <string name="peak_performance_desc">Beste Tageszeit für Aufgaben</string>
+    <string name="tasks_per_day">Aufgaben/Tag</string>
+    <string name="days">Tage</string>
+
+    <!-- Social -->
+    <string name="social_feed">Sozialer Feed</string>
+    <string name="add_friend">Freund hinzufügen</string>
+    <string name="posts">Beiträge</string>
+    <string name="likes">Likes</string>
+    <string name="share_my_work">MEINE ARBEIT TEILEN</string>
+    <string name="view_friends">FREUNDE ANZEIGEN</string>
+    <string name="recent_posts">Letzte Beiträge</string>
+    <string name="hours_ago">vor %d Stunden</string>
+    <string name="day_ago">vor 1 Tag</string>
+    <string name="just_completed_first_task">Ich habe gerade meine erste Ausmalaufgabe abgeschlossen! 🎨</string>
+    <string name="check_out_masterpiece">Schauen Sie sich mein neuestes Meisterwerk an!</string>
+    <string name="achieved_100_accuracy">100%% Genauigkeit bei der Kreisaufgabe erreicht! 🎯</string>
+
+    <!-- Admin Dashboard -->
+    <string name="welcome_admin_title">Willkommen, Administrator!</string>
+    <string name="task_management_btn">AUFGABEN VERWALTEN</string>
+    <string name="user_management_btn">BENUTZER VERWALTEN</string>
+    <string name="reports_analytics_btn">BERICHTE UND ANALYTIK</string>
+    <string name="statistics_title">Statistiken</string>
+    <string name="total_users_label">Gesamtbenutzer</string>
+    <string name="active_tasks_label">Aktive Aufgaben</string>
+    <string name="completed_attempts_label">Abgeschlossene Versuche</string>
+    <string name="average_score_label">Durchschnittspunktzahl</string>
+
+    <!-- Advanced Admin -->
+    <string name="advanced_admin_title">Erweitertes Dashboard</string>
+    <string name="user_registration_trends">Benutzerregistrierungstrends</string>
+    <string name="user_registration_desc">Monatliche Registrierungsstatistiken</string>
+    <string name="new_users_count">%d neue Benutzer</string>
+    <string name="task_completion_rate_title">Aufgabenabschlussrate</string>
+    <string name="task_completion_desc">Prozentsatz erfolgreich abgeschlossener Aufgaben</string>
+    <string name="avg_session_duration">Durchschnittliche Sitzungsdauer</string>
+    <string name="avg_session_desc">Durchschnittliche Zeit, die Benutzer in der App verbringen</string>
+    <string name="top_performing_tasks_title">Leistungsstärkste Aufgaben</string>
+    <string name="top_tasks_desc">Beliebteste und erfolgreichste Aufgaben</string>
+    <string name="circle_coloring">Kreis ausmalen</string>
+    <string name="completion_percent">%d%% abgeschlossen</string>
+    <string name="data_management_title">Datenverwaltung</string>
+
+    <!-- Confirmations -->
+    <string name="confirm_delete">Löschen bestätigen?</string>
+    <string name="confirm_exit">Beenden bestätigen?</string>
+    <string name="confirm_logout">Abmelden bestätigen?</string>
+    <string name="confirm_reset">Zurücksetzen bestätigen?</string>
+    <string name="confirm_cancel">Abbrechen bestätigen?</string>
+    <string name="confirm_save">Speichern bestätigen?</string>
+
+    <!-- Units -->
+    <string name="unit_seconds">Sekunden</string>
+    <string name="unit_minutes">Minuten</string>
+    <string name="unit_hours">Stunden</string>
+    <string name="unit_days">Tage</string>
+    <string name="unit_points">Punkte</string>
+    <string name="unit_percentage">%</string>
+    <string name="unit_count">Mal</string>
+
+    <!-- Date & Time Formats -->
+    <string name="date_format_short">dd.MM.yyyy</string>
+    <string name="date_format_long">dd. MMMM yyyy</string>
+    <string name="time_format_short">HH:mm</string>
+    <string name="time_format_long">HH:mm:ss</string>
+    <string name="datetime_format">dd.MM.yyyy HH:mm</string>
+
+    <!-- Empty State Titles -->
+    <string name="tasks_empty_title">Keine Aufgaben</string>
+    <string name="tasks_empty_subtitle">Beginnen Sie mit dem Hinzufügen neuer Aufgaben</string>
+    <string name="tasks_empty_description">Noch keine Aufgaben erstellt</string>
+    <string name="history_empty_title">Kein Verlauf</string>
+    <string name="history_empty_subtitle">Beginnen Sie mit dem Abschließen von Aufgaben</string>
+    <string name="history_empty_description">Der Verlauf wird hier angezeigt</string>
+    <string name="leaderboard_empty_title">Keine Bestenliste</string>
+    <string name="leaderboard_empty_subtitle">Seien Sie der Erste</string>
+    <string name="leaderboard_empty_description">Schließen Sie Aufgaben ab, um in die Bestenliste zu kommen</string>
+
+    <!-- Titles -->
+    <string name="leaderboard_title">Bestenliste</string>
+    <string name="profile_title">Profil</string>
+    <string name="settings_title">Einstellungen</string>
+    <string name="progress_title">Fortschritt</string>
+    <string name="progress_label">Fortschritt</string>
+
+    <!-- Icons & Descriptions -->
+    <string name="task_icon_description">Aufgabensymbol</string>
+    <string name="difficulty_icon_description">Schwierigkeitssymbol</string>
+    <string name="rank_icon_description">Rangsymbol</string>
+    <string name="time_icon_description">Zeitsymbol</string>
+    <string name="notification_icon_description">Benachrichtigungssymbol</string>
+    <string name="shape_preview">Formvorschau</string>
+    <string name="shape_name">Formname</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_label">Barrierefreiheitslabel</string>
+    <string name="accessibility_hint">Barrierefreiheitshinweis</string>
+    <string name="accessibility_announcement">Barrierefreiheitsankündigung</string>
+    <string name="accessibility_content_description">Inhaltsbeschreibung</string>
+
+    <!-- Debug -->
+    <string name="debug_info">Debug-Informationen</string>
+    <string name="debug_logs">Debug-Protokolle</string>
+    <string name="debug_export">Debug exportieren</string>
+    <string name="debug_clear">Debug löschen</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_settings_title">Profil und Einstellungen</string>
+    <string name="theme_customization">Design-Anpassung</string>
+    <string name="theme_customization_desc">Erweiterte Design-Einstellungen und Farbanpassung</string>
+    <string name="advanced_features">Erweiterte Funktionen</string>
+    <string name="gestures">Gestiken</string>
+    <string name="haptics">Haptik</string>
+    <string name="machine_learning">Maschinelles Lernen</string>
+    <string name="networking">Netzwerk</string>
+    <string name="notifications_advanced">Benachrichtigungen</string>
+    <string name="security">Sicherheit</string>
+    <string name="sensors">Sensoren</string>
+    <string name="sounds">Töne</string>
+    
+    <!-- Advanced Networking -->
+    <string name="advanced_networking">Erweiterte Netzwerkfunktionen</string>
+    <string name="network_status">Netzwerkstatus</string>
+    <string name="network_ready">Erweiterte Netzwerkfunktionen bereit</string>
+    <string name="network_information">Netzwerkinformationen</string>
+    <string name="network_config_description">Konfigurieren Sie erweiterte Netzwerkfunktionen für optimale Leistung.</string>
+    <string name="network_control">Netzwerksteuerung</string>
+    <string name="check_network">ÜBERPRÜFEN</string>
+    <string name="sync_network">⤓ SYNCHRONISIEREN</string>
+    <string name="optimize_network">OPTIMIEREN</string>
+    <string name="network_settings">Netzwerkeinstellungen</string>
+    <string name="enable_network">Netzwerk aktivieren</string>
+    <string name="wifi_only">Nur WiFi</string>
+    <string name="data_saving">Datensparen</string>
+    <string name="auto_sync">Automatische Synchronisation</string>
+    <string name="available_network_features">Verfügbare Netzwerkfunktionen</string>
+    <string name="wifi_optimization">WiFi-Optimierung</string>
+    <string name="wifi_optimization_desc">WiFi-Verbindungsleistung optimieren</string>
+    <string name="data_compression">Datenkompression</string>
+    <string name="data_compression_desc">Datenkompression für schnellere Übertragung</string>
+    <string name="active">Aktiv</string>
+    <string name="use_feature">VERWENDEN</string>
+    <string name="help_support">Hilfe</string>
+    <string name="contact_us">Kontaktieren Sie uns</string>
+    <string name="policies_terms">Richtlinien und Bedingungen</string>
+    <string name="support_center">Support-Center</string>
+    <string name="support_center_description">Support- und Hilfe-Center</string>
+    <string name="logout">Abmelden</string>
+    <string name="logout_description">Vom Konto abmelden</string>
+    <string name="logout_confirm">Abmelden bestätigen?</string>
+    <string name="logout_message">Sind Sie sicher, dass Sie sich abmelden möchten?</string>
+    <string name="logout_success">Abmeldung erfolgreich</string>
+    <string name="feature_under_development">Funktion in Entwicklung</string>
+    <string name="app_version">Version 1.0.0 (1)</string>
+    <string name="company_name">5-Personen-Unternehmen</string>
+    <string name="company_email">E-Mail: daihoc@uef.edu.vn</string>
+
+    <!-- Sound Settings -->
+    <string name="sound_status">Tonstatus</string>
+    <string name="sound_status_ready">Erweiterte Tonfunktionen bereit</string>
+    <string name="sound_information">Toninformationen</string>
+    <string name="sound_information_desc">Konfigurieren Sie erweiterte Toneinstellungen für ein immersives Erlebnis.</string>
+    <string name="sound_controls">Tonsteuerung</string>
+    <string name="play_sound">▶️ Abspielen</string>
+    <string name="stop_sound">⏹️ Stoppen</string>
+    <string name="test_sound">🧪 Testen</string>
+    <string name="pitch">Tonhöhe</string>
+    <string name="enable_sounds">Ton aktivieren</string>
+    <string name="available_sound_features">Verfügbare Tonfunktionen</string>
+    <string name="background_music_feature">Hintergrundmusik</string>
+    <string name="background_music_desc">Hintergrundmusik beim Ausmalen</string>
+    <!-- About App -->
+    <string name="about_app">Über die App</string>
+    <string name="about_app_description">Informationen über Formen Ausmalen</string>
+    <string name="about_app_title">Über Formen Ausmalen</string>
+    <string name="about_introduction">Formen Ausmalen wurde mit einer einzigartigen Mission erstellt: die Liebe zur Kunst zu fördern und hochwertige Ausmalerfahrungen für alle zu bieten. Wir möchten Benutzer mit schönen und interessanten Bildern verbinden, die von der kunstliebenden Gemeinschaft hoch geschätzt werden.</string>
+    <string name="about_who_we_are">Wer wir sind</string>
+    <string name="about_who_we_are_content">Formen Ausmalen wird von einem Team leidenschaftlicher Kunstliebhaber entwickelt. Wir sind unabhängige Personen, die keiner Organisation, Behörde oder Firma angehören.</string>
+    <string name="about_important_info">Wichtige Informationen</string>
+    <string name="about_important_info_content">• Formen Ausmalen bietet alle Ausmalbilder völlig kostenlos.\n\n• Alle Bilder in unserer App werden völlig kostenlos bereitgestellt. Um jedoch die Ausmalerfahrung zu verbessern und Künstler zu unterstützen, empfehlen wir Ihnen, die Autoren der Bilder zu unterstützen, die Sie lieben.</string>
+    <string name="about_our_collection">Unsere Sammlung</string>
+    <string name="about_collection_content">Die Bilder in Formen Ausmalen werden aus vielen im Internet verfügbaren Quellen gesammelt, einschließlich Kunst-Websites, Ausmalgemeinschaften und vielen anderen Quellen.\n\nAufgrund der Sammlung aus vielen verschiedenen Quellen kann es manchmal Auslassungen oder Ungenauigkeiten im Inhalt geben. Wir schätzen Ihr Verständnis und begrüßen immer Feedback, um uns zu helfen, diese Probleme rechtzeitig zu verbessern und zu korrigieren.</string>
+    <string name="about_content_policy">Inhaltsrichtlinie</string>
+    <string name="about_policy_content">• Wenn Sie der Urheberrechtsinhaber eines Inhalts in Formen Ausmalen sind und diesen Inhalt entfernen möchten, senden Sie uns bitte eine E-Mail an support@coloring-shapes.com. Wir werden den Inhalt sofort nach Erhalt Ihrer Anfrage entfernen.\n\n• Da sich unsere Bibliothek noch entwickelt, suchen wir kontinuierlich nach neuen Bildern, um sie mit Benutzern zu teilen. Wenn Sie spezifische Inhaltsanfragen haben, senden Sie uns bitte eine E-Mail, und wir werden unser Bestes tun, um Bilder zu finden und so schnell wie möglich bereitzustellen, wie Sie es wünschen.</string>
+    <string name="about_footer_message">Wir wünschen Ihnen entspannende, komfortable und vorteilhafte Ausmalzeiten mit Formen Ausmalen.</string>
+    <string name="about_contact">Kontakt: support@coloring-shapes.com</string>
+    
+    <!-- Contact Information -->
+    <string name="address_full">145 Dien Bien Phu, Bezirk 2, Binh Thanh, Ho-Chi-Minh-Stadt, Vietnam</string>
+    <string name="phone_number">+84 28 5422 6666</string>
+    <string name="address_and_contact">Adresse und Kontakt</string>
+    <string name="open_in_maps">In Karten öffnen</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_settings">Design-Einstellungen</string>
+    <string name="choose_theme">Design auswählen</string>
+    <string name="system_theme">System</string>
+    <string name="system_theme_description">Systemeinstellungen folgen</string>
+    <string name="light_theme">Hell</string>
+    <string name="light_theme_description">Helles Design</string>
+    <string name="dark_theme">Dunkel</string>
+    <string name="dark_theme_description">Dunkles Design</string>
+    <string name="theme_preview">Vorschau</string>
+    <string name="theme_preview_default">Wählen Sie ein Design für die Vorschau</string>
+    <string name="theme_info_title">Informationen</string>
+    <string name="theme_info_content">• System: Automatisch Systemeinstellungen folgen\n• Hell: Immer helles Design verwenden\n• Dunkel: Immer dunkles Design verwenden</string>
+    <string name="use">VERWENDEN</string>
+
+    <!-- Advanced Sensors -->
+    <string name="advanced_sensors">Erweiterte Sensoren</string>
+    <string name="sensor_status">Sensorstatus</string>
+    <string name="sensor_status_ready">Erweiterte Sensoren bereit</string>
+    <string name="sensor_information">Sensorinformationen</string>
+    <string name="sensor_information_desc">Konfigurieren Sie erweiterte Sensoren für eine bessere Benutzererfahrung.</string>
+    <string name="sensor_controls">Sensorsteuerung</string>
+    <string name="test_sensor">🧪 TESTEN</string>
+    <string name="calibrate_sensor">⚙️ KALIBRIEREN</string>
+    <string name="optimize_sensor">⚡ OPTIMIEREN</string>
+    <string name="sensor_settings">Sensoreinstellungen</string>
+    <string name="sensitivity">Empfindlichkeit</string>
+    <string name="enable_sensors">Sensoren aktivieren</string>
+    <string name="accelerometer">Beschleunigungssensor</string>
+    <string name="gyroscope">Gyroskop</string>
+    <string name="magnetometer">Magnetometer</string>
+    <string name="available_sensor_features">Verfügbare Sensorfunktionen</string>
+    <string name="motion_detection">Bewegungserkennung</string>
+    <string name="motion_detection_desc">Erweiterte Bewegungserkennung</string>
+
+    <!-- Advanced Notifications -->
+    <string name="advanced_notifications">Erweiterte Benachrichtigungen</string>
+    <string name="notification_status">Benachrichtigungsstatus</string>
+    <string name="notification_status_ready">Benachrichtigungen bereit</string>
+    <string name="notification_information">Benachrichtigungsinformationen</string>
+    <string name="notification_information_desc">Konfigurieren Sie erweiterte Benachrichtigungseinstellungen, um auf dem Laufenden zu bleiben.</string>
+    <string name="notification_controls">Benachrichtigungssteuerung</string>
+    <string name="test_notification">✓ TESTEN</string>
+    <string name="clear_notifications">🗑️ LÖSCHEN</string>
+    <string name="sound_notifications">Tonbenachrichtigungen</string>
+    <string name="vibration_notifications">Vibrationsbenachrichtigungen</string>
+    <string name="achievement_notifications">Erfolgsbenachrichtigungen</string>
+    <string name="priority_notifications">Prioritätsbenachrichtigungen</string>
+    <string name="available_notification_features">Verfügbare Benachrichtigungsfunktionen</string>
+    <string name="push_notifications">Push-Benachrichtigungen</string>
+    <string name="push_notifications_desc">Echtzeit-Push-Benachrichtigungen</string>
+
+    <!-- Advanced Gestures -->
+    <string name="advanced_gestures">Erweiterte Gestiken</string>
+    <string name="gesture_status">Gestikstatus</string>
+    <string name="gesture_status_ready">Gestiken bereit für Konfiguration</string>
+    <string name="gesture_information">Gestikinformationen</string>
+    <string name="gesture_information_desc">Konfigurieren Sie erweiterte Gestenerkennung für visuelle Interaktion.</string>
+    <string name="gesture_controls">Gestiksteuerung</string>
+    <string name="test_gesture">✓ TESTEN</string>
+    <string name="calibrate_gesture">⚙️ KALIBRIEREN</string>
+    <string name="gesture_settings">Gestikeinstellungen</string>
+    <string name="enable_gestures">Gestiken aktivieren</string>
+    <string name="tap_gestures">Tipp-Gestiken</string>
+    <string name="swipe_gestures">Wisch-Gestiken</string>
+    <string name="pinch_gestures">Pinch-Gestiken</string>
+    <string name="long_press_gestures">Langdruck-Gestiken</string>
+    <string name="available_gesture_features">Verfügbare Gestikfunktionen</string>
+    <string name="tap_gestures_feature">Tipp-Gestiken</string>
+    <string name="tap_gestures_desc">Einzel- und Doppeltipp erkennen</string>
+
+
+    <!-- Additional UI Features -->
+    <string name="ui_features">UI</string>
+    <string name="widgets">Widgets</string>
+    <string name="visual_effects">Visuelle Effekte</string>
+
+    <!-- Language Support -->
+    <string name="current_language">Deutsch</string>
+    <string name="language_vietnamese">Vietnamesisch</string>
+    <string name="language_english">Englisch</string>
+    <string name="language_chinese">Chinesisch</string>
+    <string name="language_japanese">Japanisch</string>
+    <string name="language_korean">Koreanisch</string>
+    <string name="language_thai">Thailändisch</string>
+    <string name="language_french">Französisch</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_spanish">Spanisch</string>
+    <string name="language_russian">Russisch</string>
+
+    <!-- String Arrays -->
+    <string-array name="gender_options">
+        <item>Männlich</item>
+        <item>Weiblich</item>
+    </string-array>
+
+    <string-array name="role_options">
+        <item>Benutzer</item>
+        <item>Administrator</item>
+    </string-array>
+
+    <string-array name="language_options">
+        <item>Vietnamesisch</item>
+        <item>Englisch</item>
+        <item>Chinesisch</item>
+        <item>Japanisch</item>
+        <item>Koreanisch</item>
+        <item>Thailändisch</item>
+        <item>Französisch</item>
+        <item>Deutsch</item>
+        <item>Spanisch</item>
+        <item>Russisch</item>
+    </string-array>
+
+    <string-array name="language_codes">
+        <item>vi</item>
+        <item>en</item>
+        <item>zh</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>th</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>es</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- Advanced Sounds -->
+    <string name="advanced_sounds">Erweiterte Töne</string>
+    <string name="audio_status">Audiostatus</string>
+    <string name="audio_ready">Erweiterte Audiofunktionen bereit</string>
+    <string name="audio_information">Audioinformationen</string>
+    <string name="audio_info_description">Konfigurieren Sie erweiterte Audioeinstellungen für ein immersives Erlebnis.</string>
+    <string name="audio_controls">Audiosteuerung</string>
+    <string name="play_audio">ABSPIELEN</string>
+    <string name="stop_audio">STOPPEN</string>
+    <string name="try_audio">VERSUCHEN</string>
+    <string name="audio_settings">Audioeinstellungen</string>
+    <string name="volume">Lautstärke</string>
+    <string name="frequency">Frequenz</string>
+    <string name="enable_sound">Ton aktivieren</string>
+    <string name="background_music">Hintergrundmusik</string>
+    <string name="sound_effects">Soundeffekte</string>
+    <string name="voice_feedback">Sprachfeedback</string>
+    <string name="available_audio_features">Verfügbare Audiofunktionen</string>
+
+    <!-- Additional Profile Fields -->
+    <string name="enter_birth_year">Geburtsjahr eingeben</string>
+    <string name="change_password">Passwort ändern</string>
+    <string name="current_password">Aktuelles Passwort</string>
+    <string name="new_password">Neues Passwort</string>
+    <string name="confirm_new_password">Neues Passwort bestätigen</string>
+    <string name="enter_current_password">Aktuelles Passwort eingeben</string>
+    <string name="enter_new_password">Neues Passwort eingeben</string>
+    <string name="confirm_new_password_hint">Neues Passwort bestätigen</string>
+
+    <!-- Missing String Resources -->
+    <string name="accessibility_controls">Barrierefreiheitssteuerung</string>
+    <string name="accessibility_feature_description">Barrierefreiheitsfunktionsbeschreibung</string>
+    <string name="accessibility_feature_title">Barrierefreiheitsfunktionstitel</string>
+    <string name="accessibility_features">Barrierefreiheitsfunktionen</string>
+    <string name="accessibility_instructions">Barrierefreiheitsanweisungen</string>
+    <string name="accessibility_instructions_desc">Barrierefreiheitsanweisungsbeschreibung</string>
+    <string name="accessibility_settings">Barrierefreiheitseinstellungen</string>
+    <string name="accessibility_status">Barrierefreiheitsstatus</string>
+    <string name="accessibility_status_ready">Barrierefreiheit bereit</string>
+    <string name="achievement_description">Erfolgsbeschreibung</string>
+    <string name="achievement_name">Erfolgsname</string>
+    <string name="active_status">Aktiver Status</string>
+    <string name="add_new_achievement">Neuen Erfolg hinzufügen</string>
+    <string name="add_new_task">Neue Aufgabe hinzufügen</string>
+    <string name="add_new_user">Neuen Benutzer hinzufügen</string>
+    <string name="admin_system_management">Systemverwaltung</string>
+    <string name="advanced_animations">Erweiterte Animationen</string>
+    <string name="advanced_blockchain">Erweiterte Blockchain</string>
+    <string name="advanced_camera">Erweiterte Kamera</string>
+    <string name="advanced_drawing_tools">Erweiterte Zeichenwerkzeuge</string>
+    <string name="advanced_haptic_controls">Erweiterte Haptiksteuerung</string>
+    <string name="advanced_haptics">Erweiterte Haptik</string>
+    <string name="advanced_machine_learning">Erweiterte maschinelle Lernverfahren</string>
+    <string name="advanced_security">Erweiterte Sicherheit</string>
+    <string name="advanced_themes">Erweiterte Designs</string>
+    <string name="advanced_timer">Erweiterter Timer</string>
+    <string name="advanced_ui">Erweiterte UI</string>
+    <string name="advanced_visual_effects">Erweiterte visuelle Effekte</string>
+    <string name="advanced_widgets">Erweiterte Widgets</string>
+    <string name="ai_controls">KI-Steuerung</string>
+    <string name="ai_feature_description">KI-Funktionsbeschreibung</string>
+    <string name="ai_feature_title">KI-Funktionstitel</string>
+    <string name="ai_features">KI-Funktionen</string>
+    <string name="ai_no_suggestions">Noch keine Vorschläge</string>
+    <string name="ai_ready">KI bereit</string>
+    <string name="ai_status">KI-Status</string>
+    <string name="ai_suggestions">KI-Vorschläge</string>
+    <string name="analytics_change">Analytikänderung</string>
+    <string name="analytics_item_description">Analytikelementbeschreibung</string>
+    <string name="analytics_item_title">Analytikelementtitel</string>
+    <string name="analytics_title">Analytiktitel</string>
+    <string name="analytics_value">Analytikwert</string>
+    <string name="analytics_value_25">25</string>
+    <string name="analytics_value_2h45m">2h 45m</string>
+    <string name="analytics_value_875">875</string>
+    <string name="analytics_value_92">92</string>
+    <string name="analyze_button">Analysieren</string>
+    <string name="animation_feature_description">Animationsfunktionsbeschreibung</string>
+    <string name="animation_feature_title">Animationsfunktionstitel</string>
+    <string name="animation_information">Animationsinformationen</string>
+    <string name="animation_speed">Animationsgeschwindigkeit</string>
+    <string name="animation_status">Animationsstatus</string>
+    <string name="animations_ready">Animationen bereit</string>
+    <string name="app_footer">App-Fußzeile</string>
+    <string name="apply_button">Anwenden</string>
+    <string name="apply_ui">UI anwenden</string>
+    <string name="apply_visual">Visuell anwenden</string>
+    <string name="ar_controls">AR-Steuerung</string>
+    <string name="ar_feature_description">AR-Funktionsbeschreibung</string>
+    <string name="ar_feature_title">AR-Funktionstitel</string>
+    <string name="ar_features">AR-Funktionen</string>
+    <string name="ar_instructions">AR-Anweisungen</string>
+    <string name="ar_ready">AR bereit</string>
+    <string name="ar_start_instructions">AR-Startanweisungen</string>
+    <string name="ar_status">AR-Status</string>
+    <string name="art_emoji">🎨</string>
+    <string name="auto_focus">Autofokus</string>
+    <string name="auto_learning">Automatisches Lernen</string>
+    <string name="available_accessibility_features">Verfügbare Barrierefreiheitsfunktionen</string>
+    <string name="available_commands">Verfügbare Befehle</string>
+    <string name="available_haptic_features">Verfügbare Haptikfunktionen</string>
+    <string name="available_ml_features">Verfügbare ML-Funktionen</string>
+    <string name="available_security_features">Verfügbare Sicherheitsfunktionen</string>
+    <string name="available_ui_features">Verfügbare UI-Funktionen</string>
+    <string name="available_visual_features">Verfügbare visuelle Funktionen</string>
+    <string name="back_to_login">Zurück zur Anmeldung</string>
+    <string name="biometric_auth_desc">Biometrische Authentifizierungsbeschreibung</string>
+    <string name="biometric_authentication">Biometrische Authentifizierung</string>
+    <string name="birth_year_format">Geburtsjahrformat</string>
+    <string name="birth_year_label">Geburtsjahrlabel</string>
+    <string name="blockchain_feature_description">Blockchain-Funktionsbeschreibung</string>
+    <string name="blockchain_feature_title">Blockchain-Funktionstitel</string>
+    <string name="blockchain_information">Blockchain-Informationen</string>
+    <string name="blockchain_ready">Blockchain bereit</string>
+    <string name="blockchain_status">Blockchain-Status</string>
+    <string name="brightness">Helligkeit</string>
+    <string name="brightness_label">Helligkeitslabel</string>
+    <string name="brightness_level">Helligkeitsstufe</string>
+    <string name="brightness_level_value">Helligkeitsstufenwert</string>
+    <string name="brush_size_label">Pinselgrößenlabel</string>
+    <string name="calibrate_button">Kalibrierungsbutton</string>
+    <string name="calibrate_haptic">Haptik kalibrieren</string>
+    <string name="camera_controls">Kamerasteuerung</string>
+    <string name="camera_feature_description">Kamerafunktionsbeschreibung</string>
+    <string name="camera_feature_title">Kamerafunktionstitel</string>
+    <string name="camera_information">Kamerainformationen</string>
+    <string name="camera_permission_required">Kameraberechtigung erforderlich</string>
+    <string name="camera_ready">Kamera bereit</string>
+    <string name="camera_settings">Kameraeinstellungen</string>
+    <string name="camera_settings_description">Kameraeinstellungsbeschreibung</string>
+    <string name="camera_status">Kamerastatus</string>
+    <string name="capture_button">Aufnahmebutton</string>
+    <string name="change_password_button">Passwortänderungsbutton</string>
+    <string name="choose_from_gallery">Aus Galerie wählen</string>
+    <string name="choose_language">Sprache wählen</string>
+    <string name="clear_all_data">Alle Daten löschen</string>
+    <string name="clear_button">Löschbutton</string>
+    <string name="close">Schließen</string>
+    <string name="cloud_sync">Cloud-Synchronisation</string>
+    <string name="color">Farbe</string>
+    <string name="color_customization_description">Farbanpassungsbeschreibung</string>
+    <string name="color_effects">Farbeffekte</string>
+    <string name="color_name">Farbname</string>
+    <string name="color_picker_title">Farbauswahltitel</string>
+    <string name="coloring_task">Ausmalaufgabe</string>
+    <string name="comment_count">Kommentaranzahl</string>
+    <string name="computer_emoji">🖥️</string>
+    <string name="contrast">Kontrast</string>
+    <string name="contrast_label">Kontrastlabel</string>
+    <string name="create_button">Erstellungsbutton</string>
+    <string name="create_new_account">Neues Konto erstellen</string>
+    <string name="created_date">Erstellungsdatum</string>
+    <string name="custom_animations">Benutzerdefinierte Animationen</string>
+    <string name="custom_animations_desc">Benutzerdefinierte Animationsbeschreibung</string>
+    <string name="dark">Dunkel</string>
+    <string name="data_augmentation">Datenverstärkung</string>
+    <string name="data_encryption">Datenverschlüsselung</string>
+    <string name="data_encryption_desc">Datenverschlüsselungsbeschreibung</string>
+    <string name="date_format">Datumsformat</string>
+    <string name="delete_task">Aufgabe löschen</string>
+    <string name="demo_email">Demo-E-Mail</string>
+    <string name="demo_mode">Demo-Modus</string>
+    <string name="demo_user">Demo-Benutzer</string>
+    <string name="description">Beschreibung</string>
+    <string name="difficulty">Schwierigkeit</string>
+    <string name="double_tap">Doppeltipp</string>
+    <string name="dynamic_themes">Dynamische Designs</string>
+    <string name="dynamic_themes_desc">Dynamische Designsbeschreibung</string>
+    <string name="edit_task">Aufgabe bearbeiten</string>
+    <string name="enable_accessibility">Barrierefreiheit aktivieren</string>
+    <string name="enable_button">Aktivierungsbutton</string>
+    <string name="enable_camera">Kamera aktivieren</string>
+    <string name="enable_haptics">Haptik aktivieren</string>
+    <string name="enable_ml">ML aktivieren</string>
+    <string name="enable_security">Sicherheit aktivieren</string>
+    <string name="enable_security_button">Sicherheitsaktivierungsbutton</string>
+    <string name="enable_ui_customization">UI-Anpassung aktivieren</string>
+    <string name="enable_visual_effects">Visuelle Effekte aktivieren</string>
+    <string name="export_error">Exportfehler</string>
+    <string name="export_feature_developing">Exportfunktion in Entwicklung</string>
+    <string name="female_user_emoji">👩</string>
+    <string name="filter_label">Filterlabel</string>
+    <string name="flash_label">Blitzlabel</string>
+    <string name="forgot_password_description">Geben Sie Ihre UEF E-Mail-Adresse ein, um Anweisungen zum Zurücksetzen des Passworts zu erhalten</string>
+    <string name="forgot_password_title">Passwort vergessen</string>
+    <string name="gesture_feature_description">Gestikfunktionsbeschreibung</string>
+    <string name="gesture_feature_title">Gestikfunktionstitel</string>
+    <string name="gesture_instructions">Gestikanweisungen</string>
+    <string name="gestures_ready">Gestiken bereit</string>
+    <string name="gold_medal_emoji">🥇</string>
+    <string name="great_job">Großartige Arbeit</string>
+    <string name="haptic_controls">Haptiksteuerung</string>
+    <string name="haptic_feature_description">Haptikfunktionsbeschreibung</string>
+    <string name="haptic_feature_title">Haptikfunktionstitel</string>
+    <string name="haptic_information">Haptikinformationen</string>
+    <string name="haptic_information_desc">Haptikinformationsbeschreibung</string>
+    <string name="haptic_intensity">Haptikintensität</string>
+    <string name="haptic_intensity_control">Haptikintensitätssteuerung</string>
+    <string name="haptic_patterns">Haptikmuster</string>
+    <string name="haptic_settings">Haptikeinstellungen</string>
+    <string name="haptic_status">Haptikstatus</string>
+    <string name="haptic_status_ready">Haptik bereit</string>
+    <string name="haptic_types">Haptiktypen</string>
+    <string name="heavy">Schwer</string>
+    <string name="heavy_haptic">Schwere Haptik</string>
+    <string name="heavy_haptic_description">Schwere Haptikbeschreibung</string>
+    <string name="high_contrast">Hoher Kontrast</string>
+    <string name="import_error">Importfehler</string>
+    <string name="import_feature_developing">Importfunktion in Entwicklung</string>
+    <string name="intensity">Intensität</string>
+    <string name="language_changed_english">Sprache zu Englisch geändert</string>
+    <string name="language_changed_vietnamese">Sprache zu Vietnamesisch geändert</string>
+    <string name="large_text">Großer Text</string>
+    <string name="learning_rate">Lernrate</string>
+    <string name="level_format">Levelformat</string>
+    <string name="light">Hell</string>
+    <string name="light_haptic">Leichte Haptik</string>
+    <string name="light_haptic_description">Leichte Haptikbeschreibung</string>
+    <string name="lighting_effects">Beleuchtungseffekte</string>
+    <string name="like_count">❤️ %1$d</string>
+    <string name="locked">Gesperrt</string>
+    <string name="long_press">Langdruck</string>
+    <string name="medium_haptic">Mittlere Haptik</string>
+    <string name="medium_haptic_description">Mittlere Haptikbeschreibung</string>
+    <string name="ml_configuration_description">ML-Konfigurationsbeschreibung</string>
+    <string name="ml_controls">ML-Steuerung</string>
+    <string name="ml_feature_description">ML-Funktionsbeschreibung</string>
+    <string name="ml_feature_title">ML-Funktionstitel</string>
+    <string name="ml_information">ML-Informationen</string>
+    <string name="ml_information_desc">ML-Informationsbeschreibung</string>
+    <string name="ml_settings">ML-Einstellungen</string>
+    <string name="ml_status">ML-Status</string>
+    <string name="ml_status_ready">ML bereit</string>
+    <string name="moon_emoji">🌙</string>
+    <string name="network_feature_description">Netzwerkfunktionsbeschreibung</string>
+    <string name="network_feature_title">Netzwerkfunktionstitel</string>
+    <string name="neural_networks">Neuronale Netze</string>
+    <string name="neural_networks_desc">Neuronale Netzwerkbeschreibung</string>
+    <string name="no_history_found">Kein Verlauf gefunden</string>
+    <string name="no_leaderboard_data">Keine Bestenlistendaten</string>
+    <string name="no_speech_detected">Keine Sprache erkannt</string>
+    <string name="normal_mode">Normalmodus</string>
+    <string name="notification_feature_description">Benachrichtigungsfunktionsbeschreibung</string>
+    <string name="notification_feature_title">Benachrichtigungsfunktionstitel</string>
+    <string name="opacity_label">Deckkraftlabel</string>
+    <string name="opacity_value">Deckkraftwert</string>
+    <string name="other_gender">Andere</string>
+    <string name="particle_effects">Partikeleffekte</string>
+    <string name="particle_effects_desc">Partikeleffektbeschreibung</string>
+    <string name="pause_button">Pausierbutton</string>
+    <string name="percent_symbol">%</string>
+    <string name="player_name">Spielername</string>
+    <string name="points_format">Punkteformat</string>
+    <string name="points_value">Punktewert</string>
+    <string name="points_zero">Nullpunkte</string>
+    <string name="post_content">Beitragsinhalt</string>
+    <string name="predict_ml">ML vorhersagen</string>
+    <string name="pressure_haptics">Druckhaptik</string>
+    <string name="preview_visual">Visuelle Vorschau</string>
+    <string name="primary_color">Primärfarbe</string>
+    <string name="profile_image_saved">Profilbild gespeichert</string>
+    <string name="profile_score_value">Profilpunktwert</string>
+    <string name="rank_label">Ranglabel</string>
+    <string name="rank_number">Rangnummer</string>
+    <string name="ready">Bereit</string>
+    <string name="realtime">Echtzeit</string>
+    <string name="realtime_prediction">Echtzeitvorhersage</string>
+    <string name="record_button">Aufnahmebutton</string>
+    <string name="redo_button">Wiederholungsbutton</string>
+    <string name="refresh_emoji">🔄</string>
+    <string name="remove_button">Entfernungsbutton</string>
+    <string name="report_description">Berichtsbeschreibung</string>
+    <string name="report_title">Berichtstitel</string>
+    <string name="reset_button">Zurücksetzungsbutton</string>
+    <string name="reset_database">Datenbank zurücksetzen</string>
+    <string name="reset_haptic">Haptik zurücksetzen</string>
+    <string name="reset_ui">UI zurücksetzen</string>
+    <string name="role">Rolle</string>
+    <string name="sample_email">Beispiel-E-Mail</string>
+    <string name="sample_name">Beispielname</string>
+    <string name="saturation">Sättigung</string>
+    <string name="save_haptic">Haptik speichern</string>
+    <string name="score_format">Punkteformat</string>
+    <string name="score_label">Punktelabel</string>
+    <string name="score_value">Punktewert</string>
+    <string name="secondary_color">Sekundärfarbe</string>
+    <string name="security_controls">Sicherheitssteuerung</string>
+    <string name="security_enable_description">Sicherheitsaktivierungsbeschreibung</string>
+    <string name="security_feature_description">Sicherheitsfunktionsbeschreibung</string>
+    <string name="security_feature_title">Sicherheitsfunktionstitel</string>
+    <string name="security_information">Sicherheitsinformationen</string>
+    <string name="security_information_desc">Sicherheitsinformationsbeschreibung</string>
+    <string name="security_settings">Sicherheitseinstellungen</string>
+    <string name="security_status">Sicherheitsstatus</string>
+    <string name="security_status_ready">Sicherheit bereit</string>
+    <string name="select_profile_image">Profilbild auswählen</string>
+    <string name="send_instructions">Anweisungen senden</string>
+    <string name="sensor_feature_description">Sensorfunktionsbeschreibung</string>
+    <string name="sensor_feature_title">Sensorfunktionstitel</string>
+    <string name="settings_emoji">⚙️</string>
+    <string name="shape_type">Formtyp</string>
+    <string name="share_button">Teilungsbutton</string>
+    <string name="signal_emoji">📶</string>
+    <string name="single_tap">Einfachtipp</string>
+    <string name="social_network">Soziales Netzwerk</string>
+    <string name="star_emoji">⭐</string>
+    <string name="start_ar_button">AR-Startbutton</string>
+    <string name="start_button">Startbutton</string>
+    <string name="start_listening">Hören starten</string>
+    <string name="status_label">Statuslabel</string>
+    <string name="stop">Stoppen</string>
+    <string name="storage_permission_required">Speicherberechtigung erforderlich</string>
+    <string name="suggest_button">Vorschlagsbutton</string>
+    <string name="sun_emoji">☀️</string>
+    <string name="sync_controls">Synchronisationssteuerung</string>
+    <string name="sync_feature_description">Synchronisationsfunktionsbeschreibung</string>
+    <string name="sync_feature_title">Synchronisationsfunktionstitel</string>
+    <string name="sync_progress">Synchronisationsfortschritt</string>
+    <string name="sync_ready">Synchronisation bereit</string>
+    <string name="sync_ready_message">Synchronisationsbereitschaftsnachricht</string>
+    <string name="sync_start_button">Synchronisationsstartbutton</string>
+    <string name="sync_status">Synchronisationsstatus</string>
+    <string name="sync_stop_button">Synchronisationsstoppbutton</string>
+    <string name="system_management_title">Systemverwaltungstitel</string>
+    <string name="system_statistics">Systemstatistiken</string>
+    <string name="take_photo">Foto aufnehmen</string>
+    <string name="target_emoji">🎯</string>
+    <string name="task_description_hint">Aufgabenbeschreibungshinweis</string>
+    <string name="task_duration_value">Aufgabendauerwert</string>
+    <string name="task_history">Aufgabenverlauf</string>
+    <string name="task_label">Aufgabenlabel</string>
+    <string name="task_name_hint">Aufgabennamenhinweis</string>
+    <string name="temperature_haptics">Temperaturhaptik</string>
+    <string name="test_accessibility">Barrierefreiheit testen</string>
+    <string name="test_button">Testbutton</string>
+    <string name="test_haptic">Haptik testen</string>
+    <string name="test_ml">ML testen</string>
+    <string name="test_security">Sicherheit testen</string>
+    <string name="test_visual">Visuell testen</string>
+    <string name="theme_feature_description">Designfunktionsbeschreibung</string>
+    <string name="theme_feature_title">Designfunktionstitel</string>
+    <string name="theme_information">Designinformationen</string>
+    <string name="theme_intensity">Designintensität</string>
+    <string name="theme_ready">Design bereit</string>
+    <string name="theme_selection">Designauswahl</string>
+    <string name="theme_selection_description">Designauswahlbeschreibung</string>
+    <string name="theme_status">Designstatus</string>
+    <string name="time_ago">Zeit vorher</string>
+    <string name="time_format">Zeitformat</string>
+    <string name="time_label">Zeitlabel</string>
+    <string name="timer_controls">Timersteuerung</string>
+    <string name="timer_display">Timeranzeige</string>
+    <string name="timer_display_value">Timeranzeigewert</string>
+    <string name="timer_duration">Timerdauer</string>
+    <string name="timer_duration_instructions">Timerdaueranweisungen</string>
+    <string name="timer_feature_description">Timerfunktionsbeschreibung</string>
+    <string name="timer_feature_title">Timerfunktionstitel</string>
+    <string name="timer_ready">Timer bereit</string>
+    <string name="timer_status">Timerstatus</string>
+    <string name="total_achievements_count">Gesamterfolgsanzahl</string>
+    <string name="total_plays_count">Gesamtspielanzahl</string>
+    <string name="total_tasks_count">Gesamtaufgabenanzahl</string>
+    <string name="total_users_count">Gesamtbenutzeranzahl</string>
+    <string name="train_button">Trainingsbutton</string>
+    <string name="train_ml">ML trainieren</string>
+    <string name="try_demo">Demo versuchen</string>
+    <string name="two_factor_authentication">Zwei-Faktor-Authentifizierung</string>
+    <string name="type">Typ</string>
+    <string name="ui_controls">UI-Steuerung</string>
+    <string name="ui_customization_description">UI-Anpassungsbeschreibung</string>
+    <string name="ui_feature_description">UI-Funktionsbeschreibung</string>
+    <string name="ui_feature_title">UI-Funktionstitel</string>
+    <string name="ui_information">UI-Informationen</string>
+    <string name="ui_information_desc">UI-Informationsbeschreibung</string>
+    <string name="ui_settings">UI-Einstellungen</string>
+    <string name="ui_status">UI-Status</string>
+    <string name="ui_status_ready">UI bereit</string>
+    <string name="undo_button">Rückgängigbutton</string>
+    <string name="user_label">Benutzerlabel</string>
+    <string name="user_management_title">Benutzerverwaltungstitel</string>
+    <string name="user_role">Benutzerrolle</string>
+    <string name="value">Wert</string>
+    <string name="vibration_feedback">Vibrationsfeedback</string>
+    <string name="vibration_feedback_desc">Vibrationsfeedbackbeschreibung</string>
+    <string name="vibration_haptics">Vibrationshaptik</string>
+    <string name="visual_configuration_description">Visuelle Konfigurationsbeschreibung</string>
+    <string name="visual_controls">Visuelle Steuerung</string>
+    <string name="visual_feature_description">Visuelle Funktionsbeschreibung</string>
+    <string name="visual_feature_title">Visueller Funktionstitel</string>
+    <string name="visual_information">Visuelle Informationen</string>
+    <string name="visual_information_desc">Visuelle Informationsbeschreibung</string>
+    <string name="visual_settings">Visuelle Einstellungen</string>
+    <string name="visual_status">Visueller Status</string>
+    <string name="visual_status_ready">Visuell bereit</string>
+    <string name="voice_commands">Sprachbefehle</string>
+    <string name="voice_controls">Sprachsteuerung</string>
+    <string name="voice_over">Sprachausgabe</string>
+    <string name="voice_result">Sprachergebnis</string>
+    <string name="voice_status">Sprachstatus</string>
+    <string name="widget_controls">Widget-Steuerung</string>
+    <string name="widget_creation_description">Widget-Erstellungsbeschreibung</string>
+    <string name="widget_feature_description">Widget-Funktionsbeschreibung</string>
+    <string name="widget_feature_title">Widget-Funktionstitel</string>
+    <string name="widget_information">Widget-Informationen</string>
+    <string name="widget_status">Widget-Status</string>
+    <string name="widgets_ready">Widgets bereit</string>
+    <string name="zoom_label">Zoomlabel</string>
+    <string name="tet_theme">Tet-Design</string>
+    <string name="tet_theme_description">Besonderes Design für das Neujahrsfest</string>
+    <string name="error_loading_statistics">Fehler beim Laden der Statistiken</string>
+    <string name="users_count_format">%1$d Benutzer</string>
+    <string name="tasks_count_format">%1$d Aufgaben</string>
+    <string name="attempts_count_format">%1$d Versuche</string>
+    <string name="points_count_format">%1$d Punkte</string>
+
+    <!-- User Management -->
+    <string name="search_users_hint">Suchen...</string>
+    <string name="export_excel_label">📊 Excel exportieren</string>
+    
+    <!-- Advanced Sounds -->
+    <string name="select_music">MUSIK AUSWÄHLEN</string>
+    <string name="select">AUSWÄHLEN</string>
+    <string name="turn_off">AUS</string>
+    <string name="turn_on">AN</string>
+    <string name="inactive">Inaktiv</string>
+    <string name="sound_effects_desc">Geräusch beim Drücken der Taste</string>
+    <string name="notification_sound">Benachrichtigungston</string>
+    <string name="notification_sound_desc">Geräusch bei Benachrichtigung</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_selected">Ausgewähltes Design: %1$s</string>
+    <string name="theme_applied_immediately">Änderungen wurden sofort angewendet!</string>
+    
+    <!-- Advanced Admin Reports -->
+    <string name="score_distribution">Punkteverteilung</string>
+    <string name="score_distribution_desc">Anzahl der Versuche nach Punktniveau</string>
+    <string name="most_active_user">Aktivster Benutzer</string>
+    <string name="most_active_user_desc">Benutzer mit den meisten abgeschlossenen Aufgaben</string>
+    <string name="achievements_stat">Erfolge</string>
+    <string name="achievements_stat_desc">Anzahl der entsperrten Erfolge</string>
+    <string name="avg_completion_speed">Durchschnittliche Abschlussgeschwindigkeit</string>
+    <string name="avg_completion_speed_desc">Durchschnittliche Zeit zum Abschließen einer Aufgabe</string>
+    <string name="incomplete_rate">Unvollständigkeitsrate</string>
+    <string name="incomplete_rate_desc">Prozentsatz der abgebrochenen Aufgaben</string>
+    <string name="new_users_7days">Neue Benutzer (7 Tage)</string>
+    <string name="new_users_7days_desc">Anzahl neu registrierter Benutzer</string>
+    <string name="total_attempts">Gesamtversuche</string>
+    <string name="total_attempts_desc">Gesamtzahl der Benutzer, die Aufgaben ausführen</string>
+    <string name="completed_attempts_trend">%1$d abgeschlossen</string>
+    <string name="score_excellent">Ausgezeichnet</string>
+    <string name="score_good">Gut</string>
+    <string name="score_fair">Befriedigend</string>
+    <string name="score_average">Durchschnitt</string>
+    <string name="status_good">✓ Gut</string>
+    <string name="status_average">○ Durchschnitt</string>
+    <string name="status_need_improve">✗ Verbesserung erforderlich</string>
+    <string name="status_active">✓ Aktiv</string>
+    <string name="status_stable">○ Stabil</string>
+    <string name="status_fast">✓ Schnell</string>
+    <string name="status_medium">○ Mittel</string>
+    <string name="status_slow">✗ Langsam</string>
+    <string name="status_high">✗ Hoch</string>
+    <string name="status_growth">✓ Wachstum</string>
+    <string name="status_no_data">○ Keine</string>
+    <string name="no_data">Noch keine Daten</string>
+    <string name="not_available">N/A</string>
+    <string name="total_format">Gesamt: %1$d Versuche</string>
+    <string name="attempts_completed">%1$d abgeschlossen</string>
+    <string name="unlocked_percent">%1$d%% entsperrt</string>
+    <string name="users_count">%1$d Benutzer</string>
+    <string name="attempts">Versuche</string>
+    
+    <!-- Leaderboard -->
+    <string name="total_score_tab">Gesamtpunktzahl</string>
+    <string name="drawing_score_tab">Zeichnungspunktzahl</string>
+    <string name="leaderboard_load_error">Fehler beim Laden der Bestenliste: %1$s</string>
+    <string name="score_points">%1$d Punkte</string>
+    <string name="unknown_error">Unbekannter Fehler</string>
+    <string name="leaderboard_management">Bestenliste-Verwaltung</string>
+    <string name="user_prefix">Benutzer: %1$s</string>
+    <string name="task_prefix">Aufgabe: %1$s</string>
+    
+    <!-- Social Network - Post Content -->
+    <string name="post_created_colorful_garden">Ich habe einen farbenfrohen Garten geschaffen! 🌸</string>
+    <string name="post_beautiful_mountain_lake">Wunderschöne Bergseelandschaft! 🏔️</string>
+    <string name="post_city_at_night">Stadt bei Nacht mit funkelnden Lichtern! 🌃</string>
+    <string name="post_fairytale_castle">Märchenschloss in meinem Traum! 🏰</string>
+    <string name="post_tropical_beach">Tropischer Strand mit Palmen! 🏖️</string>
+    <string name="days_ago">vor %1$d Tagen</string>
+
+</resources>

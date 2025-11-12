@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M0,0 L200,0 L200,200 L0,200 Z" />
+
+    <!-- Ocean -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M0,120 L200,120 L200,200 L0,200 Z" />
+
+    <!-- Waves -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M0,130 Q50,120 100,130 T200,130 L200,140 Q150,130 100,140 T0,140 Z" />
+    
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M0,150 Q50,140 100,150 T200,150 L200,160 Q150,150 100,160 T0,160 Z" />
+
+    <!-- Beach -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M0,100 L200,100 L200,120 L0,120 Z" />
+
+    <!-- Palm Trees -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M40,100 L40,140 L45,140 L45,100 Z" />
+    
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M42,100 Q30,90 20,100 Q30,110 42,100" />
+    
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M42,100 Q50,90 60,100 Q50,110 42,100" />
+
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M120,100 L120,140 L125,140 L125,100 Z" />
+    
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M122,100 Q110,90 100,100 Q110,110 122,100" />
+    
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M122,100 Q130,90 140,100 Q130,110 122,100" />
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M160,30 C170,30 180,40 180,50 C180,60 170,70 160,70 C150,70 140,60 140,50 C140,40 150,30 160,30 Z" />
+
+    <!-- Sun rays -->
+    <path
+        android:fillColor="#FFD54F"
+        android:strokeWidth="3"
+        android:pathData="M160,10 L160,20 M180,50 L190,50 M160,80 L160,90 M130,50 L120,50 M145,25 L140,20 M175,25 L180,20 M145,75 L140,80 M175,75 L180,80" />
+
+    <!-- Clouds -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M20,40 C25,35 35,35 40,40 C45,35 55,35 60,40 C55,45 45,45 40,40 C35,45 25,45 20,40 Z" />
+    
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M100,20 C105,15 115,15 120,20 C125,15 135,15 140,20 C135,25 125,25 120,20 C115,25 105,25 100,20 Z" />
+
+    <!-- Seagull -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M80,80 Q85,75 90,80 Q85,85 80,80" />
+    
+    <path
+        android:fillColor="#424242"
+        android:pathData="M95,80 Q100,75 105,80 Q100,85 95,80" />
+
+</vector>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Badge Attributes -->
+    <declare-styleable name="Badge">
+        <attr name="badgeBackgroundColor" format="color" />
+        <attr name="badgeTextColor" format="color" />
+        <attr name="badgeText" format="string" />
+        <attr name="badgeVisible" format="boolean" />
+    </declare-styleable>
+
+    <!-- Custom Drawing Attributes -->
+    <declare-styleable name="DrawingCanvas">
+        <attr name="brushSize" format="dimension" />
+        <attr name="brushColor" format="color" />
+        <attr name="canvasBackground" format="color" />
+    </declare-styleable>
+
+    <!-- Face Detection Attributes -->
+    <declare-styleable name="FaceDetectionOverlay">
+        <attr name="overlayColor" format="color" />
+        <attr name="overlayAlpha" format="float" />
+        <attr name="detectionEnabled" format="boolean" />
+    </declare-styleable>
+
+    <!-- Progress Attributes -->
+    <declare-styleable name="ProgressIndicator">
+        <attr name="progressColor" format="color" />
+        <attr name="progressBackgroundColor" format="color" />
+        <attr name="progressThickness" format="dimension" />
+    </declare-styleable>
+
+    <!-- Task Status Attributes -->
+    <declare-styleable name="TaskStatus">
+        <attr name="statusColor" format="color" />
+        <attr name="statusText" format="string" />
+        <attr name="statusIcon" format="reference" />
+    </declare-styleable>
+
+    <!-- Leaderboard Attributes -->
+    <declare-styleable name="LeaderboardItem">
+        <attr name="rankBackground" format="color" />
+        <attr name="rankTextColor" format="color" />
+        <attr name="avatarSize" format="dimension" />
+    </declare-styleable>
+
+    <!-- Notification Attributes -->
+    <declare-styleable name="NotificationItem">
+        <attr name="notificationType" format="enum">
+            <enum name="info" value="0" />
+            <enum name="success" value="1" />
+            <enum name="warning" value="2" />
+            <enum name="error" value="3" />
+        </attr>
+        <attr name="notificationIcon" format="reference" />
+        <attr name="notificationColor" format="color" />
+    </declare-styleable>
+
+    <!-- Timer Attributes -->
+    <declare-styleable name="TimerDisplay">
+        <attr name="timerColor" format="color" />
+        <attr name="timerBackground" format="color" />
+        <attr name="timerTextSize" format="dimension" />
+        <attr name="timerFormat" format="string" />
+    </declare-styleable>
+
+    <!-- Shape Attributes -->
+    <declare-styleable name="ShapeView">
+        <attr name="shapeType" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="rectangle" value="1" />
+            <enum name="triangle" value="2" />
+            <enum name="star" value="3" />
+        </attr>
+        <attr name="shapeColor" format="color" />
+        <attr name="shapeStrokeColor" format="color" />
+        <attr name="shapeStrokeWidth" format="dimension" />
+    </declare-styleable>
+
+    <!-- Color Palette Attributes -->
+    <declare-styleable name="ColorPalette">
+        <attr name="paletteColors" format="reference" />
+        <attr name="selectedColor" format="color" />
+        <attr name="colorSize" format="dimension" />
+    </declare-styleable>
+
+    <!-- Achievement Attributes -->
+    <declare-styleable name="AchievementBadge">
+        <attr name="achievementType" format="enum">
+            <enum name="first_task" value="0" />
+            <enum name="top_scorer" value="1" />
+            <enum name="streak_master" value="2" />
+            <enum name="speed_demon" value="3" />
+            <enum name="perfectionist" value="4" />
+            <enum name="social_butterfly" value="5" />
+        </attr>
+        <attr name="achievementIcon" format="reference" />
+        <attr name="achievementColor" format="color" />
+    </declare-styleable>
+
+    <!-- Statistics Attributes -->
+    <declare-styleable name="StatisticsChart">
+        <attr name="chartType" format="enum">
+            <enum name="bar" value="0" />
+            <enum name="line" value="1" />
+            <enum name="pie" value="2" />
+        </attr>
+        <attr name="chartData" format="reference" />
+        <attr name="chartColor" format="color" />
+    </declare-styleable>
+
+    <!-- Navigation Attributes -->
+    <attr name="itemActiveIndicatorColor" format="color" />
+    
+    <!-- Window Attributes -->
+    <attr name="windowCornerRadius" format="dimension" />
+    
+    <!-- Progress Attributes -->
+    <attr name="indeterminateTint" format="color" />
+    <attr name="progressTint" format="color" />
+    <attr name="secondaryProgressTint" format="color" />
+    <attr name="progressBackground" format="color" />
+    
+    <!-- Corner Radius Attribute -->
+    <attr name="cornerRadius" format="dimension" />
+    
+    <!-- CircleImageView Attributes -->
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background -->
+    <path
+        android:fillColor="#F1F8E9"
+        android:pathData="M0,0 L200,0 L200,200 L0,200 Z" />
+
+    <!-- Mountains -->
+    <path
+        android:fillColor="#8BC34A"
+        android:pathData="M0,120 L50,80 L100,100 L150,60 L200,80 L200,200 L0,200 Z" />
+
+    <!-- Mountain peaks -->
+    <path
+        android:fillColor="#689F38"
+        android:pathData="M30,100 L40,80 L50,100 Z" />
+    
+    <path
+        android:fillColor="#689F38"
+        android:pathData="M80,80 L90,60 L100,80 Z" />
+    
+    <path
+        android:fillColor="#689F38"
+        android:pathData="M130,60 L140,40 L150,60 Z" />
+
+    <!-- Lake -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M50,140 L150,140 L150,180 L50,180 Z" />
+
+    <!-- Lake reflection -->
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M50,150 L150,150 L150,180 L50,180 Z" />
+
+    <!-- Trees around lake -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M40,140 C45,120 50,120 55,140 L50,160 L45,160 Z" />
+    
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M155,140 C160,120 165,120 170,140 L165,160 L160,160 Z" />
+
+    <!-- Bridge -->
+    <path
+        android:fillColor="#795548"
+        android:pathData="M80,160 L80,170 L120,170 L120,160 Z" />
+    
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M85,150 L85,160 L90,160 L90,150 Z" />
+    
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M110,150 L110,160 L115,160 L115,150 Z" />
+
+    <!-- Bridge railings -->
+    <path
+        android:fillColor="#8D6E63"
+        android:strokeWidth="2"
+        android:pathData="M80,150 L120,150" />
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M160,30 C170,30 180,40 180,50 C180,60 170,70 160,70 C150,70 140,60 140,50 C140,40 150,30 160,30 Z" />
+
+    <!-- Sun rays -->
+    <path
+        android:fillColor="#FFD54F"
+        android:strokeWidth="2"
+        android:pathData="M160,10 L160,20 M180,50 L190,50 M160,80 L160,90 M130,50 L120,50 M145,25 L140,20 M175,25 L180,20 M145,75 L140,80 M175,75 L180,80" />
+
+    <!-- Clouds -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M20,40 C25,35 35,35 40,40 C45,35 55,35 60,40 C55,45 45,45 40,40 C35,45 25,45 20,40 Z" />
+    
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M120,20 C125,15 135,15 140,20 C145,15 155,15 160,20 C155,25 145,25 140,20 C135,25 125,25 120,20 Z" />
+
+    <!-- Birds -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M30,60 Q35,55 40,60 Q35,65 30,60" />
+    
+    <path
+        android:fillColor="#424242"
+        android:pathData="M50,50 Q55,45 60,50 Q55,55 50,50" />
+
+</vector>

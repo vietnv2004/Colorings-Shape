@@ -1,0 +1,1473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Coloring Shapes</string>
+    <string name="app_subtitle">Tô màu hình khối thông minh</string>
+    <string name="version">Version 1.0.0</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_subtitle" translatable="false">Tô màu hình khối thông minh</string>
+    <string name="loading" translatable="false">Đang tải…</string>
+
+    <!-- Authentication -->
+    <string name="login" translatable="false">Đăng nhập</string>
+    <string name="register" translatable="false">Đăng ký</string>
+    <string name="edit_profile">Chỉnh sửa hồ sơ</string>
+    <string name="user_name">Tên người dùng</string>
+    <string name="user_email">Email</string>
+    <string name="enter_user_name">Nhập tên người dùng</string>
+    <string name="enter_user_email">Nhập email</string>
+    <string name="statistics">Thống kê</string>
+    <string name="level">Cấp độ</string>
+    <string name="score">Điểm số</string>
+    <string name="login_title">Chào mừng trở lại</string>
+    <string name="login_subtitle" translatable="false">Đăng nhập để tiếp tục</string>
+    <string name="register_title">Tạo tài khoản mới</string>
+    <string name="register_subtitle">Đăng ký để bắt đầu</string>
+    <string name="already_have_account">Đã có tài khoản?</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="remember_me">Ghi nhớ đăng nhập</string>
+
+    <!-- Form Fields -->
+    <string name="email">Email</string>
+    <string name="email_uef">Email UEF</string>
+    <string name="password">Mật khẩu</string>
+    <string name="confirm_password">Xác nhận mật khẩu</string>
+    <string name="full_name">Họ và tên</string>
+    <string name="birth_year">Năm sinh</string>
+    <string name="gender">Giới tính</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="terms_and_conditions">Tôi đồng ý với điều khoản sử dụng</string>
+
+    <!-- Navigation -->
+    <string name="home">Trang chủ</string>
+    <string name="quest">Nhiệm vụ</string>
+    <string name="progress">Tiến trình</string>
+    <string name="profile">Hồ sơ</string>
+    <string name="back">Quay lại</string>
+    <string name="next">Tiếp theo</string>
+    <string name="previous">Trước</string>
+    <string name="finish">Hoàn thành</string>
+    
+    <!-- Chat AI -->
+    <string name="chat_ai">Chat AI</string>
+    <string name="chat_ai_under_development">Đang phát triển</string>
+    <string name="chat_ai_coming_soon">Tính năng Chat AI đang được phát triển và sẽ sớm ra mắt!</string>
+    
+    <!-- Chat AI -->
+    <string name="type_message_hint">Nhập tin nhắn của bạn...</string>
+    <string name="send">Gửi</string>
+    <string name="ai_thinking">AI đang suy nghĩ...</string>
+    <string name="ai_assistant">AI Assistant</string>
+    <string name="welcome_to_chat_ai">Chào mừng đến với Chat AI của Coloring Shapes!</string>
+    <string name="cancel">Hủy</string>
+    <string name="save">Lưu</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="delete">Xóa</string>
+    <string name="add">Thêm</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="filter">Lọc</string>
+    <string name="sort">Sắp xếp</string>
+
+    <!-- Tasks -->
+    <string name="tasks">Nhiệm vụ</string>
+    <string name="available_tasks">Nhiệm vụ khả dụng</string>
+    <string name="task_list">Danh sách nhiệm vụ</string>
+    <string name="task_details">Chi tiết nhiệm vụ</string>
+    <string name="start_task">Bắt đầu nhiệm vụ</string>
+    <string name="complete_task">Hoàn thành nhiệm vụ</string>
+    <string name="task_name">Tên nhiệm vụ</string>
+    <string name="task_description">Mô tả</string>
+    <string name="task_duration">Thời gian</string>
+    <string name="task_difficulty">Độ khó</string>
+    <string name="task_points">Điểm</string>
+    <string name="task_status">Trạng thái</string>
+
+    <!-- Shapes -->
+    <string name="shapes">Hình</string>
+    <string name="circle">Hình tròn</string>
+    <string name="square">Hình vuông</string>
+    <string name="triangle">Hình tam giác</string>
+    <string name="rectangle">Hình chữ nhật</string>
+    <string name="pentagon">Hình ngũ giác</string>
+    <string name="hexagon">Hình lục giác</string>
+    <string name="octagon">Hình bát giác</string>
+    <string name="oval">Hình oval</string>
+    <string name="diamond">Hình thoi</string>
+    <string name="star">Hình ngôi sao</string>
+    <string name="heart">Hình trái tim</string>
+
+    <!-- Task Names -->
+    <string name="task_color_circle">Tô màu hình tròn</string>
+    <string name="task_color_square">Tô màu hình vuông</string>
+    <string name="task_color_triangle">Tô màu hình tam giác</string>
+    <string name="task_color_star">Tô màu hình ngôi sao</string>
+    <string name="task_color_heart">Tô màu hình trái tim</string>
+
+    <!-- Task Descriptions -->
+    <string name="task_desc_circle">Tô màu vào hình tròn với màu yêu thích của bạn</string>
+    <string name="task_desc_square">Tô màu vào hình vuông với màu yêu thích của bạn</string>
+    <string name="task_desc_triangle">Tô màu vào hình tam giác với màu yêu thích của bạn</string>
+
+    <!-- Colors -->
+    <string name="colors">Màu sắc</string>
+    <string name="red">Đỏ</string>
+    <string name="blue">Xanh dương</string>
+    <string name="green">Xanh lá</string>
+    <string name="yellow">Vàng</string>
+    <string name="orange">Cam</string>
+    <string name="purple">Tím</string>
+    <string name="pink">Hồng</string>
+    <string name="black">Đen</string>
+    <string name="white">Trắng</string>
+    <string name="gray">Xám</string>
+
+    <!-- Drawing -->
+    <string name="drawing">Vẽ</string>
+    <string name="brush">Cọ vẽ</string>
+    <string name="brush_size">Kích thước cọ</string>
+    <string name="color_picker">Chọn màu</string>
+    <string name="undo">Hoàn tác</string>
+    <string name="redo">Làm lại</string>
+    <string name="clear">Xóa tất cả</string>
+    <string name="eraser">Tẩy</string>
+
+    <!-- Scoring -->
+    <string name="total_score">Tổng điểm</string>
+    <string name="high_score">Điểm cao nhất</string>
+    <string name="leaderboard">Bảng xếp hạng</string>
+    <string name="rank">Hạng</string>
+    <string name="your_rank">Hạng của bạn</string>
+    <string name="top_players">Top người chơi</string>
+    <string name="view_full_leaderboard">Xem bảng xếp hạng đầy đủ</string>
+
+    <!-- History -->
+    <string name="history">Lịch sử</string>
+    <string name="recent_history">Lịch sử gần đây</string>
+    <string name="view_all_history">Xem tất cả lịch sử</string>
+    <string name="completed_tasks">Nhiệm vụ đã hoàn thành</string>
+    <string name="view_history">Xem lịch sử</string>
+    <string name="no_history">Chưa có lịch sử</string>
+
+    <!-- Settings -->
+    <string name="settings">Cài đặt</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="theme">Giao diện</string>
+    <string name="notifications">Thông báo</string>
+    <string name="sound">Âm thanh</string>
+    <string name="vibration">Rung</string>
+    <string name="offline_mode">Trạng thái kết nối</string>
+    <string name="data_management">Quản lý dữ liệu</string>
+    <string name="export_data">Xuất dữ liệu</string>
+    <string name="import_data">Nhập dữ liệu</string>
+    <string name="about">Giới thiệu</string>
+    <string name="dark_mode">Chế độ tối</string>
+    <string name="enable_notifications">Bật thông báo</string>
+    <string name="online_status">Bạn đang online. Tất cả tính năng đều khả dụng.</string>
+    <string name="offline_status">Bạn đang offline. Một số tính năng bị hạn chế.</string>
+
+    <!-- Admin -->
+    <string name="admin">Quản trị</string>
+    <string name="admin_dashboard">Bảng điều khiển</string>
+    <string name="manage_tasks">Quản lý nhiệm vụ</string>
+    <string name="manage_shapes">Quản lý hình</string>
+    <string name="manage_users">Quản lý người dùng</string>
+    <string name="reports">Báo cáo</string>
+
+    <!-- Messages -->
+    <string name="success">Thành công</string>
+    <string name="error">Lỗi</string>
+    <string name="warning">Cảnh báo</string>
+    <string name="info">Thông tin</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="ok">OK</string>
+    <string name="access_denied">Bạn không có quyền truy cập</string>
+
+    <!-- Validation -->
+    <string name="email_required">Vui lòng nhập email</string>
+    <string name="email_invalid">Email không hợp lệ</string>
+    <string name="password_required">Vui lòng nhập mật khẩu</string>
+    <string name="password_too_short">Mật khẩu quá ngắn</string>
+    <string name="passwords_not_match">Mật khẩu không khớp</string>
+    <string name="field_required">Trường này bắt buộc</string>
+
+    <!-- Time -->
+    <string name="time">Thời gian</string>
+    <string name="timer">Bộ đếm</string>
+    <string name="time_remaining">Thời gian còn lại</string>
+    <string name="time_up">Hết giờ</string>
+    <string name="seconds">giây</string>
+    <string name="minutes">phút</string>
+    <string name="hours">giờ</string>
+
+    <!-- Or -->
+    <string name="or">hoặc</string>
+
+    <!-- Google Auth Buttons -->
+    <string name="sign_in_with_google">Đăng nhập với Google</string>
+    <string name="sign_up_with_google">Đăng ký với Google</string>
+
+    <!-- Difficulty Levels -->
+    <string name="easy">Dễ</string>
+    <string name="medium">Trung bình</string>
+    <string name="hard">Khó</string>
+    <string name="difficulty_label">Độ khó: %s</string>
+    <string name="points_label">Điểm: %d</string>
+    <string name="total_points_label">Tổng điểm</string>
+
+    <!-- Status -->
+    <string name="pending">Đang chờ</string>
+    <string name="in_progress">Đang thực hiện</string>
+    <string name="completed">Đã hoàn thành</string>
+    <string name="failed">Thất bại</string>
+
+    <!-- Social -->
+    <string name="share">Chia sẻ</string>
+    <string name="friends">Bạn bè</string>
+    <string name="invite">Mời</string>
+
+    <!-- Empty States -->
+    <string name="no_tasks">Không có nhiệm vụ</string>
+    <string name="no_results">Không có kết quả</string>
+    <string name="empty_list">Danh sách trống</string>
+    <string name="empty_tasks">Chưa có nhiệm vụ nào</string>
+    <string name="empty_history">Chưa có lịch sử</string>
+    <string name="empty_leaderboard">Chưa có bảng xếp hạng</string>
+    <string name="empty_notifications">Không có thông báo</string>
+    <string name="empty_results">Không có kết quả</string>
+    <string name="empty_search">Không tìm thấy kết quả</string>
+
+    <!-- Actions -->
+    <string name="submit">Gửi</string>
+    <string name="retry">Thử lại</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="refresh">Làm mới</string>
+    <string name="export">Xuất</string>
+    <string name="export_excel">Xuất Excel</string>
+    <string name="delete_all">Xóa tất cả</string>
+    <string name="export_success">Xuất file thành công: %1$s</string>
+    <string name="export_failed">Xuất file thất bại</string>
+    <string name="confirm_delete_all">Bạn có chắc muốn xóa tất cả lượt chơi?</string>
+    <string name="notify" translatable="false">Thông báo</string>
+    <string name="action_copy" translatable="false">Sao chép</string>
+    <string name="action_cut" translatable="false">Cắt</string>
+    <string name="action_paste" translatable="false">Dán</string>
+    <string name="action_select_all">Chọn tất cả</string>
+    <string name="action_deselect_all" translatable="false">Bỏ chọn tất cả</string>
+    <string name="action_share" translatable="false">Chia sẻ</string>
+    <string name="action_refresh">Làm mới</string>
+    <string name="action_retry" translatable="false">Thử lại</string>
+
+    <!-- Face Check-in -->
+    <string name="face_checkin">Check-in bằng khuôn mặt</string>
+    <string name="face_detected">Đã phát hiện khuôn mặt</string>
+    <string name="face_not_detected">Không phát hiện khuôn mặt</string>
+    <string name="position_face">Đặt khuôn mặt vào khung</string>
+
+    <!-- Achievements -->
+    <string name="achievement">Thành tích</string>
+    <string name="achievements">Thành tích</string>
+    <string name="achievement_unlocked">Mở khóa thành tích</string>
+    <string name="total_achievements">Tổng số: %d</string>
+    <string name="unlocked_achievements">Đã mở khóa: %d</string>
+    <string name="recent_achievements">Thành tích gần đây</string>
+    <string name="view_all_achievements">Xem tất cả thành tích</string>
+    <string name="all_achievements_title">Tất cả thành tích</string>
+    <string name="first_task_title">Nhiệm vụ đầu tiên</string>
+    <string name="first_task_desc">Hoàn thành nhiệm vụ tô màu đầu tiên của bạn</string>
+    <string name="top_scorer_title">Người ghi điểm cao</string>
+    <string name="top_scorer_desc">Đạt 90+ điểm trong một nhiệm vụ</string>
+    <string name="perfectionist">Hoàn hảo</string>
+    <string name="perfectionist_desc">Đạt 100% độ chính xác trong một nhiệm vụ</string>
+    <string name="speed_demon">Tốc độ</string>
+    <string name="speed_demon_desc">Hoàn thành nhiệm vụ trong dưới 2 phút</string>
+    <string name="streak_master">Chuỗi chiến thắng</string>
+    <string name="streak_master_desc">Hoàn thành 5 nhiệm vụ liên tiếp</string>
+    <string name="top_scorer">Điểm cao nhất</string>
+
+    <!-- Admin & Navigation -->
+    <string name="dashboard">Bảng điều khiển</string>
+    <string name="users">Người dùng</string>
+    <string name="management">Quản lý</string>
+    <string name="system_administration">Quản trị hệ thống</string>
+    <string name="task_management">Quản lý nhiệm vụ</string>
+    <string name="task_management_desc">Thêm, sửa, xóa nhiệm vụ</string>
+    <string name="user_management">Quản lý người dùng</string>
+    <string name="user_management_desc">Quản lý danh sách người dùng</string>
+    <string name="shape_management">Quản lý hình</string>
+    <string name="shape_management_desc">Thêm, sửa, xóa hình</string>
+
+    <!-- User Info -->
+    <string name="name">Tên</string>
+    <string name="user_rank">Hạng</string>
+    <string name="user_score">Điểm</string>
+    <string name="admin_name">Tên quản trị</string>
+    <string name="personal_info">Thông tin cá nhân</string>
+
+    <!-- Task Related -->
+    <string name="add_task">Thêm nhiệm vụ</string>
+    <string name="task_title">Tiêu đề nhiệm vụ</string>
+    <string name="task_detail">Chi tiết nhiệm vụ</string>
+    <string name="task_completed">Đã hoàn thành</string>
+    <string name="task_completion_rate">Tỷ lệ hoàn thành</string>
+    <string name="tasks_completed">Nhiệm vụ đã hoàn thành</string>
+    <string name="active_tasks">Nhiệm vụ đang hoạt động</string>
+    <string name="recent_tasks">Nhiệm vụ gần đây</string>
+    <string name="first_task">Nhiệm vụ đầu tiên</string>
+    <string name="continue_task">Tiếp tục</string>
+    <string name="create_first_task">Tạo nhiệm vụ đầu tiên</string>
+    <string name="start_first_task">Bắt đầu nhiệm vụ đầu tiên</string>
+
+    <!-- Time & Duration -->
+    <string name="duration">Thời lượng</string>
+    <string name="time_limit">Giới hạn thời gian</string>
+    <string name="time_taken">Thời gian thực hiện</string>
+    <string name="time_spent">Thời gian đã dùng</string>
+    <string name="time_spent_total">Tổng thời gian</string>
+    <string name="total_time">Tổng thời gian</string>
+    <string name="time_up_notification">Hết giờ!</string>
+
+    <!-- Rankings & Scores -->
+    <string name="ranking">Xếp hạng</string>
+    <string name="current_rank">Hạng hiện tại</string>
+    <string name="your_score">Điểm của bạn</string>
+    <string name="top_3">Top 3</string>
+    <string name="top_10">Top 10</string>
+    <string name="top_100">Top 100</string>
+    <string name="average_score">Điểm trung bình</string>
+    <string name="bonus_points">Điểm thưởng</string>
+    <string name="points">Điểm</string>
+
+    <!-- Drawing -->
+    <string name="drawing_canvas">Bảng vẽ</string>
+    <string name="your_drawing">Bức vẽ của bạn</string>
+    <string name="brush_type">Loại cọ</string>
+    <string name="color_palette">Bảng màu</string>
+    <string name="clear_all">Xóa tất cả</string>
+
+    <!-- Settings Extended -->
+    <string name="general_settings">Cài đặt chung</string>
+    <string name="account_settings">Cài đặt tài khoản</string>
+    <string name="privacy_settings">Cài đặt riêng tư</string>
+    <string name="notification_settings">Cài đặt thông báo</string>
+    <string name="language_settings">Cài đặt ngôn ngữ</string>
+    <string name="sound_settings">Cài đặt âm thanh</string>
+    <string name="display_settings">Cài đặt hiển thị</string>
+    <string name="reset_settings">Đặt lại cài đặt</string>
+    <string name="select_language">Chọn ngôn ngữ</string>
+    <string name="english">English</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="auto_theme">Tự động</string>
+
+    <!-- Status -->
+    <string name="not_started">Chưa bắt đầu</string>
+    <string name="status_available">Khả dụng</string>
+    <string name="status_unlocked">Đã mở khóa</string>
+    <string name="status_locked">Đã khóa</string>
+    <string name="status_approved">Đã duyệt</string>
+    <string name="status_rejected">Đã từ chối</string>
+    <string name="expired">Đã hết hạn</string>
+
+    <!-- Messages & Notifications -->
+    <string name="congratulations">Chúc mừng!</string>
+    <string name="welcome_back">Chào mừng trở lại</string>
+    <string name="welcome_admin">Chào mừng Quản trị viên</string>
+    <string name="language_changed">Đã thay đổi ngôn ngữ</string>
+    <string name="theme_changed">Đã thay đổi giao diện</string>
+    <string name="notification_title">Thông báo</string>
+    <string name="notification_message">Tin nhắn thông báo</string>
+    <string name="notification_type">Loại thông báo</string>
+    <string name="notification_time">Thời gian</string>
+    <string name="notifications_title">Thông báo</string>
+    <string name="mark_as_read">Đánh dấu đã đọc</string>
+    <string name="mark_all_read">Đánh dấu tất cả đã đọc</string>
+
+    <!-- Loading States -->
+    <string name="loading_general">Đang tải...</string>
+    <string name="loading_tasks">Đang tải nhiệm vụ...</string>
+    <string name="loading_history">Đang tải lịch sử...</string>
+    <string name="loading_leaderboard">Đang tải bảng xếp hạng...</string>
+    <string name="metric_single_score">Điểm từng lượt</string>
+    <string name="metric_total_score">Tổng điểm</string>
+    <string name="loading_login">Đang đăng nhập...</string>
+    <string name="loading_register">Đang đăng ký...</string>
+    <string name="loading_save">Đang lưu...</string>
+    <string name="loading_delete">Đang xóa...</string>
+    <string name="loading_upload">Đang tải lên...</string>
+    <string name="loading_download">Đang tải xuống...</string>
+    <string name="loading_sync">Đang đồng bộ...</string>
+
+    <!-- Success Messages -->
+    <string name="success_general">Thành công!</string>
+    <string name="success_login">Đăng nhập thành công</string>
+    <string name="success_register">Đăng ký thành công</string>
+    <string name="success_save">Lưu thành công</string>
+    <string name="success_update">Cập nhật thành công</string>
+    <string name="success_delete">Xóa thành công</string>
+    <string name="success_upload">Tải lên thành công</string>
+    <string name="success_download">Tải xuống thành công</string>
+    <string name="login_success">Đăng nhập thành công</string>
+
+    <!-- Error Messages -->
+    <string name="error_general">Đã xảy ra lỗi</string>
+    <string name="error_network">Lỗi kết nối mạng</string>
+    <string name="error_server">Lỗi máy chủ</string>
+    <string name="error_database">Lỗi cơ sở dữ liệu</string>
+    <string name="error_authentication">Lỗi xác thực</string>
+    <string name="error_permission">Không có quyền</string>
+    <string name="error_validation">Dữ liệu không hợp lệ</string>
+    <string name="error_file_not_found">Không tìm thấy file</string>
+    <string name="error_unknown">Lỗi không xác định</string>
+    <string name="invalid_email">Email không hợp lệ</string>
+    <string name="login_failed">Đăng nhập thất bại</string>
+
+    <!-- Validation -->
+    <string name="validation_email">Email không hợp lệ</string>
+    <string name="validation_password">Mật khẩu không hợp lệ</string>
+    <string name="validation_name">Tên không hợp lệ</string>
+    <string name="validation_phone">Số điện thoại không hợp lệ</string>
+    <string name="validation_birth_year">Năm sinh không hợp lệ</string>
+    <string name="validation_password_match">Mật khẩu không khớp</string>
+    <string name="validation_required">Trường bắt buộc</string>
+    <string name="validation_url">URL không hợp lệ</string>
+    <string name="uef_email_required">Cần email UEF (@uef.edu.vn)</string>
+
+    <!-- Permissions -->
+    <string name="permission_required">Cần cấp quyền</string>
+    <string name="permission_camera">Quyền Camera</string>
+    <string name="permission_storage">Quyền lưu trữ</string>
+    <string name="permission_location">Quyền vị trí</string>
+    <string name="permission_notification">Quyền thông báo</string>
+    <string name="permission_granted">Đã cấp quyền</string>
+    <string name="permission_denied">Đã từ chối quyền</string>
+
+    <!-- Features -->
+    <string name="feature_offline_mode">Trạng thái kết nối</string>
+    <string name="feature_sync">Đồng bộ</string>
+    <string name="feature_backup">Sao lưu</string>
+    <string name="feature_restore">Khôi phục</string>
+    <string name="feature_export">Xuất dữ liệu</string>
+    <string name="feature_import">Nhập dữ liệu</string>
+    <string name="feature_face_checkin">Check-in khuôn mặt</string>
+    <string name="sync_data">Đồng bộ dữ liệu</string>
+    <string name="sync_failed">Đồng bộ thất bại</string>
+    <string name="data_synced">Đã đồng bộ</string>
+    <string name="backup_data">Sao lưu</string>
+    <string name="restore_data">Khôi phục</string>
+
+    <!-- Stats & Reports -->
+    <string name="reports_desc">Báo cáo chi tiết</string>
+    <string name="age_distribution">Phân bổ độ tuổi</string>
+    <string name="gender_distribution">Phân bổ giới tính</string>
+    <string name="total_users">Tổng người dùng</string>
+    <string name="accuracy">Độ chính xác</string>
+    <string name="experience">Kinh nghiệm</string>
+    <string name="streak">Chuỗi</string>
+    <string name="targets">Mục tiêu</string>
+    <string name="result">Kết quả</string>
+    <string name="overall_progress">Tiến độ tổng thể</string>
+
+    <!-- Filters & Search -->
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_active">Đang hoạt động</string>
+    <string name="filter_inactive">Không hoạt động</string>
+    <string name="filter_completed">Đã hoàn thành</string>
+    <string name="filter_incomplete">Chưa hoàn thành</string>
+    <string name="filter_by_difficulty">Lọc theo độ khó</string>
+    <string name="filter_high_score">Điểm cao</string>
+    <string name="search_tasks_hint">Tìm kiếm nhiệm vụ</string>
+    <string name="search_history_hint">Tìm lịch sử...</string>
+
+    <!-- Misc -->
+    <string name="help">Trợ giúp</string>
+    <string name="contact">Liên hệ</string>
+    <string name="instructions">Hướng dẫn</string>
+    <string name="instructions_text">Hướng dẫn sử dụng</string>
+    <string name="show_details">Hiển thị chi tiết</string>
+    <string name="other">Khác</string>
+    <string name="complete">Hoàn thành</string>
+    <string name="places">Vị trí</string>
+    <string name="start_competing">Bắt đầu thi đấu</string>
+    <string name="completed_attempts">Lần thử đã hoàn thành</string>
+    <string name="quick_actions">Hành động nhanh</string>
+    <string name="user_profile">Hồ sơ người dùng</string>
+    <string name="analytics">Phân tích</string>
+    <string name="social">Mạng xã hội</string>
+
+    <!-- Analytics -->
+    <string name="analytics_dashboard">Bảng phân tích</string>
+    <string name="completion_rate">Tỷ lệ hoàn thành</string>
+    <string name="detailed_analytics">Phân tích chi tiết</string>
+    <string name="daily_progress">Tiến độ hàng ngày</string>
+    <string name="daily_progress_desc">Nhiệm vụ hoàn thành mỗi ngày</string>
+    <string name="accuracy_rate">Tỷ lệ chính xác</string>
+    <string name="accuracy_rate_desc">Độ chính xác trung bình trên tất cả nhiệm vụ</string>
+    <string name="speed_improvement">Cải thiện tốc độ</string>
+    <string name="speed_improvement_desc">Giảm thời gian so với tuần trước</string>
+    <string name="streak_days">Chuỗi ngày</string>
+    <string name="streak_days_desc">Số ngày liên tiếp có hoạt động</string>
+    <string name="favorite_shape">Hình yêu thích</string>
+    <string name="favorite_shape_desc">Loại hình được hoàn thành nhiều nhất</string>
+    <string name="peak_performance">Hiệu suất cao nhất</string>
+    <string name="peak_performance_desc">Thời gian tốt nhất trong ngày để làm nhiệm vụ</string>
+    <string name="tasks_per_day">nhiệm vụ/ngày</string>
+    <string name="days">ngày</string>
+
+    <!-- Social -->
+    <string name="social_feed">Bảng tin xã hội</string>
+    <string name="add_friend">Thêm bạn</string>
+    <string name="posts">Bài viết</string>
+    <string name="likes">Lượt thích</string>
+    <string name="share_my_work">CHIA SẺ TÁC PHẨM</string>
+    <string name="view_friends">XEM BẠN BÈ</string>
+    <string name="recent_posts">Bài viết gần đây</string>
+    <string name="hours_ago">%d giờ trước</string>
+    <string name="day_ago">1 ngày trước</string>
+    <string name="just_completed_first_task">Vừa hoàn thành nhiệm vụ tô màu đầu tiên của tôi! 🎨</string>
+    <string name="check_out_masterpiece">Xem tác phẩm mới nhất của tôi!</string>
+    <string name="achieved_100_accuracy">Đạt 100%% độ chính xác ở nhiệm vụ hình tròn! 🎯</string>
+
+    <!-- Admin Dashboard -->
+    <string name="welcome_admin_title">Chào mừng, Quản trị viên!</string>
+    <string name="task_management_btn">QUẢN LÝ NHIỆM VỤ</string>
+    <string name="user_management_btn">QUẢN LÝ NGƯỜI DÙNG</string>
+    <string name="reports_analytics_btn">BÁO CÁO VÀ PHÂN TÍCH</string>
+    <string name="statistics_title">Thống kê</string>
+    <string name="total_users_label">Tổng số người dùng</string>
+    <string name="active_tasks_label">Nhiệm vụ đang hoạt động</string>
+    <string name="completed_attempts_label">Lượt hoàn thành</string>
+    <string name="average_score_label">Điểm trung bình</string>
+
+    <!-- Advanced Admin -->
+    <string name="advanced_admin_title">Bảng điều khiển nâng cao</string>
+    <string name="user_registration_trends">Xu hướng đăng ký người dùng</string>
+    <string name="user_registration_desc">Thống kê đăng ký hàng tháng</string>
+    <string name="new_users_count">%d người dùng mới</string>
+    <string name="task_completion_rate_title">Tỷ lệ hoàn thành nhiệm vụ</string>
+    <string name="task_completion_desc">Phần trăm nhiệm vụ hoàn thành thành công</string>
+    <string name="avg_session_duration">Thời lượng phiên trung bình</string>
+    <string name="avg_session_desc">Thời gian trung bình người dùng dành trong ứng dụng</string>
+    <string name="top_performing_tasks_title">Nhiệm vụ hiệu suất cao nhất</string>
+    <string name="top_tasks_desc">Các nhiệm vụ phổ biến và thành công nhất</string>
+    <string name="circle_coloring">Tô màu hình tròn</string>
+    <string name="completion_percent">%d%% hoàn thành</string>
+    <string name="data_management_title">Quản lý dữ liệu</string>
+
+    <!-- Confirmations -->
+    <string name="confirm_delete">Xác nhận xóa?</string>
+    <string name="confirm_exit">Xác nhận thoát?</string>
+    <string name="confirm_logout">Xác nhận đăng xuất?</string>
+    <string name="confirm_reset">Xác nhận đặt lại?</string>
+    <string name="confirm_cancel">Xác nhận hủy?</string>
+    <string name="confirm_save">Xác nhận lưu?</string>
+
+    <!-- Units -->
+    <string name="unit_seconds">giây</string>
+    <string name="unit_minutes">phút</string>
+    <string name="unit_hours">giờ</string>
+    <string name="unit_days">ngày</string>
+    <string name="unit_points">điểm</string>
+    <string name="unit_percentage">%</string>
+    <string name="unit_count">lần</string>
+
+    <!-- Date & Time Formats -->
+    <string name="date_format_short">dd/MM/yyyy</string>
+    <string name="date_format_long">dd MMMM yyyy</string>
+    <string name="time_format_short">HH:mm</string>
+    <string name="time_format_long">HH:mm:ss</string>
+    <string name="datetime_format">dd/MM/yyyy HH:mm</string>
+
+    <!-- Empty State Titles -->
+    <string name="tasks_empty_title">Không có nhiệm vụ</string>
+    <string name="tasks_empty_subtitle">Bắt đầu thêm nhiệm vụ mới</string>
+    <string name="tasks_empty_description">Chưa có nhiệm vụ nào được tạo</string>
+    <string name="history_empty_title">Chưa có lịch sử</string>
+    <string name="history_empty_subtitle">Bắt đầu hoàn thành nhiệm vụ</string>
+    <string name="history_empty_description">Lịch sử sẽ hiển thị ở đây</string>
+    <string name="leaderboard_empty_title">Chưa có bảng xếp hạng</string>
+    <string name="leaderboard_empty_subtitle">Hãy là người đầu tiên</string>
+    <string name="leaderboard_empty_description">Hoàn thành nhiệm vụ để lên bảng xếp hạng</string>
+
+    <!-- Titles -->
+    <string name="leaderboard_title">Bảng xếp hạng</string>
+    <string name="profile_title">Hồ sơ</string>
+    <string name="settings_title">Cài đặt</string>
+    <string name="progress_title">Tiến trình</string>
+    <string name="progress_label">Tiến độ</string>
+
+    <!-- Icons & Descriptions -->
+    <string name="task_icon_description">Biểu tượng nhiệm vụ</string>
+    <string name="difficulty_icon_description">Biểu tượng độ khó</string>
+    <string name="rank_icon_description">Biểu tượng hạng</string>
+    <string name="time_icon_description">Biểu tượng thời gian</string>
+    <string name="notification_icon_description">Biểu tượng thông báo</string>
+    <string name="shape_preview">Xem trước hình</string>
+    <string name="shape_name">Tên hình</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_label">Nhãn trợ năng</string>
+    <string name="accessibility_hint">Gợi ý trợ năng</string>
+    <string name="accessibility_announcement">Thông báo trợ năng</string>
+    <string name="accessibility_content_description">Mô tả nội dung</string>
+
+    <!-- Debug -->
+    <string name="debug_info">Thông tin debug</string>
+    <string name="debug_logs">Nhật ký debug</string>
+    <string name="debug_export">Xuất debug</string>
+    <string name="debug_clear">Xóa debug</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_settings_title">Hồ Sơ &amp; Cài Đặt</string>
+    <string name="theme_customization">Tùy chỉnh giao diện</string>
+    <string name="theme_customization_desc">Cài đặt giao diện nâng cao và tùy chỉnh màu sắc</string>
+    <string name="advanced_features">Tính năng nâng cao</string>
+    <string name="gestures">Cử chỉ</string>
+    <string name="haptics">Rung động</string>
+    <string name="machine_learning">Học máy</string>
+    <string name="networking">Mạng</string>
+    <string name="notifications_advanced">Thông báo</string>
+    <string name="security">Bảo mật</string>
+    <string name="sensors">Cảm biến</string>
+    <string name="sounds">Âm thanh</string>
+    
+    <!-- Advanced Networking -->
+    <string name="advanced_networking">Mạng Nâng Cao</string>
+    <string name="network_status">Trạng Thái Mạng</string>
+    <string name="network_ready">Mạng nâng cao đã sẵn sàng</string>
+    <string name="network_unavailable">Mạng không khả dụng</string>
+    <string name="network_connecting">Đang kết nối: %1$s</string>
+    <string name="network_information">Thông Tin Mạng</string>
+    <string name="network_config_description">Cấu hình mạng nâng cao để có hiệu suất tối ưu.</string>
+    <string name="network_control">Điều Khiển Mạng</string>
+    <string name="check_network">KIỂM TRA</string>
+    <string name="sync_network">⤓ ĐỒNG BỘ</string>
+    <string name="optimize_network">TỐI ƯU</string>
+    <string name="network_settings">Cài Đặt Mạng</string>
+    <string name="enable_network">Bật Mạng</string>
+    <string name="wifi_only">Chỉ WiFi</string>
+    <string name="data_saving">Tiết Kiệm Dữ Liệu</string>
+    <string name="auto_sync">Đồng Bộ Tự Động</string>
+    <string name="available_network_features">Tính Năng Mạng Khả Dụng</string>
+    <string name="wifi_optimization">Tối Ưu WiFi</string>
+    <string name="wifi_optimization_description">Tối ưu hiệu suất kết nối WiFi</string>
+    <string name="data_compression">Nén Dữ Liệu</string>
+    <string name="data_compression_description">Nén dữ liệu để truyền tải nhanh hơn</string>
+    <string name="active">Active</string>
+    <string name="use_feature">SỬ DỤNG</string>
+    <string name="help_support">Trợ giúp</string>
+    <string name="contact_us">Liên Hệ</string>
+    <string name="policies_terms">Chính sách và điều khoản</string>
+    <string name="support_center">Trung tâm hỗ trợ</string>
+    <string name="support_center_description">Trung tâm hỗ trợ và giúp đỡ</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="logout_description">Đăng xuất khỏi tài khoản</string>
+    <string name="logout_confirm">Xác nhận đăng xuất?</string>
+    <string name="logout_message">Bạn có chắc chắn muốn đăng xuất?</string>
+    <string name="logout_success">Đã đăng xuất thành công</string>
+    <string name="feature_under_development">Tính năng đang phát triển</string>
+    <string name="app_version">Phiên bản 1.0.0 (1)</string>
+    <string name="company_name">Công ty 5 thành viên</string>
+    <string name="company_email">Email: daihoc@uef.edu.vn</string>
+
+    <!-- Sound Settings -->
+    <string name="sound_status">Trạng Thái Âm Thanh</string>
+    <string name="sound_status_ready">Âm thanh nâng cao đã sẵn sàng</string>
+    <string name="sound_information">Thông Tin Âm Thanh</string>
+    <string name="sound_information_desc">Cấu hình cài đặt âm thanh nâng cao để có trải nghiệm sống động.</string>
+    <string name="sound_controls">Điều Khiển Âm Thanh</string>
+    <string name="play_sound">▶️ Phát</string>
+    <string name="stop_sound">⏹️ Dừng</string>
+    <string name="test_sound">🧪 Thử</string>
+    <string name="pitch">Tần Số</string>
+    <string name="enable_sounds">Bật Âm Thanh</string>
+    <string name="available_sound_features">Tính Năng Âm Thanh Khả Dụng</string>
+    <string name="background_music_feature">Nhạc Nền</string>
+    <string name="background_music_desc">Nhạc nền khi tô màu</string>
+    <!-- About App -->
+    <string name="about_app">Giới thiệu ứng dụng</string>
+    <string name="about_app_description">Thông tin về Coloring Shapes</string>
+    <string name="about_app_title">Giới thiệu về Coloring Shapes</string>
+    <string name="about_introduction">Coloring Shapes được tạo ra với sứ mệnh duy nhất: nuôi dưỡng tình yêu nghệ thuật và mang trải nghiệm tô màu chất lượng đến với mọi người. Chúng tôi mong muốn kết nối người dùng với những hình vẽ đẹp và thú vị được cộng đồng yêu nghệ thuật đánh giá cao.</string>
+    <string name="about_who_we_are">Chúng tôi là ai</string>
+    <string name="about_who_we_are_content">Coloring Shapes được phát triển bởi đội ngũ những người yêu nghệ thuật say mê. Chúng tôi là những cá nhân độc lập, không liên kết với bất kỳ tổ chức, cơ quan hay công ty nào.</string>
+    <string name="about_important_info">Thông tin quan trọng</string>
+    <string name="about_important_info_content">• Coloring Shapes cung cấp các hình vẽ để tô màu hoàn toàn miễn phí.\n\n• Tất cả hình vẽ trong ứng dụng của chúng tôi đều được cung cấp hoàn toàn miễn phí. Tuy nhiên, để nâng cao trải nghiệm tô màu và hỗ trợ các nghệ sĩ, chúng tôi khuyến khích các bạn ủng hộ các tác giả của những hình vẽ bạn yêu thích.</string>
+    <string name="about_our_collection">Bộ sưu tập của chúng tôi</string>
+    <string name="about_collection_content">Hình vẽ trong Coloring Shapes được sưu tầm từ nhiều nguồn có sẵn trên internet, bao gồm các trang web nghệ thuật, cộng đồng tô màu, và nhiều nguồn khác.\n\nDo sưu tập từ nhiều nguồn khác nhau, đôi khi có thể có những thiếu sót hoặc không chính xác về nội dung. Chúng tôi rất cảm kích sự thông cảm của bạn và luôn chào đón mọi phản hồi để giúp chúng tôi cải thiện và sửa chữa những vấn đề này kịp thời.</string>
+    <string name="about_content_policy">Chính sách nội dung</string>
+    <string name="about_policy_content">• Nếu bạn là chủ sở hữu bản quyền của bất kỳ nội dung nào có trên Coloring Shapes và muốn gỡ bỏ nội dung đó, vui lòng gửi email cho chúng tôi tại support@coloring-shapes.com. Chúng tôi sẽ gỡ bỏ nội dung ngay lập tức sau khi nhận được yêu cầu của bạn.\n\n• Vì thư viện của chúng tôi vẫn đang phát triển, chúng tôi liên tục tìm kiếm hình vẽ mới để chia sẻ với người dùng. Nếu bạn có yêu cầu về nội dung cụ thể, vui lòng gửi email cho chúng tôi, và chúng tôi sẽ cố gắng hết sức để tìm kiếm và cung cấp hình vẽ theo yêu cầu nhanh nhất có thể.</string>
+    <string name="about_footer_message">Chúng tôi chúc bạn có những giây phút tô màu thư giãn, thoải mái và bổ ích với Coloring Shapes.</string>
+    <string name="about_contact">Liên hệ: support@coloring-shapes.com</string>
+    
+    <!-- Contact Information -->
+    <string name="phone">Điện thoại</string>
+    <string name="address">Địa chỉ</string>
+    <string name="website">Website</string>
+    <string name="address_full">145 Điện Biên Phủ, Phường 2, Bình Thạnh, TP.HCM, Việt Nam</string>
+    <string name="phone_number">+84 28 5422 6666</string>
+    <string name="address_and_contact">Địa chỉ &amp; Liên hệ</string>
+    <string name="open_in_maps">Mở trong bản đồ</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_settings">Cài đặt giao diện</string>
+    <string name="choose_theme">Chọn giao diện</string>
+    <string name="system_theme">Hệ thống</string>
+    <string name="system_theme_description">Theo cài đặt hệ thống</string>
+    <string name="light_theme">Sáng</string>
+    <string name="light_theme_description">Giao diện sáng</string>
+    <string name="dark_theme">Tối</string>
+    <string name="dark_theme_description">Giao diện tối</string>
+    <string name="theme_preview">Xem trước</string>
+    <string name="theme_preview_default">Chọn một giao diện để xem trước</string>
+    <string name="theme_info_title">Thông tin</string>
+    <string name="theme_info_content">• Hệ thống: Tự động theo cài đặt hệ thống\n• Sáng: Luôn sử dụng giao diện sáng\n• Tối: Luôn sử dụng giao diện tối</string>
+    <string name="use">SỬ DỤNG</string>
+
+    <!-- Advanced Sensors -->
+    <string name="advanced_sensors">Cảm Biến Nâng Cao</string>
+    <string name="sensor_status">Trạng Thái Cảm Biến</string>
+    <string name="sensor_status_ready">Cảm biến nâng cao đã sẵn sàng</string>
+    <string name="sensor_information">Thông Tin Cảm Biến</string>
+    <string name="sensor_information_desc">Cấu hình cảm biến nâng cao để có trải nghiệm người dùng tốt hơn.</string>
+    <string name="sensor_controls">Điều Khiển Cảm Biến</string>
+    <string name="test_sensor">🧪 KIỂM TRA</string>
+    <string name="calibrate_sensor">⚙️ HIỆU CHỈNH</string>
+    <string name="optimize_sensor">⚡ TỐI ƯU</string>
+    <string name="sensor_settings">Cài Đặt Cảm Biến</string>
+    <string name="sensitivity">Độ Nhạy</string>
+    <string name="enable_sensors">Bật Cảm Biến</string>
+    <string name="accelerometer">Gia Tốc Kế</string>
+    <string name="gyroscope">Con Quay Hồi Chuyển</string>
+    <string name="magnetometer">Từ Kế</string>
+    <string name="available_sensor_features">Tính Năng Cảm Biến Khả Dụng</string>
+    <string name="motion_detection">Phát Hiện Chuyển Động</string>
+    <string name="motion_detection_desc">Cảm biến chuyển động nâng cao</string>
+
+    <!-- Advanced Notifications -->
+    <string name="advanced_notifications">Thông Báo Nâng Cao</string>
+    <string name="notification_status">Trạng Thái Thông Báo</string>
+    <string name="notification_status_ready">Thông báo đã sẵn sàng</string>
+    <string name="notification_information">Thông Tin Thông Báo</string>
+    <string name="notification_information_desc">Cấu hình cài đặt thông báo nâng cao để luôn được cập nhật.</string>
+    <string name="notification_controls">Điều Khiển Thông Báo</string>
+    <string name="test_notification">✓ KIỂM TRA</string>
+    <string name="clear_notifications">🗑️ XÓA</string>
+    <string name="sound_notifications">Thông Báo Âm Thanh</string>
+    <string name="vibration_notifications">Thông Báo Rung</string>
+    <string name="achievement_notifications">Thông báo thành tích</string>
+    <string name="priority_notifications">Thông Báo Ưu Tiên</string>
+    <string name="available_notification_features">Các Tính Năng Thông Báo Có Sẵn</string>
+    <string name="push_notifications">Thông Báo Đẩy</string>
+    <string name="push_notifications_desc">Thông báo đẩy theo thời gian thực</string>
+
+    <!-- Advanced Gestures -->
+    <string name="advanced_gestures">Cử Chỉ Nâng Cao</string>
+    <string name="gesture_status">Trạng Thái Cử Chỉ</string>
+    <string name="gesture_status_ready">Các cử chỉ đã sẵn sàng để cấu hình</string>
+    <string name="gesture_information">Thông Tin Cử Chỉ</string>
+    <string name="gesture_information_desc">Cấu hình nhận diện cử chỉ nâng cao để tương tác trực quan.</string>
+    <string name="gesture_controls">Điều Khiển Cử Chỉ</string>
+    <string name="test_gesture">✓ KIỂM TRA</string>
+    <string name="calibrate_gesture">⚙️ HIỆU CHUẨN</string>
+    <string name="gesture_settings">Cài Đặt Cử Chỉ</string>
+    <string name="enable_gestures">Bật Cử Chỉ</string>
+    <string name="tap_gestures">Cử Chỉ Chạm</string>
+    <string name="swipe_gestures">Cử Chỉ Vuốt</string>
+    <string name="pinch_gestures">Cử Chỉ Chụm</string>
+    <string name="long_press_gestures">Cử Chỉ Nhấn Giữ</string>
+    <string name="available_gesture_features">Các Tính Năng Cử Chỉ Khả Dụng</string>
+    <string name="tap_gestures_feature">Cử Chỉ Chạm</string>
+    <string name="tap_gestures_desc">Nhận diện chạm đơn và chạm đôi</string>
+
+
+    <!-- Additional UI Features -->
+    <string name="ui_features">Giao diện</string>
+    <string name="widgets">Widget</string>
+    <string name="visual_effects">Hiệu ứng</string>
+
+    <!-- Language Support -->
+    <string name="current_language">Tiếng Việt</string>
+    <string name="language_vietnamese">Tiếng Việt</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_thai">ไทย</string>
+    <string name="language_french">Français</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_russian">Русский</string>
+
+    <!-- String Arrays -->
+    <string-array name="gender_options">
+        <item>Nam</item>
+        <item>Nữ</item>
+    </string-array>
+
+    <string-array name="role_options">
+        <item>Người dùng</item>
+        <item>Quản trị viên</item>
+    </string-array>
+
+    <string-array name="language_options">
+        <item>Tiếng Việt</item>
+        <item>English</item>
+        <item>中文</item>
+        <item>日本語</item>
+        <item>한국어</item>
+        <item>ไทย</item>
+        <item>Français</item>
+        <item>Deutsch</item>
+        <item>Español</item>
+        <item>Русский</item>
+    </string-array>
+
+    <string-array name="language_codes">
+        <item>vi</item>
+        <item>en</item>
+        <item>zh</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>th</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>es</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- Advanced Sounds -->
+    <string name="advanced_sounds">Âm Thanh Nâng Cao</string>
+    <string name="audio_status">Trạng Thái Âm Thanh</string>
+    <string name="audio_ready">Âm thanh nâng cao đã sẵn sàng</string>
+    <string name="audio_information">Thông Tin Âm Thanh</string>
+    <string name="audio_info_description">Cấu hình cài đặt âm thanh nâng cao để có trải nghiệm sống động.</string>
+    <string name="audio_controls">Điều Khiển Âm Thanh</string>
+    <string name="play_audio">PHÁT</string>
+    <string name="stop_audio">DỪNG</string>
+    <string name="try_audio">THỬ</string>
+    <string name="audio_settings">Cài đặt âm thanh</string>
+    <string name="volume">Âm Lượng</string>
+    <string name="frequency">Tần Số</string>
+    <string name="enable_sound">Bật Âm Thanh</string>
+    <string name="background_music">Nhạc Nền</string>
+    <string name="sound_effects">Hiệu ứng âm thanh</string>
+    <string name="voice_feedback">Phản Hồi Giọng Nói</string>
+    <string name="available_audio_features">Tính Năng Âm Thanh Khả Dụng</string>
+
+    <!-- Additional Profile Fields -->
+    <string name="enter_birth_year">Nhập năm sinh</string>
+    <string name="change_password">Đổi mật khẩu</string>
+    <string name="current_password">Mật khẩu hiện tại</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="confirm_new_password">Xác nhận mật khẩu mới</string>
+    <string name="enter_current_password">Nhập mật khẩu hiện tại</string>
+    <string name="enter_new_password">Nhập mật khẩu mới</string>
+    <string name="confirm_new_password_hint">Xác nhận mật khẩu mới</string>
+
+    <!-- Missing String Resources -->
+    <string name="accessibility_controls">Điều khiển trợ năng</string>
+    <string name="accessibility_feature_description">Mô tả tính năng trợ năng</string>
+    <string name="accessibility_feature_title">Tiêu đề tính năng trợ năng</string>
+    <string name="accessibility_features">Tính năng trợ năng</string>
+    <string name="accessibility_instructions">Hướng dẫn trợ năng</string>
+    <string name="accessibility_instructions_desc">Mô tả hướng dẫn trợ năng</string>
+    <string name="accessibility_settings">Cài đặt trợ năng</string>
+    <string name="accessibility_status">Trạng thái trợ năng</string>
+    <string name="accessibility_status_ready">Trợ năng đã sẵn sàng</string>
+    <string name="achievement_description">Mô tả thành tích</string>
+    <string name="achievement_name">Tên thành tích</string>
+    <string name="active_status">Trạng thái hoạt động</string>
+    <string name="add_new_achievement">Thêm thành tích mới</string>
+    <string name="add_new_task">Thêm nhiệm vụ mới</string>
+    <string name="add_new_user">Thêm người dùng mới</string>
+    <string name="admin_system_management">Quản lý hệ thống</string>
+    <string name="advanced_animations">Hoạt hình nâng cao</string>
+    <string name="advanced_blockchain">Blockchain nâng cao</string>
+    <string name="advanced_camera">Camera nâng cao</string>
+    <string name="advanced_drawing_tools">Công cụ vẽ nâng cao</string>
+    <string name="advanced_haptic_controls">Điều khiển rung nâng cao</string>
+    <string name="advanced_haptics">Rung nâng cao</string>
+    <string name="advanced_machine_learning">Học máy nâng cao</string>
+    <string name="advanced_security">Bảo mật nâng cao</string>
+    <string name="advanced_themes">Giao diện nâng cao</string>
+    <string name="advanced_timer">Bộ đếm nâng cao</string>
+    <string name="advanced_ui">Giao diện nâng cao</string>
+    <string name="advanced_visual_effects">Hiệu ứng hình ảnh nâng cao</string>
+    <string name="advanced_widgets">Widget nâng cao</string>
+    <string name="ai_controls">Điều khiển AI</string>
+    <string name="ai_feature_description">Mô tả tính năng AI</string>
+    <string name="ai_feature_title">Tiêu đề tính năng AI</string>
+    <string name="ai_features">Tính năng AI</string>
+    <string name="ai_no_suggestions">Chưa có gợi ý</string>
+    <string name="ai_ready">AI đã sẵn sàng</string>
+    <string name="ai_status">Trạng thái AI</string>
+    <string name="ai_suggestions">Gợi ý AI</string>
+    <string name="analytics_change">Thay đổi phân tích</string>
+    <string name="analytics_item_description">Mô tả mục phân tích</string>
+    <string name="analytics_item_title">Tiêu đề mục phân tích</string>
+    <string name="analytics_title">Tiêu đề phân tích</string>
+    <string name="analytics_value">Giá trị phân tích</string>
+    <string name="analytics_value_25">25</string>
+    <string name="analytics_value_2h45m">2h 45m</string>
+    <string name="analytics_value_875">875</string>
+    <string name="analytics_value_92">92</string>
+    <string name="analyze_button">Phân tích</string>
+    <string name="animation_feature_description">Mô tả tính năng hoạt hình</string>
+    <string name="animation_feature_title">Tiêu đề tính năng hoạt hình</string>
+    <string name="animation_information">Thông tin hoạt hình</string>
+    <string name="animation_speed">Tốc độ hoạt hình</string>
+    <string name="animation_status">Trạng thái hoạt hình</string>
+    <string name="animations_ready">Hoạt hình đã sẵn sàng</string>
+    <string name="app_footer">Chân trang ứng dụng</string>
+    <string name="apply_button">Áp dụng</string>
+    <string name="apply_ui">Áp dụng giao diện</string>
+    <string name="apply_visual">Áp dụng hình ảnh</string>
+    <string name="ar_controls">Điều khiển AR</string>
+    <string name="ar_feature_description">Mô tả tính năng AR</string>
+    <string name="ar_feature_title">Tiêu đề tính năng AR</string>
+    <string name="ar_features">Tính năng AR</string>
+    <string name="ar_instructions">Hướng dẫn AR</string>
+    <string name="ar_ready">AR đã sẵn sàng</string>
+    <string name="ar_start_instructions">Hướng dẫn bắt đầu AR</string>
+    <string name="ar_status">Trạng thái AR</string>
+    <string name="art_emoji">🎨</string>
+    <string name="auto_focus">Tự động lấy nét</string>
+    <string name="auto_learning">Tự động học</string>
+    <string name="available_accessibility_features">Tính năng trợ năng có sẵn</string>
+    <string name="available_commands">Lệnh có sẵn</string>
+    <string name="available_haptic_features">Tính năng rung có sẵn</string>
+    <string name="available_ml_features">Tính năng ML có sẵn</string>
+    <string name="available_security_features">Tính năng bảo mật có sẵn</string>
+    <string name="available_ui_features">Tính năng giao diện có sẵn</string>
+    <string name="available_visual_features">Tính năng hình ảnh có sẵn</string>
+    <string name="back_to_login">Quay lại đăng nhập</string>
+    <string name="biometric_auth_desc">Mô tả xác thực sinh trắc học</string>
+    <string name="biometric_authentication">Xác thực sinh trắc học</string>
+    <string name="birth_year_format">Định dạng năm sinh</string>
+    <string name="birth_year_label_text">Nhãn năm sinh</string>
+    <string name="blockchain_feature_description">Mô tả tính năng blockchain</string>
+    <string name="blockchain_feature_title">Tiêu đề tính năng blockchain</string>
+    <string name="blockchain_information">Thông tin blockchain</string>
+    <string name="blockchain_ready">Blockchain đã sẵn sàng</string>
+    <string name="blockchain_status">Trạng thái blockchain</string>
+    <string name="brightness">Độ sáng</string>
+    <string name="brightness_label">Nhãn độ sáng</string>
+    <string name="brightness_level">Mức độ sáng</string>
+    <string name="brightness_level_value">Giá trị mức độ sáng</string>
+    <string name="brush_size_label">Nhãn kích thước cọ</string>
+    <string name="calibrate_button">Nút hiệu chuẩn</string>
+    <string name="calibrate_haptic">Hiệu chuẩn rung</string>
+    <string name="camera_controls">Điều khiển camera</string>
+    <string name="camera_feature_description">Mô tả tính năng camera</string>
+    <string name="camera_feature_title">Tiêu đề tính năng camera</string>
+    <string name="camera_information">Thông tin camera</string>
+    <string name="camera_permission_required">Cần quyền camera</string>
+    <string name="camera_ready">Camera đã sẵn sàng</string>
+    <string name="camera_settings">Cài đặt camera</string>
+    <string name="camera_settings_description">Mô tả cài đặt camera</string>
+    <string name="camera_status">Trạng thái camera</string>
+    <string name="capture_button">Nút chụp</string>
+    <string name="change_password_button">Nút đổi mật khẩu</string>
+    <string name="choose_from_gallery">Chọn từ thư viện</string>
+    <string name="choose_language">Chọn ngôn ngữ</string>
+    <string name="clear_all_data">Xóa tất cả dữ liệu</string>
+    <string name="clear_button">Nút xóa</string>
+    <string name="close">Đóng</string>
+    <string name="cloud_sync">Đồng bộ đám mây</string>
+    <string name="color">Màu sắc</string>
+    <string name="color_customization_description">Mô tả tùy chỉnh màu sắc</string>
+    <string name="color_effects">Hiệu ứng màu sắc</string>
+    <string name="color_name">Tên màu</string>
+    <string name="color_picker_title">Tiêu đề chọn màu</string>
+    <string name="coloring_task">Nhiệm vụ tô màu</string>
+    <string name="comment_count">💬 %1$d</string>
+    <string name="computer_emoji">🖥️</string>
+    <string name="contrast">Độ tương phản</string>
+    <string name="contrast_label">Nhãn độ tương phản</string>
+    <string name="create_button">Nút tạo</string>
+    <string name="create_new_account">Tạo tài khoản mới</string>
+    <string name="created_date">Ngày tạo</string>
+    <string name="custom_animations">Hoạt hình tùy chỉnh</string>
+    <string name="custom_animations_desc">Mô tả hoạt hình tùy chỉnh</string>
+    <string name="dark">Tối</string>
+    <string name="data_augmentation">Tăng cường dữ liệu</string>
+    <string name="data_encryption">Mã hóa dữ liệu</string>
+    <string name="data_encryption_desc">Mô tả mã hóa dữ liệu</string>
+    <string name="date_format">Định dạng ngày</string>
+    <string name="delete_task">Xóa nhiệm vụ</string>
+    <string name="demo_email">Email demo</string>
+    <string name="demo_mode">Chế độ demo</string>
+    <string name="demo_user">Người dùng demo</string>
+    <string name="description">Mô tả</string>
+    <string name="difficulty">Độ khó</string>
+    <string name="double_tap">Chạm đôi</string>
+    <string name="dynamic_themes">Giao diện động</string>
+    <string name="dynamic_themes_desc">Mô tả giao diện động</string>
+    <string name="edit_task">Sửa nhiệm vụ</string>
+    <string name="enable_accessibility">Bật trợ năng</string>
+    <string name="enable_button">Nút bật</string>
+    <string name="enable_camera">Bật camera</string>
+    <string name="enable_haptics">Bật rung</string>
+    <string name="enable_ml">Bật ML</string>
+    <string name="enable_security">Bật bảo mật</string>
+    <string name="enable_security_button">Nút bật bảo mật</string>
+    <string name="enable_ui_customization">Bật tùy chỉnh giao diện</string>
+    <string name="enable_visual_effects">Bật hiệu ứng hình ảnh</string>
+    <string name="export_error">Lỗi xuất</string>
+    <string name="export_feature_developing">Tính năng xuất đang phát triển</string>
+    <string name="female_user_emoji">👩</string>
+    <string name="filter_label">Nhãn lọc</string>
+    <string name="flash_label">Nhãn đèn flash</string>
+    <string name="forgot_password_description">Nhập email UEF của bạn để nhận hướng dẫn đặt lại mật khẩu</string>
+    <string name="forgot_password_title">Quên mật khẩu</string>
+    <string name="gesture_feature_description">Mô tả tính năng cử chỉ</string>
+    <string name="gesture_feature_title">Tiêu đề tính năng cử chỉ</string>
+    <string name="gesture_instructions">Hướng dẫn cử chỉ</string>
+    <string name="gestures_ready">Cử chỉ đã sẵn sàng</string>
+    <string name="gold_medal_emoji">🥇</string>
+    <string name="great_job">Làm tốt lắm</string>
+    <string name="haptic_controls">Điều khiển rung</string>
+    <string name="haptic_feature_description">Mô tả tính năng rung</string>
+    <string name="haptic_feature_title">Tiêu đề tính năng rung</string>
+    <string name="haptic_information">Thông tin rung</string>
+    <string name="haptic_information_desc">Mô tả thông tin rung</string>
+    <string name="haptic_intensity">Cường độ rung</string>
+    <string name="haptic_intensity_control">Điều khiển cường độ rung</string>
+    <string name="haptic_patterns">Mẫu rung</string>
+    <string name="haptic_settings">Cài đặt rung</string>
+    <string name="haptic_status">Trạng thái rung</string>
+    <string name="haptic_status_ready">Rung đã sẵn sàng</string>
+    <string name="haptic_status_enabled">Haptic feedback đã được bật - Cường độ: %1$d%%</string>
+    <string name="haptic_status_disabled">Haptic feedback đã tắt</string>
+    <string name="haptic_testing">Đang kiểm tra haptic...</string>
+    <string name="haptic_question">Bạn có cảm nhận được rung không?</string>
+    <string name="haptic_description">Cấu hình phản hồi haptic để có trải nghiệm chạm sống động.</string>
+    <string name="haptic_types">Loại rung</string>
+    <string name="heavy">Nặng</string>
+    <string name="heavy_haptic">Rung nặng</string>
+    <string name="heavy_haptic_description">Mô tả rung nặng</string>
+    <string name="high_contrast">Độ tương phản cao</string>
+    <string name="import_error">Lỗi nhập</string>
+    <string name="import_feature_developing">Tính năng nhập đang phát triển</string>
+    <string name="intensity">Cường độ</string>
+    <string name="language_changed_english">Ngôn ngữ đã thay đổi sang tiếng Anh</string>
+    <string name="language_changed_vietnamese">Ngôn ngữ đã thay đổi sang tiếng Việt</string>
+    <string name="large_text">Văn bản lớn</string>
+    <string name="learning_rate">Tốc độ học</string>
+    <string name="level_format">Định dạng cấp độ</string>
+    <string name="light">Sáng</string>
+    <string name="light_haptic">Rung nhẹ</string>
+    <string name="light_haptic_description">Mô tả rung nhẹ</string>
+    <string name="lighting_effects">Hiệu ứng ánh sáng</string>
+    <string name="like_count">❤️ %1$d</string>
+    <string name="locked">Đã khóa</string>
+    <string name="long_press">Nhấn giữ</string>
+    <string name="medium_haptic">Rung trung bình</string>
+    <string name="medium_haptic_description">Mô tả rung trung bình</string>
+    <string name="ml_configuration_description">Mô tả cấu hình ML</string>
+    <string name="ml_controls">Điều khiển ML</string>
+    <string name="ml_feature_description">Mô tả tính năng ML</string>
+    <string name="ml_feature_title">Tiêu đề tính năng ML</string>
+    <string name="ml_information">Thông tin ML</string>
+    <string name="ml_information_desc">Mô tả thông tin ML</string>
+    <string name="ml_settings">Cài đặt ML</string>
+    <string name="ml_status">Trạng thái ML</string>
+    <string name="ml_status_ready">ML đã sẵn sàng</string>
+    <string name="moon_emoji">🌙</string>
+    <string name="network_feature_description">Mô tả tính năng mạng</string>
+    <string name="network_feature_title">Tiêu đề tính năng mạng</string>
+    <string name="neural_networks">Mạng nơ-ron</string>
+    <string name="neural_networks_desc">Mô tả mạng nơ-ron</string>
+    <string name="no_history_found">Không tìm thấy lịch sử</string>
+    <string name="no_leaderboard_data">Không có dữ liệu bảng xếp hạng</string>
+    <string name="no_speech_detected">Không phát hiện giọng nói</string>
+    <string name="normal_mode">Chế độ bình thường</string>
+    <string name="notification_feature_description">Mô tả tính năng thông báo</string>
+    <string name="notification_feature_title">Tiêu đề tính năng thông báo</string>
+    <string name="opacity_label">Nhãn độ mờ</string>
+    <string name="opacity_value">Giá trị độ mờ</string>
+    <string name="other_gender">Khác</string>
+    <string name="particle_effects">Hiệu ứng hạt</string>
+    <string name="particle_effects_desc">Mô tả hiệu ứng hạt</string>
+    <string name="pause_button">Nút tạm dừng</string>
+    <string name="percent_symbol">%</string>
+    <string name="player_name">Tên người chơi</string>
+    <string name="points_format">Định dạng điểm</string>
+    <string name="points_value">Giá trị điểm</string>
+    <string name="points_with_unit">%1$d điểm</string>
+    <string name="points_zero">Điểm không</string>
+    <string name="post_content">Nội dung bài viết</string>
+    <string name="predict_ml">Dự đoán ML</string>
+    <string name="pressure_haptics">Rung áp lực</string>
+    <string name="preview_visual">Xem trước hình ảnh</string>
+    <string name="primary_color">Màu chính</string>
+    <string name="profile_image_saved">Đã lưu ảnh hồ sơ</string>
+    <string name="profile_score_value">Giá trị điểm hồ sơ</string>
+    <string name="rank_label">Nhãn hạng</string>
+    <string name="rank_number">Số hạng</string>
+    <string name="ready">Sẵn sàng</string>
+    <string name="realtime">Thời gian thực</string>
+    <string name="realtime_prediction">Dự đoán thời gian thực</string>
+    <string name="record_button">Nút ghi</string>
+    <string name="redo_button">Nút làm lại</string>
+    <string name="refresh_emoji">🔄</string>
+    <string name="remove_button">Nút xóa</string>
+    <string name="report_description">Mô tả báo cáo</string>
+    <string name="report_title">Tiêu đề báo cáo</string>
+    <string name="reset_button">Nút đặt lại</string>
+    <string name="reset_database">Đặt lại cơ sở dữ liệu</string>
+    <string name="reset_haptic">Đặt lại rung</string>
+    <string name="reset_ui">Đặt lại giao diện</string>
+    <string name="role">Vai trò</string>
+    <string name="sample_email">Email mẫu</string>
+    <string name="sample_name">Tên mẫu</string>
+    <string name="saturation">Độ bão hòa</string>
+    <string name="save_haptic">Lưu rung</string>
+    <string name="score_format">Định dạng điểm</string>
+    <string name="score_label">Nhãn điểm</string>
+    <string name="score_value">Giá trị điểm</string>
+    <string name="secondary_color">Màu phụ</string>
+    <string name="security_controls">Điều khiển bảo mật</string>
+    <string name="security_enable_description">Mô tả bật bảo mật</string>
+    <string name="security_feature_description">Mô tả tính năng bảo mật</string>
+    <string name="security_feature_title">Tiêu đề tính năng bảo mật</string>
+    <string name="security_information">Thông tin bảo mật</string>
+    <string name="security_information_desc">Mô tả thông tin bảo mật</string>
+    <string name="security_settings">Cài đặt bảo mật</string>
+    <string name="security_status">Trạng thái bảo mật</string>
+    <string name="security_status_ready">Bảo mật đã sẵn sàng</string>
+    <string name="select_profile_image">Chọn ảnh hồ sơ</string>
+    <string name="send_instructions">Gửi hướng dẫn</string>
+    <string name="sensor_feature_description">Mô tả tính năng cảm biến</string>
+    <string name="sensor_feature_title">Tiêu đề tính năng cảm biến</string>
+    <string name="settings_emoji">⚙️</string>
+    <string name="shape_type">Loại hình</string>
+    <string name="share_button">Nút chia sẻ</string>
+    <string name="signal_emoji">📶</string>
+    <string name="single_tap">Chạm đơn</string>
+    <string name="social_network">Mạng xã hội</string>
+    <string name="star_emoji">⭐</string>
+    <string name="start_ar_button">Nút bắt đầu AR</string>
+    <string name="start_button">Nút bắt đầu</string>
+    <string name="start_listening">Bắt đầu nghe</string>
+    <string name="status_label">Nhãn trạng thái</string>
+    <string name="stop">Dừng</string>
+    <string name="storage_permission_required">Cần quyền lưu trữ</string>
+    <string name="suggest_button">Nút gợi ý</string>
+    <string name="sun_emoji">☀️</string>
+    <string name="sync_controls">Điều khiển đồng bộ</string>
+    <string name="sync_feature_description">Mô tả tính năng đồng bộ</string>
+    <string name="sync_feature_title">Tiêu đề tính năng đồng bộ</string>
+    <string name="sync_progress">Tiến trình đồng bộ</string>
+    <string name="sync_ready">Đồng bộ đã sẵn sàng</string>
+    <string name="sync_ready_message">Thông báo đồng bộ sẵn sàng</string>
+    <string name="sync_start_button">Nút bắt đầu đồng bộ</string>
+    <string name="sync_status">Trạng thái đồng bộ</string>
+    <string name="sync_stop_button">Nút dừng đồng bộ</string>
+    <string name="system_management_title">Tiêu đề quản lý hệ thống</string>
+    <string name="system_statistics">Thống kê hệ thống</string>
+    <string name="take_photo">Chụp ảnh</string>
+    <string name="target_emoji">🎯</string>
+    <string name="task_description_hint">Gợi ý mô tả nhiệm vụ</string>
+    <string name="task_duration_value">Giá trị thời lượng nhiệm vụ</string>
+    <string name="task_history">Lịch sử nhiệm vụ</string>
+    <string name="task_label">Nhãn nhiệm vụ</string>
+    <string name="task_name_hint">Gợi ý tên nhiệm vụ</string>
+    <string name="temperature_haptics">Rung nhiệt độ</string>
+    <string name="test_accessibility">Kiểm tra trợ năng</string>
+    <string name="test_button">Nút kiểm tra</string>
+    <string name="test_haptic">Kiểm tra rung</string>
+    <string name="test_ml">Kiểm tra ML</string>
+    <string name="test_security">Kiểm tra bảo mật</string>
+    <string name="test_visual">Kiểm tra hình ảnh</string>
+    <string name="theme_feature_description">Mô tả tính năng giao diện</string>
+    <string name="theme_feature_title">Tiêu đề tính năng giao diện</string>
+    <string name="theme_information">Thông tin giao diện</string>
+    <string name="theme_intensity">Cường độ giao diện</string>
+    <string name="theme_ready">Giao diện đã sẵn sàng</string>
+    <string name="theme_selection">Lựa chọn giao diện</string>
+    <string name="theme_selection_description">Mô tả lựa chọn giao diện</string>
+    <string name="theme_status">Trạng thái giao diện</string>
+    <string name="time_ago">Thời gian trước</string>
+    <string name="time_format">Định dạng thời gian</string>
+    <string name="time_label">Nhãn thời gian</string>
+    <string name="timer_controls">Điều khiển bộ đếm</string>
+    <string name="timer_display">Hiển thị bộ đếm</string>
+    <string name="timer_display_value">Giá trị hiển thị bộ đếm</string>
+    <string name="timer_duration">Thời lượng bộ đếm</string>
+    <string name="timer_duration_instructions">Hướng dẫn thời lượng bộ đếm</string>
+    <string name="timer_feature_description">Mô tả tính năng bộ đếm</string>
+    <string name="timer_feature_title">Tiêu đề tính năng bộ đếm</string>
+    <string name="timer_ready">Bộ đếm đã sẵn sàng</string>
+    <string name="timer_status">Trạng thái bộ đếm</string>
+    <string name="total_achievements_count">Tổng số thành tích</string>
+    <string name="total_plays_count">Tổng số lượt chơi</string>
+    <string name="total_tasks_count">Tổng số nhiệm vụ</string>
+    <string name="total_users_count">Tổng số người dùng</string>
+    <string name="train_button">Nút huấn luyện</string>
+    <string name="train_ml">Huấn luyện ML</string>
+    <string name="try_demo">Thử demo</string>
+    <string name="two_factor_authentication">Xác thực hai yếu tố</string>
+    <string name="type">Loại</string>
+    <string name="ui_controls">Điều khiển giao diện</string>
+    <string name="ui_customization_description">Mô tả tùy chỉnh giao diện</string>
+    <string name="ui_feature_description">Mô tả tính năng giao diện</string>
+    <string name="ui_feature_title">Tiêu đề tính năng giao diện</string>
+    <string name="ui_information">Thông tin giao diện</string>
+    <string name="ui_information_desc">Mô tả thông tin giao diện</string>
+    <string name="ui_settings">Cài đặt giao diện</string>
+    <string name="ui_status">Trạng thái giao diện</string>
+    <string name="ui_status_ready">Giao diện đã sẵn sàng</string>
+    <string name="undo_button">Nút hoàn tác</string>
+    <string name="user_label">Nhãn người dùng</string>
+    <string name="user_management_title">Quản lý người dùng</string>
+    <string name="user_role">Vai trò người dùng</string>
+    <string name="value">Giá trị</string>
+    <string name="vibration_feedback">Phản hồi rung</string>
+    <string name="vibration_feedback_desc">Mô tả phản hồi rung</string>
+    <string name="vibration_haptics">Rung phản hồi</string>
+    <string name="visual_configuration_description">Mô tả cấu hình hình ảnh</string>
+    <string name="visual_controls">Điều khiển hình ảnh</string>
+    <string name="visual_feature_description">Mô tả tính năng hình ảnh</string>
+    <string name="visual_feature_title">Tiêu đề tính năng hình ảnh</string>
+    <string name="visual_information">Thông tin hình ảnh</string>
+    <string name="visual_information_desc">Mô tả thông tin hình ảnh</string>
+    <string name="visual_settings">Cài đặt hình ảnh</string>
+    <string name="visual_status">Trạng thái hình ảnh</string>
+    <string name="visual_status_ready">Hình ảnh đã sẵn sàng</string>
+    <string name="voice_commands">Lệnh giọng nói</string>
+    <string name="voice_controls">Điều khiển giọng nói</string>
+    <string name="voice_over">Giọng nói</string>
+    <string name="voice_result">Kết quả giọng nói</string>
+    <string name="voice_status">Trạng thái giọng nói</string>
+    <string name="widget_controls">Điều khiển widget</string>
+    <string name="widget_creation_description">Mô tả tạo widget</string>
+    <string name="widget_feature_description">Mô tả tính năng widget</string>
+    <string name="widget_feature_title">Tiêu đề tính năng widget</string>
+    <string name="widget_information">Thông tin widget</string>
+    <string name="widget_status">Trạng thái widget</string>
+    <string name="widgets_ready">Widget đã sẵn sàng</string>
+    <string name="zoom_label">Nhãn phóng to</string>
+    <string name="tet_theme">Giao diện Tết</string>
+    <string name="tet_theme_description">Giao diện đặc biệt cho dịp Tết Nguyên Đán</string>
+    <string name="data_compression_desc">Mô tả nén dữ liệu</string>
+    <string name="wifi_optimization_desc">Mô tả tối ưu hóa WiFi</string>
+
+    <!-- User Management Strings -->
+    <string name="filter_all_users">Tất cả</string>
+    <string name="filter_users_role">Người dùng</string>
+    <string name="filter_admin_role">Quản trị viên</string>
+    <string name="filter_active_users">Đang hoạt động</string>
+    <string name="filter_locked_users">Bị khóa</string>
+    <string name="total_users_text">Tổng số: %1$d người dùng</string>
+    <string name="found_users_text">Tìm thấy: %1$d người dùng</string>
+    <string name="add_new_user_title">Thêm người dùng mới</string>
+    <string name="add_user_button">Thêm</string>
+    <string name="edit_user_title">Chỉnh sửa người dùng</string>
+    <string name="update_button">Cập nhật</string>
+    <string name="delete_user_title">Xác nhận xóa</string>
+    <string name="delete_user_message">Bạn có chắc muốn xóa người dùng %1$s?</string>
+    <string name="delete_button">Xóa</string>
+    <string name="user_added_success">Đã thêm người dùng</string>
+    <string name="user_updated_success">Đã cập nhật người dùng</string>
+    <string name="user_deleted_success">Đã xóa người dùng</string>
+    <string name="user_activated">kích hoạt</string>
+    <string name="user_locked">khóa</string>
+    <string name="user_status_changed">Đã %1$s người dùng</string>
+    <string name="enter_name_hint">Vui lòng nhập tên</string>
+    <!-- invalid_email already exists at line 406, removed duplicate -->
+    <string name="password_min_length">Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="invalid_birth_year">Năm sinh không hợp lệ</string>
+    <string name="birth_year_label">Năm sinh: %1$d</string>
+    <string name="admin_role">Quản trị viên</string>
+    <string name="user_role_label">Người dùng</string>
+    <string name="created_at_label">Tạo: %1$s</string>
+
+    <!-- Achievement Management Strings -->
+    <string name="total_achievements_text">Tổng số thành tích: %1$d</string>
+    <string name="edit_achievement_title">Sửa thành tích</string>
+    <string name="enter_achievement_name">Vui lòng nhập tên thành tích</string>
+    <string name="achievement_updated">Đã cập nhật thành tích</string>
+    <string name="achievement_added">Đã thêm thành tích mới</string>
+    <string name="delete_achievement_title">Xóa thành tích</string>
+    <string name="delete_achievement_message">Bạn có chắc chắn muốn xóa thành tích \"%1$s\"?</string>
+    <string name="achievement_deleted">Đã xóa thành tích</string>
+    <string name="achievement_name_hint">Tên thành tích</string>
+    <string name="achievement_description_hint">Mô tả</string>
+    <string name="achievement_icon_hint">Icon (emoji)</string>
+    <string name="achievement_requirement_hint">Yêu cầu (số)</string>
+    <string name="achievement_points_hint">Điểm thưởng</string>
+
+    <!-- Leaderboard Management Strings -->
+    <string name="filter_top_10">Top 10</string>
+    <string name="filter_top_50">Top 50</string>
+    <string name="filter_top_100">Top 100</string>
+    <string name="total_attempts_text">Tổng số lượt chơi: %1$d</string>
+
+    <!-- Admin Dashboard Strings -->
+    <string name="reset_database_title">Xác nhận Reset Database</string>
+    <string name="reset_database_message">Bạn có chắc chắn muốn xóa toàn bộ dữ liệu và tạo lại 10 nhiệm vụ + 10 tài khoản mẫu?\n\nLưu ý: Tất cả dữ liệu hiện tại sẽ bị xóa!</string>
+    <string name="confirm_reset_button">Xác nhận</string>
+    <string name="reset_database_success">✅ Đã reset database thành công!\n10 nhiệm vụ + 10 tài khoản đã được tạo.</string>
+    <string name="reset_database_error">❌ Lỗi khi reset database: %1$s</string>
+    <string name="error_loading_statistics">Lỗi tải thống kê</string>
+    <string name="users_count_format">%1$d người</string>
+    <string name="tasks_count_format">%1$d nhiệm vụ</string>
+    <string name="attempts_count_format">%1$d lượt</string>
+    <string name="points_count_format">%1$d điểm</string>
+
+    <!-- Task Management Additional Strings -->
+    <string name="add_new_shape">➕ Thêm hình mới</string>
+    <string name="time_minutes">Thời gian (phút)</string>
+    <string name="shape_name_example">Tên hình (VD: Hình tròn, Hình vuông)</string>
+    <string name="vector_drawable_xml_code">Mã Vector Drawable XML</string>
+    <string name="shape_id_auto_generated">ID hình (tự động sinh)</string>
+    <string name="enter_vector_drawable_xml_code_hint">Nhập mã Vector Drawable XML của hình
+
+VD:
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;
+    &lt;path android:pathData=&quot;M100,100...&quot;/&gt;
+&lt;/vector&gt;</string>
+    <string name="delete_task_title">Xóa nhiệm vụ</string>
+    <string name="delete_task_message">Bạn có chắc chắn muốn xóa nhiệm vụ &quot;%1$s&quot;?</string>
+    <string name="task_activated">Đã kích hoạt nhiệm vụ</string>
+    <string name="task_deactivated">Đã tắt nhiệm vụ</string>
+    <string name="please_enter_task_name">Vui lòng nhập tên nhiệm vụ</string>
+    <string name="task_updated">Đã cập nhật nhiệm vụ</string>
+    <string name="task_added">Đã thêm nhiệm vụ mới</string>
+    <string name="task_deleted">Đã xóa nhiệm vụ</string>
+    <string name="please_enter_shape_name">Vui lòng nhập tên hình</string>
+    <string name="please_enter_xml_code">Vui lòng nhập mã Vector Drawable XML</string>
+    <string name="invalid_xml_format">Mã không đúng định dạng Vector Drawable XML</string>
+    <string name="shape_added">Đã thêm hình mới: %1$s (ID: %2$s)</string>
+    <string name="all_tasks">Tất cả</string>
+    <string name="task_status_active">Đang hoạt động</string>
+    <string name="task_status_inactive">Đã tắt</string>
+    <string name="total_tasks">Tổng số nhiệm vụ: %1$d</string>
+
+    <!-- Dialog Strings (New) -->
+    <string name="about_info">Thông tin giới thiệu</string>
+    <string name="address_contact">Địa chỉ &amp; Liên hệ</string>
+    <string name="contact_support">Liên hệ hỗ trợ</string>
+    <string name="report_bug">Báo lỗi</string>
+    <string name="contact_information">Thông tin liên hệ</string>
+    <string name="phone_label">Điện thoại: %1$s</string>
+    <string name="address_label">Địa chỉ: %1$s</string>
+    <string name="website_label">Website: %1$s</string>
+    <string name="call_phone">Gọi điện</string>
+    <string name="open_map">Mở bản đồ</string>
+    <string name="manage_contact_info">Quản lý thông tin liên hệ</string>
+    <string name="manage_app_info">Quản lý thông tin ứng dụng</string>
+    <string name="contact_info_saved">Đã lưu thông tin liên hệ</string>
+    <string name="app_info_saved">Đã lưu thông tin ứng dụng</string>
+    <string name="exit_confirm">Xác nhận thoát</string>
+    <string name="exit_confirm_message">Bạn có chắc chắn muốn thoát? Tiến trình hiện tại sẽ không được lưu.</string>
+    <string name="exit">Thoát</string>
+    <string name="open_excel_file">Mở file Excel</string>
+    <string name="open_excel_question">Bạn có muốn mở file Excel vừa xuất không?</string>
+    <string name="open_file">Mở</string>
+    <string name="no_capital">Không</string>
+    <string name="cannot_open_map">Không thể mở bản đồ</string>
+    <string name="cannot_open_privacy_policy">Không thể mở chính sách quyền riêng tư</string>
+    <string name="send_bug_report_email">Gửi báo lỗi qua email: %1$s</string>
+    
+    <!-- Sound Selection -->
+    <string name="select_notification_sound">Chọn Âm Thanh Thông Báo</string>
+    <string name="select_background_music">Chọn Nhạc Nền</string>
+    <string name="select_sound_effect">Chọn Hiệu Ứng Âm Thanh</string>
+    
+    <!-- Colors -->
+    <string name="color_red">Màu đỏ</string>
+    <string name="color_blue">Màu xanh dương</string>
+    <string name="color_green">Màu xanh lá</string>
+    <string name="color_yellow">Màu vàng</string>
+    <string name="color_orange">Màu cam</string>
+    <string name="color_purple">Màu tím</string>
+    <string name="cleared_all">Đã xóa tất cả</string>
+    
+    <!-- User Management -->
+    <string name="search_users_hint">Tìm kiếm...</string>
+    <string name="export_excel_label">📊 Xuất Excel</string>
+    
+    <!-- Advanced Sounds -->
+    <string name="select_music">CHỌN NHẠC</string>
+    <string name="select">CHỌN</string>
+    <string name="turn_off">TẮT</string>
+    <string name="turn_on">BẬT</string>
+    <string name="inactive">Không hoạt động</string>
+    <string name="sound_effects_desc">Âm thanh khi nhấn nút</string>
+    <string name="notification_sound">Âm Thanh Thông Báo</string>
+    <string name="notification_sound_desc">Âm thanh khi có thông báo</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_selected">Đã chọn giao diện: %1$s</string>
+    <string name="theme_applied_immediately">Thay đổi đã được áp dụng ngay lập tức!</string>
+    
+    <!-- Advanced Admin Reports -->
+    <string name="score_distribution">Phân bố điểm số</string>
+    <string name="score_distribution_desc">Số lượng lượt thử theo mức độ điểm</string>
+    <string name="most_active_user">Người dùng tích cực nhất</string>
+    <string name="most_active_user_desc">User hoàn thành nhiều task nhất</string>
+    <string name="achievements_stat">Thành tích</string>
+    <string name="achievements_stat_desc">Số thành tích đã mở khóa trên tổng số</string>
+    <string name="avg_completion_speed">Tốc độ hoàn thành TB</string>
+    <string name="avg_completion_speed_desc">Thời gian trung bình để hoàn thành 1 task</string>
+    <string name="incomplete_rate">Tỷ lệ chưa hoàn thành</string>
+    <string name="incomplete_rate_desc">Phần trăm nhiệm vụ bỏ dở</string>
+    <string name="new_users_7days">User mới (7 ngày)</string>
+    <string name="new_users_7days_desc">Số lượng người dùng đăng ký mới</string>
+    <string name="total_attempts">Tổng số lượt thử</string>
+    <string name="total_attempts_desc">Tổng số lượt người dùng thực hiện nhiệm vụ</string>
+    <string name="completed_attempts_trend">%1$d hoàn thành</string>
+    
+    <!-- Score Ranges -->
+    <string name="score_excellent">Xuất sắc</string>
+    <string name="score_good">Tốt</string>
+    <string name="score_fair">Khá</string>
+    <string name="score_average">Trung bình</string>
+    
+    <!-- Status Indicators -->
+    <string name="status_good">✓ Tốt</string>
+    <string name="status_average">○ Trung bình</string>
+    <string name="status_need_improve">✗ Cần cải thiện</string>
+    <string name="status_active">✓ Tích cực</string>
+    <string name="status_stable">○ Ổn định</string>
+    <string name="status_fast">✓ Nhanh</string>
+    <string name="status_medium">○ Vừa phải</string>
+    <string name="status_slow">✗ Chậm</string>
+    <string name="status_high">✗ Cao</string>
+    <string name="status_growth">✓ Tăng trưởng</string>
+    <string name="status_no_data">○ Không có</string>
+    <string name="no_data">Chưa có dữ liệu</string>
+    <string name="not_available">N/A</string>
+    <string name="total_format">Tổng: %1$d lượt</string>
+    <string name="attempts_completed">%1$d lượt hoàn thành</string>
+    <string name="unlocked_percent">%1$d%% mở khóa</string>
+    <string name="users_count">%1$d người</string>
+    <string name="attempts">lượt</string>
+    
+    <!-- Leaderboard -->
+    <string name="total_score_tab">Điểm tổng</string>
+    <string name="drawing_score_tab">Điểm hình vẽ</string>
+    <string name="leaderboard_load_error">Lỗi tải bảng xếp hạng: %1$s</string>
+    <string name="score_points">%1$d điểm</string>
+    <string name="unknown_error">Lỗi không xác định</string>
+    <string name="leaderboard_management">Quản lý bảng xếp hạng</string>
+    <string name="user_prefix">User: %1$s</string>
+    <string name="task_prefix">Task: %1$s</string>
+    
+    <!-- Social Network - Post Content -->
+    <string name="post_created_colorful_garden">Tôi đã tạo ra một khu vườn đầy màu sắc! 🌸</string>
+    <string name="post_beautiful_mountain_lake">Cảnh hồ núi tuyệt đẹp! 🏔️</string>
+    <string name="post_city_at_night">Thành phố về đêm với ánh đèn lung linh! 🌃</string>
+    <string name="post_fairytale_castle">Lâu đài cổ tích trong giấc mơ! 🏰</string>
+    <string name="post_tropical_beach">Bãi biển nhiệt đới với cây dừa! 🏖️</string>
+    
+    <!-- Social Network - Time Ago -->
+    <string name="days_ago">%1$d ngày trước</string>
+
+</resources>

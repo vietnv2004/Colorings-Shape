@@ -1,0 +1,220 @@
+Chủ đề 1. Ứng dụng tô màu hình khối
+Mô tả bài toán:
+Phát triển một ứng dụng Android để tô màu các hình khối. Hình khối, màu sắc, thời gian tối đa của nhiệm vụ tô màu được lưu trữ trong cơ sở dữ liệu. Ứng dụng hỗ trợ hai loại người dùng: người tham gia (người chơi nhiệm vụ) và quản trị viên (người quản lý cài đặt). Các chức năng chính bao gồm đăng nhập, thực hiện nhiệm vụ, quản lý thông tin người dùng và các tính năng nâng cao như gửi thông báo khi hết thời gian, tải lên hình ảnh, hiển thị lịch sử, điểm số và hỗ trợ nhiều ngôn ngữ. Ứng dụng phải có giao diện thân thiện với người dùng, phản hồi nhanh, đảm bảo bảo mật cơ bản và có khả năng mở rộng.
+Mục tiêu:
+• Học thuật: Củng cố kiến ​​thức về lập trình di động, bao gồm mô hình Model-ViewViewModel (MVVM), phương pháp MVP, Dịch vụ, Dịch vụ nền trước,
+Thông báo, quản lý cơ sở dữ liệu và bảo mật cơ bản.
+• Kỹ năng thực hành: Phát triển các kỹ năng về thiết kế UI/UX, thiết kế kiến ​​trúc, lập trình di động, tích hợp cơ sở dữ liệu và làm việc nhóm bằng Git.
+• Ứng dụng thực tế: Xây dựng một ứng dụng mô phỏng ứng dụng giáo dục thực tế, giúp sinh viên làm quen với các yêu cầu phát triển ứng dụng thương mại.
+Yêu cầu:
+1. Công nghệ được sử dụng
+• Android: giao diện xem, dịch vụ nền, cơ sở dữ liệu, thông báo
+• Cơ sở dữ liệu: SQLite
+• Công cụ xây dựng dự án: Gradle.
+• Kiểm soát phiên bản: Sử dụng Git (gửi mã nguồn qua GitHub/GitLab).
+• Thư viện bổ sung: Color, Palette
+UI Layer -> ViewModel Layer -> Repository Layer -> Local DB (SQLite)
+                                   |
+                                   v
+                          Notification / Timer
+
+2. Chức năng chính
+a. Người dùng
+v. Chức năng cơ bản (45%)
+• Đăng ký/Đăng nhập/Đăng xuất:
+• Đăng ký tài khoản bằng email, mật khẩu, họ tên, năm sinh, giới tính.
+• Đăng nhập bằng email và mật khẩu.
+• Thực hiện nhiệm vụ:
+• Xem danh sách các nhiệm vụ sắp tới hoặc đã hoàn thành.
+• Xem chi tiết nhiệm vụ (tên, mô tả, thời lượng tối đa, màu sắc).
+• Điểm số:
+• Cập nhật điểm của từng nhiệm vụ.
+• Xem lịch sử nhiệm vụ đã hoàn thành.
+v Chức năng nâng cao (10%)
+• Hỗ trợ giao diện đa ngôn ngữ (Tiếng Anh và Tiếng Việt)
+• Đăng nhập bằng email (ví dụ: example@uef.edu.vn).
+• Nhiệm vụ
+• Linh hoạt trong việc lựa chọn màu sắc, hình dạng cọ vẽ
+• Thông báo:
+• Sử dụng hiệu ứng hình ảnh để thông báo "hết giờ"
+• Cho phép check-in bằng cách quét khuôn mặt
+• Cho phép hiệu ứng chúc mừng khi người dùng nằm trong top 3, 10, 100
+b. Quản trị viên
+v Chức năng cơ bản (35%)
+• Quản lý nhiệm vụ:
+• Thêm, chỉnh sửa hoặc xóa thông tin nhiệm vụ (tên, mô tả, thời lượng tối đa, màu sắc)
+• Tăng hoặc giảm số lần đếm ngược
+• Quản lý hình dạng:
+• Thêm, chỉnh sửa hoặc xóa danh mục (ví dụ: hình tam giác, hình chữ nhật).
+• Quản lý người tham gia:
+• Xem danh sách người tham gia đã đăng ký
+• Báo cáo:
+• Xem danh sách 3, 10, 100 người tham gia có điểm cao nhất.
+v Chức năng Nâng cao (10%)
+• Quản lý người tham gia:
+• Xem sản phẩm của người tham gia
+• Báo cáo:
+• Xem báo cáo dựa trên độ tuổi, giới tính, điểm trung bình
+
+
+
+👩‍🎨 1. User Flow – Người tham gia (Participant)
+🔑 A. Đăng nhập / Đăng ký
+[Khởi động app]
+   ↓
+[Splash Screen] → kiểm tra trạng thái đăng nhập
+   ↓
+Nếu đã đăng nhập → vào [Home]
+Nếu chưa → chuyển đến [Login/Register]
+
+[Đăng ký]
+   - Nhập email, mật khẩu, họ tên, năm sinh, giới tính
+   - Validate đầu vào (email @uef.edu.vn)
+   - Tạo tài khoản (lưu vào DB)
+   - → Hiển thị thông báo thành công → [Login]
+
+[Đăng nhập]
+   - Nhập email, mật khẩu
+   - Kiểm tra thông tin
+   - Nếu hợp lệ → vào [Home]
+   - Nếu sai → thông báo lỗi
+
+🏠 B. Trang chủ / Danh sách nhiệm vụ
+[Home Screen]
+   ↓
+Hiển thị:
+  - Danh sách nhiệm vụ sắp tới / chưa hoàn thành
+  - Điểm tổng hiện tại
+  - Vị trí xếp hạng
+Người dùng:
+  - Nhấn vào 1 nhiệm vụ → [Task Detail]
+  - Hoặc xem lịch sử → [History]
+  - Hoặc leaderboard → [Leaderboard]
+
+📝 C. Chi tiết nhiệm vụ (Task Detail)
+[Task Detail Screen]
+   ↓
+Hiển thị:
+  - Tên nhiệm vụ
+  - Mô tả
+  - Thời lượng tối đa
+  - Hình khối & bảng màu
+Hành động:
+  - Start task → kiểm tra Face Check-in (nếu có)
+
+📸 D. Face Check-in (nếu bật)
+[Face Check-in]
+   ↓
+Mở camera → nhận diện khuôn mặt
+   ↓
+Nếu thành công → [Canvas]
+Nếu thất bại → cho phép thử lại hoặc hủy
+
+🎨 E. Canvas Tô màu
+[Canvas Screen]
+   ↓
+- Hiển thị hình khối cần tô
+- Countdown bắt đầu (Foreground Service)
+- Thanh công cụ:
+   + Chọn màu
+   + Chọn cọ
+   + Undo / Redo
+   + Lưu thủ công (optional)
+
+Các tình huống:
+  ✅ Hoàn thành trước thời gian → người dùng nhấn “Hoàn thành”
+  ⏳ Hết giờ → app hiển thị hiệu ứng “Time’s up” (lottie, rung máy, notification)
+   ↓
+Lưu attempt vào DB
+→ [Result Screen]
+
+🏅 F. Kết quả (Result)
+[Result Screen]
+   ↓
+Hiển thị:
+  - Hình ảnh đã tô
+  - Điểm số
+  - Xếp hạng tạm thời (top 3/10/100)
+  - Hiệu ứng chúc mừng (nếu trong top)
+Hành động:
+  - Trở về Home
+  - Xem lịch sử nhiệm vụ
+  - Xem leaderboard
+
+🕓 G. Lịch sử & Leaderboard
+[History Screen]
+   ↓
+Hiển thị danh sách nhiệm vụ đã hoàn thành
+  - Tên nhiệm vụ
+  - Điểm số
+  - Ngày thực hiện
+  - Xem lại ảnh
+
+[Leaderboard Screen]
+   ↓
+Hiển thị top 3 / 10 / 100
+  - Avatar (hoặc tên)
+  - Điểm số
+  - Hạng
+
+🧑‍💼 2. User Flow – Quản trị viên (Admin)
+🔑 A. Đăng nhập
+Tương tự Participant → kiểm tra role = "admin"
+→ Chuyển đến [Admin Dashboard]
+
+🧭 B. Trang quản trị
+[Admin Dashboard]
+   ↓
+Hiển thị menu:
+  - Quản lý nhiệm vụ
+  - Quản lý hình dạng
+  - Quản lý người tham gia
+  - Báo cáo & Thống kê
+
+🧱 C. Quản lý nhiệm vụ
+[Task Management]
+   ↓
+- Xem danh sách nhiệm vụ
+- Thêm nhiệm vụ mới:
+   + Tên, mô tả, thời lượng
+   + Màu sắc, hình dạng
+- Sửa hoặc xóa nhiệm vụ
+
+🔷 D. Quản lý hình khối
+[Shape Management]
+   ↓
+- Thêm hình mới (tam giác, chữ nhật…)
+- Chỉnh sửa tên, xóa
+
+👥 E. Quản lý người tham gia
+[Participant List]
+   ↓
+- Danh sách người chơi
+- Xem thông tin cơ bản
+- Xem sản phẩm (hình đã tô)
+
+📊 F. Báo cáo
+[Report Screen]
+   ↓
+- Xem top 3 / 10 / 100
+- Thống kê theo độ tuổi, giới tính, điểm trung bình
+- Xuất dữ liệu (optional)
+
+🧭 3. Luồng đặc biệt (ngoài ý chí người dùng)
+⏳ A. Hết giờ
+
+Khi hết thời gian tô → notification bật (kể cả khi người dùng thoát app).
+
+App tự động lưu tiến độ hiện tại.
+
+Hiện hiệu ứng Time’s Up → chuyển sang màn hình kết quả.
+
+🚫 B. Mất kết nối / lỗi
+
+App vẫn hoạt động offline vì dùng SQLite local.
+
+Thông báo lỗi nhẹ, không crash.
+
+🏁 C. Đa ngôn ngữ
+
+Nếu người dùng đổi ngôn ngữ trong Settings → app reload strings ngay lập tức.

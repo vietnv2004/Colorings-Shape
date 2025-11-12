@@ -1,0 +1,91 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Creative Coloring Shapes Logo -->
+    
+    <!-- Main Palette Shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,25 L75,35 L75,55 L64,65 L44,65 L33,55 L33,35 Z" />
+    
+    <!-- Colorful Circles Inside Palette -->
+    
+    <!-- Red Circle -->
+    <path
+        android:fillColor="#FF5252"
+        android:pathData="M42,42 A6,6 0 1,1 42,42.01 Z" />
+    
+    <!-- Yellow Circle -->
+    <path
+        android:fillColor="#FFD740"
+        android:pathData="M54,38 A6,6 0 1,1 54,38.01 Z" />
+    
+    <!-- Green Circle -->
+    <path
+        android:fillColor="#69F0AE"
+        android:pathData="M66,42 A6,6 0 1,1 66,42.01 Z" />
+    
+    <!-- Blue Circle -->
+    <path
+        android:fillColor="#448AFF"
+        android:pathData="M42,54 A6,6 0 1,1 42,54.01 Z" />
+    
+    <!-- Purple Circle -->
+    <path
+        android:fillColor="#E040FB"
+        android:pathData="M54,58 A6,6 0 1,1 54,58.01 Z" />
+    
+    <!-- Orange Circle -->
+    <path
+        android:fillColor="#FF6E40"
+        android:pathData="M66,54 A6,6 0 1,1 66,54.01 Z" />
+    
+    <!-- Brush/Pencil Tool -->
+    <path
+        android:fillColor="#FF8A6B"
+        android:pathData="M70,68 L75,63 L80,68 L80,75 L77,78 L70,78 Z" />
+    
+    <path
+        android:fillColor="#FF6B47"
+        android:pathData="M75,63 L77,61 L80,64 L78,66 Z" />
+    
+    <path
+        android:fillColor="#424242"
+        android:pathData="M77,61 L79,59 L82,62 L80,64 Z" />
+    
+    <!-- Decorative Stars/Sparkles -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M28,30 L30,34 L34,34 L31,37 L32,41 L28,38 L24,41 L25,37 L22,34 L26,34 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="M80,45 L82,49 L86,49 L83,52 L84,56 L80,53 L76,56 L77,52 L74,49 L78,49 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.8"
+        android:pathData="M35,72 L36,74 L38,74 L36,75 L37,77 L35,76 L33,77 L34,75 L32,74 L34,74 Z" />
+    
+    <!-- Small color dots around -->
+    <path
+        android:fillColor="#FF5252"
+        android:fillAlpha="0.6"
+        android:pathData="M25,50 A3,3 0 1,1 25,50.01 Z" />
+    
+    <path
+        android:fillColor="#448AFF"
+        android:fillAlpha="0.6"
+        android:pathData="M83,35 A3,3 0 1,1 83,35.01 Z" />
+    
+    <path
+        android:fillColor="#69F0AE"
+        android:fillAlpha="0.6"
+        android:pathData="M28,65 A3,3 0 1,1 28,65.01 Z" />
+    
+</vector>

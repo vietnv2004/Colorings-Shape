@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="900dp"
+    android:height="600dp"
+    android:viewportWidth="30"
+    android:viewportHeight="20">
+
+    <!-- Nền xanh lục đậm -->
+    <path
+        android:fillColor="#006C35"
+        android:pathData="M0,0h30v20h-30z" />
+
+    <!-- Khối tượng trưng cho dòng chữ Shahada (الله أكبر...) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M5,5h20v3.5h-20z
+                          M5,9h20v0.5h-20z" />
+
+    <!-- Thanh kiếm trắng -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M7,13
+            h15
+            a1,1 0 0,1 0,1
+            h-15
+            a1,1 0 0,1 0,-1z
+            M21.5,13.5h1v0.5h-1z
+            M22.5,13.25h0.5v0.25h-0.5z" />
+</vector>
+

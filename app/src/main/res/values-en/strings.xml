@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">Coloring Shapes</string>
+    <string name="app_subtitle">Smart shape coloring</string>
+    <string name="version">Version 1.0.0</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_subtitle" translatable="false">Smart shape coloring</string>
+    <string name="loading" translatable="false">Loading…</string>
+
+    <!-- Authentication -->
+    <string name="login" translatable="false">Login</string>
+    <string name="register" translatable="false">Register</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="user_name">Username</string>
+    <string name="user_email">Email</string>
+    <string name="enter_user_name">Enter username</string>
+    <string name="enter_user_email">Enter email</string>
+    <string name="statistics">Statistics</string>
+    <string name="level">Level</string>
+    <string name="score">Score</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle" translatable="false">Login to continue</string>
+    <string name="register_title">Create New Account</string>
+    <string name="register_subtitle">Register to get started</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="remember_me">Remember login</string>
+
+    <!-- Form Fields -->
+    <string name="email">Email</string>
+    <string name="email_uef">UEF Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="birth_year">Birth Year</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="terms_and_conditions">I agree to the terms of use</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="quest">Quest</string>
+    <string name="progress">Progress</string>
+    <string name="profile">Profile</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="finish">Finish</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="add">Add</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort</string>
+
+    <!-- Tasks -->
+    <string name="tasks">Tasks</string>
+    <string name="available_tasks">Available Tasks</string>
+    <string name="task_list">Task List</string>
+    <string name="task_details">Task Details</string>
+    <string name="start_task">Start Task</string>
+    <string name="complete_task">Complete Task</string>
+    <string name="task_name">Task Name</string>
+    <string name="task_description">Description</string>
+    <string name="task_duration">Duration</string>
+    <string name="task_difficulty">Difficulty</string>
+    <string name="task_points">Points</string>
+    <string name="task_status">Status</string>
+
+    <!-- Shapes -->
+    <string name="shapes">Shapes</string>
+    <string name="circle">Circle</string>
+    <string name="square">Square</string>
+    <string name="triangle">Triangle</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="pentagon">Pentagon</string>
+    <string name="hexagon">Hexagon</string>
+    <string name="star">Star</string>
+    <string name="heart">Heart</string>
+
+    <!-- Task Names -->
+    <string name="task_color_circle">Color Circle</string>
+    <string name="task_color_square">Color Square</string>
+    <string name="task_color_triangle">Color Triangle</string>
+    <string name="task_color_star">Color Star</string>
+    <string name="task_color_heart">Color Heart</string>
+
+    <!-- Task Descriptions -->
+    <string name="task_desc_circle">Color the circle with your favorite color</string>
+    <string name="task_desc_square">Color the square with your favorite color</string>
+    <string name="task_desc_triangle">Color the triangle with your favorite color</string>
+
+    <!-- Colors -->
+    <string name="colors">Colors</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="yellow">Yellow</string>
+    <string name="orange">Orange</string>
+    <string name="purple">Purple</string>
+    <string name="pink">Pink</string>
+    <string name="black">Black</string>
+    <string name="white">White</string>
+    <string name="gray">Gray</string>
+
+    <!-- Drawing -->
+    <string name="drawing">Drawing</string>
+    <string name="brush">Brush</string>
+    <string name="brush_size">Brush Size</string>
+    <string name="color_picker">Color Picker</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="clear">Clear All</string>
+    <string name="eraser">Eraser</string>
+
+    <!-- Scoring -->
+    <string name="total_score">Total Score</string>
+    <string name="high_score">High Score</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="rank">Rank</string>
+    <string name="your_rank">Your Rank</string>
+    <string name="top_players">Top Players</string>
+    <string name="view_full_leaderboard">View Full Leaderboard</string>
+
+    <!-- History -->
+    <string name="history">History</string>
+    <string name="recent_history">Recent History</string>
+    <string name="view_all_history">View All History</string>
+    <string name="completed_tasks">Completed Tasks</string>
+    <string name="view_history">View History</string>
+    <string name="no_history">No History</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="notifications">Notifications</string>
+    <string name="sound">Sound</string>
+    <string name="vibration">Vibration</string>
+    <string name="offline_mode">Connection Status</string>
+    <string name="data_management">Data Management</string>
+    <string name="export_data">Export Data</string>
+    <string name="import_data">Import Data</string>
+    <string name="about">About</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="enable_notifications">Enable Notifications</string>
+    <string name="online_status">You are online. All features are available.</string>
+    <string name="offline_status">You are offline. Some features are limited.</string>
+
+    <!-- Admin -->
+    <string name="admin">Admin</string>
+    <string name="admin_dashboard">Dashboard</string>
+    <string name="manage_tasks">Manage Tasks</string>
+    <string name="manage_shapes">Manage Shapes</string>
+    <string name="manage_users">Manage Users</string>
+    <string name="reports">Reports</string>
+
+    <!-- Messages -->
+    <string name="success">Success</string>
+    <string name="error">Error</string>
+    <string name="warning">Warning</string>
+    <string name="info">Info</string>
+    <string name="confirm">Confirm</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+
+    <!-- Validation -->
+    <string name="email_required">Please enter email</string>
+    <string name="email_invalid">Invalid email</string>
+    <string name="password_required">Please enter password</string>
+    <string name="password_too_short">Password too short</string>
+    <string name="passwords_not_match">Passwords do not match</string>
+    <string name="field_required">This field is required</string>
+
+    <!-- Time -->
+    <string name="time">Time</string>
+    <string name="timer">Timer</string>
+    <string name="time_remaining">Time Remaining</string>
+    <string name="time_up">Time\'s Up</string>
+    <string name="seconds">seconds</string>
+    <string name="minutes">minutes</string>
+    <string name="hours">hours</string>
+
+    <!-- Or -->
+    <string name="or">or</string>
+
+    <!-- Google Auth Buttons -->
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_up_with_google">Sign up with Google</string>
+
+    <!-- Difficulty Levels -->
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="difficulty_label">Difficulty: %s</string>
+    <string name="points_label">Points: %d</string>
+
+    <!-- Status -->
+    <string name="pending">Pending</string>
+    <string name="in_progress">In Progress</string>
+    <string name="completed">Completed</string>
+    <string name="failed">Failed</string>
+
+    <!-- Social -->
+    <string name="share">Share</string>
+    <string name="friends">Friends</string>
+    <string name="invite">Invite</string>
+
+    <!-- Empty States -->
+    <string name="no_tasks">No Tasks</string>
+    <string name="no_results">No Results</string>
+    <string name="empty_list">Empty List</string>
+    <string name="empty_tasks">No tasks yet</string>
+    <string name="empty_history">No history yet</string>
+    <string name="empty_leaderboard">No leaderboard yet</string>
+    <string name="empty_notifications">No notifications</string>
+    <string name="empty_results">No results</string>
+    <string name="empty_search">No search results</string>
+
+    <!-- Actions -->
+    <string name="submit">Submit</string>
+    <string name="retry">Retry</string>
+    <string name="skip">Skip</string>
+    <string name="refresh">Refresh</string>
+    <string name="export">Export</string>
+    <string name="notify" translatable="false">Notify</string>
+    <string name="action_copy" translatable="false">Copy</string>
+    <string name="action_cut" translatable="false">Cut</string>
+    <string name="action_paste" translatable="false">Paste</string>
+    <string name="action_select_all">Select All</string>
+    <string name="action_deselect_all" translatable="false">Deselect All</string>
+    <string name="action_share" translatable="false">Share</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_retry" translatable="false">Retry</string>
+
+    <!-- Face Check-in -->
+    <string name="face_checkin">Face Check-in</string>
+    <string name="face_detected">Face Detected</string>
+    <string name="face_not_detected">Face Not Detected</string>
+    <string name="position_face">Position face in frame</string>
+
+    <!-- Achievements -->
+    <string name="achievement">Achievement</string>
+    <string name="achievements">Achievements</string>
+    <string name="achievement_unlocked">Achievement Unlocked</string>
+    <string name="total_achievements">Total: %d</string>
+    <string name="unlocked_achievements">Unlocked: %d</string>
+    <string name="recent_achievements">Recent Achievements</string>
+    <string name="view_all_achievements">View All Achievements</string>
+    <string name="all_achievements_title">All Achievements</string>
+    <string name="first_task_title">First Task</string>
+    <string name="first_task_desc">Complete your first coloring task</string>
+    <string name="top_scorer_title">Top Scorer</string>
+    <string name="top_scorer_desc">Score 90+ points in a task</string>
+    <string name="perfectionist">Perfectionist</string>
+    <string name="perfectionist_desc">Achieve 100% accuracy in a task</string>
+    <string name="speed_demon">Speed Demon</string>
+    <string name="speed_demon_desc">Complete a task in under 2 minutes</string>
+    <string name="streak_master">Streak Master</string>
+    <string name="streak_master_desc">Complete 5 consecutive tasks</string>
+    <string name="top_scorer">Top Scorer</string>
+
+    <!-- Admin & Navigation -->
+    <string name="dashboard">Dashboard</string>
+    <string name="users">Users</string>
+    <string name="management">Management</string>
+    <string name="chat_ai">Chat AI</string>
+    <string name="system_administration">System Administration</string>
+    <string name="task_management">Task Management</string>
+    <string name="task_management_desc">Add, edit, delete tasks</string>
+    <string name="user_management">User Management</string>
+    <string name="user_management_desc">Manage user list</string>
+    <string name="shape_management">Shape Management</string>
+    <string name="shape_management_desc">Add, edit, delete shapes</string>
+
+    <!-- User Info -->
+    <string name="name">Name</string>
+    <string name="user_rank">Rank</string>
+    <string name="user_score">Score</string>
+    <string name="admin_name">Admin Name</string>
+    <string name="personal_info">Personal Information</string>
+
+    <!-- Task Related -->
+    <string name="add_task">Add Task</string>
+    <string name="task_title">Task Title</string>
+    <string name="task_detail">Task Detail</string>
+    <string name="task_completed">Completed</string>
+    <string name="task_completion_rate">Completion Rate</string>
+    <string name="tasks_completed">Tasks Completed</string>
+    <string name="active_tasks">Active Tasks</string>
+    <string name="recent_tasks">Recent Tasks</string>
+    <string name="first_task">First Task</string>
+    <string name="continue_task">Continue</string>
+    <string name="create_first_task">Create First Task</string>
+    <string name="start_first_task">Start First Task</string>
+
+    <!-- Time & Duration -->
+    <string name="duration">Duration</string>
+    <string name="time_limit">Time Limit</string>
+    <string name="time_taken">Time Taken</string>
+    <string name="time_spent">Time Spent</string>
+    <string name="time_spent_total">Total Time</string>
+    <string name="total_time">Total Time</string>
+    <string name="time_up_notification">Time\'s Up!</string>
+
+    <!-- Rankings & Scores -->
+    <string name="ranking">Ranking</string>
+    <string name="current_rank">Current Rank</string>
+    <string name="your_score">Your Score</string>
+    <string name="top_3">Top 3</string>
+    <string name="top_10">Top 10</string>
+    <string name="top_100">Top 100</string>
+    <string name="average_score">Average Score</string>
+    <string name="bonus_points">Bonus Points</string>
+    <string name="points">Points</string>
+
+    <!-- Drawing -->
+    <string name="drawing_canvas">Drawing Canvas</string>
+    <string name="your_drawing">Your Drawing</string>
+    <string name="brush_type">Brush Type</string>
+    <string name="color_palette">Color Palette</string>
+    <string name="clear_all">Clear All</string>
+
+    <!-- Settings Extended -->
+    <string name="general_settings">General Settings</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="privacy_settings">Privacy Settings</string>
+    <string name="notification_settings">Notification Settings</string>
+    <string name="language_settings">Language Settings</string>
+    <string name="sound_settings">Sound Settings</string>
+    <string name="display_settings">Display Settings</string>
+    <string name="reset_settings">Reset Settings</string>
+    <string name="select_language">Select Language</string>
+    <string name="english">English</string>
+    <string name="vietnamese">Vietnamese</string>
+    <string name="auto_theme">Auto</string>
+
+    <!-- Status -->
+    <string name="not_started">Not Started</string>
+    <string name="status_available">Available</string>
+    <string name="status_unlocked">Unlocked</string>
+    <string name="status_locked">Locked</string>
+    <string name="status_approved">Approved</string>
+    <string name="status_rejected">Rejected</string>
+    <string name="expired">Expired</string>
+
+    <!-- Messages & Notifications -->
+    <string name="congratulations">Congratulations!</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="welcome_admin">Welcome Admin</string>
+    <string name="language_changed">Language Changed</string>
+    <string name="theme_changed">Theme Changed</string>
+    <string name="notification_title">Notification</string>
+    <string name="notification_message">Notification Message</string>
+    <string name="notification_type">Notification Type</string>
+    <string name="notification_time">Time</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="mark_as_read">Mark as Read</string>
+    <string name="mark_all_read">Mark All as Read</string>
+
+    <!-- Loading States -->
+    <string name="loading_general">Loading...</string>
+    <string name="loading_tasks">Loading tasks...</string>
+    <string name="loading_history">Loading history...</string>
+    <string name="loading_leaderboard">Loading leaderboard...</string>
+    <string name="loading_login">Logging in...</string>
+    <string name="loading_register">Registering...</string>
+    <string name="loading_save">Saving...</string>
+    <string name="loading_delete">Deleting...</string>
+    <string name="loading_upload">Uploading...</string>
+    <string name="loading_download">Downloading...</string>
+    <string name="loading_sync">Syncing...</string>
+
+    <!-- Success Messages -->
+    <string name="success_general">Success!</string>
+    <string name="success_login">Login successful</string>
+    <string name="success_register">Registration successful</string>
+    <string name="success_save">Save successful</string>
+    <string name="success_update">Update successful</string>
+    <string name="success_delete">Delete successful</string>
+    <string name="success_upload">Upload successful</string>
+    <string name="success_download">Download successful</string>
+    <string name="login_success">Login successful</string>
+
+    <!-- Error Messages -->
+    <string name="error_general">An error occurred</string>
+    <string name="error_network">Network error</string>
+    <string name="error_server">Server error</string>
+    <string name="error_database">Database error</string>
+    <string name="error_authentication">Authentication error</string>
+    <string name="error_permission">No permission</string>
+    <string name="error_validation">Invalid data</string>
+    <string name="error_file_not_found">File not found</string>
+    <string name="error_unknown">Unknown error</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="login_failed">Login failed</string>
+
+    <!-- Validation -->
+    <string name="validation_email">Invalid email</string>
+    <string name="validation_password">Invalid password</string>
+    <string name="validation_name">Invalid name</string>
+    <string name="validation_phone">Invalid phone number</string>
+    <string name="validation_birth_year">Invalid birth year</string>
+    <string name="validation_password_match">Passwords do not match</string>
+    <string name="validation_required">Required field</string>
+    <string name="validation_url">Invalid URL</string>
+    <string name="uef_email_required">UEF email required (@uef.edu.vn)</string>
+
+    <!-- Permissions -->
+    <string name="permission_required">Permission required</string>
+    <string name="permission_camera">Camera Permission</string>
+    <string name="permission_storage">Storage Permission</string>
+    <string name="permission_location">Location Permission</string>
+    <string name="permission_notification">Notification Permission</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="permission_denied">Permission denied</string>
+
+    <!-- Features -->
+    <string name="feature_offline_mode">Connection Status</string>
+    <string name="feature_sync">Sync</string>
+    <string name="feature_backup">Backup</string>
+    <string name="feature_restore">Restore</string>
+    <string name="feature_export">Export Data</string>
+    <string name="feature_import">Import Data</string>
+    <string name="feature_face_checkin">Face Check-in</string>
+    <string name="sync_data">Sync Data</string>
+    <string name="sync_failed">Sync failed</string>
+    <string name="data_synced">Data synced</string>
+    <string name="backup_data">Backup</string>
+    <string name="restore_data">Restore</string>
+
+    <!-- Stats & Reports -->
+    <string name="reports_desc">Detailed reports</string>
+    <string name="age_distribution">Age Distribution</string>
+    <string name="gender_distribution">Gender Distribution</string>
+    <string name="total_users">Total Users</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="experience">Experience</string>
+    <string name="streak">Streak</string>
+    <string name="targets">Targets</string>
+    <string name="result">Result</string>
+    <string name="overall_progress">Overall Progress</string>
+
+    <!-- Filters & Search -->
+    <string name="filter_all">All</string>
+    <string name="filter_active">Active</string>
+    <string name="filter_inactive">Inactive</string>
+    <string name="filter_completed">Completed</string>
+    <string name="filter_incomplete">Incomplete</string>
+    <string name="filter_by_difficulty">Filter by Difficulty</string>
+    <string name="filter_high_score">High Score</string>
+    <string name="search_tasks_hint">Search tasks...</string>
+    <string name="search_history_hint">Search history...</string>
+
+    <!-- Misc -->
+    <string name="help">Help</string>
+    <string name="contact">Contact</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructions_text">Usage instructions</string>
+    <string name="show_details">Show Details</string>
+    <string name="other">Other</string>
+    <string name="complete">Complete</string>
+    <string name="places">Places</string>
+    <string name="start_competing">Start Competing</string>
+    <string name="completed_attempts">Completed Attempts</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="user_profile">User Profile</string>
+    <string name="analytics">Analytics</string>
+    <string name="social">Social</string>
+
+    <!-- Analytics -->
+    <string name="analytics_dashboard">Analytics Dashboard</string>
+    <string name="completion_rate">Completion Rate</string>
+    <string name="detailed_analytics">Detailed Analytics</string>
+    <string name="daily_progress">Daily Progress</string>
+    <string name="daily_progress_desc">Tasks completed per day</string>
+    <string name="accuracy_rate">Accuracy Rate</string>
+    <string name="accuracy_rate_desc">Average accuracy across all tasks</string>
+    <string name="speed_improvement">Speed Improvement</string>
+    <string name="speed_improvement_desc">Time reduction compared to last week</string>
+    <string name="streak_days">Streak Days</string>
+    <string name="streak_days_desc">Consecutive days with activity</string>
+    <string name="favorite_shape">Favorite Shape</string>
+    <string name="favorite_shape_desc">Most completed shape type</string>
+    <string name="peak_performance">Peak Performance</string>
+    <string name="peak_performance_desc">Best time of day for tasks</string>
+    <string name="tasks_per_day">tasks/day</string>
+    <string name="days">days</string>
+
+    <!-- Social -->
+    <string name="social_feed">Social Feed</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="posts">Posts</string>
+    <string name="likes">Likes</string>
+    <string name="share_my_work">SHARE MY WORK</string>
+    <string name="view_friends">VIEW FRIENDS</string>
+    <string name="recent_posts">Recent Posts</string>
+    <string name="hours_ago">%d hours ago</string>
+    <string name="day_ago">1 day ago</string>
+    <string name="just_completed_first_task">Just completed my first coloring task! 🎨</string>
+    <string name="check_out_masterpiece">Check out my latest masterpiece!</string>
+    <string name="achieved_100_accuracy">Achieved 100%% accuracy on circle task! 🎯</string>
+
+    <!-- Admin Dashboard -->
+    <string name="welcome_admin_title">Welcome, Administrator!</string>
+    <string name="task_management_btn">MANAGE TASKS</string>
+    <string name="user_management_btn">MANAGE USERS</string>
+    <string name="reports_analytics_btn">REPORTS &amp; ANALYTICS</string>
+    <string name="statistics_title">Statistics</string>
+    <string name="total_users_label">Total Users</string>
+    <string name="active_tasks_label">Active Tasks</string>
+    <string name="completed_attempts_label">Completed Attempts</string>
+    <string name="average_score_label">Average Score</string>
+
+    <!-- Advanced Admin -->
+    <string name="advanced_admin_title">Advanced Dashboard</string>
+    <string name="user_registration_trends">User Registration Trends</string>
+    <string name="user_registration_desc">Monthly registration statistics</string>
+    <string name="new_users_count">%d new users</string>
+    <string name="task_completion_rate_title">Task Completion Rate</string>
+    <string name="task_completion_desc">Percentage of successfully completed tasks</string>
+    <string name="avg_session_duration">Average Session Duration</string>
+    <string name="avg_session_desc">Average time users spend in the app</string>
+    <string name="top_performing_tasks_title">Top Performing Tasks</string>
+    <string name="top_tasks_desc">Most popular and successful tasks</string>
+    <string name="circle_coloring">Circle Coloring</string>
+    <string name="completion_percent">%d%% completed</string>
+    <string name="data_management_title">Data Management</string>
+
+    <!-- Confirmations -->
+    <string name="confirm_delete">Confirm delete?</string>
+    <string name="confirm_exit">Confirm exit?</string>
+    <string name="confirm_logout">Confirm logout?</string>
+    <string name="confirm_reset">Confirm reset?</string>
+    <string name="confirm_cancel">Confirm cancel?</string>
+    <string name="confirm_save">Confirm save?</string>
+
+    <!-- Units -->
+    <string name="unit_seconds">seconds</string>
+    <string name="unit_minutes">minutes</string>
+    <string name="unit_hours">hours</string>
+    <string name="unit_days">days</string>
+    <string name="unit_points">points</string>
+    <string name="unit_percentage">%</string>
+    <string name="unit_count">times</string>
+
+    <!-- Date & Time Formats -->
+    <string name="date_format_short">MM/dd/yyyy</string>
+    <string name="date_format_long">MMMM dd, yyyy</string>
+    <string name="time_format_short">HH:mm</string>
+    <string name="time_format_long">HH:mm:ss</string>
+    <string name="datetime_format">MM/dd/yyyy HH:mm</string>
+
+    <!-- Empty State Titles -->
+    <string name="tasks_empty_title">No Tasks</string>
+    <string name="tasks_empty_subtitle">Start adding new tasks</string>
+    <string name="tasks_empty_description">No tasks have been created yet</string>
+    <string name="history_empty_title">No History</string>
+    <string name="history_empty_subtitle">Start completing tasks</string>
+    <string name="history_empty_description">History will appear here</string>
+    <string name="leaderboard_empty_title">No Leaderboard</string>
+    <string name="leaderboard_empty_subtitle">Be the first</string>
+    <string name="leaderboard_empty_description">Complete tasks to get on the leaderboard</string>
+
+    <!-- Titles -->
+    <string name="leaderboard_title">Leaderboard</string>
+    <string name="profile_title">Profile</string>
+    <string name="settings_title">Settings</string>
+    <string name="progress_title">Progress</string>
+    <string name="progress_label">Progress</string>
+
+    <!-- Icons & Descriptions -->
+    <string name="task_icon_description">Task icon</string>
+    <string name="difficulty_icon_description">Difficulty icon</string>
+    <string name="rank_icon_description">Rank icon</string>
+    <string name="time_icon_description">Time icon</string>
+    <string name="notification_icon_description">Notification icon</string>
+    <string name="shape_preview">Shape Preview</string>
+    <string name="shape_name">Shape Name</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_label">Accessibility label</string>
+    <string name="accessibility_hint">Accessibility hint</string>
+    <string name="accessibility_announcement">Accessibility announcement</string>
+    <string name="accessibility_content_description">Content description</string>
+
+    <!-- Debug -->
+    <string name="debug_info">Debug info</string>
+    <string name="debug_logs">Debug logs</string>
+    <string name="debug_export">Export debug</string>
+    <string name="debug_clear">Clear debug</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_settings_title">Profile &amp; Settings</string>
+    <string name="theme_customization">Theme Customization</string>
+    <string name="theme_customization_desc">Advanced theme settings and color customization</string>
+    <string name="advanced_features">Advanced Features</string>
+    <string name="gestures">Gestures</string>
+    <string name="haptics">Haptics</string>
+    <string name="machine_learning">Machine Learning</string>
+    <string name="networking">Networking</string>
+    <string name="notifications_advanced">Notifications</string>
+    <string name="security">Security</string>
+    <string name="sensors">Sensors</string>
+    <string name="sounds">Sounds</string>
+    
+    <!-- Advanced Networking -->
+    <string name="advanced_networking">Advanced Networking</string>
+    <string name="network_status">Network Status</string>
+    <string name="network_ready">Advanced networking is ready</string>
+    <string name="network_unavailable">Network unavailable</string>
+    <string name="network_connecting">Connecting: %1$s</string>
+    <string name="network_information">Network Information</string>
+    <string name="network_config_description">Configure advanced networking for optimal performance.</string>
+    <string name="network_control">Network Control</string>
+    <string name="check_network">CHECK</string>
+    <string name="sync_network">⤓ SYNC</string>
+    <string name="optimize_network">OPTIMIZE</string>
+    <string name="network_settings">Network Settings</string>
+    <string name="enable_network">Enable Network</string>
+    <string name="wifi_only">WiFi Only</string>
+    <string name="data_saving">Data Saving</string>
+    <string name="auto_sync">Auto Sync</string>
+    <string name="available_network_features">Available Network Features</string>
+    <string name="wifi_optimization">WiFi Optimization</string>
+    <string name="wifi_optimization_description">Optimize WiFi connection performance</string>
+    <string name="data_compression">Data Compression</string>
+    <string name="data_compression_description">Compress data for faster transmission</string>
+    <string name="active">Active</string>
+    <string name="use_feature">USE</string>
+    <string name="help_support">Help</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="policies_terms">Policies and terms</string>
+    <string name="support_center">Support center</string>
+    <string name="support_center_description">Support and help center</string>
+    <string name="logout">Logout</string>
+    <string name="logout_description">Log out of account</string>
+    <string name="logout_confirm">Confirm logout?</string>
+    <string name="logout_message">Are you sure you want to logout?</string>
+    <string name="logout_success">Logout successful</string>
+    <string name="feature_under_development">Feature under development</string>
+    <string name="app_version">Version 1.0.0 (1)</string>
+    <string name="company_name">5-member company</string>
+    <string name="company_email">Email: daihoc@uef.edu.vn</string>
+
+    <!-- Sound Settings -->
+    <string name="sound_status">Sound Status</string>
+    <string name="sound_status_ready">Advanced sound is ready</string>
+    <string name="sound_information">Sound Information</string>
+    <string name="sound_information_desc">Configure advanced sound settings for immersive experience.</string>
+    <string name="sound_controls">Sound Controls</string>
+    <string name="play_sound">▶️ Play</string>
+    <string name="stop_sound">⏹️ Stop</string>
+    <string name="test_sound">🧪 Test</string>
+    <string name="pitch">Frequency</string>
+    <string name="enable_sounds">Enable Sound</string>
+    <string name="available_sound_features">Available Sound Features</string>
+    <string name="background_music_feature">Background Music</string>
+    <string name="background_music_desc">Background music while coloring</string>
+    <!-- About App -->
+    <string name="about_app">About App</string>
+    <string name="about_app_description">Information about Coloring Shapes</string>
+    <string name="about_app_title">About Coloring Shapes</string>
+    <string name="about_introduction">Coloring Shapes was created with a unique mission: to nurture the love of art and bring quality coloring experiences to everyone. We want to connect users with beautiful and interesting drawings that are highly appreciated by the art-loving community.</string>
+    <string name="about_who_we_are">Who We Are</string>
+    <string name="about_who_we_are_content">Coloring Shapes is developed by a team of passionate art lovers. We are independent individuals, not affiliated with any organization, agency or company.</string>
+    <string name="about_important_info">Important Information</string>
+    <string name="about_important_info_content">• Coloring Shapes provides coloring drawings completely free.\n\n• All drawings in our app are provided completely free. However, to enhance the coloring experience and support artists, we encourage you to support the authors of the drawings you love.</string>
+    <string name="about_our_collection">Our Collection</string>
+    <string name="about_collection_content">Drawings in Coloring Shapes are collected from many sources available on the internet, including art websites, coloring communities, and many other sources.\n\nDue to collection from many different sources, there may sometimes be omissions or inaccuracies in content. We appreciate your understanding and always welcome feedback to help us improve and fix these issues promptly.</string>
+    <string name="about_content_policy">Content Policy</string>
+    <string name="about_policy_content">• If you are the copyright owner of any content on Coloring Shapes and want to remove that content, please email us at support@coloring-shapes.com. We will remove the content immediately after receiving your request.\n\n• Since our library is still developing, we continuously search for new drawings to share with users. If you have specific content requests, please email us, and we will do our best to find and provide drawings as requested as quickly as possible.</string>
+    <string name="about_footer_message">We wish you relaxing, comfortable and beneficial coloring moments with Coloring Shapes.</string>
+    <string name="about_contact">Contact: support@coloring-shapes.com</string>
+    
+    <!-- Contact Information -->
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="website">Website</string>
+    <string name="address_full">145 Dien Bien Phu, Ward 2, Binh Thanh, Ho Chi Minh City, Vietnam</string>
+    <string name="phone_number">+84 28 5422 6666</string>
+    <string name="address_and_contact">Address &amp; Contact</string>
+    <string name="open_in_maps">Open in Maps</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_settings">Theme Settings</string>
+    <string name="choose_theme">Choose Theme</string>
+    <string name="system_theme">System</string>
+    <string name="system_theme_description">Follow system settings</string>
+    <string name="light_theme">Light</string>
+    <string name="light_theme_description">Light theme</string>
+    <string name="dark_theme">Dark</string>
+    <string name="dark_theme_description">Dark theme</string>
+    <string name="theme_preview">Preview</string>
+    <string name="theme_preview_default">Select a theme to preview</string>
+    <string name="theme_info_title">Information</string>
+    <string name="theme_info_content">• System: Automatically follow system settings\n• Light: Always use light theme\n• Dark: Always use dark theme</string>
+    <string name="use">USE</string>
+
+    <!-- Advanced Sensors -->
+    <string name="advanced_sensors">Advanced Sensors</string>
+    <string name="sensor_status">Sensor Status</string>
+    <string name="sensor_status_ready">Advanced sensors are ready</string>
+    <string name="sensor_information">Sensor Information</string>
+    <string name="sensor_information_desc">Configure advanced sensors for better user experience.</string>
+    <string name="sensor_controls">Sensor Controls</string>
+    <string name="test_sensor">🧪 TEST</string>
+    <string name="calibrate_sensor">⚙️ CALIBRATE</string>
+    <string name="optimize_sensor">⚡ OPTIMIZE</string>
+    <string name="sensor_settings">Sensor Settings</string>
+    <string name="sensitivity">Sensitivity</string>
+    <string name="enable_sensors">Enable Sensors</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="magnetometer">Magnetometer</string>
+    <string name="available_sensor_features">Available Sensor Features</string>
+    <string name="motion_detection">Motion Detection</string>
+    <string name="motion_detection_desc">Advanced motion sensing</string>
+
+    <!-- Advanced Notifications -->
+    <string name="advanced_notifications">Advanced Notifications</string>
+    <string name="notification_status">Notification Status</string>
+    <string name="notification_status_ready">Notifications are ready</string>
+    <string name="notification_information">Notification Information</string>
+    <string name="notification_information_desc">Configure advanced notification settings to stay updated.</string>
+    <string name="notification_controls">Notification Controls</string>
+    <string name="test_notification">✓ TEST</string>
+    <string name="clear_notifications">🗑️ CLEAR</string>
+    <string name="sound_notifications">Sound Notifications</string>
+    <string name="vibration_notifications">Vibration Notifications</string>
+    <string name="achievement_notifications">Achievement Notifications</string>
+    <string name="priority_notifications">Priority Notifications</string>
+    <string name="available_notification_features">Available Notification Features</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="push_notifications_desc">Real-time push notifications</string>
+
+    <!-- Advanced Gestures -->
+    <string name="advanced_gestures">Advanced Gestures</string>
+    <string name="gesture_status">Gesture Status</string>
+    <string name="gesture_status_ready">Gestures are ready for configuration</string>
+    <string name="gesture_information">Gesture Information</string>
+    <string name="gesture_information_desc">Configure advanced gesture recognition for visual interaction.</string>
+    <string name="gesture_controls">Gesture Controls</string>
+    <string name="test_gesture">✓ TEST</string>
+    <string name="calibrate_gesture">⚙️ CALIBRATE</string>
+    <string name="gesture_settings">Gesture Settings</string>
+    <string name="enable_gestures">Enable Gestures</string>
+    <string name="tap_gestures">Tap Gestures</string>
+    <string name="swipe_gestures">Swipe Gestures</string>
+    <string name="pinch_gestures">Pinch Gestures</string>
+    <string name="long_press_gestures">Long Press Gestures</string>
+    <string name="available_gesture_features">Available Gesture Features</string>
+    <string name="tap_gestures_feature">Tap Gestures</string>
+    <string name="tap_gestures_desc">Recognize single and double taps</string>
+
+
+    <!-- Additional UI Features -->
+    <string name="ui_features">UI</string>
+    <string name="widgets">Widgets</string>
+    <string name="visual_effects">Visual Effects</string>
+
+    <!-- Language Support -->
+    <string name="current_language">English</string>
+    <string name="language_vietnamese">Vietnamese</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese">Chinese</string>
+    <string name="language_japanese">Japanese</string>
+    <string name="language_korean">Korean</string>
+    <string name="language_thai">Thai</string>
+    <string name="language_french">French</string>
+    <string name="language_german">German</string>
+    <string name="language_spanish">Spanish</string>
+    <string name="language_russian">Russian</string>
+
+    <!-- String Arrays -->
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="role_options">
+        <item>User</item>
+        <item>Administrator</item>
+    </string-array>
+
+    <string-array name="language_options">
+        <item>Vietnamese</item>
+        <item>English</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Thai</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Spanish</item>
+        <item>Russian</item>
+    </string-array>
+
+    <string-array name="language_codes">
+        <item>vi</item>
+        <item>en</item>
+        <item>zh</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>th</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>es</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- Advanced Sounds -->
+    <string name="advanced_sounds">Advanced Sounds</string>
+    <string name="audio_status">Audio Status</string>
+    <string name="audio_ready">Advanced audio is ready</string>
+    <string name="audio_information">Audio Information</string>
+    <string name="audio_info_description">Configure advanced audio settings for immersive experience.</string>
+    <string name="audio_controls">Audio Controls</string>
+    <string name="play_audio">PLAY</string>
+    <string name="stop_audio">STOP</string>
+    <string name="try_audio">TRY</string>
+    <string name="audio_settings">Audio Settings</string>
+    <string name="volume">Volume</string>
+    <string name="frequency">Frequency</string>
+    <string name="enable_sound">Enable Sound</string>
+    <string name="background_music">Background Music</string>
+    <string name="sound_effects">Sound Effects</string>
+    <string name="voice_feedback">Voice Feedback</string>
+    <string name="available_audio_features">Available Audio Features</string>
+
+    <!-- Additional Profile Fields -->
+    <string name="enter_birth_year">Enter birth year</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="enter_current_password">Enter current password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="confirm_new_password_hint">Confirm new password</string>
+
+    <!-- Missing String Resources -->
+    <string name="accessibility_controls">Accessibility Controls</string>
+    <string name="accessibility_feature_description">Accessibility feature description</string>
+    <string name="accessibility_feature_title">Accessibility Feature Title</string>
+    <string name="accessibility_features">Accessibility Features</string>
+    <string name="accessibility_instructions">Accessibility Instructions</string>
+    <string name="accessibility_instructions_desc">Accessibility instructions description</string>
+    <string name="accessibility_settings">Accessibility Settings</string>
+    <string name="accessibility_status">Accessibility Status</string>
+    <string name="accessibility_status_ready">Accessibility is ready</string>
+    <string name="achievement_description">Achievement Description</string>
+    <string name="achievement_name">Achievement Name</string>
+    <string name="active_status">Active Status</string>
+    <string name="add_new_achievement">Add New Achievement</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="add_new_user">Add New User</string>
+    <string name="admin_system_management">System Management</string>
+    <string name="advanced_animations">Advanced Animations</string>
+    <string name="advanced_blockchain">Advanced Blockchain</string>
+    <string name="advanced_camera">Advanced Camera</string>
+    <string name="advanced_drawing_tools">Advanced Drawing Tools</string>
+    <string name="advanced_haptic_controls">Advanced Haptic Controls</string>
+    <string name="advanced_haptics">Advanced Haptics</string>
+    <string name="advanced_machine_learning">Advanced Machine Learning</string>
+    <string name="advanced_security">Advanced Security</string>
+    <string name="advanced_themes">Advanced Themes</string>
+    <string name="advanced_timer">Advanced Timer</string>
+    <string name="advanced_ui">Advanced UI</string>
+    <string name="advanced_visual_effects">Advanced Visual Effects</string>
+    <string name="advanced_widgets">Advanced Widgets</string>
+    <string name="ai_controls">AI Controls</string>
+    <string name="ai_feature_description">AI feature description</string>
+    <string name="ai_feature_title">AI Feature Title</string>
+    <string name="ai_features">AI Features</string>
+    <string name="ai_no_suggestions">No suggestions yet</string>
+    <string name="ai_ready">AI is ready</string>
+    <string name="ai_status">AI Status</string>
+    <string name="ai_suggestions">AI Suggestions</string>
+    <string name="analytics_change">Analytics Change</string>
+    <string name="analytics_item_description">Analytics item description</string>
+    <string name="analytics_item_title">Analytics Item Title</string>
+    <string name="analytics_title">Analytics Title</string>
+    <string name="analytics_value">Analytics Value</string>
+    <string name="analytics_value_25">25</string>
+    <string name="analytics_value_2h45m">2h 45m</string>
+    <string name="analytics_value_875">875</string>
+    <string name="analytics_value_92">92</string>
+    <string name="analyze_button">Analyze</string>
+    <string name="animation_feature_description">Animation feature description</string>
+    <string name="animation_feature_title">Animation Feature Title</string>
+    <string name="animation_information">Animation Information</string>
+    <string name="animation_speed">Animation Speed</string>
+    <string name="animation_status">Animation Status</string>
+    <string name="animations_ready">Animations are ready</string>
+    <string name="app_footer">App Footer</string>
+    <string name="apply_button">Apply</string>
+    <string name="apply_ui">Apply UI</string>
+    <string name="apply_visual">Apply Visual</string>
+    <string name="ar_controls">AR Controls</string>
+    <string name="ar_feature_description">AR feature description</string>
+    <string name="ar_feature_title">AR Feature Title</string>
+    <string name="ar_features">AR Features</string>
+    <string name="ar_instructions">AR Instructions</string>
+    <string name="ar_ready">AR is ready</string>
+    <string name="ar_start_instructions">AR Start Instructions</string>
+    <string name="ar_status">AR Status</string>
+    <string name="art_emoji">🎨</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="auto_learning">Auto Learning</string>
+    <string name="available_accessibility_features">Available Accessibility Features</string>
+    <string name="available_commands">Available Commands</string>
+    <string name="available_haptic_features">Available Haptic Features</string>
+    <string name="available_ml_features">Available ML Features</string>
+    <string name="available_security_features">Available Security Features</string>
+    <string name="available_ui_features">Available UI Features</string>
+    <string name="available_visual_features">Available Visual Features</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="biometric_auth_desc">Biometric authentication description</string>
+    <string name="biometric_authentication">Biometric Authentication</string>
+    <string name="birth_year_format">Birth Year Format</string>
+    <string name="birth_year_label_text">Birth Year Label</string>
+    <string name="blockchain_feature_description">Blockchain feature description</string>
+    <string name="blockchain_feature_title">Blockchain Feature Title</string>
+    <string name="blockchain_information">Blockchain Information</string>
+    <string name="blockchain_ready">Blockchain is ready</string>
+    <string name="blockchain_status">Blockchain Status</string>
+    <string name="brightness">Brightness</string>
+    <string name="brightness_label">Brightness Label</string>
+    <string name="brightness_level">Brightness Level</string>
+    <string name="brightness_level_value">Brightness Level Value</string>
+    <string name="brush_size_label">Brush Size Label</string>
+    <string name="calibrate_button">Calibrate Button</string>
+    <string name="calibrate_haptic">Calibrate Haptic</string>
+    <string name="camera_controls">Camera Controls</string>
+    <string name="camera_feature_description">Camera feature description</string>
+    <string name="camera_feature_title">Camera Feature Title</string>
+    <string name="camera_information">Camera Information</string>
+    <string name="camera_permission_required">Camera permission required</string>
+    <string name="camera_ready">Camera is ready</string>
+    <string name="camera_settings">Camera Settings</string>
+    <string name="camera_settings_description">Camera settings description</string>
+    <string name="camera_status">Camera Status</string>
+    <string name="capture_button">Capture Button</string>
+    <string name="change_password_button">Change Password Button</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="clear_all_data">Clear All Data</string>
+    <string name="clear_button">Clear Button</string>
+    <string name="close">Close</string>
+    <string name="cloud_sync">Cloud Sync</string>
+    <string name="color">Color</string>
+    <string name="color_customization_description">Color customization description</string>
+    <string name="color_effects">Color Effects</string>
+    <string name="color_name">Color Name</string>
+    <string name="color_picker_title">Color Picker Title</string>
+    <string name="coloring_task">Coloring Task</string>
+    <string name="comment_count">Comment Count</string>
+    <string name="computer_emoji">🖥️</string>
+    <string name="contrast">Contrast</string>
+    <string name="contrast_label">Contrast Label</string>
+    <string name="create_button">Create Button</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="created_date">Created Date</string>
+    <string name="custom_animations">Custom Animations</string>
+    <string name="custom_animations_desc">Custom animations description</string>
+    <string name="dark">Dark</string>
+    <string name="data_augmentation">Data Augmentation</string>
+    <string name="data_encryption">Data Encryption</string>
+    <string name="data_encryption_desc">Data encryption description</string>
+    <string name="date_format">Date Format</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="demo_email">Demo Email</string>
+    <string name="demo_mode">Demo Mode</string>
+    <string name="demo_user">Demo User</string>
+    <string name="description">Description</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="double_tap">Double Tap</string>
+    <string name="dynamic_themes">Dynamic Themes</string>
+    <string name="dynamic_themes_desc">Dynamic themes description</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="enable_accessibility">Enable Accessibility</string>
+    <string name="enable_button">Enable Button</string>
+    <string name="enable_camera">Enable Camera</string>
+    <string name="enable_haptics">Enable Haptics</string>
+    <string name="enable_ml">Enable ML</string>
+    <string name="enable_security">Enable Security</string>
+    <string name="enable_security_button">Enable Security Button</string>
+    <string name="enable_ui_customization">Enable UI Customization</string>
+    <string name="enable_visual_effects">Enable Visual Effects</string>
+    <string name="export_error">Export Error</string>
+    <string name="export_feature_developing">Export feature is under development</string>
+    <string name="female_user_emoji">👩</string>
+    <string name="filter_label">Filter Label</string>
+    <string name="flash_label">Flash Label</string>
+    <string name="forgot_password_description">Enter your UEF email to receive password reset instructions</string>
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="gesture_feature_description">Gesture feature description</string>
+    <string name="gesture_feature_title">Gesture Feature Title</string>
+    <string name="gesture_instructions">Gesture Instructions</string>
+    <string name="gestures_ready">Gestures are ready</string>
+    <string name="gold_medal_emoji">🥇</string>
+    <string name="great_job">Great Job</string>
+    <string name="haptic_controls">Haptic Controls</string>
+    <string name="haptic_feature_description">Haptic feature description</string>
+    <string name="haptic_feature_title">Haptic Feature Title</string>
+    <string name="haptic_information">Haptic Information</string>
+    <string name="haptic_information_desc">Haptic information description</string>
+    <string name="haptic_intensity">Haptic Intensity</string>
+    <string name="haptic_intensity_control">Haptic Intensity Control</string>
+    <string name="haptic_patterns">Haptic Patterns</string>
+    <string name="haptic_settings">Haptic Settings</string>
+    <string name="haptic_status">Haptic Status</string>
+    <string name="haptic_status_ready">Haptics are ready</string>
+    <string name="haptic_status_enabled">Haptic feedback is enabled - Intensity: %1$d%%</string>
+    <string name="haptic_status_disabled">Haptic feedback is disabled</string>
+    <string name="haptic_testing">Testing haptics...</string>
+    <string name="haptic_question">Can you feel the vibration?</string>
+    <string name="haptic_description">Configure haptic feedback for a vivid touch experience.</string>
+    <string name="haptic_types">Haptic Types</string>
+    <string name="heavy">Heavy</string>
+    <string name="heavy_haptic">Heavy Haptic</string>
+    <string name="heavy_haptic_description">Heavy haptic description</string>
+    <string name="high_contrast">High Contrast</string>
+    <string name="import_error">Import Error</string>
+    <string name="import_feature_developing">Import feature is under development</string>
+    <string name="intensity">Intensity</string>
+    <string name="language_changed_english">Language has been changed to English</string>
+    <string name="language_changed_vietnamese">Language has been changed to Vietnamese</string>
+    <string name="large_text">Large Text</string>
+    <string name="learning_rate">Learning Rate</string>
+    <string name="level_format">Level Format</string>
+    <string name="light">Light</string>
+    <string name="light_haptic">Light Haptic</string>
+    <string name="light_haptic_description">Light haptic description</string>
+    <string name="lighting_effects">Lighting Effects</string>
+    <string name="like_count">❤️ %1$d</string>
+    <string name="locked">Locked</string>
+    <string name="long_press">Long Press</string>
+    <string name="medium_haptic">Medium Haptic</string>
+    <string name="medium_haptic_description">Medium haptic description</string>
+    <string name="ml_configuration_description">ML configuration description</string>
+    <string name="ml_controls">ML Controls</string>
+    <string name="ml_feature_description">ML feature description</string>
+    <string name="ml_feature_title">ML Feature Title</string>
+    <string name="ml_information">ML Information</string>
+    <string name="ml_information_desc">ML information description</string>
+    <string name="ml_settings">ML Settings</string>
+    <string name="ml_status">ML Status</string>
+    <string name="ml_status_ready">ML is ready</string>
+    <string name="moon_emoji">🌙</string>
+    <string name="network_feature_description">Network feature description</string>
+    <string name="network_feature_title">Network Feature Title</string>
+    <string name="neural_networks">Neural Networks</string>
+    <string name="neural_networks_desc">Neural networks description</string>
+    <string name="no_history_found">No history found</string>
+    <string name="no_leaderboard_data">No leaderboard data</string>
+    <string name="no_speech_detected">No speech detected</string>
+    <string name="normal_mode">Normal Mode</string>
+    <string name="notification_feature_description">Notification feature description</string>
+    <string name="notification_feature_title">Notification Feature Title</string>
+    <string name="opacity_label">Opacity Label</string>
+    <string name="opacity_value">Opacity Value</string>
+    <string name="other_gender">Other</string>
+    <string name="particle_effects">Particle Effects</string>
+    <string name="particle_effects_desc">Particle effects description</string>
+    <string name="pause_button">Pause Button</string>
+    <string name="percent_symbol">%</string>
+    <string name="player_name">Player Name</string>
+    <string name="points_format">Points Format</string>
+    <string name="points_value">Points Value</string>
+    <string name="points_with_unit">%1$d points</string>
+    <string name="points_zero">Zero Points</string>
+    <string name="post_content">Post Content</string>
+    <string name="predict_ml">Predict ML</string>
+    <string name="pressure_haptics">Pressure Haptics</string>
+    <string name="preview_visual">Preview Visual</string>
+    <string name="primary_color">Primary Color</string>
+    <string name="profile_image_saved">Profile image saved</string>
+    <string name="profile_score_value">Profile Score Value</string>
+    <string name="rank_label">Rank Label</string>
+    <string name="rank_number">Rank Number</string>
+    <string name="ready">Ready</string>
+    <string name="realtime">Real-time</string>
+    <string name="realtime_prediction">Real-time Prediction</string>
+    <string name="record_button">Record Button</string>
+    <string name="redo_button">Redo Button</string>
+    <string name="refresh_emoji">🔄</string>
+    <string name="remove_button">Remove Button</string>
+    <string name="report_description">Report Description</string>
+    <string name="report_title">Report Title</string>
+    <string name="reset_button">Reset Button</string>
+    <string name="reset_database">Reset Database</string>
+    <string name="reset_haptic">Reset Haptic</string>
+    <string name="reset_ui">Reset UI</string>
+    <string name="role">Role</string>
+    <string name="sample_email">Sample Email</string>
+    <string name="sample_name">Sample Name</string>
+    <string name="saturation">Saturation</string>
+    <string name="save_haptic">Save Haptic</string>
+    <string name="score_format">Score Format</string>
+    <string name="score_label">Score Label</string>
+    <string name="score_value">Score Value</string>
+    <string name="secondary_color">Secondary Color</string>
+    <string name="security_controls">Security Controls</string>
+    <string name="security_enable_description">Security enable description</string>
+    <string name="security_feature_description">Security feature description</string>
+    <string name="security_feature_title">Security Feature Title</string>
+    <string name="security_information">Security Information</string>
+    <string name="security_information_desc">Security information description</string>
+    <string name="security_settings">Security Settings</string>
+    <string name="security_status">Security Status</string>
+    <string name="security_status_ready">Security is ready</string>
+    <string name="select_profile_image">Select Profile Image</string>
+    <string name="send_instructions">Send Instructions</string>
+    <string name="sensor_feature_description">Sensor feature description</string>
+    <string name="sensor_feature_title">Sensor Feature Title</string>
+    <string name="settings_emoji">⚙️</string>
+    <string name="shape_type">Shape Type</string>
+    <string name="share_button">Share Button</string>
+    <string name="signal_emoji">📶</string>
+    <string name="single_tap">Single Tap</string>
+    <string name="social_network">Social Network</string>
+    <string name="star_emoji">⭐</string>
+    <string name="start_ar_button">Start AR Button</string>
+    <string name="start_button">Start Button</string>
+    <string name="start_listening">Start Listening</string>
+    <string name="status_label">Status Label</string>
+    <string name="stop">Stop</string>
+    <string name="storage_permission_required">Storage permission required</string>
+    <string name="suggest_button">Suggest Button</string>
+    <string name="sun_emoji">☀️</string>
+    <string name="sync_controls">Sync Controls</string>
+    <string name="sync_feature_description">Sync feature description</string>
+    <string name="sync_feature_title">Sync Feature Title</string>
+    <string name="sync_progress">Sync Progress</string>
+    <string name="sync_ready">Sync is ready</string>
+    <string name="sync_ready_message">Sync ready message</string>
+    <string name="sync_start_button">Sync Start Button</string>
+    <string name="sync_status">Sync Status</string>
+    <string name="sync_stop_button">Sync Stop Button</string>
+    <string name="system_management_title">System Management Title</string>
+    <string name="system_statistics">System Statistics</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="target_emoji">🎯</string>
+    <string name="task_description_hint">Task description hint</string>
+    <string name="task_duration_value">Task duration value</string>
+    <string name="task_history">Task History</string>
+    <string name="task_label">Task Label</string>
+    <string name="task_name_hint">Task name hint</string>
+    <string name="temperature_haptics">Temperature Haptics</string>
+    <string name="test_accessibility">Test Accessibility</string>
+    <string name="test_button">Test Button</string>
+    <string name="test_haptic">Test Haptic</string>
+    <string name="test_ml">Test ML</string>
+    <string name="test_security">Test Security</string>
+    <string name="test_visual">Test Visual</string>
+    <string name="theme_feature_description">Theme feature description</string>
+    <string name="theme_feature_title">Theme Feature Title</string>
+    <string name="theme_information">Theme Information</string>
+    <string name="theme_intensity">Theme Intensity</string>
+    <string name="theme_ready">Theme is ready</string>
+    <string name="theme_selection">Theme Selection</string>
+    <string name="theme_selection_description">Theme selection description</string>
+    <string name="theme_status">Theme Status</string>
+    <string name="time_ago">Time ago</string>
+    <string name="time_format">Time Format</string>
+    <string name="time_label">Time Label</string>
+    <string name="timer_controls">Timer Controls</string>
+    <string name="timer_display">Timer Display</string>
+    <string name="timer_display_value">Timer Display Value</string>
+    <string name="timer_duration">Timer Duration</string>
+    <string name="timer_duration_instructions">Timer duration instructions</string>
+    <string name="timer_feature_description">Timer feature description</string>
+    <string name="timer_feature_title">Timer Feature Title</string>
+    <string name="timer_ready">Timer is ready</string>
+    <string name="timer_status">Timer Status</string>
+    <string name="total_achievements_count">Total Achievements Count</string>
+    <string name="total_plays_count">Total Plays Count</string>
+    <string name="total_tasks_count">Total Tasks Count</string>
+    <string name="total_users_count">Total Users Count</string>
+    <string name="train_button">Train Button</string>
+    <string name="train_ml">Train ML</string>
+    <string name="try_demo">Try Demo</string>
+    <string name="two_factor_authentication">Two-Factor Authentication</string>
+    <string name="type">Type</string>
+    <string name="ui_controls">UI Controls</string>
+    <string name="ui_customization_description">UI customization description</string>
+    <string name="ui_feature_description">UI feature description</string>
+    <string name="ui_feature_title">UI Feature Title</string>
+    <string name="ui_information">UI Information</string>
+    <string name="ui_information_desc">UI information description</string>
+    <string name="ui_settings">UI Settings</string>
+    <string name="ui_status">UI Status</string>
+    <string name="ui_status_ready">UI is ready</string>
+    <string name="undo_button">Undo Button</string>
+    <string name="user_label">User Label</string>
+    <string name="user_management_title">User Management Title</string>
+    <string name="user_role">User Role</string>
+    <string name="value">Value</string>
+    <string name="vibration_feedback">Vibration Feedback</string>
+    <string name="vibration_feedback_desc">Vibration feedback description</string>
+    <string name="vibration_haptics">Vibration Haptics</string>
+    <string name="visual_configuration_description">Visual configuration description</string>
+    <string name="visual_controls">Visual Controls</string>
+    <string name="visual_feature_description">Visual feature description</string>
+    <string name="visual_feature_title">Visual Feature Title</string>
+    <string name="visual_information">Visual Information</string>
+    <string name="visual_information_desc">Visual information description</string>
+    <string name="visual_settings">Visual Settings</string>
+    <string name="visual_status">Visual Status</string>
+    <string name="visual_status_ready">Visual is ready</string>
+    <string name="voice_commands">Voice Commands</string>
+    <string name="voice_controls">Voice Controls</string>
+    <string name="voice_over">Voice Over</string>
+    <string name="voice_result">Voice Result</string>
+    <string name="voice_status">Voice Status</string>
+    <string name="widget_controls">Widget Controls</string>
+    <string name="widget_creation_description">Widget creation description</string>
+    <string name="widget_feature_description">Widget feature description</string>
+    <string name="widget_feature_title">Widget Feature Title</string>
+    <string name="widget_information">Widget Information</string>
+    <string name="widget_status">Widget Status</string>
+    <string name="widgets_ready">Widgets are ready</string>
+    <string name="zoom_label">Zoom Label</string>
+    <string name="tet_theme">Tet Theme</string>
+    <string name="tet_theme_description">Special theme for Lunar New Year</string>
+
+    <!-- User Management Strings -->
+    <string name="filter_all_users">All</string>
+    <string name="filter_users_role">Users</string>
+    <string name="filter_admin_role">Administrator</string>
+    <string name="filter_active_users">Active</string>
+    <string name="filter_locked_users">Locked</string>
+    <string name="total_users_text">Total: %1$d users</string>
+    <string name="found_users_text">Found: %1$d users</string>
+    <string name="add_new_user_title">Add New User</string>
+    <string name="add_user_button">Add</string>
+    <string name="edit_user_title">Edit User</string>
+    <string name="update_button">Update</string>
+    <string name="delete_user_title">Confirm Delete</string>
+    <string name="delete_user_message">Are you sure you want to delete user %1$s?</string>
+    <string name="delete_button">Delete</string>
+    <string name="user_added_success">User added successfully</string>
+    <string name="user_updated_success">User updated successfully</string>
+    <string name="user_deleted_success">User deleted successfully</string>
+    <string name="user_activated">activated</string>
+    <string name="user_locked">locked</string>
+    <string name="user_status_changed">User %1$s</string>
+    <string name="enter_name_hint">Please enter name</string>
+    <!-- invalid_email already exists at line 394, removed duplicate -->
+    <string name="password_min_length">Password must be at least 6 characters</string>
+    <string name="invalid_birth_year">Invalid birth year</string>
+    <string name="birth_year_label">Birth Year: %1$d</string>
+    <string name="admin_role">Administrator</string>
+    <string name="user_role_label">User</string>
+    <string name="created_at_label">Created: %1$s</string>
+
+    <!-- Achievement Management Strings -->
+    <string name="total_achievements_text">Tổng số thành tích: %1$d</string>
+    <string name="edit_achievement_title">Edit Achievement</string>
+    <string name="enter_achievement_name">Please enter achievement name</string>
+    <string name="achievement_updated">Achievement updated</string>
+    <string name="achievement_added">Achievement added</string>
+    <string name="delete_achievement_title">Delete Achievement</string>
+    <string name="delete_achievement_message">Are you sure you want to delete achievement \"%1$s\"?</string>
+    <string name="achievement_deleted">Achievement deleted</string>
+    <string name="achievement_name_hint">Achievement name</string>
+    <string name="achievement_description_hint">Description</string>
+    <string name="achievement_icon_hint">Icon (emoji)</string>
+    <string name="achievement_requirement_hint">Requirement (number)</string>
+    <string name="achievement_points_hint">Reward points</string>
+
+    <!-- Leaderboard Management Strings -->
+    <string name="filter_top_10">Top 10</string>
+    <string name="filter_top_50">Top 50</string>
+    <string name="filter_top_100">Top 100</string>
+    <string name="total_attempts_text">Total attempts: %1$d</string>
+
+    <!-- Admin Dashboard Strings -->
+    <string name="reset_database_title">Confirm Reset Database</string>
+    <string name="reset_database_message">Are you sure you want to delete all data and recreate 10 tasks + 10 sample accounts?\n\nNote: All current data will be deleted!</string>
+    <string name="confirm_reset_button">Confirm</string>
+    <string name="reset_database_success">✅ Database reset successfully!\n10 tasks + 10 accounts have been created.</string>
+    <string name="reset_database_error">❌ Error resetting database: %1$s</string>
+    <string name="error_loading_statistics">Error loading statistics</string>
+    <string name="users_count_format">%1$d users</string>
+    <string name="tasks_count_format">%1$d tasks</string>
+    <string name="attempts_count_format">%1$d attempts</string>
+    <string name="points_count_format">%1$d points</string>
+
+    <!-- Task Management Additional Strings -->
+    <string name="add_new_shape">➕ Add New Shape</string>
+    <string name="time_minutes">Time (minutes)</string>
+    <string name="shape_name_example">Shape name (e.g., Circle, Square)</string>
+    <string name="vector_drawable_xml_code">Vector Drawable XML Code</string>
+    <string name="shape_id_auto_generated">Shape ID (auto-generated)</string>
+    <string name="enter_vector_drawable_xml_code_hint">Enter the Vector Drawable XML code for the shape
+
+E.g.:
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;vector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&gt;
+    &lt;path android:pathData=&quot;M100,100...&quot;/&gt;
+&lt;/vector&gt;</string>
+    <string name="delete_task_title">Delete Task</string>
+    <string name="delete_task_message">Are you sure you want to delete task &quot;%1$s&quot;?</string>
+    <string name="task_activated">Task activated</string>
+    <string name="task_deactivated">Task deactivated</string>
+    <string name="please_enter_task_name">Please enter task name</string>
+    <string name="task_updated">Task updated</string>
+    <string name="task_added">New task added</string>
+    <string name="task_deleted">Task deleted</string>
+    <string name="please_enter_shape_name">Please enter shape name</string>
+    <string name="please_enter_xml_code">Please enter Vector Drawable XML code</string>
+    <string name="invalid_xml_format">Code is not in Vector Drawable XML format</string>
+    <string name="shape_added">Added new shape: %1$s (ID: %2$s)</string>
+    <string name="all_tasks">All</string>
+    <string name="task_status_active">Active</string>
+    <string name="task_status_inactive">Inactive</string>
+    <string name="total_tasks">Total tasks: %1$d</string>
+
+    <!-- Dialog Strings (New) -->
+    <string name="about_info">About Us</string>
+    <string name="address_contact">Address &amp; Contact</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="report_bug">Report Bug</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="phone_label">Phone: %1$s</string>
+    <string name="address_label">Address: %1$s</string>
+    <string name="website_label">Website: %1$s</string>
+    <string name="call_phone">Call</string>
+    <string name="open_map">Open Map</string>
+    <string name="manage_contact_info">Manage Contact Info</string>
+    <string name="manage_app_info">Manage App Info</string>
+    <string name="contact_info_saved">Contact information saved</string>
+    <string name="app_info_saved">App information saved</string>
+    <string name="exit_confirm">Confirm Exit</string>
+    <string name="exit_confirm_message">Are you sure you want to exit? Current progress will not be saved.</string>
+    <string name="exit">Exit</string>
+    <string name="open_excel_file">Open Excel File</string>
+    <string name="open_excel_question">Do you want to open the exported Excel file?</string>
+    <string name="open_file">Open</string>
+    <string name="no_capital">No</string>
+    <string name="cannot_open_map">Cannot open map</string>
+    <string name="cannot_open_privacy_policy">Cannot open privacy policy</string>
+    <string name="send_bug_report_email">Send bug report to email: %1$s</string>
+    
+    <!-- Sound Selection -->
+    <string name="select_notification_sound">Select Notification Sound</string>
+    <string name="select_background_music">Select Background Music</string>
+    <string name="select_sound_effect">Select Sound Effect</string>
+    
+    <!-- Colors -->
+    <string name="color_red">Red</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_green">Green</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="color_orange">Orange</string>
+    <string name="color_purple">Purple</string>
+    <string name="cleared_all">Cleared all</string>
+    
+    <!-- User Management -->
+    <string name="search_users_hint">Search...</string>
+    <string name="export_excel_label">📊 Export Excel</string>
+    
+    <!-- Advanced Sounds -->
+    <string name="select_music">SELECT MUSIC</string>
+    <string name="select">SELECT</string>
+    <string name="turn_off">OFF</string>
+    <string name="turn_on">ON</string>
+    <string name="inactive">Inactive</string>
+    <string name="sound_effects_desc">Sound when pressing button</string>
+    <string name="notification_sound">Notification Sound</string>
+    <string name="notification_sound_desc">Sound when there is a notification</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_selected">Selected theme: %1$s</string>
+    <string name="theme_applied_immediately">Changes have been applied immediately!</string>
+    
+    <!-- Advanced Admin Reports -->
+    <string name="score_distribution">Score Distribution</string>
+    <string name="score_distribution_desc">Number of attempts by score level</string>
+    <string name="most_active_user">Most Active User</string>
+    <string name="most_active_user_desc">User completed most tasks</string>
+    <string name="achievements_stat">Achievements</string>
+    <string name="achievements_stat_desc">Number of achievements unlocked out of total</string>
+    <string name="avg_completion_speed">Average Completion Speed</string>
+    <string name="avg_completion_speed_desc">Average time to complete 1 task</string>
+    <string name="incomplete_rate">Incomplete Rate</string>
+    <string name="incomplete_rate_desc">Percentage of abandoned tasks</string>
+    <string name="new_users_7days">New Users (7 days)</string>
+    <string name="new_users_7days_desc">Number of new registered users</string>
+    <string name="total_attempts">Total Attempts</string>
+    <string name="total_attempts_desc">Total number of users performing tasks</string>
+    <string name="completed_attempts_trend">%1$d completed</string>
+    
+    <!-- Score Ranges -->
+    <string name="score_excellent">Excellent</string>
+    <string name="score_good">Good</string>
+    <string name="score_fair">Fair</string>
+    <string name="score_average">Average</string>
+    
+    <!-- Status Indicators -->
+    <string name="status_good">✓ Good</string>
+    <string name="status_average">○ Average</string>
+    <string name="status_need_improve">✗ Needs Improvement</string>
+    <string name="status_active">✓ Active</string>
+    <string name="status_stable">○ Stable</string>
+    <string name="status_fast">✓ Fast</string>
+    <string name="status_medium">○ Medium</string>
+    <string name="status_slow">✗ Slow</string>
+    <string name="status_high">✗ High</string>
+    <string name="status_growth">✓ Growth</string>
+    <string name="status_no_data">○ None</string>
+    <string name="no_data">No data yet</string>
+    <string name="not_available">N/A</string>
+    <string name="total_format">Total: %1$d attempts</string>
+    <string name="attempts_completed">%1$d completed</string>
+    <string name="unlocked_percent">%1$d%% unlocked</string>
+    <string name="users_count">%1$d users</string>
+    <string name="attempts">attempts</string>
+    
+    <!-- Leaderboard -->
+    <string name="total_score_tab">Total Score</string>
+    <string name="drawing_score_tab">Drawing Score</string>
+    <string name="leaderboard_load_error">Failed to load leaderboard: %1$s</string>
+    <string name="score_points">%1$d points</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="leaderboard_management">Leaderboard Management</string>
+    <string name="user_prefix">User: %1$s</string>
+    <string name="task_prefix">Task: %1$s</string>
+    
+    <!-- Social Network - Post Content -->
+    <string name="post_created_colorful_garden">I created a colorful garden! 🌸</string>
+    <string name="post_beautiful_mountain_lake">Beautiful mountain lake scene! 🏔️</string>
+    <string name="post_city_at_night">City at night with sparkling lights! 🌃</string>
+    <string name="post_fairytale_castle">Fairytale castle in my dream! 🏰</string>
+    <string name="post_tropical_beach">Tropical beach with palm trees! 🏖️</string>
+    
+    <!-- Social Network - Time Ago -->
+    <string name="days_ago">%1$d days ago</string>
+
+</resources>

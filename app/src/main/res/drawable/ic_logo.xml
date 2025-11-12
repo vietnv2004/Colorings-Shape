@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Gradient Background Circle -->
+    <path
+        android:fillColor="#4A90E2"
+        android:pathData="M60,60m-60,0a60,60 0,1 1,120 0a60,60 0,1 1,-120 0" />
+    
+    <!-- Secondary Circle -->
+    <path
+        android:fillColor="#6BB3FF"
+        android:pathData="M60,60m-56,0a56,56 0,1 1,112 0a56,56 0,1 1,-112 0" />
+    
+    <!-- White Base Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,60m-52,0a52,52 0,1 1,104 0a52,52 0,1 1,-104 0" />
+    
+    <!-- Central Star Shape (Main Focus) -->
+    <path
+        android:fillColor="#FF6B9D"
+        android:pathData="M60,25 L72,48 L98,48 L78,62 L86,88 L60,72 L34,88 L42,62 L22,48 L48,48 Z" />
+    
+    <!-- Rotated Star Behind (Depth) -->
+    <path
+        android:fillColor="#FFB84D"
+        android:pathData="M60,32 L68,48 L84,48 L74,58 L80,74 L60,63 L40,74 L46,58 L36,48 L52,48 Z" />
+    
+    <!-- Colorful Shapes Around -->
+    
+    <!-- Circle (Top Left) -->
+    <path
+        android:fillColor="#4ECDC4"
+        android:pathData="M40,38m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    
+    <!-- Square (Top Right) -->
+    <path
+        android:fillColor="#FFE66D"
+        android:pathData="M80,38 L94,38 L94,52 L80,52 Z" />
+    
+    <!-- Triangle (Bottom Left) -->
+    <path
+        android:fillColor="#A8E6CF"
+        android:pathData="M34,76 L52,76 L43,92 Z" />
+    
+    <!-- Diamond (Bottom Right) -->
+    <path
+        android:fillColor="#FF8B94"
+        android:pathData="M84,72 L98,86 L84,100 L70,86 Z" />
+    
+    <!-- Sparkle 1 -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M50,28 L52,33 L57,33 L54,36 L56,41 L50,38 L44,41 L46,36 L43,33 L48,33 Z" />
+    
+    <!-- Sparkle 2 -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M88,58 L90,63 L95,63 L92,66 L94,71 L88,68 L82,71 L84,66 L81,63 L86,63 Z" />
+    
+    <!-- Inner Glow Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M60,45m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />
+    
+</vector>

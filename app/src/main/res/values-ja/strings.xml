@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">図形塗り絵</string>
+    <string name="app_subtitle">スマート図形塗り絵</string>
+    <string name="version">バージョン 1.0.0</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_subtitle" translatable="false">スマート図形塗り絵</string>
+    <string name="loading" translatable="false">読み込み中…</string>
+
+    <!-- Authentication -->
+    <string name="login" translatable="false">ログイン</string>
+    <string name="register" translatable="false">登録</string>
+    <string name="edit_profile">プロフィール編集</string>
+    <string name="user_name">ユーザー名</string>
+    <string name="user_email">メールアドレス</string>
+    <string name="enter_user_name">ユーザー名を入力</string>
+    <string name="enter_user_email">メールアドレスを入力</string>
+    <string name="statistics">統計</string>
+    <string name="level">レベル</string>
+    <string name="score">スコア</string>
+    <string name="login_title">おかえりなさい</string>
+    <string name="login_subtitle" translatable="false">続行するにはログインしてください</string>
+    <string name="register_title">新しいアカウントを作成</string>
+    <string name="register_subtitle">開始するには登録してください</string>
+    <string name="already_have_account">アカウントをお持ちですか？</string>
+    <string name="forgot_password">パスワードを忘れましたか？</string>
+    <string name="remember_me">ログインを記憶</string>
+
+    <!-- Form Fields -->
+    <string name="email">メールアドレス</string>
+    <string name="email_uef">UEFメール</string>
+    <string name="password">パスワード</string>
+    <string name="confirm_password">パスワード確認</string>
+    <string name="full_name">氏名</string>
+    <string name="birth_year">生年</string>
+    <string name="gender">性別</string>
+    <string name="male">男性</string>
+    <string name="female">女性</string>
+    <string name="terms_and_conditions">利用規約に同意します</string>
+
+    <!-- Navigation -->
+    <string name="home">ホーム</string>
+    <string name="quest">クエスト</string>
+    <string name="progress">進捗</string>
+    <string name="profile">プロフィール</string>
+    <string name="back">戻る</string>
+    <string name="next">次へ</string>
+    <string name="previous">前へ</string>
+    <string name="finish">完了</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
+    <string name="edit">編集</string>
+    <string name="delete">削除</string>
+    <string name="add">追加</string>
+    <string name="search">検索</string>
+    <string name="filter">フィルター</string>
+    <string name="sort">並び替え</string>
+
+    <!-- Tasks -->
+    <string name="tasks">タスク</string>
+    <string name="available_tasks">利用可能なタスク</string>
+    <string name="task_list">タスクリスト</string>
+    <string name="task_details">タスク詳細</string>
+    <string name="start_task">タスク開始</string>
+    <string name="complete_task">タスク完了</string>
+    <string name="task_name">タスク名</string>
+    <string name="task_description">説明</string>
+    <string name="task_duration">所要時間</string>
+    <string name="task_difficulty">難易度</string>
+    <string name="task_points">ポイント</string>
+    <string name="task_status">ステータス</string>
+
+    <!-- Shapes -->
+    <string name="shapes">図形</string>
+    <string name="circle">円</string>
+    <string name="square">正方形</string>
+    <string name="triangle">三角形</string>
+    <string name="rectangle">長方形</string>
+    <string name="pentagon">五角形</string>
+    <string name="hexagon">六角形</string>
+    <string name="star">星</string>
+    <string name="heart">ハート</string>
+
+    <!-- Task Names -->
+    <string name="task_color_circle">円を塗る</string>
+    <string name="task_color_square">正方形を塗る</string>
+    <string name="task_color_triangle">三角形を塗る</string>
+    <string name="task_color_star">星を塗る</string>
+    <string name="task_color_heart">ハートを塗る</string>
+
+    <!-- Task Descriptions -->
+    <string name="task_desc_circle">お気に入りの色で円を塗ってください</string>
+    <string name="task_desc_square">お気に入りの色で正方形を塗ってください</string>
+    <string name="task_desc_triangle">お気に入りの色で三角形を塗ってください</string>
+
+    <!-- Colors -->
+    <string name="colors">色</string>
+    <string name="red">赤</string>
+    <string name="blue">青</string>
+    <string name="green">緑</string>
+    <string name="yellow">黄</string>
+    <string name="orange">オレンジ</string>
+    <string name="purple">紫</string>
+    <string name="pink">ピンク</string>
+    <string name="black">黒</string>
+    <string name="white">白</string>
+    <string name="gray">グレー</string>
+
+    <!-- Drawing -->
+    <string name="drawing">描画</string>
+    <string name="brush">ブラシ</string>
+    <string name="brush_size">ブラシサイズ</string>
+    <string name="color_picker">カラーピッカー</string>
+    <string name="undo">元に戻す</string>
+    <string name="redo">やり直し</string>
+    <string name="clear">すべてクリア</string>
+    <string name="eraser">消しゴム</string>
+
+    <!-- Scoring -->
+    <string name="total_score">総スコア</string>
+    <string name="high_score">ハイスコア</string>
+    <string name="leaderboard">リーダーボード</string>
+    <string name="rank">ランク</string>
+    <string name="your_rank">あなたのランク</string>
+    <string name="top_players">トッププレイヤー</string>
+    <string name="view_full_leaderboard">完全なリーダーボードを見る</string>
+
+    <!-- History -->
+    <string name="history">履歴</string>
+    <string name="recent_history">最近の履歴</string>
+    <string name="view_all_history">すべての履歴を見る</string>
+    <string name="completed_tasks">完了したタスク</string>
+    <string name="view_history">履歴を見る</string>
+    <string name="no_history">履歴なし</string>
+
+    <!-- Settings -->
+    <string name="settings">設定</string>
+    <string name="language">言語</string>
+    <string name="theme">テーマ</string>
+    <string name="notifications">通知</string>
+    <string name="sound">音</string>
+    <string name="vibration">振動</string>
+    <string name="offline_mode">接続状態</string>
+    <string name="data_management">データ管理</string>
+    <string name="export_data">データエクスポート</string>
+    <string name="import_data">データインポート</string>
+    <string name="about">について</string>
+    <string name="dark_mode">ダークモード</string>
+    <string name="enable_notifications">通知を有効にする</string>
+    <string name="online_status">オンラインです。すべての機能が利用可能です。</string>
+    <string name="offline_status">オフラインです。一部の機能が制限されています。</string>
+
+    <!-- Admin -->
+    <string name="admin">管理者</string>
+    <string name="admin_dashboard">ダッシュボード</string>
+    <string name="manage_tasks">タスク管理</string>
+    <string name="manage_shapes">図形管理</string>
+    <string name="manage_users">ユーザー管理</string>
+    <string name="reports">レポート</string>
+
+    <!-- Messages -->
+    <string name="success">成功</string>
+    <string name="error">エラー</string>
+    <string name="warning">警告</string>
+    <string name="info">情報</string>
+    <string name="confirm">確認</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="ok">OK</string>
+
+    <!-- Validation -->
+    <string name="email_required">メールアドレスを入力してください</string>
+    <string name="email_invalid">無効なメールアドレス</string>
+    <string name="password_required">パスワードを入力してください</string>
+    <string name="password_too_short">パスワードが短すぎます</string>
+    <string name="passwords_not_match">パスワードが一致しません</string>
+    <string name="field_required">このフィールドは必須です</string>
+
+    <!-- Time -->
+    <string name="time">時間</string>
+    <string name="timer">タイマー</string>
+    <string name="time_remaining">残り時間</string>
+    <string name="time_up">時間切れ</string>
+    <string name="seconds">秒</string>
+    <string name="minutes">分</string>
+    <string name="hours">時間</string>
+
+    <!-- Or -->
+    <string name="or">または</string>
+
+    <!-- Google Auth Buttons -->
+    <string name="sign_in_with_google">Googleでログイン</string>
+    <string name="sign_up_with_google">Googleで登録</string>
+
+    <!-- Difficulty Levels -->
+    <string name="easy">簡単</string>
+    <string name="medium">普通</string>
+    <string name="hard">難しい</string>
+    <string name="difficulty_label">難易度：%s</string>
+    <string name="points_label">ポイント：%d</string>
+
+    <!-- Status -->
+    <string name="pending">保留中</string>
+    <string name="in_progress">進行中</string>
+    <string name="completed">完了</string>
+    <string name="failed">失敗</string>
+
+    <!-- Social -->
+    <string name="share">共有</string>
+    <string name="friends">友達</string>
+    <string name="invite">招待</string>
+
+    <!-- Empty States -->
+    <string name="no_tasks">タスクなし</string>
+    <string name="no_results">結果なし</string>
+    <string name="empty_list">空のリスト</string>
+    <string name="empty_tasks">まだタスクがありません</string>
+    <string name="empty_history">まだ履歴がありません</string>
+    <string name="empty_leaderboard">まだリーダーボードがありません</string>
+    <string name="empty_notifications">通知なし</string>
+    <string name="empty_results">結果なし</string>
+    <string name="empty_search">検索結果なし</string>
+
+    <!-- Actions -->
+    <string name="submit">送信</string>
+    <string name="retry">再試行</string>
+    <string name="skip">スキップ</string>
+    <string name="refresh">更新</string>
+    <string name="export">エクスポート</string>
+    <string name="notify" translatable="false">通知</string>
+    <string name="action_copy" translatable="false">コピー</string>
+    <string name="action_cut" translatable="false">切り取り</string>
+    <string name="action_paste" translatable="false">貼り付け</string>
+    <string name="action_select_all">すべて選択</string>
+    <string name="action_deselect_all" translatable="false">選択解除</string>
+    <string name="action_share" translatable="false">共有</string>
+    <string name="action_refresh">更新</string>
+    <string name="action_retry" translatable="false">再試行</string>
+
+    <!-- Face Check-in -->
+    <string name="face_checkin">顔認証チェックイン</string>
+    <string name="face_detected">顔が検出されました</string>
+    <string name="face_not_detected">顔が検出されませんでした</string>
+    <string name="position_face">顔をフレーム内に配置してください</string>
+
+    <!-- Achievements -->
+    <string name="achievement">実績</string>
+    <string name="achievements">実績</string>
+    <string name="achievement_unlocked">実績解除</string>
+    <string name="total_achievements">合計：%d</string>
+    <string name="unlocked_achievements">解除済み：%d</string>
+    <string name="recent_achievements">最近の実績</string>
+    <string name="view_all_achievements">すべての実績を見る</string>
+    <string name="all_achievements_title">すべての実績</string>
+    <string name="first_task_title">最初のタスク</string>
+    <string name="first_task_desc">最初の塗り絵タスクを完了してください</string>
+    <string name="top_scorer_title">ハイスコアラー</string>
+    <string name="top_scorer_desc">タスクで90点以上を獲得</string>
+    <string name="perfectionist">完璧主義者</string>
+    <string name="perfectionist_desc">タスクで100%の精度を達成</string>
+    <string name="speed_demon">スピードデーモン</string>
+    <string name="speed_demon_desc">2分以内にタスクを完了</string>
+    <string name="streak_master">連続マスター</string>
+    <string name="streak_master_desc">5つの連続タスクを完了</string>
+    <string name="top_scorer">ハイスコアラー</string>
+
+    <!-- Admin & Navigation -->
+    <string name="dashboard">ダッシュボード</string>
+    <string name="users">ユーザー</string>
+    <string name="management">管理</string>
+    <string name="chat_ai">Chat AI</string>
+    <string name="system_administration">システム管理</string>
+    <string name="task_management">タスク管理</string>
+    <string name="task_management_desc">タスクの追加、編集、削除</string>
+    <string name="user_management">ユーザー管理</string>
+    <string name="user_management_desc">ユーザーリストの管理</string>
+    <string name="shape_management">図形管理</string>
+    <string name="shape_management_desc">図形の追加、編集、削除</string>
+
+    <!-- User Info -->
+    <string name="name">名前</string>
+    <string name="user_rank">ランク</string>
+    <string name="user_score">スコア</string>
+    <string name="admin_name">管理者名</string>
+    <string name="personal_info">個人情報</string>
+
+    <!-- Task Related -->
+    <string name="add_task">タスク追加</string>
+    <string name="task_title">タスクタイトル</string>
+    <string name="task_detail">タスク詳細</string>
+    <string name="task_completed">完了</string>
+    <string name="task_completion_rate">完了率</string>
+    <string name="tasks_completed">完了したタスク</string>
+    <string name="total_tasks">総タスク数</string>
+    <string name="active_tasks">アクティブなタスク</string>
+    <string name="recent_tasks">最近のタスク</string>
+    <string name="first_task">最初のタスク</string>
+    <string name="continue_task">続行</string>
+    <string name="create_first_task">最初のタスクを作成</string>
+    <string name="start_first_task">最初のタスクを開始</string>
+
+    <!-- Time & Duration -->
+    <string name="duration">所要時間</string>
+    <string name="time_limit">時間制限</string>
+    <string name="time_taken">所要時間</string>
+    <string name="time_spent">使用時間</string>
+    <string name="time_spent_total">総時間</string>
+    <string name="total_time">総時間</string>
+    <string name="time_up_notification">時間切れ！</string>
+
+    <!-- Rankings & Scores -->
+    <string name="ranking">ランキング</string>
+    <string name="current_rank">現在のランク</string>
+    <string name="your_score">あなたのスコア</string>
+    <string name="top_3">トップ3</string>
+    <string name="top_10">トップ10</string>
+    <string name="top_100">トップ100</string>
+    <string name="average_score">平均スコア</string>
+    <string name="bonus_points">ボーナスポイント</string>
+    <string name="points">ポイント</string>
+
+    <!-- Drawing -->
+    <string name="drawing_canvas">描画キャンバス</string>
+    <string name="your_drawing">あなたの作品</string>
+    <string name="brush_type">ブラシタイプ</string>
+    <string name="color_palette">カラーパレット</string>
+    <string name="clear_all">すべてクリア</string>
+
+    <!-- Settings Extended -->
+    <string name="general_settings">一般設定</string>
+    <string name="account_settings">アカウント設定</string>
+    <string name="privacy_settings">プライバシー設定</string>
+    <string name="notification_settings">通知設定</string>
+    <string name="language_settings">言語設定</string>
+    <string name="sound_settings">音設定</string>
+    <string name="display_settings">表示設定</string>
+    <string name="reset_settings">設定リセット</string>
+    <string name="select_language">言語選択</string>
+    <string name="english">英語</string>
+    <string name="vietnamese">ベトナム語</string>
+    <string name="auto_theme">自動</string>
+
+    <!-- Status -->
+    <string name="not_started">未開始</string>
+    <string name="status_available">利用可能</string>
+    <string name="status_unlocked">ロック解除</string>
+    <string name="status_locked">ロック済み</string>
+    <string name="status_approved">承認済み</string>
+    <string name="status_rejected">拒否済み</string>
+    <string name="expired">期限切れ</string>
+
+    <!-- Messages & Notifications -->
+    <string name="congratulations">おめでとう！</string>
+    <string name="welcome_back">おかえりなさい</string>
+    <string name="welcome_admin">管理者様、ようこそ</string>
+    <string name="language_changed">言語が変更されました</string>
+    <string name="theme_changed">テーマが変更されました</string>
+    <string name="notification_title">通知</string>
+    <string name="notification_message">通知メッセージ</string>
+    <string name="notification_type">通知タイプ</string>
+    <string name="notification_time">時間</string>
+    <string name="notifications_title">通知</string>
+    <string name="mark_as_read">既読にする</string>
+    <string name="mark_all_read">すべて既読にする</string>
+
+    <!-- Loading States -->
+    <string name="loading_general">読み込み中...</string>
+    <string name="loading_tasks">タスク読み込み中...</string>
+    <string name="loading_history">履歴読み込み中...</string>
+    <string name="loading_leaderboard">リーダーボード読み込み中...</string>
+    <string name="loading_login">ログイン中...</string>
+    <string name="loading_register">登録中...</string>
+    <string name="loading_save">保存中...</string>
+    <string name="loading_delete">削除中...</string>
+    <string name="loading_upload">アップロード中...</string>
+    <string name="loading_download">ダウンロード中...</string>
+    <string name="loading_sync">同期中...</string>
+
+    <!-- Success Messages -->
+    <string name="success_general">成功！</string>
+    <string name="success_login">ログイン成功</string>
+    <string name="success_register">登録成功</string>
+    <string name="success_save">保存成功</string>
+    <string name="success_update">更新成功</string>
+    <string name="success_delete">削除成功</string>
+    <string name="success_upload">アップロード成功</string>
+    <string name="success_download">ダウンロード成功</string>
+    <string name="login_success">ログイン成功</string>
+
+    <!-- Error Messages -->
+    <string name="error_general">エラーが発生しました</string>
+    <string name="error_network">ネットワークエラー</string>
+    <string name="error_server">サーバーエラー</string>
+    <string name="error_database">データベースエラー</string>
+    <string name="error_authentication">認証エラー</string>
+    <string name="error_permission">権限なし</string>
+    <string name="error_validation">無効なデータ</string>
+    <string name="error_file_not_found">ファイルが見つかりません</string>
+    <string name="error_unknown">不明なエラー</string>
+    <string name="invalid_email">無効なメールアドレス</string>
+    <string name="login_failed">ログイン失敗</string>
+
+    <!-- Validation -->
+    <string name="validation_email">無効なメールアドレス</string>
+    <string name="validation_password">無効なパスワード</string>
+    <string name="validation_name">無効な名前</string>
+    <string name="validation_phone">無効な電話番号</string>
+    <string name="validation_birth_year">無効な生年</string>
+    <string name="validation_password_match">パスワードが一致しません</string>
+    <string name="validation_required">必須フィールド</string>
+    <string name="validation_url">無効なURL</string>
+    <string name="uef_email_required">UEFメールアドレスが必要です (@uef.edu.vn)</string>
+
+    <!-- Permissions -->
+    <string name="permission_required">権限が必要です</string>
+    <string name="permission_camera">カメラ権限</string>
+    <string name="permission_storage">ストレージ権限</string>
+    <string name="permission_location">位置情報権限</string>
+    <string name="permission_notification">通知権限</string>
+    <string name="permission_granted">権限が付与されました</string>
+    <string name="permission_denied">権限が拒否されました</string>
+
+    <!-- Features -->
+    <string name="feature_offline_mode">接続状態</string>
+    <string name="feature_sync">同期</string>
+    <string name="feature_backup">バックアップ</string>
+    <string name="feature_restore">復元</string>
+    <string name="feature_export">データエクスポート</string>
+    <string name="feature_import">データインポート</string>
+    <string name="feature_face_checkin">顔認証チェックイン</string>
+    <string name="sync_data">データ同期</string>
+    <string name="sync_failed">同期失敗</string>
+    <string name="data_synced">データ同期済み</string>
+    <string name="backup_data">バックアップ</string>
+    <string name="restore_data">復元</string>
+
+    <!-- Stats & Reports -->
+    <string name="reports_desc">詳細レポート</string>
+    <string name="age_distribution">年齢分布</string>
+    <string name="gender_distribution">性別分布</string>
+    <string name="total_users">総ユーザー数</string>
+    <string name="accuracy">精度</string>
+    <string name="experience">経験</string>
+    <string name="streak">連続</string>
+    <string name="targets">目標</string>
+    <string name="result">結果</string>
+    <string name="overall_progress">全体進捗</string>
+
+    <!-- Filters & Search -->
+    <string name="filter_all">すべて</string>
+    <string name="filter_active">アクティブ</string>
+    <string name="filter_inactive">非アクティブ</string>
+    <string name="filter_completed">完了</string>
+    <string name="filter_incomplete">未完了</string>
+    <string name="filter_by_difficulty">難易度でフィルター</string>
+    <string name="filter_high_score">ハイスコア</string>
+    <string name="search_tasks_hint">タスクを検索...</string>
+    <string name="search_history_hint">履歴を検索...</string>
+
+    <!-- Misc -->
+    <string name="help">ヘルプ</string>
+    <string name="contact">お問い合わせ</string>
+    <string name="instructions">説明</string>
+    <string name="instructions_text">使用方法</string>
+    <string name="show_details">詳細を表示</string>
+    <string name="other">その他</string>
+    <string name="complete">完了</string>
+    <string name="places">場所</string>
+    <string name="start_competing">競争開始</string>
+    <string name="completed_attempts">完了した試行</string>
+    <string name="quick_actions">クイックアクション</string>
+    <string name="user_profile">ユーザープロフィール</string>
+    <string name="analytics">分析</string>
+    <string name="social">ソーシャル</string>
+
+    <!-- Analytics -->
+    <string name="analytics_dashboard">分析ダッシュボード</string>
+    <string name="completion_rate">完了率</string>
+    <string name="detailed_analytics">詳細分析</string>
+    <string name="daily_progress">日次進捗</string>
+    <string name="daily_progress_desc">1日あたりの完了タスク</string>
+    <string name="accuracy_rate">精度率</string>
+    <string name="accuracy_rate_desc">すべてのタスクの平均精度</string>
+    <string name="speed_improvement">速度向上</string>
+    <string name="speed_improvement_desc">先週と比較した時間短縮</string>
+    <string name="streak_days">連続日数</string>
+    <string name="streak_days_desc">連続活動日数</string>
+    <string name="favorite_shape">お気に入りの図形</string>
+    <string name="favorite_shape_desc">最も完了した図形タイプ</string>
+    <string name="peak_performance">ピークパフォーマンス</string>
+    <string name="peak_performance_desc">タスクに最適な時間帯</string>
+    <string name="tasks_per_day">タスク/日</string>
+    <string name="days">日</string>
+
+    <!-- Social -->
+    <string name="social_feed">ソーシャルフィード</string>
+    <string name="add_friend">友達追加</string>
+    <string name="posts">投稿</string>
+    <string name="likes">いいね</string>
+    <string name="share_my_work">作品を共有</string>
+    <string name="view_friends">友達を見る</string>
+    <string name="recent_posts">最近の投稿</string>
+    <string name="hours_ago">%d時間前</string>
+    <string name="day_ago">1日前</string>
+    <string name="just_completed_first_task">最初の塗り絵タスクを完了しました！🎨</string>
+    <string name="check_out_masterpiece">最新の傑作をご覧ください！</string>
+    <string name="achieved_100_accuracy">円のタスクで100%%の精度を達成！🎯</string>
+
+    <!-- Admin Dashboard -->
+    <string name="welcome_admin_title">管理者様、ようこそ！</string>
+    <string name="task_management_btn">タスク管理</string>
+    <string name="user_management_btn">ユーザー管理</string>
+    <string name="reports_analytics_btn">レポートと分析</string>
+    <string name="statistics_title">統計</string>
+    <string name="total_users_label">総ユーザー数</string>
+    <string name="active_tasks_label">アクティブなタスク</string>
+    <string name="completed_attempts_label">完了した試行</string>
+    <string name="average_score_label">平均スコア</string>
+
+    <!-- Advanced Admin -->
+    <string name="advanced_admin_title">高度なダッシュボード</string>
+    <string name="user_registration_trends">ユーザー登録トレンド</string>
+    <string name="user_registration_desc">月次登録統計</string>
+    <string name="new_users_count">%d人の新規ユーザー</string>
+    <string name="task_completion_rate_title">タスク完了率</string>
+    <string name="task_completion_desc">成功したタスクの割合</string>
+    <string name="avg_session_duration">平均セッション時間</string>
+    <string name="avg_session_desc">ユーザーがアプリで過ごす平均時間</string>
+    <string name="top_performing_tasks_title">パフォーマンスの高いタスク</string>
+    <string name="top_tasks_desc">最も人気で成功したタスク</string>
+    <string name="circle_coloring">円の塗り絵</string>
+    <string name="completion_percent">%d%%完了</string>
+    <string name="data_management_title">データ管理</string>
+
+    <!-- Confirmations -->
+    <string name="confirm_delete">削除を確認しますか？</string>
+    <string name="confirm_exit">終了を確認しますか？</string>
+    <string name="confirm_logout">ログアウトを確認しますか？</string>
+    <string name="confirm_reset">リセットを確認しますか？</string>
+    <string name="confirm_cancel">キャンセルを確認しますか？</string>
+    <string name="confirm_save">保存を確認しますか？</string>
+
+    <!-- Units -->
+    <string name="unit_seconds">秒</string>
+    <string name="unit_minutes">分</string>
+    <string name="unit_hours">時間</string>
+    <string name="unit_days">日</string>
+    <string name="unit_points">ポイント</string>
+    <string name="unit_percentage">%</string>
+    <string name="unit_count">回</string>
+
+    <!-- Date & Time Formats -->
+    <string name="date_format_short">yyyy/MM/dd</string>
+    <string name="date_format_long">yyyy年MM月dd日</string>
+    <string name="time_format_short">HH:mm</string>
+    <string name="time_format_long">HH:mm:ss</string>
+    <string name="datetime_format">yyyy/MM/dd HH:mm</string>
+
+    <!-- Empty State Titles -->
+    <string name="tasks_empty_title">タスクなし</string>
+    <string name="tasks_empty_subtitle">新しいタスクを追加開始</string>
+    <string name="tasks_empty_description">まだタスクが作成されていません</string>
+    <string name="history_empty_title">履歴なし</string>
+    <string name="history_empty_subtitle">タスク完了を開始</string>
+    <string name="history_empty_description">履歴がここに表示されます</string>
+    <string name="leaderboard_empty_title">リーダーボードなし</string>
+    <string name="leaderboard_empty_subtitle">最初の人になる</string>
+    <string name="leaderboard_empty_description">リーダーボードに載るためにタスクを完了してください</string>
+
+    <!-- Titles -->
+    <string name="leaderboard_title">リーダーボード</string>
+    <string name="profile_title">プロフィール</string>
+    <string name="settings_title">設定</string>
+    <string name="progress_title">進捗</string>
+    <string name="progress_label">進捗</string>
+
+    <!-- Icons & Descriptions -->
+    <string name="task_icon_description">タスクアイコン</string>
+    <string name="difficulty_icon_description">難易度アイコン</string>
+    <string name="rank_icon_description">ランクアイコン</string>
+    <string name="time_icon_description">時間アイコン</string>
+    <string name="notification_icon_description">通知アイコン</string>
+    <string name="shape_preview">図形プレビュー</string>
+    <string name="shape_name">図形名</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_label">アクセシビリティラベル</string>
+    <string name="accessibility_hint">アクセシビリティヒント</string>
+    <string name="accessibility_announcement">アクセシビリティアナウンス</string>
+    <string name="accessibility_content_description">コンテンツ説明</string>
+
+    <!-- Debug -->
+    <string name="debug_info">デバッグ情報</string>
+    <string name="debug_logs">デバッグログ</string>
+    <string name="debug_export">デバッグエクスポート</string>
+    <string name="debug_clear">デバッグクリア</string>
+
+    <!-- Profile & Settings -->
+    <string name="profile_settings_title">プロフィールと設定</string>
+    <string name="theme_customization">テーマカスタマイズ</string>
+    <string name="theme_customization_desc">高度なテーマ設定と色のカスタマイズ</string>
+    <string name="advanced_features">高度な機能</string>
+    <string name="gestures">ジェスチャー</string>
+    <string name="haptics">ハプティクス</string>
+    <string name="machine_learning">機械学習</string>
+    <string name="networking">ネットワーク</string>
+    <string name="notifications_advanced">通知</string>
+    <string name="security">セキュリティ</string>
+    <string name="sensors">センサー</string>
+    <string name="sounds">音</string>
+    
+    <!-- Advanced Networking -->
+    <string name="advanced_networking">高度なネットワーク</string>
+    <string name="network_status">ネットワーク状態</string>
+    <string name="network_ready">高度なネットワークが準備完了</string>
+    <string name="network_information">ネットワーク情報</string>
+    <string name="network_config_description">最適なパフォーマンスのために高度なネットワークを設定してください。</string>
+    <string name="network_unavailable">ネットワークが利用できません</string>
+    <string name="network_connecting">接続中: %1$s</string>
+    <string name="network_control">ネットワーク制御</string>
+    <string name="check_network">チェック</string>
+    <string name="sync_network">⤓ 同期</string>
+    <string name="optimize_network">最適化</string>
+    <string name="network_settings">ネットワーク設定</string>
+    <string name="enable_network">ネットワークを有効にする</string>
+    <string name="wifi_only">WiFiのみ</string>
+    <string name="data_saving">データ節約</string>
+    <string name="auto_sync">自動同期</string>
+    <string name="available_network_features">利用可能なネットワーク機能</string>
+    <string name="wifi_optimization">WiFi最適化</string>
+    <string name="wifi_optimization_desc">WiFi接続パフォーマンスの最適化</string>
+    <string name="data_compression">データ圧縮</string>
+    <string name="data_compression_desc">より高速な送信のためのデータ圧縮</string>
+    <string name="active">アクティブ</string>
+    <string name="use_feature">使用</string>
+    <string name="help_support">ヘルプ</string>
+    <string name="contact_us">お問い合わせ</string>
+    <string name="policies_terms">ポリシーと利用規約</string>
+    <string name="support_center">サポートセンター</string>
+    <string name="support_center_description">サポートおよびヘルプセンター</string>
+    <string name="logout">ログアウト</string>
+    <string name="logout_description">アカウントからログアウト</string>
+    <string name="logout_confirm">ログアウトを確認しますか？</string>
+    <string name="logout_message">ログアウトしてもよろしいですか？</string>
+    <string name="logout_success">ログアウト成功</string>
+    <string name="feature_under_development">機能開発中</string>
+    <string name="app_version">バージョン 1.0.0 (1)</string>
+    <string name="company_name">5人会社</string>
+    <string name="company_email">メール：daihoc@uef.edu.vn</string>
+
+    <!-- Sound Settings -->
+    <string name="sound_status">音の状態</string>
+    <string name="sound_status_ready">高度な音が準備完了</string>
+    <string name="sound_information">音情報</string>
+    <string name="sound_information_desc">没入感のある体験のために高度な音設定を設定してください。</string>
+    <string name="sound_controls">音制御</string>
+    <string name="play_sound">▶️ 再生</string>
+    <string name="stop_sound">⏹️ 停止</string>
+    <string name="test_sound">🧪 テスト</string>
+    <string name="pitch">周波数</string>
+    <string name="enable_sounds">音を有効にする</string>
+    <string name="available_sound_features">利用可能な音機能</string>
+    <string name="background_music_feature">背景音楽</string>
+    <string name="background_music_desc">塗り絵中の背景音楽</string>
+    <!-- About App -->
+    <string name="about_app">アプリについて</string>
+    <string name="about_app_description">図形塗り絵についての情報</string>
+    <string name="about_app_title">図形塗り絵について</string>
+    <string name="about_introduction">図形塗り絵は、芸術への愛を育み、すべての人に質の高い塗り絵体験をもたらすという独特の使命を持って作成されました。私たちは、芸術愛好家コミュニティから高く評価されている美しく興味深い絵画でユーザーを結びつけたいと考えています。</string>
+    <string name="about_who_we_are">私たちについて</string>
+    <string name="about_who_we_are_content">図形塗り絵は、情熱的な芸術愛好家のチームによって開発されています。私たちは独立した個人であり、いかなる組織、機関、会社にも所属していません。</string>
+    <string name="about_important_info">重要な情報</string>
+    <string name="about_important_info_content">• 図形塗り絵は塗り絵を完全に無料で提供します。\n\n• 私たちのアプリのすべての絵画は完全に無料で提供されます。ただし、塗り絵体験を向上させ、アーティストをサポートするために、お気に入りの絵画の作者をサポートすることをお勧めします。</string>
+    <string name="about_our_collection">私たちのコレクション</string>
+    <string name="about_collection_content">図形塗り絵の絵画は、インターネット上で利用可能な多くのソースから収集されており、アートウェブサイト、塗り絵コミュニティ、その他多くのソースが含まれます。\n\n多くの異なるソースから収集しているため、コンテンツに時々省略や不正確さがある場合があります。ご理解いただき、これらの問題を迅速に改善し修正するためのフィードバックを常に歓迎いたします。</string>
+    <string name="about_content_policy">コンテンツポリシー</string>
+    <string name="about_policy_content">• 図形塗り絵のコンテンツの著作権者であり、そのコンテンツを削除したい場合は、support@coloring-shapes.comにメールをお送りください。お客様のリクエストを受領後、すぐにコンテンツを削除いたします。\n\n• 私たちのライブラリはまだ開発中であるため、ユーザーと共有する新しい絵画を継続的に探しています。特定のコンテンツリクエストがある場合は、メールをお送りください。可能な限り迅速にリクエストされた絵画を見つけて提供するよう努めます。</string>
+    <string name="about_footer_message">図形塗り絵でリラックスした、快適で有益な塗り絵の時間をお過ごしください。</string>
+    <string name="about_contact">お問い合わせ：support@coloring-shapes.com</string>
+    
+    <!-- Contact Information -->
+    <string name="address_full">ベトナム、ホーチミン市、ビンタン区、第2区、ディエンビエンフー通り145番地</string>
+    <string name="phone_number">+84 28 5422 6666</string>
+    <string name="address_and_contact">住所とお問い合わせ</string>
+    <string name="open_in_maps">マップで開く</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_settings">テーマ設定</string>
+    <string name="choose_theme">テーマ選択</string>
+    <string name="system_theme">システム</string>
+    <string name="system_theme_description">システム設定に従う</string>
+    <string name="light_theme">ライト</string>
+    <string name="light_theme_description">ライトテーマ</string>
+    <string name="dark_theme">ダーク</string>
+    <string name="dark_theme_description">ダークテーマ</string>
+    <string name="theme_preview">プレビュー</string>
+    <string name="theme_preview_default">プレビューするテーマを選択</string>
+    <string name="theme_info_title">情報</string>
+    <string name="theme_info_content">• システム：システム設定を自動的に従う\n• ライト：常にライトテーマを使用\n• ダーク：常にダークテーマを使用</string>
+    <string name="use">使用</string>
+
+    <!-- Advanced Sensors -->
+    <string name="advanced_sensors">高度なセンサー</string>
+    <string name="sensor_status">センサー状態</string>
+    <string name="sensor_status_ready">高度なセンサーが準備完了</string>
+    <string name="sensor_information">センサー情報</string>
+    <string name="sensor_information_desc">より良いユーザー体験のために高度なセンサーを設定してください。</string>
+    <string name="sensor_controls">センサー制御</string>
+    <string name="test_sensor">🧪 テスト</string>
+    <string name="calibrate_sensor">⚙️ キャリブレーション</string>
+    <string name="optimize_sensor">⚡ 最適化</string>
+    <string name="sensor_settings">センサー設定</string>
+    <string name="sensitivity">感度</string>
+    <string name="enable_sensors">センサーを有効にする</string>
+    <string name="accelerometer">加速度計</string>
+    <string name="gyroscope">ジャイロスコープ</string>
+    <string name="magnetometer">磁力計</string>
+    <string name="available_sensor_features">利用可能なセンサー機能</string>
+    <string name="motion_detection">モーション検出</string>
+    <string name="motion_detection_desc">高度なモーション検知</string>
+
+    <!-- Advanced Notifications -->
+    <string name="advanced_notifications">高度な通知</string>
+    <string name="notification_status">通知状態</string>
+    <string name="notification_status_ready">通知が準備完了</string>
+    <string name="notification_information">通知情報</string>
+    <string name="notification_information_desc">最新の状態を保つために高度な通知設定を設定してください。</string>
+    <string name="notification_controls">通知制御</string>
+    <string name="test_notification">✓ テスト</string>
+    <string name="clear_notifications">🗑️ クリア</string>
+    <string name="sound_notifications">音通知</string>
+    <string name="vibration_notifications">振動通知</string>
+    <string name="achievement_notifications">実績通知</string>
+    <string name="priority_notifications">優先通知</string>
+    <string name="available_notification_features">利用可能な通知機能</string>
+    <string name="push_notifications">プッシュ通知</string>
+    <string name="push_notifications_desc">リアルタイムプッシュ通知</string>
+
+    <!-- Advanced Gestures -->
+    <string name="advanced_gestures">高度なジェスチャー</string>
+    <string name="gesture_status">ジェスチャー状態</string>
+    <string name="gesture_status_ready">ジェスチャーが設定の準備完了</string>
+    <string name="gesture_information">ジェスチャー情報</string>
+    <string name="gesture_information_desc">視覚的な相互作用のための高度なジェスチャー認識を設定してください。</string>
+    <string name="gesture_controls">ジェスチャー制御</string>
+    <string name="test_gesture">✓ テスト</string>
+    <string name="calibrate_gesture">⚙️ キャリブレーション</string>
+    <string name="gesture_settings">ジェスチャー設定</string>
+    <string name="enable_gestures">ジェスチャーを有効にする</string>
+    <string name="tap_gestures">タップジェスチャー</string>
+    <string name="swipe_gestures">スワイプジェスチャー</string>
+    <string name="pinch_gestures">ピンチジェスチャー</string>
+    <string name="long_press_gestures">長押しジェスチャー</string>
+    <string name="available_gesture_features">利用可能なジェスチャー機能</string>
+    <string name="tap_gestures_feature">タップジェスチャー</string>
+    <string name="tap_gestures_desc">シングルタップとダブルタップを認識</string>
+
+
+    <!-- Additional UI Features -->
+    <string name="ui_features">UI</string>
+    <string name="widgets">ウィジェット</string>
+    <string name="visual_effects">視覚効果</string>
+
+    <!-- Language Support -->
+    <string name="current_language">日本語</string>
+    <string name="language_vietnamese">ベトナム語</string>
+    <string name="language_english">英語</string>
+    <string name="language_chinese">中国語</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_korean">韓国語</string>
+    <string name="language_thai">タイ語</string>
+    <string name="language_french">フランス語</string>
+    <string name="language_german">ドイツ語</string>
+    <string name="language_spanish">スペイン語</string>
+    <string name="language_russian">ロシア語</string>
+
+    <!-- String Arrays -->
+    <string-array name="gender_options">
+        <item>男性</item>
+        <item>女性</item>
+    </string-array>
+
+    <string-array name="role_options">
+        <item>ユーザー</item>
+        <item>管理者</item>
+    </string-array>
+
+    <string-array name="language_options">
+        <item>ベトナム語</item>
+        <item>英語</item>
+        <item>中国語</item>
+        <item>日本語</item>
+        <item>韓国語</item>
+        <item>タイ語</item>
+        <item>フランス語</item>
+        <item>ドイツ語</item>
+        <item>スペイン語</item>
+        <item>ロシア語</item>
+    </string-array>
+
+    <string-array name="language_codes">
+        <item>vi</item>
+        <item>en</item>
+        <item>zh</item>
+        <item>ja</item>
+        <item>ko</item>
+        <item>th</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>es</item>
+        <item>ru</item>
+    </string-array>
+
+    <!-- Advanced Sounds -->
+    <string name="advanced_sounds">高度な音</string>
+    <string name="audio_status">音声状態</string>
+    <string name="audio_ready">高度な音声が準備完了</string>
+    <string name="audio_information">音声情報</string>
+    <string name="audio_info_description">没入感のある体験のために高度な音声設定を設定してください。</string>
+    <string name="audio_controls">音声制御</string>
+    <string name="play_audio">再生</string>
+    <string name="stop_audio">停止</string>
+    <string name="try_audio">試す</string>
+    <string name="audio_settings">音声設定</string>
+    <string name="volume">音量</string>
+    <string name="frequency">周波数</string>
+    <string name="enable_sound">音を有効にする</string>
+    <string name="background_music">背景音楽</string>
+    <string name="sound_effects">音響効果</string>
+    <string name="voice_feedback">音声フィードバック</string>
+    <string name="available_audio_features">利用可能な音声機能</string>
+
+    <!-- Additional Profile Fields -->
+    <string name="enter_birth_year">生年を入力</string>
+    <string name="change_password">パスワード変更</string>
+    <string name="current_password">現在のパスワード</string>
+    <string name="new_password">新しいパスワード</string>
+    <string name="confirm_new_password">新しいパスワード確認</string>
+    <string name="enter_current_password">現在のパスワードを入力</string>
+    <string name="enter_new_password">新しいパスワードを入力</string>
+    <string name="confirm_new_password_hint">新しいパスワードを確認</string>
+
+    <!-- Missing String Resources -->
+    <string name="accessibility_controls">アクセシビリティ制御</string>
+    <string name="accessibility_feature_description">アクセシビリティ機能の説明</string>
+    <string name="accessibility_feature_title">アクセシビリティ機能タイトル</string>
+    <string name="accessibility_features">アクセシビリティ機能</string>
+    <string name="accessibility_instructions">アクセシビリティ指示</string>
+    <string name="accessibility_instructions_desc">アクセシビリティ指示の説明</string>
+    <string name="accessibility_settings">アクセシビリティ設定</string>
+    <string name="accessibility_status">アクセシビリティ状態</string>
+    <string name="accessibility_status_ready">アクセシビリティが準備完了</string>
+    <string name="achievement_description">実績の説明</string>
+    <string name="achievement_name">実績名</string>
+    <string name="active_status">アクティブ状態</string>
+    <string name="add_new_achievement">新しい実績を追加</string>
+    <string name="add_new_task">新しいタスクを追加</string>
+    <string name="add_new_user">新しいユーザーを追加</string>
+    <string name="admin_system_management">システム管理</string>
+    <string name="advanced_animations">高度なアニメーション</string>
+    <string name="advanced_blockchain">高度なブロックチェーン</string>
+    <string name="advanced_camera">高度なカメラ</string>
+    <string name="advanced_drawing_tools">高度な描画ツール</string>
+    <string name="advanced_haptic_controls">高度なハプティクス制御</string>
+    <string name="advanced_haptics">高度なハプティクス</string>
+    <string name="advanced_machine_learning">高度な機械学習</string>
+    <string name="advanced_security">高度なセキュリティ</string>
+    <string name="advanced_themes">高度なテーマ</string>
+    <string name="advanced_timer">高度なタイマー</string>
+    <string name="advanced_ui">高度なUI</string>
+    <string name="advanced_visual_effects">高度な視覚効果</string>
+    <string name="advanced_widgets">高度なウィジェット</string>
+    <string name="ai_controls">AI制御</string>
+    <string name="ai_feature_description">AI機能の説明</string>
+    <string name="ai_feature_title">AI機能タイトル</string>
+    <string name="ai_features">AI機能</string>
+    <string name="ai_no_suggestions">まだ提案がありません</string>
+    <string name="ai_ready">AIが準備完了</string>
+    <string name="ai_status">AI状態</string>
+    <string name="ai_suggestions">AI提案</string>
+    <string name="analytics_change">分析変更</string>
+    <string name="analytics_item_description">分析項目の説明</string>
+    <string name="analytics_item_title">分析項目タイトル</string>
+    <string name="analytics_title">分析タイトル</string>
+    <string name="analytics_value">分析値</string>
+    <string name="analytics_value_25">25</string>
+    <string name="analytics_value_2h45m">2時間45分</string>
+    <string name="analytics_value_875">875</string>
+    <string name="analytics_value_92">92</string>
+    <string name="analyze_button">分析</string>
+    <string name="animation_feature_description">アニメーション機能の説明</string>
+    <string name="animation_feature_title">アニメーション機能タイトル</string>
+    <string name="animation_information">アニメーション情報</string>
+    <string name="animation_speed">アニメーション速度</string>
+    <string name="animation_status">アニメーション状態</string>
+    <string name="animations_ready">アニメーションが準備完了</string>
+    <string name="app_footer">アプリフッター</string>
+    <string name="apply_button">適用</string>
+    <string name="apply_ui">UI適用</string>
+    <string name="apply_visual">視覚適用</string>
+    <string name="ar_controls">AR制御</string>
+    <string name="ar_feature_description">AR機能の説明</string>
+    <string name="ar_feature_title">AR機能タイトル</string>
+    <string name="ar_features">AR機能</string>
+    <string name="ar_instructions">AR指示</string>
+    <string name="ar_ready">ARが準備完了</string>
+    <string name="ar_start_instructions">AR開始指示</string>
+    <string name="ar_status">AR状態</string>
+    <string name="art_emoji">🎨</string>
+    <string name="auto_focus">自動フォーカス</string>
+    <string name="auto_learning">自動学習</string>
+    <string name="available_accessibility_features">利用可能なアクセシビリティ機能</string>
+    <string name="available_commands">利用可能なコマンド</string>
+    <string name="available_haptic_features">利用可能なハプティクス機能</string>
+    <string name="available_ml_features">利用可能なML機能</string>
+    <string name="available_security_features">利用可能なセキュリティ機能</string>
+    <string name="available_ui_features">利用可能なUI機能</string>
+    <string name="available_visual_features">利用可能な視覚機能</string>
+    <string name="back_to_login">ログインに戻る</string>
+    <string name="biometric_auth_desc">生体認証の説明</string>
+    <string name="biometric_authentication">生体認証</string>
+    <string name="birth_year_format">生年フォーマット</string>
+    <string name="birth_year_label">生年ラベル</string>
+    <string name="blockchain_feature_description">ブロックチェーン機能の説明</string>
+    <string name="blockchain_feature_title">ブロックチェーン機能タイトル</string>
+    <string name="blockchain_information">ブロックチェーン情報</string>
+    <string name="blockchain_ready">ブロックチェーンが準備完了</string>
+    <string name="blockchain_status">ブロックチェーン状態</string>
+    <string name="brightness">明度</string>
+    <string name="brightness_label">明度ラベル</string>
+    <string name="brightness_level">明度レベル</string>
+    <string name="brightness_level_value">明度レベル値</string>
+    <string name="brush_size_label">ブラシサイズラベル</string>
+    <string name="calibrate_button">キャリブレーションボタン</string>
+    <string name="calibrate_haptic">ハプティクスキャリブレーション</string>
+    <string name="camera_controls">カメラ制御</string>
+    <string name="camera_feature_description">カメラ機能の説明</string>
+    <string name="camera_feature_title">カメラ機能タイトル</string>
+    <string name="camera_information">カメラ情報</string>
+    <string name="camera_permission_required">カメラ権限が必要</string>
+    <string name="camera_ready">カメラが準備完了</string>
+    <string name="camera_settings">カメラ設定</string>
+    <string name="camera_settings_description">カメラ設定の説明</string>
+    <string name="camera_status">カメラ状態</string>
+    <string name="capture_button">キャプチャボタン</string>
+    <string name="change_password_button">パスワード変更ボタン</string>
+    <string name="choose_from_gallery">ギャラリーから選択</string>
+    <string name="choose_language">言語選択</string>
+    <string name="clear_all_data">すべてのデータをクリア</string>
+    <string name="clear_button">クリアボタン</string>
+    <string name="close">閉じる</string>
+    <string name="cloud_sync">クラウド同期</string>
+    <string name="color">色</string>
+    <string name="color_customization_description">色カスタマイズの説明</string>
+    <string name="color_effects">色効果</string>
+    <string name="color_name">色名</string>
+    <string name="color_picker_title">カラーピッカータイトル</string>
+    <string name="coloring_task">塗り絵タスク</string>
+    <string name="comment_count">コメント数</string>
+    <string name="computer_emoji">🖥️</string>
+    <string name="contrast">コントラスト</string>
+    <string name="contrast_label">コントラストラベル</string>
+    <string name="create_button">作成ボタン</string>
+    <string name="create_new_account">新しいアカウントを作成</string>
+    <string name="created_date">作成日</string>
+    <string name="custom_animations">カスタムアニメーション</string>
+    <string name="custom_animations_desc">カスタムアニメーションの説明</string>
+    <string name="dark">ダーク</string>
+    <string name="data_augmentation">データ拡張</string>
+    <string name="data_encryption">データ暗号化</string>
+    <string name="data_encryption_desc">データ暗号化の説明</string>
+    <string name="date_format">日付フォーマット</string>
+    <string name="delete_task">タスク削除</string>
+    <string name="demo_email">デモメール</string>
+    <string name="demo_mode">デモモード</string>
+    <string name="demo_user">デモユーザー</string>
+    <string name="description">説明</string>
+    <string name="difficulty">難易度</string>
+    <string name="double_tap">ダブルタップ</string>
+    <string name="dynamic_themes">動的テーマ</string>
+    <string name="dynamic_themes_desc">動的テーマの説明</string>
+    <string name="edit_task">タスク編集</string>
+    <string name="enable_accessibility">アクセシビリティを有効にする</string>
+    <string name="enable_button">有効ボタン</string>
+    <string name="enable_camera">カメラを有効にする</string>
+    <string name="enable_haptics">ハプティクスを有効にする</string>
+    <string name="enable_ml">MLを有効にする</string>
+    <string name="enable_security">セキュリティを有効にする</string>
+    <string name="enable_security_button">セキュリティ有効ボタン</string>
+    <string name="enable_ui_customization">UIカスタマイズを有効にする</string>
+    <string name="enable_visual_effects">視覚効果を有効にする</string>
+    <string name="export_error">エクスポートエラー</string>
+    <string name="export_feature_developing">エクスポート機能開発中</string>
+    <string name="female_user_emoji">👩</string>
+    <string name="filter_label">フィルターラベル</string>
+    <string name="flash_label">フラッシュラベル</string>
+    <string name="forgot_password_description">UEFメールアドレスを入力して、パスワードリセット手順を受信してください</string>
+    <string name="forgot_password_title">パスワードを忘れた場合</string>
+    <string name="gesture_feature_description">ジェスチャー機能の説明</string>
+    <string name="gesture_feature_title">ジェスチャー機能タイトル</string>
+    <string name="gesture_instructions">ジェスチャー指示</string>
+    <string name="gestures_ready">ジェスチャーが準備完了</string>
+    <string name="gold_medal_emoji">🥇</string>
+    <string name="great_job">素晴らしい仕事</string>
+    <string name="haptic_controls">ハプティクス制御</string>
+    <string name="haptic_feature_description">ハプティクス機能の説明</string>
+    <string name="haptic_feature_title">ハプティクス機能タイトル</string>
+    <string name="haptic_information">ハプティクス情報</string>
+    <string name="haptic_information_desc">ハプティクス情報の説明</string>
+    <string name="haptic_intensity">ハプティクス強度</string>
+    <string name="haptic_intensity_control">ハプティクス強度制御</string>
+    <string name="haptic_patterns">ハプティクスパターン</string>
+    <string name="haptic_settings">ハプティクス設定</string>
+    <string name="haptic_status">ハプティクス状態</string>
+    <string name="haptic_status_ready">ハプティクスが準備完了</string>
+    <string name="haptic_status_enabled">ハプティックフィードバックが有効です - 強度: %1$d%%</string>
+    <string name="haptic_status_disabled">ハプティックフィードバックが無効です</string>
+    <string name="haptic_testing">ハプティクスをテスト中...</string>
+    <string name="haptic_question">振動を感じますか？</string>
+    <string name="haptic_description">鮮やかなタッチ体験のためにハプティックフィードバックを設定します。</string>
+    <string name="haptic_types">ハプティクスタイプ</string>
+    <string name="heavy">重い</string>
+    <string name="heavy_haptic">重いハプティクス</string>
+    <string name="heavy_haptic_description">重いハプティクスの説明</string>
+    <string name="high_contrast">高コントラスト</string>
+    <string name="import_error">インポートエラー</string>
+    <string name="import_feature_developing">インポート機能開発中</string>
+    <string name="intensity">強度</string>
+    <string name="language_changed_english">言語が英語に変更されました</string>
+    <string name="language_changed_vietnamese">言語がベトナム語に変更されました</string>
+    <string name="large_text">大きなテキスト</string>
+    <string name="learning_rate">学習率</string>
+    <string name="level_format">レベルフォーマット</string>
+    <string name="light">ライト</string>
+    <string name="light_haptic">軽いハプティクス</string>
+    <string name="light_haptic_description">軽いハプティクスの説明</string>
+    <string name="lighting_effects">照明効果</string>
+    <string name="like_count">❤️ %1$d</string>
+    <string name="locked">ロック済み</string>
+    <string name="long_press">長押し</string>
+    <string name="medium_haptic">中程度のハプティクス</string>
+    <string name="medium_haptic_description">中程度のハプティクスの説明</string>
+    <string name="ml_configuration_description">ML設定の説明</string>
+    <string name="ml_controls">ML制御</string>
+    <string name="ml_feature_description">ML機能の説明</string>
+    <string name="ml_feature_title">ML機能タイトル</string>
+    <string name="ml_information">ML情報</string>
+    <string name="ml_information_desc">ML情報の説明</string>
+    <string name="ml_settings">ML設定</string>
+    <string name="ml_status">ML状態</string>
+    <string name="ml_status_ready">MLが準備完了</string>
+    <string name="moon_emoji">🌙</string>
+    <string name="network_feature_description">ネットワーク機能の説明</string>
+    <string name="network_feature_title">ネットワーク機能タイトル</string>
+    <string name="neural_networks">ニューラルネットワーク</string>
+    <string name="neural_networks_desc">ニューラルネットワークの説明</string>
+    <string name="no_history_found">履歴が見つかりません</string>
+    <string name="no_leaderboard_data">リーダーボードデータなし</string>
+    <string name="no_speech_detected">音声が検出されません</string>
+    <string name="normal_mode">通常モード</string>
+    <string name="notification_feature_description">通知機能の説明</string>
+    <string name="notification_feature_title">通知機能タイトル</string>
+    <string name="opacity_label">不透明度ラベル</string>
+    <string name="opacity_value">不透明度値</string>
+    <string name="other_gender">その他</string>
+    <string name="particle_effects">パーティクル効果</string>
+    <string name="particle_effects_desc">パーティクル効果の説明</string>
+    <string name="pause_button">一時停止ボタン</string>
+    <string name="percent_symbol">%</string>
+    <string name="player_name">プレイヤー名</string>
+    <string name="points_format">ポイントフォーマット</string>
+    <string name="points_value">ポイント値</string>
+    <string name="points_zero">ゼロポイント</string>
+    <string name="post_content">投稿内容</string>
+    <string name="predict_ml">ML予測</string>
+    <string name="pressure_haptics">圧力ハプティクス</string>
+    <string name="preview_visual">視覚プレビュー</string>
+    <string name="primary_color">プライマリ色</string>
+    <string name="profile_image_saved">プロフィール画像が保存されました</string>
+    <string name="profile_score_value">プロフィールスコア値</string>
+    <string name="rank_label">ランクラベル</string>
+    <string name="rank_number">ランク番号</string>
+    <string name="ready">準備完了</string>
+    <string name="realtime">リアルタイム</string>
+    <string name="realtime_prediction">リアルタイム予測</string>
+    <string name="record_button">録音ボタン</string>
+    <string name="redo_button">やり直しボタン</string>
+    <string name="refresh_emoji">🔄</string>
+    <string name="remove_button">削除ボタン</string>
+    <string name="report_description">レポートの説明</string>
+    <string name="report_title">レポートタイトル</string>
+    <string name="reset_button">リセットボタン</string>
+    <string name="reset_database">データベースリセット</string>
+    <string name="reset_haptic">ハプティクスリセット</string>
+    <string name="reset_ui">UIリセット</string>
+    <string name="role">役割</string>
+    <string name="sample_email">サンプルメール</string>
+    <string name="sample_name">サンプル名</string>
+    <string name="saturation">彩度</string>
+    <string name="save_haptic">ハプティクス保存</string>
+    <string name="score_format">スコアフォーマット</string>
+    <string name="score_label">スコアラベル</string>
+    <string name="score_value">スコア値</string>
+    <string name="secondary_color">セカンダリ色</string>
+    <string name="security_controls">セキュリティ制御</string>
+    <string name="security_enable_description">セキュリティ有効化の説明</string>
+    <string name="security_feature_description">セキュリティ機能の説明</string>
+    <string name="security_feature_title">セキュリティ機能タイトル</string>
+    <string name="security_information">セキュリティ情報</string>
+    <string name="security_information_desc">セキュリティ情報の説明</string>
+    <string name="security_settings">セキュリティ設定</string>
+    <string name="security_status">セキュリティ状態</string>
+    <string name="security_status_ready">セキュリティが準備完了</string>
+    <string name="select_profile_image">プロフィール画像を選択</string>
+    <string name="send_instructions">指示を送信</string>
+    <string name="sensor_feature_description">センサー機能の説明</string>
+    <string name="sensor_feature_title">センサー機能タイトル</string>
+    <string name="settings_emoji">⚙️</string>
+    <string name="shape_type">図形タイプ</string>
+    <string name="share_button">共有ボタン</string>
+    <string name="signal_emoji">📶</string>
+    <string name="single_tap">シングルタップ</string>
+    <string name="social_network">ソーシャルネットワーク</string>
+    <string name="star_emoji">⭐</string>
+    <string name="start_ar_button">AR開始ボタン</string>
+    <string name="start_button">開始ボタン</string>
+    <string name="start_listening">聞き取り開始</string>
+    <string name="status_label">状態ラベル</string>
+    <string name="stop">停止</string>
+    <string name="storage_permission_required">ストレージ権限が必要</string>
+    <string name="suggest_button">提案ボタン</string>
+    <string name="sun_emoji">☀️</string>
+    <string name="sync_controls">同期制御</string>
+    <string name="sync_feature_description">同期機能の説明</string>
+    <string name="sync_feature_title">同期機能タイトル</string>
+    <string name="sync_progress">同期進捗</string>
+    <string name="sync_ready">同期が準備完了</string>
+    <string name="sync_ready_message">同期準備完了メッセージ</string>
+    <string name="sync_start_button">同期開始ボタン</string>
+    <string name="sync_status">同期状態</string>
+    <string name="sync_stop_button">同期停止ボタン</string>
+    <string name="system_management_title">システム管理タイトル</string>
+    <string name="system_statistics">システム統計</string>
+    <string name="take_photo">写真を撮る</string>
+    <string name="target_emoji">🎯</string>
+    <string name="task_description_hint">タスク説明ヒント</string>
+    <string name="task_duration_value">タスク所要時間値</string>
+    <string name="task_history">タスク履歴</string>
+    <string name="task_label">タスクラベル</string>
+    <string name="task_name_hint">タスク名ヒント</string>
+    <string name="temperature_haptics">温度ハプティクス</string>
+    <string name="test_accessibility">アクセシビリティテスト</string>
+    <string name="test_button">テストボタン</string>
+    <string name="test_haptic">ハプティクステスト</string>
+    <string name="test_ml">MLテスト</string>
+    <string name="test_security">セキュリティテスト</string>
+    <string name="test_visual">視覚テスト</string>
+    <string name="theme_feature_description">テーマ機能の説明</string>
+    <string name="theme_feature_title">テーマ機能タイトル</string>
+    <string name="theme_information">テーマ情報</string>
+    <string name="theme_intensity">テーマ強度</string>
+    <string name="theme_ready">テーマが準備完了</string>
+    <string name="theme_selection">テーマ選択</string>
+    <string name="theme_selection_description">テーマ選択の説明</string>
+    <string name="theme_status">テーマ状態</string>
+    <string name="time_ago">時間前</string>
+    <string name="time_format">時間フォーマット</string>
+    <string name="time_label">時間ラベル</string>
+    <string name="timer_controls">タイマー制御</string>
+    <string name="timer_display">タイマー表示</string>
+    <string name="timer_display_value">タイマー表示値</string>
+    <string name="timer_duration">タイマー所要時間</string>
+    <string name="timer_duration_instructions">タイマー所要時間指示</string>
+    <string name="timer_feature_description">タイマー機能の説明</string>
+    <string name="timer_feature_title">タイマー機能タイトル</string>
+    <string name="timer_ready">タイマーが準備完了</string>
+    <string name="timer_status">タイマー状態</string>
+    <string name="total_achievements_count">総実績数</string>
+    <string name="total_plays_count">総プレイ数</string>
+    <string name="total_tasks_count">総タスク数</string>
+    <string name="total_users_count">総ユーザー数</string>
+    <string name="train_button">トレーニングボタン</string>
+    <string name="train_ml">MLトレーニング</string>
+    <string name="try_demo">デモを試す</string>
+    <string name="two_factor_authentication">二要素認証</string>
+    <string name="type">タイプ</string>
+    <string name="ui_controls">UI制御</string>
+    <string name="ui_customization_description">UIカスタマイズの説明</string>
+    <string name="ui_feature_description">UI機能の説明</string>
+    <string name="ui_feature_title">UI機能タイトル</string>
+    <string name="ui_information">UI情報</string>
+    <string name="ui_information_desc">UI情報の説明</string>
+    <string name="ui_settings">UI設定</string>
+    <string name="ui_status">UI状態</string>
+    <string name="ui_status_ready">UIが準備完了</string>
+    <string name="undo_button">元に戻すボタン</string>
+    <string name="user_label">ユーザーラベル</string>
+    <string name="user_management_title">ユーザー管理タイトル</string>
+    <string name="user_role">ユーザー役割</string>
+    <string name="value">値</string>
+    <string name="vibration_feedback">振動フィードバック</string>
+    <string name="vibration_feedback_desc">振動フィードバックの説明</string>
+    <string name="vibration_haptics">振動ハプティクス</string>
+    <string name="visual_configuration_description">視覚設定の説明</string>
+    <string name="visual_controls">視覚制御</string>
+    <string name="visual_feature_description">視覚機能の説明</string>
+    <string name="visual_feature_title">視覚機能タイトル</string>
+    <string name="visual_information">視覚情報</string>
+    <string name="visual_information_desc">視覚情報の説明</string>
+    <string name="visual_settings">視覚設定</string>
+    <string name="visual_status">視覚状態</string>
+    <string name="visual_status_ready">視覚が準備完了</string>
+    <string name="voice_commands">音声コマンド</string>
+    <string name="voice_controls">音声制御</string>
+    <string name="voice_over">音声オーバー</string>
+    <string name="voice_result">音声結果</string>
+    <string name="voice_status">音声状態</string>
+    <string name="widget_controls">ウィジェット制御</string>
+    <string name="widget_creation_description">ウィジェット作成の説明</string>
+    <string name="widget_feature_description">ウィジェット機能の説明</string>
+    <string name="widget_feature_title">ウィジェット機能タイトル</string>
+    <string name="widget_information">ウィジェット情報</string>
+    <string name="widget_status">ウィジェット状態</string>
+    <string name="widgets_ready">ウィジェットが準備完了</string>
+    <string name="zoom_label">ズームラベル</string>
+    <string name="tet_theme">テトテーマ</string>
+    <string name="tet_theme_description">旧正月の特別テーマ</string>
+
+    <!-- User Management Strings -->
+    <string name="filter_all_users">すべて</string>
+    <string name="filter_users_role">ユーザー</string>
+    <string name="filter_admin_role">管理者</string>
+    <string name="filter_active_users">アクティブ</string>
+    <string name="filter_locked_users">ロック済み</string>
+    <string name="total_users_text">合計: %1$dユーザー</string>
+    <string name="found_users_text">見つかった: %1$dユーザー</string>
+    <string name="add_new_user_title">新しいユーザーを追加</string>
+    <string name="add_user_button">追加</string>
+    <string name="edit_user_title">ユーザーを編集</string>
+    <string name="update_button">更新</string>
+    <string name="delete_user_title">削除の確認</string>
+    <string name="delete_user_message">ユーザー %1$s を削除しますか？</string>
+    <string name="delete_button">削除</string>
+    <string name="user_added_success">ユーザーが追加されました</string>
+    <string name="user_updated_success">ユーザーが更新されました</string>
+    <string name="user_deleted_success">ユーザーが削除されました</string>
+    <string name="user_activated">有効化</string>
+    <string name="user_locked">ロック</string>
+    <string name="user_status_changed">ユーザーが%1$sされました</string>
+    <string name="enter_name_hint">名前を入力してください</string>
+    <string name="password_min_length">パスワードは6文字以上である必要があります</string>
+    <string name="invalid_birth_year">生年が無効です</string>
+    <string name="admin_role">管理者</string>
+    <string name="user_role_label">ユーザー</string>
+    <string name="created_at_label">作成: %1$s</string>
+
+    <!-- Achievement Management Strings -->
+    <string name="total_achievements_text">総実績数：%1$d</string>
+    <string name="edit_achievement_title">実績を編集</string>
+    <string name="enter_achievement_name">実績名を入力してください</string>
+    <string name="achievement_updated">実績が更新されました</string>
+    <string name="achievement_added">実績が追加されました</string>
+    <string name="delete_achievement_title">実績を削除</string>
+    <string name="delete_achievement_message">実績 \"%1$s\" を削除してもよろしいですか？</string>
+    <string name="achievement_deleted">実績が削除されました</string>
+    <string name="achievement_name_hint">実績名</string>
+    <string name="achievement_description_hint">説明</string>
+    <string name="achievement_icon_hint">アイコン（絵文字）</string>
+    <string name="achievement_requirement_hint">要件（数値）</string>
+    <string name="achievement_points_hint">報酬ポイント</string>
+
+    <!-- Leaderboard Management Strings -->
+    <string name="filter_top_10">トップ10</string>
+    <string name="filter_top_50">トップ50</string>
+    <string name="filter_top_100">トップ100</string>
+    <string name="total_attempts_text">総試行回数：%1$d</string>
+
+    <!-- Admin Dashboard Strings -->
+    <string name="reset_database_title">データベースリセットの確認</string>
+    <string name="reset_database_message">すべてのデータを削除して10個のタスク + 10個のサンプルアカウントを再作成しますか？\n\n注意：すべての現在のデータが削除されます！</string>
+    <string name="confirm_reset_button">確認</string>
+    <string name="reset_database_success">✅ データベースが正常にリセットされました！\n10個のタスク + 10個のアカウントが作成されました。</string>
+    <string name="reset_database_error">❌ データベースリセット中にエラー: %1$s</string>
+    <string name="error_loading_statistics">統計の読み込みエラー</string>
+    <string name="users_count_format">%1$dユーザー</string>
+    <string name="tasks_count_format">%1$dタスク</string>
+    <string name="attempts_count_format">%1$d回</string>
+    <string name="points_count_format">%1$dポイント</string>
+
+    <!-- User Management -->
+    <string name="search_users_hint">検索...</string>
+    <string name="export_excel_label">📊 Excel出力</string>
+    
+    <!-- Advanced Sounds -->
+    <string name="select_music">音楽を選択</string>
+    <string name="select">選択</string>
+    <string name="turn_off">オフ</string>
+    <string name="turn_on">オン</string>
+    <string name="inactive">非アクティブ</string>
+    <string name="sound_effects_desc">ボタンを押すときの音</string>
+    <string name="notification_sound">通知音</string>
+    <string name="notification_sound_desc">通知があるときの音</string>
+    
+    <!-- Theme Settings -->
+    <string name="theme_selected">選択されたテーマ: %1$s</string>
+    <string name="theme_applied_immediately">変更は即座に適用されました！</string>
+    
+    <!-- Advanced Admin Reports -->
+    <string name="score_distribution">スコア分布</string>
+    <string name="score_distribution_desc">スコアレベル別の試行回数</string>
+    <string name="most_active_user">最も活発なユーザー</string>
+    <string name="most_active_user_desc">最も多くのタスクを完了したユーザー</string>
+    <string name="achievements_stat">実績</string>
+    <string name="achievements_stat_desc">全体の中のロック解除済み実績数</string>
+    <string name="avg_completion_speed">平均完了速度</string>
+    <string name="avg_completion_speed_desc">1つのタスクを完了する平均時間</string>
+    <string name="incomplete_rate">未完了率</string>
+    <string name="incomplete_rate_desc">中断されたタスクの割合</string>
+    <string name="new_users_7days">新規ユーザー（7日間）</string>
+    <string name="new_users_7days_desc">新しく登録されたユーザー数</string>
+    <string name="total_attempts">総試行回数</string>
+    <string name="total_attempts_desc">タスクを実行する総ユーザー数</string>
+    <string name="completed_attempts_trend">%1$d完了</string>
+    <string name="score_excellent">優秀</string>
+    <string name="score_good">良好</string>
+    <string name="score_fair">普通</string>
+    <string name="score_average">平均</string>
+    <string name="status_good">✓ 良好</string>
+    <string name="status_average">○ 平均</string>
+    <string name="status_need_improve">✗ 改善必要</string>
+    <string name="status_active">✓ アクティブ</string>
+    <string name="status_stable">○ 安定</string>
+    <string name="status_fast">✓ 速い</string>
+    <string name="status_medium">○ 中程度</string>
+    <string name="status_slow">✗ 遅い</string>
+    <string name="status_high">✗ 高い</string>
+    <string name="status_growth">✓ 成長</string>
+    <string name="status_no_data">○ なし</string>
+    <string name="no_data">データなし</string>
+    <string name="not_available">N/A</string>
+    <string name="total_format">合計：%1$d回</string>
+    <string name="attempts_completed">%1$d完了</string>
+    <string name="unlocked_percent">%1$d%% ロック解除</string>
+    <string name="users_count">%1$d人</string>
+    <string name="attempts">回</string>
+    
+    <!-- Leaderboard -->
+    <string name="total_score_tab">総スコア</string>
+    <string name="drawing_score_tab">描画スコア</string>
+    <string name="leaderboard_load_error">リーダーボードの読み込みエラー：%1$s</string>
+    <string name="score_points">%1$d点</string>
+    <string name="unknown_error">不明なエラー</string>
+    <string name="leaderboard_management">リーダーボード管理</string>
+    <string name="user_prefix">ユーザー: %1$s</string>
+    <string name="task_prefix">タスク: %1$s</string>
+    
+    <!-- Social Network - Post Content -->
+    <string name="post_created_colorful_garden">カラフルな庭を作りました！ 🌸</string>
+    <string name="post_beautiful_mountain_lake">美しい山の湖の景色！ 🏔️</string>
+    <string name="post_city_at_night">きらめく光の夜の街！ 🌃</string>
+    <string name="post_fairytale_castle">夢の中のおとぎ話の城！ 🏰</string>
+    <string name="post_tropical_beach">ヤシの木があるトロピカルビーチ！ 🏖️</string>
+    <string name="days_ago">%1$d日前</string>
+
+</resources>

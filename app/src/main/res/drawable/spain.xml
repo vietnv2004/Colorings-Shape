@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="900dp"
+    android:height="600dp"
+    android:viewportWidth="30"
+    android:viewportHeight="20">
+
+    <!-- Dải đỏ trên -->
+    <path
+        android:fillColor="#AA151B"
+        android:pathData="M0,0h30v5h-30z" />
+
+    <!-- Dải vàng giữa -->
+    <path
+        android:fillColor="#F1BF00"
+        android:pathData="M0,5h30v10h-30z" />
+
+    <!-- Dải đỏ dưới -->
+    <path
+        android:fillColor="#AA151B"
+        android:pathData="M0,15h30v5h-30z" />
+
+    <!-- === QUỐC HUY (Coat of Arms) === -->
+    <group android:translateX="3.5" android:translateY="6" android:scaleX="0.8" android:scaleY="0.8">
+
+        <!-- Hai trụ Hercules -->
+        <path android:fillColor="#D9D9D9" android:pathData="M-0.5,0h0.5v6h-0.5z"/>
+        <path android:fillColor="#D9D9D9" android:pathData="M3,0h0.5v6h-0.5z"/>
+
+        <!-- Ruy băng “Plus Ultra” -->
+        <path android:fillColor="#C60C30" android:pathData="M-1,1h1.5v0.3h-1.5z"/>
+        <path android:fillColor="#C60C30" android:pathData="M3,3h1.5v0.3h-1.5z"/>
+        <path android:fillColor="#C60C30" android:pathData="M-1,5h1.5v0.3h-1.5z"/>
+        <path android:fillColor="#C60C30" android:pathData="M3,1.5h1.5v0.3h-1.5z"/>
+
+        <!-- Khiên chính -->
+        <path android:fillColor="#D40000" android:pathData="M0,0h3v6h-3z"/>
+        <path android:fillColor="#FFFFFF" android:pathData="M0.2,0.2h2.6v5.6h-2.6z"/>
+
+        <!-- 4 phần trong khiên -->
+        <path android:fillColor="#AA151B" android:pathData="M0.2,0.2h1.3v2.6h-1.3z"/>   <!-- Castile -->
+        <path android:fillColor="#F1BF00" android:pathData="M1.5,0.2h1.3v2.6h-1.3z"/>   <!-- Aragon -->
+        <path android:fillColor="#F1BF00" android:pathData="M0.2,2.8h1.3v2.6h-1.3z"/>   <!-- León -->
+        <path android:fillColor="#AA151B" android:pathData="M1.5,2.8h1.3v2.6h-1.3z"/>   <!-- Navarre -->
+
+        <!-- Quả cầu Bourbon xanh + thập vàng -->
+        <path android:fillColor="#0039A6" android:pathData="M1.05,2.6a0.45,0.45 0 1,0 0.9,0a0.45,0.45 0 1,0 -0.9,0z"/>
+        <path android:fillColor="#FFD700" android:pathData="M1.45,2.2h0.1v0.8h-0.1zM1.05,2.6h0.8v0.1h-0.8z"/>
+
+        <!-- Vương miện -->
+        <path android:fillColor="#FFD700" android:pathData="M0.6,-0.7l1.8,0l-0.9,0.7z"/>
+        <path android:fillColor="#C60C30" android:pathData="M0.6,-0.7h1.8v0.15h-1.8z"/>
+    </group>
+
+</vector>
+

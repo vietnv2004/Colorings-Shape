@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background Circle -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0" />
+    
+    <!-- Inner Circle -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M54,54m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0" />
+    
+    <!-- Geometric Shapes -->
+    <!-- Triangle -->
+    <path
+        android:fillColor="@color/coral_100"
+        android:pathData="M54,12 L72,36 L36,36 Z" />
+    
+    <!-- Square -->
+    <path
+        android:fillColor="@color/success_color"
+        android:pathData="M36,42 L54,42 L54,60 L36,60 Z" />
+    
+    <!-- Circle -->
+    <path
+        android:fillColor="@color/warning_color"
+        android:pathData="M72,42m-9,0a9,9 0,1 1,18 0a9,9 0,1 1,-18 0" />
+    
+    <!-- Rectangle -->
+    <path
+        android:fillColor="@color/info_color"
+        android:pathData="M36,66 L72,66 L72,78 L36,78 Z" />
+    
+    <!-- Paint Brush -->
+    <path
+        android:fillColor="@color/text_primary"
+        android:pathData="M24,84 L30,90 L28,92 L22,86 Z" />
+    
+    <!-- Color Splash -->
+    <path
+        android:fillColor="@color/accent_color"
+        android:pathData="M78,84 L84,90 L82,92 L76,86 Z" />
+    
+    <!-- Small decorative dots -->
+    <path
+        android:fillColor="@color/coral_100"
+        android:pathData="M18,18m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    <path
+        android:fillColor="@color/success_color"
+        android:pathData="M90,18m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    <path
+        android:fillColor="@color/warning_color"
+        android:pathData="M18,90m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    <path
+        android:fillColor="@color/info_color"
+        android:pathData="M90,90m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    
+</vector>

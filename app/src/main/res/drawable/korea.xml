@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="900dp"
+    android:height="600dp"
+    android:viewportWidth="30"
+    android:viewportHeight="20">
+
+    <!-- Nền trắng -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,0h30v20h-30z" />
+
+    <!-- Vòng tròn Taeguk -->
+    <path
+        android:fillColor="#C60C30"
+        android:pathData="M15,10a5,5 0 1,1 -5,5a2.5,2.5 0 1,0 5,-5z"/>
+    <path
+        android:fillColor="#003478"
+        android:pathData="M15,10a5,5 0 1,0 5,5a2.5,2.5 0 1,1 -5,-5z"/>
+
+    <!-- Quẻ Càn (☰) - trên trái -->
+    <group android:rotation="-45" android:pivotX="6" android:pivotY="5">
+        <path android:fillColor="#000000" android:pathData="M4,4h4v0.7h-4z"/>
+        <path android:fillColor="#000000" android:pathData="M4,5.4h4v0.7h-4z"/>
+        <path android:fillColor="#000000" android:pathData="M4,6.8h4v0.7h-4z"/>
+    </group>
+
+    <!-- Quẻ Khôn (☷) - dưới phải -->
+    <group android:rotation="-45" android:pivotX="24" android:pivotY="15">
+        <path android:fillColor="#000000" android:pathData="M22,14h4v0.7h-4z"/>
+        <path android:fillColor="#000000" android:pathData="M22,15.4h1.5v0.7h-1.5z"/>
+        <path android:fillColor="#000000" android:pathData="M24.5,15.4h1.5v0.7h-1.5z"/>
+        <path android:fillColor="#000000" android:pathData="M22,16.8h4v0.7h-4z"/>
+    </group>
+
+    <!-- Quẻ Khảm (☵) - trên phải -->
+    <group android:rotation="45" android:pivotX="24" android:pivotY="5">
+        <path android:fillColor="#000000" android:pathData="M22,4h4v0.7h-4z"/>
+        <path android:fillColor="#000000" android:pathData="M22,5.4h1.5v0.7h-1.5z"/>
+        <path android:fillColor="#000000" android:pathData="M24.5,5.4h1.5v0.7h-1.5z"/>
+        <path android:fillColor="#000000" android:pathData="M22,6.8h4v0.7h-4z"/>
+    </group>
+
+    <!-- Quẻ Ly (☲) - dưới trái -->
+    <group android:rotation="45" android:pivotX="6" android:pivotY="15">
+        <path android:fillColor="#000000" android:pathData="M4,14h4v0.7h-4z"/>
+        <path android:fillColor="#000000" android:pathData="M4,15.4h4v0.7h-4z"/>
+        <path android:fillColor="#FFFFFF" android:pathData="M5.25,15.4h1.5v0.7h-1.5z"/>
+        <path android:fillColor="#000000" android:pathData="M4,16.8h4v0.7h-4z"/>
+    </group>
+
+</vector>
+

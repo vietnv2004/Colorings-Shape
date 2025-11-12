@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    
+    <!-- Gradient background -->
+    <gradient
+        android:angle="135"
+        android:startColor="@color/tet_red_primary"
+        android:centerColor="@color/tet_red_dark"
+        android:endColor="@color/tet_red_accent"
+        android:type="linear" />
+    
+    <!-- Decorative pattern overlay -->
+    <solid android:color="@color/tet_red_primary" />
+    
+</shape>
+
+
+
+
+
+

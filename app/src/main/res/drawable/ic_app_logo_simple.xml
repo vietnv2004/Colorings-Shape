@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background Circle with Gradient -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M54,54m-54,0a54,54 0,1 1,108 0a54,54 0,1 1,-108 0" />
+    
+    <!-- Inner Circle -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M54,54m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0" />
+    
+    <!-- Main Coloring Shape - House -->
+    <path
+        android:fillColor="@color/coral_100"
+        android:pathData="M54,15 L75,30 L75,60 L33,60 L33,30 Z" />
+    
+    <!-- Roof -->
+    <path
+        android:fillColor="@color/success_color"
+        android:pathData="M54,15 L75,30 L33,30 Z" />
+    
+    <!-- Door -->
+    <path
+        android:fillColor="@color/warning_color"
+        android:pathData="M48,45 L60,45 L60,60 L48,60 Z" />
+    
+    <!-- Windows -->
+    <path
+        android:fillColor="@color/info_color"
+        android:pathData="M36,40 L42,40 L42,46 L36,46 Z" />
+    <path
+        android:fillColor="@color/info_color"
+        android:pathData="M66,40 L72,40 L72,46 L66,46 Z" />
+    
+    <!-- Paint Brush -->
+    <path
+        android:fillColor="@color/text_primary"
+        android:pathData="M20,75 L25,80 L23,82 L18,77 Z" />
+    
+    <!-- Paint Palette -->
+    <path
+        android:fillColor="@color/accent_color"
+        android:pathData="M80,75m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+    
+    <!-- Color Dots on Palette -->
+    <path
+        android:fillColor="@color/coral_100"
+        android:pathData="M76,71m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    <path
+        android:fillColor="@color/success_color"
+        android:pathData="M84,71m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    <path
+        android:fillColor="@color/warning_color"
+        android:pathData="M80,75m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    
+</vector>

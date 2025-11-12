@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Traditional Tet patterns -->
+    
+    <!-- Cherry blossom pattern -->
+    <group android:scaleX="0.8" android:scaleY="0.8" android:translateX="20" android:translateY="20">
+        <!-- Blossom 1 -->
+        <path
+            android:fillColor="@color/tet_blossom_pink"
+            android:pathData="M50,30 C55,25 60,30 55,35 C60,40 55,45 50,40 C45,45 40,40 45,35 C40,30 45,25 50,30 Z" />
+        
+        <!-- Blossom 2 -->
+        <path
+            android:fillColor="@color/tet_blossom_yellow"
+            android:pathData="M120,50 C125,45 130,50 125,55 C130,60 125,65 120,60 C115,65 110,60 115,55 C110,50 115,45 120,50 Z" />
+        
+        <!-- Blossom 3 -->
+        <path
+            android:fillColor="@color/tet_blossom_pink"
+            android:pathData="M30,120 C35,115 40,120 35,125 C40,130 35,135 30,130 C25,135 20,130 25,125 C20,120 25,115 30,120 Z" />
+        
+        <!-- Blossom 4 -->
+        <path
+            android:fillColor="@color/tet_blossom_yellow"
+            android:pathData="M150,140 C155,135 160,140 155,145 C160,150 155,155 150,150 C145,155 140,150 145,145 C140,140 145,135 150,140 Z" />
+    </group>
+    
+    <!-- Traditional geometric patterns -->
+    <group android:scaleX="0.6" android:scaleY="0.6" android:translateX="40" android:translateY="40">
+        <!-- Diamond pattern -->
+        <path
+            android:fillColor="@color/tet_gold_accent"
+            android:pathData="M100,20 L120,40 L100,60 L80,40 Z" />
+        
+        <path
+            android:fillColor="@color/tet_gold_accent"
+            android:pathData="M100,140 L120,160 L100,180 L80,160 Z" />
+        
+        <path
+            android:fillColor="@color/tet_gold_accent"
+            android:pathData="M20,100 L40,120 L20,140 L0,120 Z" />
+        
+        <path
+            android:fillColor="@color/tet_gold_accent"
+            android:pathData="M180,100 L200,120 L180,140 L160,120 Z" />
+    </group>
+    
+    <!-- Traditional wave pattern -->
+    <group android:scaleX="0.7" android:scaleY="0.7" android:translateX="30" android:translateY="30">
+        <path
+            android:fillColor="@color/tet_red_light"
+            android:pathData="M0,100 Q50,80 100,100 T200,100 L200,120 Q150,140 100,120 T0,120 Z" />
+        
+        <path
+            android:fillColor="@color/tet_red_light"
+            android:pathData="M0,80 Q50,60 100,80 T200,80 L200,100 Q150,120 100,100 T0,100 Z" />
+    </group>
+    
+</vector>
+
+
+
+
+
+
